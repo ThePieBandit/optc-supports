@@ -1,0 +1,136 @@
+<html>
+
+    <head>
+        
+        <title>OPTC Database</title><!--
+        <link rel="stylesheet" type="text/css" href="common/libs/css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="common/libs/css/font-awesome.min.css" />-->
+        <!-- link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/js/all.js" -->
+        <!-- link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/js/v4-shims.js" -->
+<!--        <script src="common/libs/js/angular.min.js"></script>-->
+        <link rel="stylesheet" type="text/css" href="index.css" />
+<!--        <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <script src="common/libs/js/es5-shim.min.js"></script>
+        <script src="common/libs/js/jquery.min.js"></script>
+        <script src="common/libs/js/angular-ui-router.min.js"></script>
+        <script src="common/libs/js/bootstrap.min.js"></script>
+        <script src="common/libs/js/jquery.noty.packaged.min.js"></script>
+        <script src="common/libs/js/ui-bootstrap-tpls.min.js"></script>-->
+        <script src="common/data/units.js"></script>
+        <script src="common/data/details.js"></script>
+        <script src="common/data/matchers.js"></script>
+        <script src="common/js/utils.js"></script>
+<!--         <script src="directives.js"></script> -->
+        <meta name="viewport" content="initial-scale=1, user-scalable=no, user-scalable=0">
+        <meta name="author" content="Piebandit">
+        <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Database, Supports">
+        <meta name="description" content="Gonna write a better one here....eventually.">
+
+
+    </head>
+
+    <body>
+    <div id="demo">
+        <h1>ATK Boosting Supports</h1>
+        <table id='atkSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base ATK Added</th><th>LB ATK Added</th><th>Supported Units</th></tr></table>
+        <h1>HP Boosting Supports</h1>
+        <table id='hpSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base HP Added</th><th>LB HP Added</th><th>Supported Units</th></tr></table>
+        <h1>RCV Boosting Supports</h1>
+        <table id='rcvSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base RCV Added</th><th>LB RCV Added</th><th>Supported Units</th></tr></table>
+        <h1>All Other Supports</h1>
+        <table id='otherSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Lvl 5 Support</th><th>Supported Units</th></tr></table></div>
+    <script>
+        window.matchers = window.matchers.filter(matcher => matcher.target == "support");
+        window.Utils.parseUnits(true);
+        window.atkSupportUnits = [];
+        window.hpSupportUnits = [];
+        window.rcvSupportUnits = [];
+        window.otherSupportUnits = [];
+        for (var i = 0; i < window.units.length; i++){
+            if(!window.details[i+1] || !window.details[i+1].support){
+                continue;
+            }
+            var unit = window.units[i];
+            var lvl5support = window.details[i+1].support[0].description[4];
+            var matched = false;
+            if (lvl5support.match(window.matchers.filter(matcher => matcher.name == "ATK Boosting Support")[0].matcher) && !lvl5support.match(/Additional/)){
+                matched = true;
+                window.atkSupportUnits.push(unit);
+                var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
+                
+                unit.lvl5percentage = tmpMatch[1]/100.0;
+                unit.atkBoost = Math.round(unit.maxATK * unit.lvl5percentage);
+                unit.atkBoostLimit = Math.round(unit.limitATK * unit.lvl5percentage);
+            }
+            if (lvl5support.match(window.matchers.filter(matcher => matcher.name == "HP Boosting Support")[0].matcher)){
+                matched = true;
+                window.hpSupportUnits.push(unit);
+                var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
+                
+                unit.lvl5percentage = tmpMatch[1]/100.0;
+                unit.hpBoost = Math.round(unit.maxHP * unit.lvl5percentage);
+                unit.hpBoostLimit = Math.round(unit.limitHP * unit.lvl5percentage);
+            }
+            if (lvl5support.match(window.matchers.filter(matcher => matcher.name == "RCV Boosting Support")[0].matcher)){
+                matched = true;
+                window.rcvSupportUnits.push(unit);
+                var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
+                
+                unit.lvl5percentage = tmpMatch[1]/100.0;
+                unit.rcvBoost = Math.round(unit.maxRCV * unit.lvl5percentage);
+                unit.rcvBoostLimit = Math.round(unit.limitRCV * unit.lvl5percentage);
+            }
+            
+            if (!matched) {
+                window.otherSupportUnits.push(unit);
+            }
+                unit.support = window.details[i+1].support[0];
+                unit.id = i+1;   
+        }
+        
+        atkSupportUnits.sort( (a,b) => b.atkBoostLimit - a.atkBoostLimit);
+        
+        hpSupportUnits.sort( (a,b) => b.hpBoostLimit - a.hpBoostLimit);
+        
+        rcvSupportUnits.sort( (a,b) => b.rcvBoostLimit - a.rcvBoostLimit);
+        
+        for (var i = 0; i < window.atkSupportUnits.length; i++){
+            try{
+            document.getElementById("atkSupportUnits").innerHTML = document.getElementById("atkSupportUnits").innerHTML + 
+                "<tr class='"+((i%2==0) ? "even" : "odd" )+"'><td>"+i+"</td><td>"+window.atkSupportUnits[i].id + "</td><td>" + window.atkSupportUnits[i].name+"</td><td>" + window.atkSupportUnits[i].atkBoost+"</td><td>" + window.atkSupportUnits[i].atkBoostLimit+"</td><td>" + window.atkSupportUnits[i].support.Characters+"</td></tr>";
+            }
+            catch (err) {
+                    
+            }
+        }
+        for (var i = 0; i < window.hpSupportUnits.length; i++){
+            try{
+            document.getElementById("hpSupportUnits").innerHTML = document.getElementById("hpSupportUnits").innerHTML + 
+                "<tr class='"+((i%2==0) ? "even" : "odd" )+"'><td>"+i+"</td><td>"+window.hpSupportUnits[i].id + "</td><td>" + window.hpSupportUnits[i].name+"</td><td>" + window.hpSupportUnits[i].hpBoost+"</td><td>" + window.hpSupportUnits[i].hpBoostLimit+"</td><td>" + window.hpSupportUnits[i].support.Characters+"</td></tr>";
+            }
+            catch (err) {
+                    
+            }
+        }
+        for (var i = 0; i < window.rcvSupportUnits.length; i++){
+            try{
+            document.getElementById("rcvSupportUnits").innerHTML = document.getElementById("rcvSupportUnits").innerHTML + 
+                "<tr class='"+((i%2==0) ? "even" : "odd" )+"'><td>"+i+"</td><td>"+window.rcvSupportUnits[i].id + "</td><td>" + window.rcvSupportUnits[i].name+"</td><td>" + window.rcvSupportUnits[i].rcvBoost+"</td><td>" + window.rcvSupportUnits[i].rcvBoostLimit+"</td><td>" + window.rcvSupportUnits[i].support.Characters+"</td></tr>";
+            }
+            catch (err) {
+                    
+            }
+        }
+        for (var i = 0; i < window.otherSupportUnits.length; i++){
+            try{
+            document.getElementById("otherSupportUnits").innerHTML = document.getElementById("otherSupportUnits").innerHTML + 
+                "<tr class='"+((i%2==0) ? "even" : "odd" )+"'><td>"+i+"</td><td>"+window.otherSupportUnits[i].id + "</td><td>" + window.otherSupportUnits[i].name+"</td><td>" + window.otherSupportUnits[i].support.description[4]+"</td><td>" + window.otherSupportUnits[i].support.Characters+"</td></tr>";
+            }
+            catch (err) {
+                    
+            }
+        }
+    </script>
+    </body>
+
+</html>
