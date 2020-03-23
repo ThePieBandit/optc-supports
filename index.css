@@ -1,0 +1,32 @@
+
+.STR   { background: salmon; }
+.QCK   { background: lightskyblue; }
+.DEX   { background: lightgreen; }
+.PSY   { background: gold; }
+.INT   { background: orchid; }
+.RCV   { background: darkgoldenrod; }
+.TND   { background: peru; }
+.BLOCK { background: darkslateblue; }
+.BOMB  { background: maroon; }
+.WANO  { background: firebrick; }
+.SEMLA  { background: saddlebrown; }
+.RAINBOW { background: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6); }
+.G     { background: orange; }
+.EMPTY { background: #777; }
+
+.block-icon:before {
+    font-style: normal;
+    font-weight: normal;
+    font-family: icomoon;
+    font-size: 11px;
+    position: relative;
+    top: 1px;
+}
+
+.block-icon:before {
+    content: "\e902";
+}
+
+.even {
+    background: skyblue
+}
