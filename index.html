@@ -32,22 +32,43 @@
     <body>
     <div id="demo">
         <h1>ATK Boosting Supports</h1>
-        <table id='atkSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base ATK Added</th><th>LB ATK Added</th><th>Supported Units</th></tr></table>
+        <table id='atkSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base ATK Added / wCC</th><th>LB ATK Added / wCC</th><th>LBex ATK Added / wCC</th><th>Supported Units</th></tr></table>
         <h1>HP Boosting Supports</h1>
-        <table id='hpSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base HP Added</th><th>LB HP Added</th><th>Supported Units</th></tr></table>
+        <table id='hpSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base HP Added / wCC</th><th>LB HP Added / wCC</th><th>LBex HP Added / wCC</th><th>Supported Units</th></tr></table>
         <h1>RCV Boosting Supports</h1>
-        <table id='rcvSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base RCV Added</th><th>LB RCV Added</th><th>Supported Units</th></tr></table>
+        <table id='rcvSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base RCV Added / wCC</th><th>LB RCV Added / wCC</th><th>LBex RCV Added / wCC</th><th>Supported Units</th></tr></table>
         <h1>All Other Supports</h1>
         <table id='otherSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Lvl 5 Support</th><th>Supported Units</th></tr></table></div>
     <script>
+    
+        function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, ccMultiplier) {
+                
+            for (var i = 0; i < source.length; i++){
+                try{
+                document.getElementById(elementId).innerHTML = document.getElementById(elementId).innerHTML 
+                + 
+                    "<tr class='"+((i%2==0) ? "even" : "odd" )
+                    +"'><td>"+i+"</td><td><a href='http://optc-db.github.io/characters/#/view/"+source[i].id +"'>"+source[i].id +"</a>"
+                    + "</td><td>" + source[i].name
+                    +"</td><td>" + source[i][maxBoost] + '/' + Math.round(source[i][maxBoost] + (100 * ccMultiplier) * source[i].lvl5percentage)
+                    +"</td><td>" + source[i][limitBoost] + '/' + Math.round(source[i][limitBoost] + (100 * ccMultiplier) * source[i].lvl5percentage)
+                    +"</td><td>" + source[i][limitExBoost] + '/' + Math.round(source[i][limitExBoost] + (100 * ccMultiplier) * source[i].lvl5percentage)
+                    +"</td><td>" + source[i].support.Characters+"</td></tr>";
+                }
+                catch (err) {
+                        
+                }
+            }
+        }
+        
         window.matchers = window.matchers.filter(matcher => matcher.target == "support");
-        window.Utils.parseUnits(true);
+        window.Utils.parseUnits(false);
         window.atkSupportUnits = [];
         window.hpSupportUnits = [];
         window.rcvSupportUnits = [];
         window.otherSupportUnits = [];
         for (var i = 0; i < window.units.length; i++){
-            if(!window.details[i+1] || !window.details[i+1].support){
+            if(!window.details[i+1] || !window.details[i+1].support || window.units[i].incomplete){
                 continue;
             }
             var unit = window.units[i];
@@ -61,6 +82,7 @@
                 unit.lvl5percentage = tmpMatch[1]/100.0;
                 unit.atkBoost = Math.round(unit.maxATK * unit.lvl5percentage);
                 unit.atkBoostLimit = Math.round(unit.limitATK * unit.lvl5percentage);
+                unit.atkBoostLimitEx = Math.round(unit.limitexATK * unit.lvl5percentage);
             }
             if (lvl5support.match(window.matchers.filter(matcher => matcher.name == "HP Boosting Support")[0].matcher)){
                 matched = true;
@@ -70,6 +92,7 @@
                 unit.lvl5percentage = tmpMatch[1]/100.0;
                 unit.hpBoost = Math.round(unit.maxHP * unit.lvl5percentage);
                 unit.hpBoostLimit = Math.round(unit.limitHP * unit.lvl5percentage);
+                unit.hpBoostLimitEx = Math.round(unit.limitexHP * unit.lvl5percentage);
             }
             if (lvl5support.match(window.matchers.filter(matcher => matcher.name == "RCV Boosting Support")[0].matcher)){
                 matched = true;
@@ -79,13 +102,14 @@
                 unit.lvl5percentage = tmpMatch[1]/100.0;
                 unit.rcvBoost = Math.round(unit.maxRCV * unit.lvl5percentage);
                 unit.rcvBoostLimit = Math.round(unit.limitRCV * unit.lvl5percentage);
+                unit.rcvBoostLimitEx = Math.round(unit.limitexRCV * unit.lvl5percentage);
             }
             
             if (!matched) {
                 window.otherSupportUnits.push(unit);
             }
-                unit.support = window.details[i+1].support[0];
-                unit.id = i+1;   
+            unit.support = window.details[i+1].support[0];
+            unit.id = i+1;   
         }
         
         atkSupportUnits.sort( (a,b) => b.atkBoostLimit - a.atkBoostLimit);
@@ -94,33 +118,10 @@
         
         rcvSupportUnits.sort( (a,b) => b.rcvBoostLimit - a.rcvBoostLimit);
         
-        for (var i = 0; i < window.atkSupportUnits.length; i++){
-            try{
-            document.getElementById("atkSupportUnits").innerHTML = document.getElementById("atkSupportUnits").innerHTML + 
-                "<tr class='"+((i%2==0) ? "even" : "odd" )+"'><td>"+i+"</td><td>"+window.atkSupportUnits[i].id + "</td><td>" + window.atkSupportUnits[i].name+"</td><td>" + window.atkSupportUnits[i].atkBoost+"</td><td>" + window.atkSupportUnits[i].atkBoostLimit+"</td><td>" + window.atkSupportUnits[i].support.Characters+"</td></tr>";
-            }
-            catch (err) {
-                    
-            }
-        }
-        for (var i = 0; i < window.hpSupportUnits.length; i++){
-            try{
-            document.getElementById("hpSupportUnits").innerHTML = document.getElementById("hpSupportUnits").innerHTML + 
-                "<tr class='"+((i%2==0) ? "even" : "odd" )+"'><td>"+i+"</td><td>"+window.hpSupportUnits[i].id + "</td><td>" + window.hpSupportUnits[i].name+"</td><td>" + window.hpSupportUnits[i].hpBoost+"</td><td>" + window.hpSupportUnits[i].hpBoostLimit+"</td><td>" + window.hpSupportUnits[i].support.Characters+"</td></tr>";
-            }
-            catch (err) {
-                    
-            }
-        }
-        for (var i = 0; i < window.rcvSupportUnits.length; i++){
-            try{
-            document.getElementById("rcvSupportUnits").innerHTML = document.getElementById("rcvSupportUnits").innerHTML + 
-                "<tr class='"+((i%2==0) ? "even" : "odd" )+"'><td>"+i+"</td><td>"+window.rcvSupportUnits[i].id + "</td><td>" + window.rcvSupportUnits[i].name+"</td><td>" + window.rcvSupportUnits[i].rcvBoost+"</td><td>" + window.rcvSupportUnits[i].rcvBoostLimit+"</td><td>" + window.rcvSupportUnits[i].support.Characters+"</td></tr>";
-            }
-            catch (err) {
-                    
-            }
-        }
+        writeStatTable("atkSupportUnits", window.atkSupportUnits, "atkBoost", "atkBoostLimit", "atkBoostLimitEx", 2);
+        writeStatTable("hpSupportUnits", window.hpSupportUnits, "hpBoost", "hpBoostLimit", "hpBoostLimitEx", 5);
+        writeStatTable("rcvSupportUnits", window.rcvSupportUnits, "rcvBoost", "rcvBoostLimit", "rcvBoostLimitEx", 1);
+            
         for (var i = 0; i < window.otherSupportUnits.length; i++){
             try{
             document.getElementById("otherSupportUnits").innerHTML = document.getElementById("otherSupportUnits").innerHTML + 
@@ -130,7 +131,9 @@
                     
             }
         }
+        
     </script>
+    
     </body>
 
 </html>
