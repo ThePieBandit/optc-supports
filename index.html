@@ -1,138 +1,82 @@
 <html>
-
-    <head>
-        
-        <title>OPTC Database</title><!--
-        <link rel="stylesheet" type="text/css" href="common/libs/css/animate.css" />
-        <link rel="stylesheet" type="text/css" href="common/libs/css/font-awesome.min.css" />-->
-        <!-- link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/js/all.js" -->
-        <!-- link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/js/v4-shims.js" -->
-<!--        <script src="common/libs/js/angular.min.js"></script>-->
+    <head>        
+        <title>OPTC Supports</title>
         <link rel="stylesheet" type="text/css" href="index.css" />
-<!--        <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-        <script src="common/libs/js/es5-shim.min.js"></script>
-        <script src="common/libs/js/jquery.min.js"></script>
-        <script src="common/libs/js/angular-ui-router.min.js"></script>
-        <script src="common/libs/js/bootstrap.min.js"></script>
-        <script src="common/libs/js/jquery.noty.packaged.min.js"></script>
-        <script src="common/libs/js/ui-bootstrap-tpls.min.js"></script>-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <meta name="viewport" content="initial-scale=1, user-scalable=no, user-scalable=0">
+        <meta name="author" content="Piebandit">
+        <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Database, Supports">
+        <meta name="description" content="OPTC Supports">
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+            <ul class="nav nav-tabs nav-fill" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="atk-tab" data-toggle="tab" href="#atkContainer" role="tab" aria-controls="home" aria-selected="true">ATK Boosting Supports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="hp-tab" data-toggle="tab" href="#hpContainer" role="tab" aria-controls="hpContainer" aria-selected="false">HP Boosting Supports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="rcv-tab" data-toggle="tab" href="#rcvContainer" role="tab" aria-controls="rcvContainer" aria-selected="false">RCV Boosting Supports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="other-tab" data-toggle="tab" href="#otherContainer" role="tab" aria-controls="otherContainer" aria-selected="false">All Other Supports</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="atkContainer" role="tabpanel" aria-labelledby="atk-tab">
+                    <table id="atkSupportUnits" class="table table-striped">
+                        <thead>
+                            <tr><th>Unit#</th><th>Unit Name</th><th>Base ATK Added / with CC</th><th>LB ATK Added / with CC</th><th>LBex ATK Added / with CC</th><th>Supported Units</th></tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+                <div class="tab-pane fade" id="hpContainer" role="tabpanel" aria-labelledby="hp-tab">
+                    <table id="hpSupportUnits" class="table table-striped">
+                        <thead>
+                            <tr><th>Unit#</th><th>Unit Name</th><th>Base HP Added / with CC</th><th>LB HP Added / with CC</th><th>LBex HP Added / with CC</th><th>Supported Units</th></tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+
+                <div class="tab-pane fade" id="rcvContainer" role="tabpanel" aria-labelledby="rcv-tab">
+                    <table id="rcvSupportUnits" class="table table-striped">
+                        <thead>
+                            <tr><th>Unit#</th><th>Unit Name</th><th>Base RCV Added / with CC</th><th>LB RCV Added / with CC</th><th>LBex RCV Added / with CC</th><th>Supported Units</th></tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>    
+                </div>
+
+                <div class="tab-pane fade" id="otherContainer" role="tabpanel" aria-labelledby="other-tab">
+                    <table id="otherSupportUnits" class="table table-striped">
+                        <thead>
+                            <tr><th>Unit#</th><th>Unit Name</th><th>Lvl 5 Support</th><th>Supported Units</th></tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        
         <script src="common/data/units.js"></script>
         <script src="common/data/details.js"></script>
         <script src="common/data/matchers.js"></script>
         <script src="common/js/utils.js"></script>
-<!--         <script src="directives.js"></script> -->
-        <meta name="viewport" content="initial-scale=1, user-scalable=no, user-scalable=0">
-        <meta name="author" content="Piebandit">
-        <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Database, Supports">
-        <meta name="description" content="Gonna write a better one here....eventually.">
 
-
-    </head>
-
-    <body>
-    <div id="demo">
-        <h1>ATK Boosting Supports</h1>
-        <table id='atkSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base ATK Added / wCC</th><th>LB ATK Added / wCC</th><th>LBex ATK Added / wCC</th><th>Supported Units</th></tr></table>
-        <h1>HP Boosting Supports</h1>
-        <table id='hpSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base HP Added / wCC</th><th>LB HP Added / wCC</th><th>LBex HP Added / wCC</th><th>Supported Units</th></tr></table>
-        <h1>RCV Boosting Supports</h1>
-        <table id='rcvSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Base RCV Added / wCC</th><th>LB RCV Added / wCC</th><th>LBex RCV Added / wCC</th><th>Supported Units</th></tr></table>
-        <h1>All Other Supports</h1>
-        <table id='otherSupportUnits'><tr><th>Index</th><th>Unit#</th><th>Unit Name</th><th>Lvl 5 Support</th><th>Supported Units</th></tr></table></div>
-    <script>
-    
-        function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, ccMultiplier) {
-                
-            for (var i = 0; i < source.length; i++){
-                try{
-                document.getElementById(elementId).innerHTML = document.getElementById(elementId).innerHTML 
-                + 
-                    "<tr class='"+((i%2==0) ? "even" : "odd" )
-                    +"'><td>"+i+"</td><td><a href='http://optc-db.github.io/characters/#/view/"+source[i].id +"'>"+source[i].id +"</a>"
-                    + "</td><td>" + source[i].name
-                    +"</td><td>" + source[i][maxBoost] + '/' + Math.round(source[i][maxBoost] + (100 * ccMultiplier) * source[i].lvl5percentage)
-                    +"</td><td>" + source[i][limitBoost] + '/' + Math.round(source[i][limitBoost] + (100 * ccMultiplier) * source[i].lvl5percentage)
-                    +"</td><td>" + source[i][limitExBoost] + '/' + Math.round(source[i][limitExBoost] + (100 * ccMultiplier) * source[i].lvl5percentage)
-                    +"</td><td>" + source[i].support.Characters+"</td></tr>";
-                }
-                catch (err) {
-                        
-                }
-            }
-        }
+        <script src="common/table-populator.js"></script>
         
-        window.matchers = window.matchers.filter(matcher => matcher.target == "support");
-        window.Utils.parseUnits(false);
-        window.atkSupportUnits = [];
-        window.hpSupportUnits = [];
-        window.rcvSupportUnits = [];
-        window.otherSupportUnits = [];
-        for (var i = 0; i < window.units.length; i++){
-            if(!window.details[i+1] || !window.details[i+1].support || window.units[i].incomplete){
-                continue;
-            }
-            var unit = window.units[i];
-            var lvl5support = window.details[i+1].support[0].description[4];
-            var matched = false;
-            if (lvl5support.match(window.matchers.filter(matcher => matcher.name == "ATK Boosting Support")[0].matcher) && !lvl5support.match(/Additional/)){
-                matched = true;
-                window.atkSupportUnits.push(unit);
-                var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
-                
-                unit.lvl5percentage = tmpMatch[1]/100.0;
-                unit.atkBoost = Math.round(unit.maxATK * unit.lvl5percentage);
-                unit.atkBoostLimit = Math.round(unit.limitATK * unit.lvl5percentage);
-                unit.atkBoostLimitEx = Math.round(unit.limitexATK * unit.lvl5percentage);
-            }
-            if (lvl5support.match(window.matchers.filter(matcher => matcher.name == "HP Boosting Support")[0].matcher)){
-                matched = true;
-                window.hpSupportUnits.push(unit);
-                var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
-                
-                unit.lvl5percentage = tmpMatch[1]/100.0;
-                unit.hpBoost = Math.round(unit.maxHP * unit.lvl5percentage);
-                unit.hpBoostLimit = Math.round(unit.limitHP * unit.lvl5percentage);
-                unit.hpBoostLimitEx = Math.round(unit.limitexHP * unit.lvl5percentage);
-            }
-            if (lvl5support.match(window.matchers.filter(matcher => matcher.name == "RCV Boosting Support")[0].matcher)){
-                matched = true;
-                window.rcvSupportUnits.push(unit);
-                var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
-                
-                unit.lvl5percentage = tmpMatch[1]/100.0;
-                unit.rcvBoost = Math.round(unit.maxRCV * unit.lvl5percentage);
-                unit.rcvBoostLimit = Math.round(unit.limitRCV * unit.lvl5percentage);
-                unit.rcvBoostLimitEx = Math.round(unit.limitexRCV * unit.lvl5percentage);
-            }
-            
-            if (!matched) {
-                window.otherSupportUnits.push(unit);
-            }
-            unit.support = window.details[i+1].support[0];
-            unit.id = i+1;   
-        }
-        
-        atkSupportUnits.sort( (a,b) => b.atkBoostLimit - a.atkBoostLimit);
-        
-        hpSupportUnits.sort( (a,b) => b.hpBoostLimit - a.hpBoostLimit);
-        
-        rcvSupportUnits.sort( (a,b) => b.rcvBoostLimit - a.rcvBoostLimit);
-        
-        writeStatTable("atkSupportUnits", window.atkSupportUnits, "atkBoost", "atkBoostLimit", "atkBoostLimitEx", 2);
-        writeStatTable("hpSupportUnits", window.hpSupportUnits, "hpBoost", "hpBoostLimit", "hpBoostLimitEx", 5);
-        writeStatTable("rcvSupportUnits", window.rcvSupportUnits, "rcvBoost", "rcvBoostLimit", "rcvBoostLimitEx", 1);
-            
-        for (var i = 0; i < window.otherSupportUnits.length; i++){
-            try{
-            document.getElementById("otherSupportUnits").innerHTML = document.getElementById("otherSupportUnits").innerHTML + 
-                "<tr class='"+((i%2==0) ? "even" : "odd" )+"'><td>"+i+"</td><td>"+window.otherSupportUnits[i].id + "</td><td>" + window.otherSupportUnits[i].name+"</td><td>" + window.otherSupportUnits[i].support.description[4]+"</td><td>" + window.otherSupportUnits[i].support.Characters+"</td></tr>";
-            }
-            catch (err) {
-                    
-            }
-        }
-        
-    </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
     </body>
 
