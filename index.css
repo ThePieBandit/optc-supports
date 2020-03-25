@@ -27,6 +27,6 @@
     content: "\e902";
 }
 
-.even {
-    background: skyblue
+.nav-tabs .nav-item {
+    font-size: 20px;
 }
