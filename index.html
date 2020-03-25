@@ -4,13 +4,16 @@
         <link rel="stylesheet" type="text/css" href="index.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <meta name="viewport" content="initial-scale=1, user-scalable=no, user-scalable=0">
-        <meta name="author" content="Piebandit">
+        <meta name="author" content="Piebandit, AndreMantas">
         <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Database, Supports">
         <meta name="description" content="OPTC Supports">
     </head>
 
     <body>
 
+        <div class="version-info">
+            v0.1.0
+        </div>
         <div class="container-fluid">
             <ul class="nav nav-tabs nav-fill" role="tablist">
                 <li class="nav-item">
@@ -32,11 +35,12 @@
                     <table id="atkSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Unit#</th><th>Unit Name</th>
+                                <th>Unit#</th>
+                                <th class="w-25">Unit Name</th>
                                 <th>Base ATK Added / with CC</th>
                                 <th>LB ATK Added / with CC</th>
                                 <th>LBex ATK Added / with CC</th>
-                                <th>Supported Units<input id="atkFilter" class="form-control" type="text"></th>
+                                <th class="w-50">Supported Units<input id="atkFilter" class="form-control" type="text"></th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -48,11 +52,11 @@
                         <thead>
                             <tr>
                                 <th>Unit#</th>
-                                <th>Unit Name</th>
+                                <th class="w-25">Unit Name</th>
                                 <th>Base HP Added / with CC</th>
                                 <th>LB HP Added / with CC</th>
                                 <th>LBex HP Added / with CC</th>
-                                <th>Supported Units<input id="hpFilter" class="form-control" type="text"></th>
+                                <th class="w-50">Supported Units<input id="hpFilter" class="form-control" type="text"></th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -63,11 +67,12 @@
                     <table id="rcvSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Unit#</th><th>Unit Name</th>
+                                <th>Unit#</th>
+                                <th class="w-25">Unit Name</th>
                                 <th>Base RCV Added / with CC</th>
                                 <th>LB RCV Added / with CC</th>
                                 <th>LBex RCV Added / with CC</th>
-                                <th>Supported Units<input id="rcvFilter" class="form-control" type="text"></th>
+                                <th class="w-50">Supported Units<input id="rcvFilter" class="form-control" type="text"></th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -79,9 +84,9 @@
                         <thead>
                             <tr>
                                 <th>Unit#</th>
-                                <th>Unit Name</th>
-                                <th>Lvl 5 Support</th>
-                                <th>Supported Units<input id="otherFilter" class="form-control" type="text"></th>
+                                <th class="w-25">Unit Name</th>
+                                <th class="w-50">Lvl 5 Support</th>
+                                <th class="w-25">Supported Units<input id="otherFilter" class="form-control" type="text"></th>
                             </tr>
                         </thead>
                         <tbody></tbody>
