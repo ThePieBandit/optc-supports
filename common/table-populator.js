@@ -2,8 +2,44 @@ if (!window.jQuery) {
     throw new Error("Need jQuery to work...");
 }
 
+const atkSupportUnits = [];
+const hpSupportUnits = [];
+const rcvSupportUnits = [];
+const otherSupportUnits = [];
+const debounceMs = 500;
+
+let debounce = null;
+
+const filterItems = [
+    { id: 'input#atkFilter',    source: atkSupportUnits,    updateCallback: updateAtkTable },
+    { id: 'input#hpFilter',     source: hpSupportUnits,     updateCallback: updateHpTable },
+    { id: 'input#rcvFilter',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
+    { id: 'input#otherFilter',  source: otherSupportUnits,  updateCallback: updateOthersTable },
+];
+
+filterItems.forEach(item => {
+    $(item.id).on('keyup', function(e) {
+        clearTimeout(debounce);
+        const value = $(this).val();
+        debounce = setTimeout(function() {
+            if (value === '') {
+                item.updateCallback(item.source);
+                return;
+            }
+            const lcValue = value.toLowerCase();
+            const filtered = item.source.filter(unit =>
+                unit.support.Characters &&
+                unit.support.Characters.toLowerCase().indexOf(lcValue) >= 0
+            );
+            item.updateCallback(filtered);
+       }, debounceMs);
+    });
+});
+
 function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, ccMultiplier) {
-    for (var i = 0; i < source.length; i++){
+    const tbody = $(`#${elementId} tbody`);
+    tbody.empty();
+    for (var i = 0; i < source.length; i++) {
         try {
             const unit = source[i];
             const newRowContent = $(
@@ -15,7 +51,7 @@ function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, c
                 <td>${unit[limitExBoost]}/${Math.round(unit[limitExBoost] + (100 * ccMultiplier) * unit.lvl5percentage)}</td>
                 <td>${unit.support.Characters}</td>
             </tr>`);
-            $(`#${elementId} tbody`).append(newRowContent);
+            tbody.append(newRowContent);
         } catch (err) {
             console.error(err); 
         }
@@ -23,6 +59,8 @@ function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, c
 }
 
 function writeOtherTable(elementId, source) {
+    const tbody = $(`#${elementId} tbody`);
+    tbody.empty();
     for (var i = 0; i < source.length; i++) {
         try {            
             const unit = source[i];
@@ -33,7 +71,7 @@ function writeOtherTable(elementId, source) {
                 <td>${unit.support.description[4]}</td>
                 <td>${unit.support.Characters}</td>
             </tr>`);
-            $(`#${elementId} tbody`).append(newRowContent);            
+            tbody.append(newRowContent);
         }
         catch (err) {
             console.error(err);
@@ -42,13 +80,24 @@ function writeOtherTable(elementId, source) {
     return i;
 }
 
+function updateAtkTable(source) {
+    writeStatTable("atkSupportUnits", source, "atkBoost", "atkBoostLimit", "atkBoostLimitEx", 2);
+}
+
+function updateHpTable(source) {
+    writeStatTable("hpSupportUnits", source, "hpBoost", "hpBoostLimit", "hpBoostLimitEx", 5);
+}
+
+function updateRcvTable(source) {
+    writeStatTable("rcvSupportUnits", source, "rcvBoost", "rcvBoostLimit", "rcvBoostLimitEx", 1);
+}
+
+function updateOthersTable(source) {
+    writeOtherTable("otherSupportUnits", source);
+}
+
 const matchers = window.matchers.filter(matcher => matcher.target == "support");
 window.Utils.parseUnits(false);
-
-const atkSupportUnits = [];
-const hpSupportUnits = [];
-const rcvSupportUnits = [];
-const otherSupportUnits = [];
  
 for (var i = 0; i < window.units.length; i++){
     if(!window.details[i+1] || !window.details[i+1].support || window.units[i].incomplete){
@@ -101,7 +150,7 @@ hpSupportUnits.sort( (a,b) => b.hpBoostLimit - a.hpBoostLimit);
 
 rcvSupportUnits.sort( (a,b) => b.rcvBoostLimit - a.rcvBoostLimit);
 
-writeStatTable("atkSupportUnits", atkSupportUnits, "atkBoost", "atkBoostLimit", "atkBoostLimitEx", 2);
-writeStatTable("hpSupportUnits", hpSupportUnits, "hpBoost", "hpBoostLimit", "hpBoostLimitEx", 5);
-writeStatTable("rcvSupportUnits", rcvSupportUnits, "rcvBoost", "rcvBoostLimit", "rcvBoostLimitEx", 1);
-writeOtherTable("otherSupportUnits", otherSupportUnits);
+updateAtkTable(atkSupportUnits);
+updateHpTable(hpSupportUnits);
+updateRcvTable(rcvSupportUnits);
+updateOthersTable(otherSupportUnits);
