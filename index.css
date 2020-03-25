@@ -27,6 +27,12 @@
     content: "\e902";
 }
 
+.version-info {
+    right: 2px;
+    bottom: 2px;
+    position: fixed;
+}
+
 .nav-tabs .nav-item {
     font-size: 20px;
 }
