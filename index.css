@@ -30,3 +30,11 @@
 .nav-tabs .nav-item {
     font-size: 20px;
 }
+
+.sortable {
+    cursor: pointer;
+}
+
+.sortable:hover {
+    background-color: #cfcfcf;
+}

@@ -36,6 +36,74 @@ filterItems.forEach(item => {
     });
 });
 
+function getComparator(sortField, asc) {
+    const multiplier = asc ? 1 : -1;
+    switch (sortField) {
+        case 'name':
+            return (a, b) => b.name.localeCompare(a.name) * multiplier;
+
+        case "id":
+        case "atkBoost":
+        case "atkBoostLimit":
+        case "atkBoostLimitEx":
+        case "hpBoost":
+        case "hpBoostLimit":
+        case "hpBoostLimitEx":
+        case "rcvBoost":
+        case "rcvBoostLimit":
+        case "rcvBoostLimitEx":
+            return (a, b) => (b[sortField] - a[sortField]) * multiplier;
+
+        default:
+            console.error('unexpected sortField', sortField);
+            return (a, b) => 1;
+    }
+}
+
+function getSourceArrayAndCallback(source) {
+    switch (source) {
+        case "atk":
+            return { array: atkSupportUnits, callback: updateAtkTable };
+
+        case "hp":
+            return { array: hpSupportUnits, callback: updateHpTable };
+
+        case "rcv":
+            return { array: rcvSupportUnits, callback: updateRcvTable };
+
+        case "other":
+            return { array: otherSupportUnits, callback: updateOthersTable };
+
+        default:
+            console.error('unexpected data-source on .sortable element');
+            return { array: [], callback: (arr) => {} };
+    }
+}
+
+$('.sortable').on('click', function(e) {
+    const asc = $(this).data('sortOrder');
+    const source = $(this).data('source') || '';
+    const sortField = $(this).data('field') || '';
+    
+    const { array, callback } = getSourceArrayAndCallback(source);
+    
+    array.sort(getComparator(sortField, asc));
+    
+    callback(array);
+
+    $(this).data('sortOrder', !asc);
+
+    const arrowDown = 'fa-long-arrow-down';
+    const arrowUp = 'fa-long-arrow-up';
+    const classToRemove = asc ? arrowUp : arrowDown;
+    const classToAdd = asc ? arrowDown : arrowUp;
+    $(this).find('i')
+        .removeClass('fa-arrows-v')
+        .removeClass(classToRemove)
+        .addClass(classToAdd)
+        ;
+});
+
 function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, ccMultiplier) {
     const tbody = $(`#${elementId} tbody`);
     tbody.empty();

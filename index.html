@@ -3,6 +3,7 @@
         <title>OPTC Supports</title>
         <link rel="stylesheet" type="text/css" href="index.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="initial-scale=1, user-scalable=no, user-scalable=0">
         <meta name="author" content="Piebandit">
         <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Database, Supports">
@@ -32,10 +33,11 @@
                     <table id="atkSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Unit#</th><th>Unit Name</th>
-                                <th>Base ATK Added / with CC</th>
-                                <th>LB ATK Added / with CC</th>
-                                <th>LBex ATK Added / with CC</th>
+                                <th class="sortable" data-field="id" data-source="atk">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="name" data-source="atk">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="atkBoost" data-source="atk">Base ATK Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="atkBoostLimit" data-source="atk">LB ATK Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="atkBoostLimitEx" data-source="atk">LBex ATK Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
                                 <th>Supported Units<input id="atkFilter" class="form-control" type="text"></th>
                             </tr>
                         </thead>
@@ -47,11 +49,11 @@
                     <table id="hpSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Unit#</th>
-                                <th>Unit Name</th>
-                                <th>Base HP Added / with CC</th>
-                                <th>LB HP Added / with CC</th>
-                                <th>LBex HP Added / with CC</th>
+                                <th class="sortable" data-field="id" data-source="hp">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="name" data-source="hp">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="hpBoost" data-source="hp">Base HP Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="hpBoostLimit" data-source="hp">LB HP Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="hpBoostLimitEx" data-source="hp">LBex HP Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
                                 <th>Supported Units<input id="hpFilter" class="form-control" type="text"></th>
                             </tr>
                         </thead>
@@ -63,10 +65,11 @@
                     <table id="rcvSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Unit#</th><th>Unit Name</th>
-                                <th>Base RCV Added / with CC</th>
-                                <th>LB RCV Added / with CC</th>
-                                <th>LBex RCV Added / with CC</th>
+                                <th class="sortable" data-field="id" data-source="rcv">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="name" data-source="rcv">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="rcvBoost" data-source="rcv">Base RCV Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="rcvBoostLimit" data-source="rcv">LB RCV Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="rcvBoostLimitEx" data-source="rcv">LBex RCV Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
                                 <th>Supported Units<input id="rcvFilter" class="form-control" type="text"></th>
                             </tr>
                         </thead>
@@ -78,8 +81,8 @@
                     <table id="otherSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th>Unit#</th>
-                                <th>Unit Name</th>
+                                <th class="sortable" data-field="id" data-source="other">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable" data-field="name" data-source="other">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
                                 <th>Lvl 5 Support</th>
                                 <th>Supported Units<input id="otherFilter" class="form-control" type="text"></th>
                             </tr>
