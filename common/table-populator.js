@@ -11,10 +11,10 @@ const debounceMs = 500;
 let debounce = null;
 
 const filterItems = [
-    { id: 'input#atkFilter',    source: atkSupportUnits,    updateCallback: updateAtkTable },
-    { id: 'input#hpFilter',     source: hpSupportUnits,     updateCallback: updateHpTable },
-    { id: 'input#rcvFilter',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
-    { id: 'input#otherFilter',  source: otherSupportUnits,  updateCallback: updateOthersTable },
+    { key: "atk",   id: 'input#atkFilter',    source: atkSupportUnits,    updateCallback: updateAtkTable },
+    { key: "hp",    id: 'input#hpFilter',     source: hpSupportUnits,     updateCallback: updateHpTable },
+    { key: "rcv",   id: 'input#rcvFilter',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
+    { key: "other", id: 'input#otherFilter',  source: otherSupportUnits,  updateCallback: updateOthersTable },
 ];
 
 filterItems.forEach(item => {
@@ -34,6 +34,76 @@ filterItems.forEach(item => {
             item.updateCallback(filtered);
        }, debounceMs);
     });
+});
+
+function getComparator(sortField, asc) {
+    const multiplier = asc ? 1 : -1;
+    switch (sortField) {
+        case 'name':
+            return (a, b) => b.name.localeCompare(a.name) * multiplier;
+
+        case "id":
+        case "atkBoost":
+        case "atkBoostLimit":
+        case "atkBoostLimitEx":
+        case "hpBoost":
+        case "hpBoostLimit":
+        case "hpBoostLimitEx":
+        case "rcvBoost":
+        case "rcvBoostLimit":
+        case "rcvBoostLimitEx":
+            return (a, b) => (b[sortField] - a[sortField]) * multiplier;
+
+        default:
+            console.error('unexpected sortField', sortField);
+            return (a, b) => 1;
+    }
+}
+
+function getSourceArrayAndCallback(source) {
+    const record = filterItems.find(table => table.key == source)
+    
+    if(record == undefined) {
+        console.error('unexpected data-source on .sortable element');
+        return { key: "error", id: '',  source: [],  updateCallback: (arr) => {} };
+    }
+    return record;
+}
+
+$('.sortable').on('click', function(e) {
+    const desc = $(this).data('sortOrder');
+    const origin = $(this).data('source') || '';
+    const sortField = $(this).data('field') || '';
+    
+    const { key, id, source, updateCallback } = getSourceArrayAndCallback(origin);
+    
+    source.sort(getComparator(sortField, !desc));
+    
+    const value = $(id).val();
+
+    if (value === '') {
+        updateCallback(source);
+    } else {
+        const lcValue = value.toLowerCase();
+        const filtered = source.filter(unit =>
+            unit.support.Characters &&
+            unit.support.Characters.toLowerCase().indexOf(lcValue) >= 0
+        );
+        updateCallback(filtered);
+    }
+    
+    const arrowDown = 'fa-long-arrow-down';
+    const arrowUp = 'fa-long-arrow-up';
+    const arrowBoth = 'fa-arrows-v';
+    const classToAdd = desc ? arrowUp : arrowDown;
+
+    $('.sortable').data('sortOrder', null);
+    $('.sortable').find('i').removeClass(arrowDown).removeClass(arrowUp).addClass(arrowBoth);
+
+    $(this).data('sortOrder', !desc);
+    $(this).find('i')
+        .removeClass('fa-arrows-v')
+        .addClass(classToAdd);
 });
 
 function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, ccMultiplier) {
