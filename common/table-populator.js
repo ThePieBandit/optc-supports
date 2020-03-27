@@ -2,6 +2,9 @@ if (!window.jQuery) {
     throw new Error("Need jQuery to work...");
 }
 
+const arrowDown = 'fa-long-arrow-down';
+const arrowUp = 'fa-long-arrow-up';
+const arrowBoth = 'fa-arrows-v';
 const atkSupportUnits = [];
 const hpSupportUnits = [];
 const rcvSupportUnits = [];
@@ -11,29 +14,104 @@ const debounceMs = 500;
 let debounce = null;
 
 const filterItems = [
-    { id: 'input#atkFilter',    source: atkSupportUnits,    updateCallback: updateAtkTable },
-    { id: 'input#hpFilter',     source: hpSupportUnits,     updateCallback: updateHpTable },
-    { id: 'input#rcvFilter',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
-    { id: 'input#otherFilter',  source: otherSupportUnits,  updateCallback: updateOthersTable },
+    { key: "atk",   id: 'input#atkFilter',    source: atkSupportUnits,    updateCallback: updateAtkTable },
+    { key: "hp",    id: 'input#hpFilter',     source: hpSupportUnits,     updateCallback: updateHpTable },
+    { key: "rcv",   id: 'input#rcvFilter',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
+    { key: "other", id: 'input#otherFilter',  source: otherSupportUnits,  updateCallback: updateOthersTable },
 ];
+
+function getFilteredBySupported(array, value) {
+    if (value == null || value === '') {
+        return array;
+    }
+
+    if (array == null || array.length === 0) {
+        return array;
+    }
+
+    const lcValue = value.toLowerCase();
+    return array.filter(unit =>
+        unit.support.Characters &&
+        unit.support.Characters.toLowerCase().indexOf(lcValue) >= 0
+    );
+}
 
 filterItems.forEach(item => {
     $(item.id).on('keyup', function(e) {
         clearTimeout(debounce);
         const value = $(this).val();
         debounce = setTimeout(function() {
-            if (value === '') {
-                item.updateCallback(item.source);
-                return;
-            }
-            const lcValue = value.toLowerCase();
-            const filtered = item.source.filter(unit =>
-                unit.support.Characters &&
-                unit.support.Characters.toLowerCase().indexOf(lcValue) >= 0
-            );
+            const filtered = getFilteredBySupported(item.source, value);
             item.updateCallback(filtered);
        }, debounceMs);
     });
+});
+
+function getComparator(sortField, asc) {
+    const multiplier = asc ? 1 : -1;
+    switch (sortField) {
+        case 'name':
+            return (a, b) => b.name.localeCompare(a.name) * multiplier;
+
+        case 'id':
+        case 'atkBoost':
+        case 'atkBoostLimit':
+        case 'atkBoostLimitEx':
+        case 'hpBoost':
+        case 'hpBoostLimit':
+        case 'hpBoostLimitEx':
+        case 'rcvBoost':
+        case 'rcvBoostLimit':
+        case 'rcvBoostLimitEx':
+            return (a, b) => (b[sortField] - a[sortField]) * multiplier;
+
+        default:
+            console.error('unexpected sortField', sortField);
+            return (a, b) => 1;
+    }
+}
+
+function getSourceArrayAndCallback(source) {
+    const record = filterItems.find(table => table.key == source)
+    if (record == null) {
+        console.error('unexpected data-source on .sortable element');
+        return { key: 'error', id: '',  source: [],  updateCallback: (arr) => {} };
+    }
+
+    return record;
+}
+
+$('.sortable').on('click', function(e) {
+    const desc = $(this).data('sortOrder');
+    const origin = $(this).data('source') || '';
+    const sortField = $(this).data('field') || '';
+    
+    const { id, source, updateCallback } = getSourceArrayAndCallback(origin);
+    
+    // we sort the original array directly
+    // if we want to preserve the original array we could do
+    // const sorted = [...source].sort(getComparator(sortField, !desc));
+    source.sort(getComparator(sortField, !desc));
+    
+    const value = $(id).val();
+    const filtered = getFilteredBySupported(source, value);
+
+    updateCallback(filtered);
+    
+    const classToAdd = desc ? arrowUp : arrowDown;
+
+    // reset all sortable elements
+    $('.sortable').data('sortOrder', null);
+    $('.sortable').find('i')
+        .removeClass(arrowDown)
+        .removeClass(arrowUp)
+        .addClass(arrowBoth);
+
+    // update only this sortable element
+    $(this).data('sortOrder', !desc);
+    $(this).find('i')
+        .removeClass('fa-arrows-v')
+        .addClass(classToAdd);
 });
 
 function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, ccMultiplier) {
