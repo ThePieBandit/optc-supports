@@ -14,6 +14,19 @@
 .G     { background: orange; }
 .EMPTY { background: #777; }
 
+body.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+body.dark .nav-link.active {
+    background-color: #17191b;
+}
+
+#theme {
+    cursor: pointer;
+}
+
 .block-icon:before {
     font-style: normal;
     font-weight: normal;
@@ -28,7 +41,7 @@
 }
 
 .version-info {
-    right: 2px;
+    right: 10px;
     bottom: 2px;
     position: fixed;
 }
@@ -43,4 +56,8 @@
 
 .sortable:hover {
     background-color: #cfcfcf;
+}
+
+body.dark .sortable:hover {
+    background-color: #17191b;
 }
