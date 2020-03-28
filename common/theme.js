@@ -1,6 +1,6 @@
 const themeKey = 'theme';
 const darkValue = 'dark';
-const whileValue = 'white';
+const whiteValue = 'white';
 const themeButtonSelector = '#theme';
 
 const whiteModeClasses = [
@@ -30,7 +30,7 @@ function switchToDark() {
 }
 
 function switchFromDark() {
-    applyTheme(darkModeClasses, whiteModeClasses, whileValue);
+    applyTheme(darkModeClasses, whiteModeClasses, whiteValue);
 }
 
 $(document).ready(function() {
