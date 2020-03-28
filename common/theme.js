@@ -1,31 +1,36 @@
 const themeKey = 'theme';
 const darkValue = 'dark';
 const whileValue = 'white';
-const darkClass = 'dark';
-const darkTableClass = 'table-dark';
+const themeButtonSelector = '#theme';
+
+const whiteModeClasses = [
+    { selector: '#theme', class: 'fa-moon-o' },
+];
+
+const darkModeClasses = [
+    { selector: 'body', class: 'dark' },
+    { selector: '.table', class: 'table-dark' },
+    { selector: '.nav-tabs', class: 'bg-dark' },
+    { selector: '.nav-link', class: 'text-light' },
+    { selector: themeButtonSelector, class: 'fa-sun-o' },
+];
+
+function applyTheme(pairsToRemove, pairsToAdd, themeValue) {
+    pairsToRemove.forEach(pair => {
+        $(pair.selector).removeClass(pair.class);
+    });
+    pairsToAdd.forEach(pair => {
+        $(pair.selector).addClass(pair.class);
+    });
+    localStorage.setItem(themeKey, themeValue);
+}
 
 function switchToDark() {
-    $('body').addClass(darkClass);
-    $('.table').addClass(darkTableClass);
-    $('.nav-tabs').addClass('bg-dark');
-    $('.nav-link').addClass('text-light');
-    $('#theme')
-        .addClass('fa-sun-o')
-        .removeClass('fa-moon-o')
-        ;
-    localStorage.setItem(themeKey, darkValue);
+    applyTheme(whiteModeClasses, darkModeClasses, darkValue);
 }
 
 function switchFromDark() {
-    $('body').removeClass(darkClass);
-    $('.table').removeClass(darkTableClass);
-    $('.nav-tabs').removeClass('bg-dark');
-    $('.nav-link').removeClass('text-light');
-    $('#theme')
-        .addClass('fa-moon-o')
-        .removeClass('fa-sun-o')
-        ;
-    localStorage.setItem(themeKey, whileValue);
+    applyTheme(darkModeClasses, whiteModeClasses, whileValue);
 }
 
 $(document).ready(function() {
@@ -35,7 +40,7 @@ $(document).ready(function() {
         switchToDark();
     }
 
-    $('#theme').on('click', function(e) {
+    $(themeButtonSelector).on('click', function(e) {
         darkOn = !darkOn;
         if (darkOn) {
             switchToDark();
