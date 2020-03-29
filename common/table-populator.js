@@ -122,7 +122,7 @@ function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, c
             const unit = source[i];
             const newRowContent = $(
             `<tr>
-                <td><a href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
+                <td><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
                 <td>${unit.name}</td>
                 <td>${unit[maxBoost]}/${Math.round(unit[maxBoost] + (100 * ccMultiplier) * unit.lvl5percentage)}</td>
                 <td>${unit[limitBoost]}/${Math.round(unit[limitBoost] + (100 * ccMultiplier) * unit.lvl5percentage)}</td>
@@ -144,7 +144,7 @@ function writeOtherTable(elementId, source) {
             const unit = source[i];
             const newRowContent = $(
             `<tr>
-                <td><a href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
+                <td><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
                 <td>${unit.name}</td>
                 <td>${unit.support.description[4]}</td>
                 <td>${unit.support.Characters}</td>
