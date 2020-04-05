@@ -29,3 +29,18 @@ jobs:
         destination_branch: "optc-db-sync"
         # GitHub token secret
         github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: checkout
+      uses: actions/checkout@master
+      with:
+        ref: optc-db-sync
+    - name: push
+      uses: dciborow/commit@0.0.2
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: 'master'
+        commit-message: 'syncing with optc-db'
+        force-add: 'true'
+        force-push: 'true'
+        files: common/data/units.js common/data/details.js common/data/matchers.js common/js/utils.js
+        name: OPTC-DB-sync
+        email: piebandit+OPTC-DB-sync@gmail.com
