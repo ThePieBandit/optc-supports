@@ -168,7 +168,7 @@ window.matchers = [
     {
         name: 'Beneficial Orb captains',
         target: 'captain',
-        matcher: /beneficial/i
+        matcher: /orbs beneficial/i
         //matcher: /Makes ((STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\])|((STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\]) and (STR|DEX|QCK|PSY|INT|\[RCV\]|\[TND\]))) orbs "beneficial"/i
     },
 
@@ -559,6 +559,12 @@ window.matchers = [
         name: 'Delayers',
         target: 'special',
         matcher: /delays/i
+    },
+
+    {
+        name: 'Delay Immunity Ignorers',
+        target: 'special',
+        matcher: /ignores Delay Debuff Protection/i
     },
     
     {
@@ -1300,19 +1306,19 @@ window.matchers = [
     {
         name: 'ATK Boosting Support',
         target: 'support',
-        matcher: /Adds.+ATK/i
+        matcher: /Adds.+%.+ATK/i
     },
     
     {
         name: 'HP Boosting Support',
         target: 'support',
-        matcher: /Adds.+HP/i
+        matcher: /Adds.+%.+HP/i
     },
     
     {
         name: 'RCV Boosting Support',
         target: 'support',
-        matcher: /Adds.+RCV/i
+        matcher: /Adds.+%.+RCV/i
     },
 
     {
@@ -1362,6 +1368,12 @@ window.matchers = [
         target: 'support',
         matcher: /(Boosts ATK.+against.+(poisoned|strongly poisoned).+enemies|Boosts ATK.+against.+enemies.+inflicted with Toxic)/i
     },
+
+    {
+        name: 'Specific Enemy ATK boosters',
+        target: 'support',
+        matcher: /Boosts the supported character's ATK.+against/i
+    },
     
     {
         name: 'Chain Boosters',
@@ -1373,6 +1385,12 @@ window.matchers = [
         name: 'Chain Lockers',
         target: 'support',
         matcher: /Locks the chain multiplier/i 
+    },
+    
+    {
+        name: 'Additional Damage dealer',
+        target: 'support',
+        matcher: /Additional.+Damage/i
     },
     
     {
