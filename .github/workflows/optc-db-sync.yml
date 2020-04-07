@@ -1,45 +1,43 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Sync with OPTC-DB
 
 on:
   schedule:
-  - cron:  "*/5 * * * *"
+    - cron:  "*/5 * * * *"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  sync:
+    name: Sync with OPTC-DB
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    env:
+        UNITS_FILE: common/data/units.js
+        DETAILS_FILE: common/data/units.js
+        MATCHERS_FILE: common/data/matchers.js
+        UTILS_FILE: common/js/utils.js
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
-      
-    - name: GitHub Repo Sync
-      uses: repo-sync/github-sync@v2.0.0
-      with:
-        # GitHub public repo slug or full https clone url (with access_token if needed)
-        source_repo: "https://github.com/optc-db/optc-db.github.io.git"
-        # Branch name to sync from
-        source_branch: "master"
-        # Branch name to sync to in this repo
-        destination_branch: "optc-db-sync"
-        # GitHub token secret
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-    - name: checkout
-      uses: actions/checkout@master
-      with:
-        ref: optc-db-sync
-    - name: push
-      uses: dciborow/commit@0.0.1
-      with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-        push-branch: 'master'
-        commit-message: 'syncing with optc-db'
-        force-push: 'true'
-        files: common/data/units.js
-        name: OPTC-DB-sync
-        email: piebandit+OPTC-DB-sync@gmail.com
+      - name: Checkout Master
+        uses: actions/checkout@v2
+        with:
+          path: optc-supports
+      - name: Checkout OPTC-DB
+        uses: actions/checkout@v2
+        with:
+          repository: optc-db/optc-db.github.io
+          path: optc-db
+      - name: Copy DB Files
+        run: |
+          cp -v optc-db/$UNITS_FILE optc-supports/$UNITS_FILE
+          cp -v optc-db/$DETAILS_FILE optc-supports/$DETAILS_FILE
+          cp -v optc-db/$MATCHERS_FILE optc-supports/$MATCHERS_FILE
+          cp -v optc-db/$UTILS_FILE optc-supports/$UTILS_FILE
+      - name: Add Files and Commit
+        run: |
+          cd optc-supports
+          git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
+          git config --global user.name "ThePieBandit"
+          git add $UNITS_FILE $DETAILS_FILE $MATCHERS_FILE $UTILS_FILE
+          git commit -m "Automatic publish syncing the latest from OPTC-DB"
+          git push
