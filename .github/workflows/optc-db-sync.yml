@@ -39,7 +39,6 @@ jobs:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'syncing with optc-db'
-        force-add: 'true'
         force-push: 'true'
         files: common/data/units.js
         name: OPTC-DB-sync
