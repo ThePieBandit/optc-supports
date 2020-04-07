@@ -4,7 +4,7 @@ name: Sync with OPTC-DB
 
 on:
   schedule:
-  - cron:  "* */12 * * *"
+  - cron:  "*/5 * * * *"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -33,14 +33,14 @@ jobs:
       uses: actions/checkout@master
       with:
         ref: optc-db-sync
-    - name: push
-      uses: dciborow/commit@0.0.2
+    - name: Git Commit and Push
+      uses: github-actions-x/commit@v2.5
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         push-branch: 'master'
         commit-message: 'syncing with optc-db'
         force-add: 'true'
         force-push: 'true'
-        files: common/data/units.js common/data/details.js common/data/matchers.js common/js/utils.js
+        files: common/data/units.js
         name: OPTC-DB-sync
         email: piebandit+OPTC-DB-sync@gmail.com
