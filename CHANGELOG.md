@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 0.1.4
+* Reorganized some backend files
+* Fixed OPTC-DB data (will be up to date within 12 hours)
+
 ## Version 0.1.3
 * Uses live OPTC-DB data for character tables
 * DB Links now open in a new tab
