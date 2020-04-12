@@ -39,5 +39,5 @@ jobs:
           git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
           git config --global user.name "ThePieBandit"
           git add $UNITS_FILE $DETAILS_FILE $MATCHERS_FILE $UTILS_FILE
-          git commit -m "Automatic publish syncing the latest from OPTC-DB"
+          git diff-index --quiet HEAD || git commit -m "Automatic publish syncing the latest from OPTC-DB"
           git push

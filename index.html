@@ -15,7 +15,7 @@
 
         <div class="version-info">
             <i id="theme" title="Switch theme" class="fa fa-moon-o" aria-hidden="true"></i>
-            <label>v0.1.4</label>
+            <label>v0.1.5</label>
         </div>
 
         <div class="">
@@ -36,15 +36,20 @@
 
             <div class="tab-content">
                 <div class="tab-pane fade show active" id="atkContainer" role="tabpanel" aria-labelledby="atk-tab">
-                    <table id="atkSupportUnits" class="table table-striped">
+                    <table id="atkSupportUnits" class="table table-striped table-hover table-bordered">
                         <thead>
                             <tr>
-                                <th class="sortable" data-field="id" data-source="atk">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable w-25" data-field="name" data-source="atk">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="atkBoost" data-source="atk">Base ATK Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="atkBoostLimit" data-source="atk">LB ATK Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="atkBoostLimitEx" data-source="atk">LBex ATK Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="w-50">Supported Units<input id="atkFilter" class="form-control" type="text"></th>
+                                <th colspan="2" class="text-center">Support Unit Details</th>
+                                <th colspan="3" class="text-center">ATK Boost (with 100 CC)</th>
+                                <th colspan="1">Supported Units</th>
+                            </tr>
+                            <tr>
+                                <th class="sortable text-nowrap" data-field="id" data-source="atk">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap w-auto" data-field="name" data-source="atk">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="atkBoost" data-source="atk">Base <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="atkBoostLimit" data-source="atk">LB <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="atkBoostLimitEx" data-source="atk">LBex <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="w-50 pt-0 pb-0"><input id="atkFilterSupported" class="form-control pt-0 pb-0 w-100" type="text" placeholder="Filter"></th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -55,12 +60,17 @@
                     <table id="hpSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th class="sortable" data-field="id" data-source="hp">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable w-25" data-field="name" data-source="hp">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="hpBoost" data-source="hp">Base HP Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="hpBoostLimit" data-source="hp">LB HP Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="hpBoostLimitEx" data-source="hp">LBex HP Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="w-50">Supported Units<input id="hpFilter" class="form-control" type="text"></th>
+                                <th colspan="2" class="text-center">Support Unit Details</th>
+                                <th colspan="3" class="text-center">HP Boost (with 100 CC)</th>
+                                <th colspan="1">Supported Units</th>
+                            </tr>
+                            <tr>
+                                <th class="sortable text-nowrap" data-field="id" data-source="hp">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap w-auto" data-field="name" data-source="hp">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="hpBoost" data-source="hp">Base <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="hpBoostLimit" data-source="hp">LB <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="hpBoostLimitEx" data-source="hp">LBex <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="w-50 pt-0 pb-0"><input id="hpFilterSupported" class="form-control pt-0 pb-0 w-100" type="text" placeholder="Filter"></th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -71,12 +81,17 @@
                     <table id="rcvSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th class="sortable" data-field="id" data-source="rcv">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable w-25" data-field="name" data-source="rcv">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="rcvBoost" data-source="rcv">Base RCV Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="rcvBoostLimit" data-source="rcv">LB RCV Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable" data-field="rcvBoostLimitEx" data-source="rcv">LBex RCV Added / with CC <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="w-50">Supported Units<input id="rcvFilter" class="form-control" type="text"></th>
+                                <th colspan="2" class="text-center">Support Unit Details</th>
+                                <th colspan="3" class="text-center">RCV Boost (with 100 CC)</th>
+                                <th colspan="1">Supported Units</th>
+                            </tr>
+                            <tr>
+                                <th class="sortable text-nowrap" data-field="id" data-source="rcv">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap w-auto" data-field="name" data-source="rcv">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="rcvBoost" data-source="rcv">Base <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="rcvBoostLimit" data-source="rcv">LB <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap" data-field="rcvBoostLimitEx" data-source="rcv">LBex <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="w-50 pt-0 pb-0"><input id="rcvFilterSupported" class="form-control pt-0 pb-0 w-100" type="text" placeholder="Filter"></th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -87,10 +102,10 @@
                     <table id="otherSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
-                                <th class="sortable" data-field="id" data-source="other">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="sortable w-25" data-field="name" data-source="other">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="w-50">Lvl 5 Support</th>
-                                <th class="w-25">Supported Units<input id="otherFilter" class="form-control" type="text"></th>
+                                <th class="sortable text-nowrap" data-field="id" data-source="other">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="sortable text-nowrap w-auto" data-field="name" data-source="other">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
+                                <th class="w-auto">Lvl 5 Support</th>
+                                <th class="w-25 text-nowrap align-bottom"><div class="input-group flex-nowrap"> <div class="input-group-prepend"> <span class="input-group-text" id="addon-wrapping">Supported Units</span> </div> <input id="otherFilterSupported" class="form-control  w-100" type="text" label="otherFilteredLabel" placeholder="Filter"> </div> </th>
                             </tr>
                         </thead>
                         <tbody></tbody>
