@@ -14,10 +14,10 @@ const debounceMs = 500;
 let debounce = null;
 
 const filterItems = [
-    { key: "atk",   id: 'input#atkFilter',    source: atkSupportUnits,    updateCallback: updateAtkTable },
-    { key: "hp",    id: 'input#hpFilter',     source: hpSupportUnits,     updateCallback: updateHpTable },
-    { key: "rcv",   id: 'input#rcvFilter',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
-    { key: "other", id: 'input#otherFilter',  source: otherSupportUnits,  updateCallback: updateOthersTable },
+    { key: "atk",   idSupported: 'input#atkFilterSupported',    source: atkSupportUnits,    updateCallback: updateAtkTable },
+    { key: "hp",    idSupported: 'input#hpFilterSupported',     source: hpSupportUnits,     updateCallback: updateHpTable },
+    { key: "rcv",   idSupported: 'input#rcvFilterSupported',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
+    { key: "other", idSupported: 'input#otherFilterSupported',  source: otherSupportUnits,  updateCallback: updateOthersTable },
 ];
 
 function getFilteredBySupported(array, value) {
@@ -37,7 +37,7 @@ function getFilteredBySupported(array, value) {
 }
 
 filterItems.forEach(item => {
-    $(item.id).on('keyup', function(e) {
+    $(item.idSupported).on('keyup', function(e) {
         clearTimeout(debounce);
         const value = $(this).val();
         debounce = setTimeout(function() {
@@ -75,7 +75,7 @@ function getSourceArrayAndCallback(source) {
     const record = filterItems.find(table => table.key == source)
     if (record == null) {
         console.error('unexpected data-source on .sortable element');
-        return { key: 'error', id: '',  source: [],  updateCallback: (arr) => {} };
+        return { key: 'error', idSupported: '',  source: [],  updateCallback: (arr) => {} };
     }
 
     return record;
@@ -85,19 +85,19 @@ $('.sortable').on('click', function(e) {
     const desc = $(this).data('sortOrder');
     const origin = $(this).data('source') || '';
     const sortField = $(this).data('field') || '';
-    
-    const { id, source, updateCallback } = getSourceArrayAndCallback(origin);
-    
+
+    const { idSupported, source, updateCallback } = getSourceArrayAndCallback(origin);
+
     // we sort the original array directly
     // if we want to preserve the original array we could do
     // const sorted = [...source].sort(getComparator(sortField, !desc));
     source.sort(getComparator(sortField, !desc));
-    
-    const value = $(id).val();
+
+    const value = $(idSupported).val();
     const filtered = getFilteredBySupported(source, value);
 
     updateCallback(filtered);
-    
+
     const classToAdd = desc ? arrowUp : arrowDown;
 
     // reset all sortable elements
@@ -122,16 +122,16 @@ function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, c
             const unit = source[i];
             const newRowContent = $(
             `<tr>
-                <td><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
+                <td class="text-nowrap"><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
                 <td>${unit.name}</td>
-                <td>${unit[maxBoost]}/${Math.round(unit[maxBoost] + (100 * ccMultiplier) * unit.lvl5percentage)}</td>
-                <td>${unit[limitBoost]}/${Math.round(unit[limitBoost] + (100 * ccMultiplier) * unit.lvl5percentage)}</td>
-                <td>${unit[limitExBoost]}/${Math.round(unit[limitExBoost] + (100 * ccMultiplier) * unit.lvl5percentage)}</td>
+                <td class="text-nowrap">${unit[maxBoost]} (${Math.round(unit[maxBoost] + (100 * ccMultiplier) * unit.lvl5percentage)})</td>
+                <td class="text-nowrap">${unit[limitBoost]} (${Math.round(unit[limitBoost] + (100 * ccMultiplier) * unit.lvl5percentage)})</td>
+                <td class="text-nowrap">${unit[limitExBoost]} (${Math.round(unit[limitExBoost] + (100 * ccMultiplier) * unit.lvl5percentage)})</td>
                 <td>${unit.support.Characters}</td>
             </tr>`);
             tbody.append(newRowContent);
         } catch (err) {
-            console.error(err); 
+            console.error(err);
         }
     }
 }
@@ -140,14 +140,14 @@ function writeOtherTable(elementId, source) {
     const tbody = $(`#${elementId} tbody`);
     tbody.empty();
     for (var i = 0; i < source.length; i++) {
-        try {            
+        try {
             const unit = source[i];
             const newRowContent = $(
             `<tr>
-                <td><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
+                <td class="text-nowrap"><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
                 <td>${unit.name}</td>
                 <td>${unit.support.description[4]}</td>
-                <td>${unit.support.Characters}</td>
+                <td class="text-nowrap">${unit.support.Characters}</td>
             </tr>`);
             tbody.append(newRowContent);
         }
@@ -176,7 +176,7 @@ function updateOthersTable(source) {
 
 const matchers = window.matchers.filter(matcher => matcher.target == "support");
 window.Utils.parseUnits(false);
- 
+
 for (var i = 0; i < window.units.length; i++){
     if(!window.details[i+1] || !window.details[i+1].support || window.units[i].incomplete){
         continue;
@@ -188,7 +188,7 @@ for (var i = 0; i < window.units.length; i++){
         matched = true;
         atkSupportUnits.push(unit);
         var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
-        
+
         unit.lvl5percentage = tmpMatch[1]/100.0;
         unit.atkBoost = Math.round(unit.maxATK * unit.lvl5percentage);
         unit.atkBoostLimit = Math.round(unit.limitATK * unit.lvl5percentage);
@@ -198,7 +198,7 @@ for (var i = 0; i < window.units.length; i++){
         matched = true;
         hpSupportUnits.push(unit);
         var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
-        
+
         unit.lvl5percentage = tmpMatch[1]/100.0;
         unit.hpBoost = Math.round(unit.maxHP * unit.lvl5percentage);
         unit.hpBoostLimit = Math.round(unit.limitHP * unit.lvl5percentage);
@@ -208,18 +208,25 @@ for (var i = 0; i < window.units.length; i++){
         matched = true;
         rcvSupportUnits.push(unit);
         var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
-        
+
         unit.lvl5percentage = tmpMatch[1]/100.0;
         unit.rcvBoost = Math.round(unit.maxRCV * unit.lvl5percentage);
         unit.rcvBoostLimit = Math.round(unit.limitRCV * unit.lvl5percentage);
         unit.rcvBoostLimitEx = Math.round(unit.limitexRCV * unit.lvl5percentage);
     }
-    
+
     if (!matched) {
-        otherSupportUnits.push(unit);
+      otherSupportUnits.push(unit);
+    } else {
+      for (let i = 10; i < matchers.length; i++) {
+          if(lvl5support.match(matchers[i].matcher)) {
+            otherSupportUnits.push(unit);
+            break;
+          }
+      }
     }
     unit.support = window.details[i+1].support[0];
-    unit.id = i+1;   
+    unit.id = i+1;
 }
 
 atkSupportUnits.sort( (a,b) => b.atkBoostLimit - a.atkBoostLimit);
