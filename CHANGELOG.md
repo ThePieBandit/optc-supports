@@ -1,3 +1,6 @@
+### 0.2.1
+* Google Analytics
+
 ### 0.2.0
 * See the changelog by clicking the version number in the lower right
 * Formatting of all orb types
