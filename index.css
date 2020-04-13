@@ -23,7 +23,11 @@ body.dark .nav-link.active {
     background-color: #17191b;
 }
 
-#theme {
+.modal, .badge {
+  color: #000;
+}
+
+#theme, #changelogtoggle {
     cursor: pointer;
 }
 
