@@ -1,3 +1,7 @@
+### 0.2.2
+* Fixed bug introduced by new DB file for PVP mode
+* Enforced text in some orb types to use a white font for easier readability.
+
 ### 0.2.1
 * Google Analytics
 

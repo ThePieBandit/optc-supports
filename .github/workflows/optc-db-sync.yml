@@ -16,6 +16,7 @@ jobs:
         DETAILS_FILE: common/data/units.js
         MATCHERS_FILE: common/data/matchers.js
         UTILS_FILE: common/js/utils.js
+        FESTIVAL_FILE: common/js/data/festival.js
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Master
@@ -33,6 +34,7 @@ jobs:
           cp -v optc-db/$DETAILS_FILE optc-supports/$DETAILS_FILE
           cp -v optc-db/$MATCHERS_FILE optc-supports/$MATCHERS_FILE
           cp -v optc-db/$UTILS_FILE optc-supports/$UTILS_FILE
+          cp -v optc-db/$FESTIVAL_FILE optc-supports/$FESTIVAL_FILE
       - name: Add Files and Commit
         run: |
           cd optc-supports
