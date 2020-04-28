@@ -6,13 +6,13 @@
 .INT   { background: orchid; }
 .RCV   { background: darkgoldenrod; }
 .TND   { background: peru; }
-.BLOCK { background: darkslateblue; }
-.BOMB  { background: maroon; }
+.BLOCK { background: darkslateblue; color: #fff !important; }
+.BOMB  { background: maroon; color: #fff !important; }
 .WANO  { background: firebrick; }
 .SEMLA  { background: saddlebrown; }
 .RAINBOW { background: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6); }
 .G     { background: orange; }
-.EMPTY { background: #777; }
+.EMPTY { background: #777; color: #fff !important; }
 
 body.dark {
     background-color: #000;
