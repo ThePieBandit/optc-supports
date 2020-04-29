@@ -16,7 +16,7 @@ jobs:
         DETAILS_FILE: common/data/units.js
         MATCHERS_FILE: common/data/matchers.js
         UTILS_FILE: common/js/utils.js
-        FESTIVAL_FILE: common/js/data/festival.js
+        FESTIVAL_FILE: common/data/festival.js
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Master
