@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
         UNITS_FILE: common/data/units.js
-        DETAILS_FILE: common/data/units.js
+        DETAILS_FILE: common/data/details.js
         MATCHERS_FILE: common/data/matchers.js
         UTILS_FILE: common/js/utils.js
         FESTIVAL_FILE: common/data/festival.js
