@@ -13,35 +13,80 @@ const debounceMs = 500;
 
 let debounce = null;
 
+const otherFilterSupportedId = 'input#otherFilterSupported';
 const filterItems = [
     { key: "atk",   idSupported: 'input#atkFilterSupported',    source: atkSupportUnits,    updateCallback: updateAtkTable },
     { key: "hp",    idSupported: 'input#hpFilterSupported',     source: hpSupportUnits,     updateCallback: updateHpTable },
     { key: "rcv",   idSupported: 'input#rcvFilterSupported',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
-    { key: "other", idSupported: 'input#otherFilterSupported',  source: otherSupportUnits,  updateCallback: updateOthersTable },
+    { key: "other", idSupported: otherFilterSupportedId,  source: otherSupportUnits,  updateCallback: updateOthersTable },
 ];
+
+const isEmptyArray = array => array == null || array.length == null || array.length === 0;
+const containsIgnoreCase = (sentence, word) => sentence.toLowerCase().indexOf(word) >= 0;
 
 function getFilteredBySupported(array, value) {
     if (value == null || value === '') {
         return array;
     }
 
-    if (array == null || array.length === 0) {
+    if (isEmptyArray(array)) {
         return array;
     }
 
     const lcValue = value.toLowerCase();
     return array.filter(unit =>
         unit.support.Characters &&
-        unit.support.Characters.toLowerCase().indexOf(lcValue) >= 0
+        containsIgnoreCase(unit.support.Characters, lcValue)
     );
 }
+
+function getFilteredBySupportEffect(array, tags) {
+    if (isEmptyArray(array) || isEmptyArray(tags)) {
+        return array;
+    }
+
+    const values = tags.map(t => t.value.toLowerCase());
+    return array.filter(unit =>
+        unit.support.description &&
+        unit.support.description[4] &&
+        values.every(v => containsIgnoreCase(unit.support.description[4], v))
+    );
+}
+
+function getFilteredByAllFilters(array, supportedText) {
+    let filtered = array;
+    filtered = getFilteredBySupported(filtered, supportedText);
+    filtered = getFilteredBySupportEffect(filtered, tagify.value);
+    return filtered;
+}
+
+function filterBySupportEffect() {
+    const filtered = getFilteredByAllFilters(otherSupportUnits, $(otherFilterSupportedId).val());
+    updateOthersTable(filtered);
+}
+
+const tagify = new Tagify(document.querySelector('#otherFilterSupportEffect'), {
+    whitelist: ["Despair", "Bind", "Paralysis"],
+    maxTags: 10,
+    dropdown: {
+        maxItems: 20,           // <- mixumum allowed rendered suggestions
+        classname: "tags-look", // <- custom classname for this dropdown, so it could be targeted
+        enabled: 0,             // <- show suggestions on focus
+        closeOnSelect: false    // <- do not hide the suggestions dropdown once an item has been selected
+    }
+});
+
+tagify
+    .on('add', e => filterBySupportEffect())
+    .on('remove', e => filterBySupportEffect())
+    ;
 
 filterItems.forEach(item => {
     $(item.idSupported).on('keyup', function(e) {
         clearTimeout(debounce);
         const value = $(this).val();
         debounce = setTimeout(function() {
-            const filtered = getFilteredBySupported(item.source, value);
+            const filtered = getFilteredByAllFilters(item.source, value);
             item.updateCallback(filtered);
        }, debounceMs);
     });
@@ -93,8 +138,7 @@ $('.sortable').on('click', function(e) {
     // const sorted = [...source].sort(getComparator(sortField, !desc));
     source.sort(getComparator(sortField, !desc));
 
-    const value = $(idSupported).val();
-    const filtered = getFilteredBySupported(source, value);
+    const filtered = getFilteredByAllFilters(source, $(idSupported).val());
 
     updateCallback(filtered);
 
