@@ -65,7 +65,7 @@ function filterBySupportEffect() {
     updateOthersTable(filtered);
 }
 
-const suggestedTags = ["Despair", "Bind", "Paralysis", "ATK Down", "Silence", "Special Rewind", "Chain Coefficient Reduction", "Chain Multiplier Limit", "Block", "Increased Defense", "Percent Damage", "Threshold", "Boosts ATK", "Amplifies", "Color Affinity", "Delayed", "Additional Damage", "Poison", "Recovers"];
+const suggestedTags = ["Despair", "Bind", "Paralysis", "ATK Down", "Silence", "Special Rewind", "Chain Coefficient Reduction", "Chain Multiplier Limit", "Block", "Increased Defense", "Percent Damage", "Threshold", "Boosts ATK", "Amplifies", "Color Affinity", "Delayed", "Additional Damage", "Poison", "Recovers", "Adventure", "Final Stage", "Special"];
 const tagify = new Tagify(document.querySelector('#otherFilterSupportEffect'), {
     whitelist: suggestedTags,
     maxTags: 10,
