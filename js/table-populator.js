@@ -65,11 +65,12 @@ function filterBySupportEffect() {
     updateOthersTable(filtered);
 }
 
+const suggestedTags = ["Despair", "Bind", "Paralysis", "ATK Down", "Silence", "Special Rewind", "Chain Coefficient Reduction", "Chain Multiplier Limit", "Block", "Increased Defense", "Percent Damage", "Threshold", "Boosts ATK", "Amplifies", "Color Affinity", "Delayed", "Additional Damage", "Poison", "Recovers"];
 const tagify = new Tagify(document.querySelector('#otherFilterSupportEffect'), {
-    whitelist: ["Despair", "Bind", "Paralysis"],
+    whitelist: suggestedTags,
     maxTags: 10,
     dropdown: {
-        maxItems: 20,           // <- mixumum allowed rendered suggestions
+        maxItems: suggestedTags.length,           // <- maximum allowed rendered suggestions
         classname: "tags-look", // <- custom classname for this dropdown, so it could be targeted
         enabled: 0,             // <- show suggestions on focus
         closeOnSelect: false    // <- do not hide the suggestions dropdown once an item has been selected
