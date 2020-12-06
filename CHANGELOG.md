@@ -1,3 +1,6 @@
+### 0.3.0
+* Allow filtering by support effect text
+
 ### 0.2.3
 * Fixed bug in the sync from the db
 
