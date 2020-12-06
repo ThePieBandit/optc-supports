@@ -5,6 +5,7 @@
         <link rel="stylesheet" type="text/css" href="index.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tagify/3.21.5/tagify.min.css" integrity="sha512-91wa7heHLbuVdMrSXbWceVZva6iWDFlkFHnM+9Sc+oXFpTgw1FCqdnuaGBJfDVuNSNl0DwDmeGeJSORB0HyLZQ==" crossorigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="Piebandit, AndreMantas">
         <meta name="keywords" content="OPTC, One Piece Treasure Cruise, Database, Supports">
@@ -99,8 +100,15 @@
                             <tr>
                                 <th class="sortable text-nowrap" data-field="id" data-source="other">Unit# <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
                                 <th class="sortable text-nowrap w-auto" data-field="name" data-source="other">Unit Name <i class="fa fa-arrows-v" aria-hidden="true"></i></th>
-                                <th class="w-auto">Lvl 5 Support</th>
-                                <th class="w-25 text-nowrap align-bottom"><div class="input-group flex-nowrap"> <div class="input-group-prepend"> <span class="input-group-text" id="addon-wrapping">Supported Units</span> </div> <input id="otherFilterSupported" class="form-control  w-100" type="text" label="otherFilteredLabel" placeholder="Filter"> </div> </th>
+                                <th class="w-auto align-bottom min-input-col-width">
+                                    <div class="input-group flex-nowrap">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="addon-wrapping-1">Lvl 5 Support</span>
+                                        </div>
+                                        <input id="otherFilterSupportEffect" class="form-control w-100" type="text" label="otherEffectFilteredLabel" placeholder="Filter">
+                                    </div>
+                                </th>
+                                <th class="w-auto align-bottom min-input-col-width"><div class="input-group flex-nowrap"> <div class="input-group-prepend"> <span class="input-group-text" id="addon-wrapping">Supported Units</span> </div> <input id="otherFilterSupported" class="form-control  w-100" type="text" label="otherFilteredLabel" placeholder="Filter"> </div> </th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -133,6 +141,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tagify/3.21.5/jQuery.tagify.min.js" integrity="sha512-CX1+EQRkL9EC4OeJ7Hk24R0R3Hg6yy6yrOvZxlj/Mr7pjrxhzrzcScR1PM03y12uljYh+0nMDk5ckHlgCjR9iw==" crossorigin="anonymous"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163456907-1"></script>
         <script>

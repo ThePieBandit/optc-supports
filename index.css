@@ -65,3 +65,11 @@ body.dark .nav-link.active {
 body.dark .sortable:hover {
     background-color: #17191b;
 }
+
+body.dark .tags-look .tagify__dropdown__item {
+    color: #000;
+}
+
+.min-input-col-width {
+    min-width: 300px;
+}
