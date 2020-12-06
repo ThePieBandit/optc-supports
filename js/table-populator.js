@@ -197,7 +197,7 @@ function writeOtherTable(elementId, source) {
                 <td class="text-nowrap"><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
                 <td><span class="badge text-monospace ${unit.type}">${unit.type}</span> ${unit.name}</td>
                 <td>${lvl5description}</td>
-                <td class="text-nowrap">${supported}</td>
+                <td class="">${supported}</td>
             </tr>`);
             tbody.append(newRowContent);
         }
