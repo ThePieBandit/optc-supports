@@ -1174,9 +1174,15 @@ window.matchers = [
     },
     
     {
-        name: 'Paralysis reducers',
+        name: 'Own paralysis reducers',
         target: 'sailor',
-        matcher: /(reduces|removes|resists).+Paralysis/i 
+        matcher: /(reduces|removes|resists).+Paralysis.+on this/i
+    },
+
+    {
+        name: 'Crew paralysis reducers',
+        target: 'sailor',
+        matcher: /(reduces|removes|resists).+Paralysis(?!.*on this)/i
     },
 
     {
@@ -1186,9 +1192,15 @@ window.matchers = [
     },
     
     {
-        name: 'Silence/Special Bind reducers',
+        name: 'Own Silence/Special Bind reducers',
         target: 'sailor',
-        matcher: /(reduces|removes|resists).+silence/i
+        matcher: /(reduces|removes|resists).+silence.+on this/i
+    },
+
+    {
+        name: 'Crew Silence/Special Bind reducers',
+        target: 'sailor',
+        matcher: /(reduces|removes|resists).+silence(?!.*on this)/i
     },
     
     {
