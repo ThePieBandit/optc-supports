@@ -215,6 +215,12 @@ window.matchers = [
     },
 
     {
+        name: 'Normal Attacks Ignoring Defense and Barrier Buff allower',
+        target: 'captain',
+        matcher: /Attacks.+ignore.+damage reducing Barriers and Buffs/i
+    },
+
+    {
         name: 'Despair reducers',
         target: 'captain',
         matcher: /(reduces|removes).+despair.+duration/i
@@ -742,6 +748,12 @@ window.matchers = [
     },
     
     {
+        name: 'Normal Attacks Ignoring Defense and Barrier Buff allower',
+        target: 'special',
+        matcher: /Attacks.+ignore.+damage reducing Barriers and Buffs/i
+    },
+    
+    {
         name: 'Additional Damage dealer',
         target: 'special',
         matcher: /Additional.+Damage/i
@@ -952,6 +964,12 @@ window.matchers = [
     },
 
     {
+        name: 'Crew debuff immunity appliers',
+        target: 'special',
+        matcher: /applies.+immunity/i
+    },
+
+    {
         name: 'Captain Swapping special',
         target: 'special',
         matcher: /Swaps this unit with your captain/i 
@@ -1056,6 +1074,12 @@ window.matchers = [
     /* * * * * Swap * * * * */
 
     {
+        name: 'Has Super Swap',
+        target: 'swap',
+        matcher: /"super"\s*:/i
+    },
+
+    {
         name: 'ATK boosters',
         target: 'swap',
         matcher: /Boosts.+ATK/i
@@ -1079,6 +1103,24 @@ window.matchers = [
         name: 'Color Affinity boosters',
         target: 'swap',
         matcher: /Boosts.+Color Affinity/i
+    },
+
+    {
+        name: 'Chain boosters',
+        target: 'swap',
+        matcher: /Adds.+to Chain/i
+    },
+
+    {
+        name: 'Chain multipliers',
+        target: 'swap',
+        matcher: /Boosts.+chain multiplier/i
+    },
+
+    {
+        name: 'Chain Lockers',
+        target: 'swap',
+        matcher: /Locks the chain multiplier/i
     },
 
     {
@@ -1118,9 +1160,21 @@ window.matchers = [
     },
 
     {
+        name: 'Beneficial Orb enablers',
+        target: 'swap',
+        matcher: /beneficial/i
+    },
+
+    {
         name: 'Damage reducers',
         target: 'swap',
         matcher: /Reduces (any )?damage received/i
+    },
+    
+    {
+        name: 'Normal Attacks Ignoring Defense and Barrier Buff allower',
+        target: 'swap',
+        matcher: /Attacks.+ignore.+damage reducing Barriers and Buffs/i
     },
     
     {
@@ -1169,6 +1223,12 @@ window.matchers = [
         name: 'Poison removers',
         target: 'swap',
         matcher: /(removes|reduces).+poison.+(duration completely|duration)/i 
+    },
+
+    {
+        name: 'Tap Timing supporters',
+        target: 'swap',
+        matcher: /makes PERFECTs easier to hit/i
     },
 
     /*{
@@ -1389,6 +1449,12 @@ window.matchers = [
         name: 'Reduce Slot Bind duration Potential Ability',
         target: 'limit',
         matcher: /Reduce Slot Bind duration/i
+    },
+    
+    {
+        name: 'Reduce Slot Barrier duration Potential Ability',
+        target: 'limit',
+        matcher: /Reduce Slot Barrier duration/i
     },
     
     {
