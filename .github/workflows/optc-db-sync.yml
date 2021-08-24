@@ -18,7 +18,9 @@ jobs:
         DETAILS_FILE: common/data/details.js
         MATCHERS_FILE: common/data/matchers.js
         UTILS_FILE: common/js/utils.js
+        UNIT_UTILS_FILE: common/js/unitUtils.js
         FESTIVAL_FILE: common/data/festival.js
+        ALIASES_FILE: common/data/aliases.js
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Checkout Master
@@ -35,13 +37,15 @@ jobs:
           cp -v optc-db/$UNITS_FILE optc-supports/$UNITS_FILE
           cp -v optc-db/$DETAILS_FILE optc-supports/$DETAILS_FILE
           cp -v optc-db/$MATCHERS_FILE optc-supports/$MATCHERS_FILE
-          cp -v optc-db/$UTILS_FILE optc-supports/$UTILS_FILE
           cp -v optc-db/$FESTIVAL_FILE optc-supports/$FESTIVAL_FILE
+          cp -v optc-db/$ALIASES_FILE optc-supports/$ALIASES_FILE
+          cp -v optc-db/$UTILS_FILE optc-supports/$UTILS_FILE
+          cp -v optc-db/$UNIT_UTILS_FILE optc-supports/$UNIT_UTILS_FILE
       - name: Add Files and Commit
         run: |
           cd optc-supports
           git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
           git config --global user.name "ThePieBandit"
-          git add $UNITS_FILE $DETAILS_FILE $MATCHERS_FILE $UTILS_FILE $FESTIVAL_FILE
+          git add $UNITS_FILE $DETAILS_FILE $MATCHERS_FILE $FESTIVAL_FILE $ALIASES_FILE $UTILS_FILE $UNIT_UTILS_FILE
           git diff-index --quiet HEAD || git commit -m "Automatic publish syncing the latest from OPTC-DB"
           git push
