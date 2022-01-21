@@ -17,7 +17,7 @@
         <div class="nav-fill">
             <ul class="nav nav-tabs nav-fill" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" id="atk-tab" data-toggle="tab" href="#atkContainer" role="tab" aria-controls="home" aria-selected="true">ATK Boosting Supports</a>
+                  <a class="nav-link" id="atk-tab" data-toggle="tab" href="#atkContainer" role="tab" aria-controls="home" aria-selected="false">ATK Boosting Supports</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="hp-tab" data-toggle="tab" href="#hpContainer" role="tab" aria-controls="hpContainer" aria-selected="false">HP Boosting Supports</a>
@@ -26,12 +26,12 @@
                   <a class="nav-link" id="rcv-tab" data-toggle="tab" href="#rcvContainer" role="tab" aria-controls="rcvContainer" aria-selected="false">RCV Boosting Supports</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" id="other-tab" data-toggle="tab" href="#otherContainer" role="tab" aria-controls="otherContainer" aria-selected="false">All Other Supports</a>
+                  <a class="nav-link active" id="other-tab" data-toggle="tab" href="#otherContainer" role="tab" aria-controls="otherContainer" aria-selected="true">All Other Supports</a>
                 </li>
             </ul>
 
             <div class="tab-content">
-                <div class="tab-pane fade show active" id="atkContainer" role="tabpanel" aria-labelledby="atk-tab">
+                <div class="tab-pane fade" id="atkContainer" role="tabpanel" aria-labelledby="atk-tab">
                     <table id="atkSupportUnits" class="table table-striped table-hover table-bordered">
                         <thead>
                             <tr>
@@ -94,7 +94,7 @@
                     </table>
                 </div>
 
-                <div class="tab-pane fade" id="otherContainer" role="tabpanel" aria-labelledby="other-tab">
+                <div class="tab-pane fade show active" id="otherContainer" role="tabpanel" aria-labelledby="other-tab">
                     <table id="otherSupportUnits" class="table table-striped">
                         <thead>
                             <tr>
