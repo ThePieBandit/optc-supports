@@ -838,6 +838,12 @@ window.matchers = [
     },
 
     {
+        name: 'Increase Damage Taken specials',
+        target: 'special',
+        matcher: /Inflicts\D+Increase Damage Taken/i
+    },
+
+    {
         name: 'Poisoners',
         target: 'special',
         matcher: /(poisons|Inflicts Toxic)/i
@@ -2044,6 +2050,12 @@ window.matchers = [
         name: 'Chain Boosters',
         target: 'superSpecial',
         matcher: /Adds.+to Chain/i 
+    },
+
+    {
+        name: 'Chain multipliers',
+        target: 'superSpecial',
+        matcher: /Boosts.+chain multiplier/i
     },
     
     {
