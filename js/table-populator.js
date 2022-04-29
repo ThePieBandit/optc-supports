@@ -225,7 +225,42 @@ function updateOthersTable(source) {
     writeOtherTable("otherSupportUnits", source);
 }
 
-const matchers = window.matchers.filter(matcher => matcher.target == "support");
+const atkMatcherName = 'Passive Base ATK Boost';
+const hpMatcherName = 'Passive Base HP Boost';
+const rcvMatcherName = 'Passive Base RCV Boost';
+
+const supportMatchers = window.matchers.support;
+const statMatchers = supportMatchers['Boost Damage and Stats'];
+
+function regexOrFallback(matchers, name, fallback) {
+    const result = matchers[name];
+    if (result && result.regex) return result.regex;
+    return fallback;
+}
+const atkRegex = regexOrFallback(statMatchers, atkMatcherName, /Adds.+%.+ATK/i);
+const hpRegex = regexOrFallback(statMatchers, hpMatcherName, /Adds.+%.+HP/i);
+const rcvRegex = regexOrFallback(statMatchers, rcvMatcherName, /Adds.+%.+RCV/i);
+
+const matcherNamesToIgnore = [
+    'Has Support Ability',
+    atkMatcherName,
+    hpMatcherName,
+    rcvMatcherName,
+    // 'Damage Reduction - Passive: Percentage', // uncomment to hide passive dmg reduc supports only
+];
+
+const otherMatchers = [];
+for (const sm in supportMatchers) {
+    for (const sub in supportMatchers[sm]) {
+        if (matcherNamesToIgnore.includes(sub)) {
+            continue;
+        }
+        const matcher = supportMatchers[sm][sub];
+        if (!matcher.regex) continue;
+        otherMatchers.push(matcher);
+    }
+}
+
 window.Utils.parseUnits(false);
 
 for (var i = 0; i < window.units.length; i++){
@@ -235,7 +270,7 @@ for (var i = 0; i < window.units.length; i++){
     var unit = window.units[i];
     var lvl5support = window.details[i+1].support[0].description[4];
     var matched = false;
-    if (lvl5support.match(matchers.filter(matcher => matcher.name == "ATK Boosting Support")[0].matcher) && !lvl5support.match(/Additional/)){
+    if (lvl5support.match(atkRegex) && !lvl5support.match(/Additional/)){
         matched = true;
         atkSupportUnits.push(unit);
         var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
@@ -245,7 +280,7 @@ for (var i = 0; i < window.units.length; i++){
         unit.atkBoostLimit = Math.round(unit.limitATK * unit.lvl5percentage);
         unit.atkBoostLimitEx = Math.round(unit.limitexATK * unit.lvl5percentage);
     }
-    if (lvl5support.match(matchers.filter(matcher => matcher.name == "HP Boosting Support")[0].matcher)){
+    if (lvl5support.match(hpRegex)){
         matched = true;
         hpSupportUnits.push(unit);
         var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
@@ -255,7 +290,7 @@ for (var i = 0; i < window.units.length; i++){
         unit.hpBoostLimit = Math.round(unit.limitHP * unit.lvl5percentage);
         unit.hpBoostLimitEx = Math.round(unit.limitexHP * unit.lvl5percentage);
     }
-    if (lvl5support.match(matchers.filter(matcher => matcher.name == "RCV Boosting Support")[0].matcher)){
+    if (lvl5support.match(rcvRegex)){
         matched = true;
         rcvSupportUnits.push(unit);
         var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
@@ -269,8 +304,8 @@ for (var i = 0; i < window.units.length; i++){
     if (!matched) {
       otherSupportUnits.push(unit);
     } else {
-      for (let i = 10; i < matchers.length; i++) {
-          if(lvl5support.match(matchers[i].matcher)) {
+      for (let i = 10; i < otherMatchers.length; i++) {
+          if (lvl5support.match(otherMatchers[i].regex)) {
             otherSupportUnits.push(unit);
             break;
           }
