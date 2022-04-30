@@ -1,3 +1,8 @@
+### 0.4.0
+* Allow users to filter by multiple "Supported units" at the same time using tags.
+* Adapt to new DB matchers structure.
+* Fix rendering Chanelog.
+
 ### 0.3.0
 * Allow filtering by support effect text
 
