@@ -13,30 +13,24 @@ const debounceMs = 500;
 
 let debounce = null;
 
-const otherFilterSupportedId = 'input#otherFilterSupported';
 const filterItems = [
-    { key: "atk",   idSupported: 'input#atkFilterSupported',    source: atkSupportUnits,    updateCallback: updateAtkTable },
-    { key: "hp",    idSupported: 'input#hpFilterSupported',     source: hpSupportUnits,     updateCallback: updateHpTable },
-    { key: "rcv",   idSupported: 'input#rcvFilterSupported',    source: rcvSupportUnits,    updateCallback: updateRcvTable },
-    { key: "other", idSupported: otherFilterSupportedId,  source: otherSupportUnits,  updateCallback: updateOthersTable },
+    { key: "atk",   idSupported: 'input#atkFilterSupported',    source: atkSupportUnits,    updateCallback: updateAtkTable, tagify: null, },
+    { key: "hp",    idSupported: 'input#hpFilterSupported',     source: hpSupportUnits,     updateCallback: updateHpTable, tagify: null, },
+    { key: "rcv",   idSupported: 'input#rcvFilterSupported',    source: rcvSupportUnits,    updateCallback: updateRcvTable, tagify: null, },
+    { key: "other", idSupported: 'input#otherFilterSupported',  source: otherSupportUnits,  updateCallback: updateOthersTable, tagify: null, },
 ];
 
 const isEmptyArray = array => array == null || array.length == null || array.length === 0;
 const containsIgnoreCase = (sentence, word) => sentence.toLowerCase().indexOf(word) >= 0;
 
-function getFilteredBySupported(array, value) {
-    if (value == null || value === '') {
+function getFilteredBySupported(array, tags) {
+    if (isEmptyArray(array) || isEmptyArray(tags)) {
         return array;
     }
 
-    if (isEmptyArray(array)) {
-        return array;
-    }
-
-    const lcValue = value.toLowerCase();
     return array.filter(unit =>
         unit.support.Characters &&
-        containsIgnoreCase(unit.support.Characters, lcValue)
+        tags.some(tag => containsIgnoreCase(unit.support.Characters, tag.value.toLowerCase()))
     );
 }
 
@@ -53,20 +47,21 @@ function getFilteredBySupportEffect(array, tags) {
     );
 }
 
-function getFilteredByAllFilters(array, supportedText) {
+function getFilteredByAllFilters(array, supportedTagify) {
     let filtered = array;
-    filtered = getFilteredBySupported(filtered, supportedText);
-    filtered = getFilteredBySupportEffect(filtered, tagify.value);
+    filtered = getFilteredBySupported(filtered, supportedTagify.value);
+    filtered = getFilteredBySupportEffect(filtered, effectTagify.value);
     return filtered;
 }
 
 function filterBySupportEffect() {
-    const filtered = getFilteredByAllFilters(otherSupportUnits, $(otherFilterSupportedId).val());
+    const tagify = filterItems.find(i => i.key === 'other').tagify;
+    const filtered = getFilteredByAllFilters(otherSupportUnits, tagify);
     updateOthersTable(filtered);
 }
 
 const suggestedTags = ["Despair", "Bind", "Paralysis", "ATK Down", "Silence", "Special Rewind", "Chain Coefficient Reduction", "Chain Multiplier Limit", "Block", "Increased Defense", "Percent Damage", "Threshold", "Boosts ATK", "Amplifies", "Color Affinity", "Delayed", "Additional Damage", "Poison", "Recovers", "Adventure", "Final Stage", "Special"];
-const tagify = new Tagify(document.querySelector('#otherFilterSupportEffect'), {
+const effectTagify = new Tagify(document.querySelector('#otherFilterSupportEffect'), {
     whitelist: suggestedTags,
     maxTags: 10,
     dropdown: {
@@ -77,20 +72,30 @@ const tagify = new Tagify(document.querySelector('#otherFilterSupportEffect'), {
     }
 });
 
-tagify
+effectTagify
     .on('add', e => filterBySupportEffect())
     .on('remove', e => filterBySupportEffect())
     ;
 
+function filterAndUpdate(item) {
+    const filtered = getFilteredByAllFilters(item.source, item.tagify);
+    item.updateCallback(filtered);
+}
+
 filterItems.forEach(item => {
-    $(item.idSupported).on('keyup', function(e) {
-        clearTimeout(debounce);
-        const value = $(this).val();
-        debounce = setTimeout(function() {
-            const filtered = getFilteredByAllFilters(item.source, value);
-            item.updateCallback(filtered);
-       }, debounceMs);
+    item.tagify = new Tagify(document.querySelector(item.idSupported), {
+        whitelist: [ 'luffy', 'free spirit', 'psy', ],
+        maxTags: 10,
+        dropdown: {
+            classname: "tags-look",
+            enabled: 0,
+            closeOnSelect: false
+        }
     });
+    item.tagify
+        .on('add', e => filterAndUpdate(item))
+        .on('remove', e => filterAndUpdate(item))
+        ;
 });
 
 function getComparator(sortField, asc) {
