@@ -2575,7 +2575,7 @@ let matchers = {
         },
 
         {
-            name: 'Type-Supporting %target%',
+            name: 'Supporting Group: Type',
             targets: [ 'support' ],
             regex: /^\[\{"Characters":"((?:(?!char)[^."])*?(?:\[(?:STR|DEX|QCK|PSY|INT)\]|Type)[^."]+?)character/i,
             submatchers: [
@@ -2590,7 +2590,7 @@ let matchers = {
         },
 
         {
-            name: 'Class-Supporting %target%',
+            name: 'Supporting Group: Class',
             targets: [ 'support' ],
             regex: /^\[\{"Characters":"((?:(?!char)[^."])*?(?:Slasher|Striker|Fighter|Shooter|Free Spirit|Cerebral|Powerhouse|Driven)[^."]+?)character/i,
             submatchers: [
@@ -2599,13 +2599,13 @@ let matchers = {
         },
 
         {
-            name: 'Universal-Supporting %target%',
+            name: 'Supporting Group: Universal',
             targets: [ 'support' ],
             regex: /^\[\{"Characters":"All character/i,
         },
 
         {
-            name: 'Family-Supporting %target%',
+            name: 'Supporting Group: Character Family',
             targets: [ 'support' ],
             // if the supported does not have "character", it is a list of family names
             // the target string is JSON stringified, so there is no space in `":"`
@@ -4966,6 +4966,12 @@ let matchers = {
         },
 
         {
+            name: 'Has Level Limit Break',
+            targets: [ 'limit' ],
+            regex: /\^\$/i,
+        },
+
+        {
             name: 'Key Locked Limit Break',
             targets: [ 'limit' ],
             regex: /Locked/i,
@@ -4996,6 +5002,12 @@ let matchers = {
             name: 'Last Tap',
             targets: [ 'potential' ],
             regex: /Last Tap/i,
+        },
+
+        {
+            name: 'Super Tandem',
+            targets: [ 'potential' ],
+            regex: /Super Tandem/i,
         },
     ],
 };
