@@ -269,11 +269,12 @@ for (const sm in supportMatchers) {
 window.Utils.parseUnits(false);
 
 for (var i = 0; i < window.units.length; i++){
-    if(!window.details[i+1] || !window.details[i+1].support || window.units[i].incomplete){
+    const details = window.details[i+1];
+    if (!details || !Array.isArray(details.support) || !details.support.length || window.units[i].incomplete){
         continue;
     }
     var unit = window.units[i];
-    var lvl5support = window.details[i+1].support[0].description[4];
+    var lvl5support = details.support[0].description[4];
     var matched = false;
     if (lvl5support.match(atkRegex) && !lvl5support.match(/Additional/)){
         matched = true;
