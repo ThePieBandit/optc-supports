@@ -279,7 +279,7 @@ for (var i = 0; i < window.units.length; i++){
     if (lvl5support.match(atkRegex) && !lvl5support.match(/Additional/)){
         matched = true;
         atkSupportUnits.push(unit);
-        var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
+        var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/i);
 
         unit.lvl5percentage = tmpMatch[1]/100.0;
         unit.atkBoost = Math.round(unit.maxATK * unit.lvl5percentage);
@@ -289,7 +289,7 @@ for (var i = 0; i < window.units.length; i++){
     if (lvl5support.match(hpRegex)){
         matched = true;
         hpSupportUnits.push(unit);
-        var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
+        var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/i);
 
         unit.lvl5percentage = tmpMatch[1]/100.0;
         unit.hpBoost = Math.round(unit.maxHP * unit.lvl5percentage);
@@ -299,7 +299,7 @@ for (var i = 0; i < window.units.length; i++){
     if (lvl5support.match(rcvRegex)){
         matched = true;
         rcvSupportUnits.push(unit);
-        var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/);
+        var tmpMatch = lvl5support.match(/Adds ([0-9]+)[%]/i);
 
         unit.lvl5percentage = tmpMatch[1]/100.0;
         unit.rcvBoost = Math.round(unit.maxRCV * unit.lvl5percentage);
