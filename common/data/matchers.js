@@ -5792,6 +5792,19 @@ let matchers = {
         },
 
         {
+            name: 'Orb-Based Damage Reduction',
+            targets: [ 'special', 'superSpecial', 'swap', 'support' ],
+            regex: /(?:reduces|removes) enemies'[^."]+?Orb-Based Damage Reduction[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
+            submatchers: [
+                {
+                    type: 'number',
+                    description: 'Turns:',
+                    groups: [1, 2, 3, 4, 5],
+                },
+            ],
+        },
+
+        {
             name: 'Old Enemy Barrier reducer',
             targets: [ 'special', 'superSpecial', 'swap', 'support' ],
             regex: /(removes|reduces).+Barrier .*duration/i,
