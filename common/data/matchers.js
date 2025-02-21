@@ -5600,6 +5600,7 @@
 					"special",
 					"sailor",
 					"support",
+					"swap"
 				],
 				// Reduces Switch Effect of all characters by 3 turns
 				// Reduces Switch Effect of all characters completely
