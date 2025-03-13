@@ -5598,6 +5598,7 @@
 				targets: [
 					"captain",
 					"special",
+					"superSpecial",
 					"sailor",
 					"support",
 					"swap"
@@ -5637,7 +5638,8 @@
 				targets: [
 					"captain",
 					"special",
-					"support",
+					"superSpecial",
+					"support"
 				],
 				// Reduces VS Gauge of all characters by 3 turns
 				// Reduces VS Gauge of all characters completely
