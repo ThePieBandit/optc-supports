@@ -156715,16 +156715,7 @@ window.details = {
 			{ description: "Boosts base RCV by 20" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Reduce Sailor Despair duration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4229: {//S-Snake & S-Hawk & S-Shark
 		captain: "Boosts ATK of Driven and Powerhouse characters by 3.5x, and boosts HP of Driven and Powerhouse characters by 1.25x, reduces Bind, Despair, Special Bind and Paralysis duration completely on this character and restores Special Cooldown of this character completely when it is rewinded.",
@@ -156784,16 +156775,7 @@ window.details = {
 			{ description: "Boosts base ATK by 50" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Reduce Sailor Despair duration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4230: {//Shanks VS Kid
 		captain: {
@@ -157121,69 +157103,7 @@ window.details = {
 	4232: {//Dorry & Broggy
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Free Spirit characters by 5.5x, boosts HP of Slasher and Free Spirit characters by 1.6x, makes [RCV] and [TND] orbs beneficial for Slasher and Free Spirit characters, makes PERFECTs consume [RCV] orbs, reduces damage received by 20%, makes crew immune to Blow Away, and reduces Special Bind duration by 10 turns. When a Slasher or Free Spirit character performs a Critical Hit, reduces enemies' Percent Damage Reduction duration by 2 turns.",
 		special: "Deals 3x the damage dealt by this character with normal attacks in Typeless damage to all enemies at the end of each turn for 1 turn, reduces Burn and Special Bind duration by 7 turns, and boosts ATK of Slasher and Free Spirit characters by 2.5x for 1 turn. If your crew has Critical Hit Rate or Critical Hit Damage when the special is activated, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn, and reduces damage received by 90% for 1 turn. If your Captain is a Slasher character, changes all orbs, including [BLOCK] orbs, of right column characters into [TND] orbs, and increases boost effects of ATK Up buffs by +0.25x, including effects activated in the same Ability. If your Captain is a Free Spirit character, changes all orbs, including [BLOCK] orbs, of left column characters into [RCV] orbs, and increases boost effects of enemies' Increase Damage Taken debuffs by +0.25x. Inflicts all enemies with Increase Damage Taken by 1.75x for 1 turn.",
-		specialName: "Hakoku Sovereignty of Destruction",
-		festAbility: [
-			"[STR]/Slasher class teammates ATK Up Lv.2, HP Up Lv.2; Slasher class teammates SPD Up Lv.2; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.1, DEF Up Lv.1",
-			"[STR]/Slasher class teammates ATK Up Lv.3, HP Up Lv.3; Slasher class teammates SPD Up Lv.3; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.2, DEF Up Lv.2",
-			"[STR]/Slasher class teammates ATK Up Lv.4, HP Up Lv.4; Slasher class teammates SPD Up Lv.4; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.3, DEF Up Lv.3",
-			"[STR]/Slasher class teammates ATK Up Lv.5, HP Up Lv.5; Slasher class teammates SPD Up Lv.5; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.4, DEF Up Lv.4",
-			"[STR]/Slasher class teammates ATK Up Lv.6, HP Up Lv.6; Slasher class teammates SPD Up Lv.6; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.4, DEF Up Lv.4"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Special Bind, reduce damage taken from [DEX] by 30％",
-		festSpecial: [
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3 damage; targets [STR] teammates for ATK Up Lv.1 (11 s); targets Slasher class teammates for ATK Up Lv.1 (11 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 50% chance of Halve DEF (10 s), ATK x 1.1 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.1 damage; targets [STR] teammates for ATK Up Lv.1 (12 s); targets Slasher class teammates for ATK Up Lv.1 (12 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 55% chance of Halve DEF (10 s), ATK x 1.2 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.2 damage; targets [STR] teammates for ATK Up Lv.1 (13 s); targets Slasher class teammates for ATK Up Lv.1 (13 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 60% chance of Halve DEF (10 s), ATK x 1.3 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.3 damage; targets [STR] teammates for ATK Up Lv.2 (14 s); targets Slasher class teammates for ATK Up Lv.2 (14 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 65% chance of Halve DEF (10 s), ATK x 1.4 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.4 damage; targets [STR] teammates for ATK Up Lv.2 (15 s); targets Slasher class teammates for ATK Up Lv.2 (15 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 70% chance of Halve DEF (10 s), ATK x 1.5 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.5 damage; targets [STR] teammates for ATK Up Lv.3 (16 s); targets Slasher class teammates for ATK Up Lv.3 (16 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 75% chance of Halve DEF (10 s), ATK x 1.6 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.6 damage; targets [STR] teammates for ATK Up Lv.3 (17 s); targets Slasher class teammates for ATK Up Lv.3 (17 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 80% chance of Halve DEF (10 s), ATK x 1.7 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.7 damage; targets [STR] teammates for ATK Up Lv.3 (18 s); targets Slasher class teammates for ATK Up Lv.3 (18 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 85% chance of Halve DEF (10 s), ATK x 1.8 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.8 damage; targets [STR] teammates for ATK Up Lv.4 (19 s); targets Slasher class teammates for ATK Up Lv.4 (19 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 90% chance of Halve DEF (10 s), ATK x 1.9 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 4 damage; targets [STR] teammates for ATK Up Lv.5 (20 s); targets Slasher class teammates for ATK Up Lv.5 (20 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 100% chance of Halve DEF (10 s), ATK x 2 damage"
-			}
-		],
-		festStats: {
-			def: 162,
-			spd: 170,
-			style: "ATK"
-		}
+		specialName: "Hakoku Sovereignty of Destruction"
 	},
 	4233: {//Dorry & Broggy
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Free Spirit characters by 5.5x, boosts HP of Slasher and Free Spirit characters by 1.6x, makes [RCV] and [TND] orbs beneficial for Slasher and Free Spirit characters, makes PERFECTs consume [RCV] orbs, reduces damage received by 20%, makes crew immune to Blow Away, and reduces Special Bind duration by 10 turns. When a Slasher or Free Spirit character performs a Critical Hit, reduces enemies' Percent Damage Reduction duration by 2 turns.",
@@ -157296,69 +157216,7 @@ window.details = {
 			{ description: "Boosts base ATK by 70" },
 			{ description: "Boosts base HP by 200" },
 			{ description: "Reduce base Special Cooldown by 1 turn" }
-		],
-		festAbility: [
-			"[STR]/Slasher class teammates ATK Up Lv.2, HP Up Lv.2; Slasher class teammates SPD Up Lv.2; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.1, DEF Up Lv.1",
-			"[STR]/Slasher class teammates ATK Up Lv.3, HP Up Lv.3; Slasher class teammates SPD Up Lv.3; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.2, DEF Up Lv.2",
-			"[STR]/Slasher class teammates ATK Up Lv.4, HP Up Lv.4; Slasher class teammates SPD Up Lv.4; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.3, DEF Up Lv.3",
-			"[STR]/Slasher class teammates ATK Up Lv.5, HP Up Lv.5; Slasher class teammates SPD Up Lv.5; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.4, DEF Up Lv.4",
-			"[STR]/Slasher class teammates ATK Up Lv.6, HP Up Lv.6; Slasher class teammates SPD Up Lv.6; if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, self Special CT Speed Up Lv.4, DEF Up Lv.4"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Special Bind, reduce damage taken from [DEX] by 30％",
-		festSpecial: [
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3 damage; targets [STR] teammates for ATK Up Lv.1 (11 s); targets Slasher class teammates for ATK Up Lv.1 (11 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 50% chance of Halve DEF (10 s), ATK x 1.1 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.1 damage; targets [STR] teammates for ATK Up Lv.1 (12 s); targets Slasher class teammates for ATK Up Lv.1 (12 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 55% chance of Halve DEF (10 s), ATK x 1.2 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.2 damage; targets [STR] teammates for ATK Up Lv.1 (13 s); targets Slasher class teammates for ATK Up Lv.1 (13 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 60% chance of Halve DEF (10 s), ATK x 1.3 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.3 damage; targets [STR] teammates for ATK Up Lv.2 (14 s); targets Slasher class teammates for ATK Up Lv.2 (14 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 65% chance of Halve DEF (10 s), ATK x 1.4 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.4 damage; targets [STR] teammates for ATK Up Lv.2 (15 s); targets Slasher class teammates for ATK Up Lv.2 (15 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 70% chance of Halve DEF (10 s), ATK x 1.5 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.5 damage; targets [STR] teammates for ATK Up Lv.3 (16 s); targets Slasher class teammates for ATK Up Lv.3 (16 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 75% chance of Halve DEF (10 s), ATK x 1.6 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.6 damage; targets [STR] teammates for ATK Up Lv.3 (17 s); targets Slasher class teammates for ATK Up Lv.3 (17 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 80% chance of Halve DEF (10 s), ATK x 1.7 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.7 damage; targets [STR] teammates for ATK Up Lv.3 (18 s); targets Slasher class teammates for ATK Up Lv.3 (18 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 85% chance of Halve DEF (10 s), ATK x 1.8 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 3.8 damage; targets [STR] teammates for ATK Up Lv.4 (19 s); targets Slasher class teammates for ATK Up Lv.4 (19 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 90% chance of Halve DEF (10 s), ATK x 1.9 damage"
-			},
-			{
-				cooldown: 36,
-				description: "Targets enemies within large range (horizontal) for ATK x 4 damage; targets [STR] teammates for ATK Up Lv.5 (20 s); targets Slasher class teammates for ATK Up Lv.5 (20 s); if \"Shanks\", \"Ben Beckman\", \"Yasopp\", \"Lucky Roux\", \"Monster\", \"Bonk Punch\", \"Lime Juice\", \"Hongo\", \"Building Snake\", \"Howling Gabu\", or \"Rockstar\" is on the team, targets all enemies for 100% chance of Halve DEF (10 s), ATK x 2 damage"
-			}
-		],
-		festStats: {
-			def: 162,
-			spd: 170,
-			style: "ATK"
-		}
+		]
 	},
 	4234: {//Fugar
 		captain: "Boosts ATK of Cerebral and Slasher characters by 3.5x, reduces damage received by 20%, and reduces crew's current HP by 10% at the end of each turn.",
@@ -157418,16 +157276,7 @@ window.details = {
 			{ description: "Boosts base ATK by 30" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Cooldown Reduction" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "DEF"
-		}
+		]
 	},
 	4235: {//Frog-Toes
 		captain: "Reduces Special Cooldown of this character by 6 turns at the start of the fight, and boosts ATK of Cerebral and Slasher characters by 3.5x. At the start of the fight, applies the following buff: Blindness Immunity for 10 turns.",
@@ -157487,16 +157336,7 @@ window.details = {
 			{ description: "Boosts base ATK by 30" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Reduce Slot Bind duration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "SPT"
-		}
+		]
 	},
 	4236: {//Pururu
 		captain: "Boosts ATK of Cerebral and Slasher characters by 3.5x, and boosts ATK of Cerebral and Slasher characters by 1.2x.",
@@ -157514,16 +157354,7 @@ window.details = {
 					"Once per adventure, when the supported character uses a Territory special, changes the orb of the supported character into a Matching orb, reduces enemies' Damage Nullification duration by 1 turn, and reduces Burn duration by 1 turn."
 				]
 			}
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4237: {//Hawkins
 		captain: "Boosts ATK of [DEX] characters by 4x, boosts ATK of all other characters by 3.5x, boosts HP of all characters by 1.3x, deals 10% of enemies' current HP in damage to all enemies at the end of each turn, and reduces Special Cooldown of this character by 1 turn after each turn you take damage. If HP is below 80% and a crew member uses a special, increases Special Counter of this character by 1 (effect can be activated again if HP goes above 80%). Recovers 50% of damage taken from enemies in the previous stage when entering a new stage. At the beginning of each Stage, increases the Attack Timer of all enemies by 1 turn.",
@@ -157642,125 +157473,7 @@ window.details = {
                 },
                 rResilience: true
             }
-        ],
-		festAbility: {
-            base: [
-			    "When remaining HP is 50% or below, self SPD Up Lv.1, DEF Up Lv.1; when remaining HP is 50% or below, [DEX] teammates Guard % Up Lv.1, Critical % Up Lv.1",
-			    "When remaining HP is 50% or below, self SPD Up Lv.2, DEF Up Lv.2; when remaining HP is 50% or below, [DEX] teammates Guard % Up Lv.2, Critical % Up Lv.2",
-			    "When remaining HP is 50% or below, self SPD Up Lv.3, DEF Up Lv.3; when remaining HP is 50% or below, [DEX] teammates Guard % Up Lv.3, Critical % Up Lv.3",
-			    "When remaining HP is 50% or below, self SPD Up Lv.4, DEF Up Lv.4; when remaining HP is 50% or below, [DEX] teammates Guard % Up Lv.4, Critical % Up Lv.4",
-			    "When remaining HP is 50% or below, self SPD Up Lv.5, DEF Up Lv.5; when remaining HP is 50% or below, [DEX] teammates Guard % Up Lv.5, Critical % Up Lv.5"
-		    ],
-            llbbase: [
-            	"When remaining HP is 60% or below, self SPD Up Lv.2, DEF Up Lv.2; when remaining HP is 60% or below, [DEX] teammates Guard % Up Lv.1, Critical % Up Lv.1",
-	            "When remaining HP is 60% or below, self SPD Up Lv.3, DEF Up Lv.3; when remaining HP is 60% or below, [DEX] teammates Guard % Up Lv.2, Critical % Up Lv.2",
-	            "When remaining HP is 60% or below, self SPD Up Lv.4, DEF Up Lv.4; when remaining HP is 60% or below, [DEX] teammates Guard % Up Lv.3, Critical % Up Lv.3",
-	            "When remaining HP is 60% or below, self SPD Up Lv.5, DEF Up Lv.5; when remaining HP is 60% or below, [DEX] teammates Guard % Up Lv.4, Critical % Up Lv.4",
-	            "When remaining HP is 60% or below, self SPD Up Lv.6, DEF Up Lv.6; when remaining HP is 60% or below, [DEX] teammates Guard % Up Lv.5, Critical % Up Lv.5"
-            ]
-        },
-		festAttackPattern: [
-			"Normal Attack",
-			"Heal Self Lv.1",
-			"Normal Attack",
-			"Heal Self Lv.2"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: {
-            base: "Heal 150 HP at an interval, reduce damage taken from [QCK] by 30%",
-            llbbase: "Heal 250 HP at an interval, reduce damage taken from [QCK] by 40%"
-        },
-        festSpecial: {
-            base: [
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.2 (11 s), ATK Up Lv.3 (11 s), activates Provoke on self (11 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.2 (12 s), ATK Up Lv.3 (12 s), activates Provoke on self (12 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1.1 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.2 (13 s), ATK Up Lv.3 (13 s), activates Provoke on self (13 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1.2 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.3 (14 s), ATK Up Lv.3 (14 s), activates Provoke on self (14 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1.3 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.3 (15 s), ATK Up Lv.4 (15 s), activates Provoke on self (15 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1.4 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.4 (16 s), ATK Up Lv.4 (16 s), activates Provoke on self (16 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1.5 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.4 (17 s), ATK Up Lv.4 (17 s), activates Provoke on self (17 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1.6 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.4 (18 s), ATK Up Lv.5 (18 s), activates Provoke on self (18 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1.7 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.5 (19 s), ATK Up Lv.5 (19 s), activates Provoke on self (19 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 1.8 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.6 (20 s), ATK Up Lv.6 (20 s), activates Provoke on self (20 s); targets enemies within medium range for ATK x 1.5 damage; when remaining HP is 50% or below, targets enemies within large range for ATK x 2 damage"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.3 (21 s), ATK Up Lv.4 (21 s), Shield Lv.1 (15 s), activates Provoke on self (21 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 1.5 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.3 (22 s), ATK Up Lv.4 (22 s), Shield Lv.1 (15 s), activates Provoke on self (22 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 1.6 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.3 (23 s), ATK Up Lv.4 (23 s), Shield Lv.2 (15 s), activates Provoke on self (23 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 1.7 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.4 (24 s), ATK Up Lv.4 (24 s), Shield Lv.3 (15 s), activates Provoke on self (24 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 1.8 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.4 (25 s), ATK Up Lv.5 (25 s), Shield Lv.3 (15 s), activates Provoke on self (25 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 1.9 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.5 (26 s), ATK Up Lv.5 (26 s), Shield Lv.4 (15 s), activates Provoke on self (26 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 2 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.5 (27 s), ATK Up Lv.5 (27 s), Shield Lv.5 (15 s), activates Provoke on self (27 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 2.1 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.5 (28 s), ATK Up Lv.6 (28 s), Shield Lv.5 (15 s), activates Provoke on self (28 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 2.2 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.6 (29 s), ATK Up Lv.6 (29 s), Shield Lv.6 (15 s), activates Provoke on self (29 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 2.3 damage"
-                },
-                {
-                    cooldown: 36,
-                    description: "Targets self for DEF Up Lv.7 (30 s), ATK Up Lv.7 (30 s), Shield Lv.7 (15 s), activates Provoke on self (30 s); targets enemies within large range for ATK x 1.75 damage; when remaining HP is 60% or below, ATK x 2.5 damage"
-                }
-            ]
-        },
-		festStats: {
-			def: 310,
-			spd: 124,
-			style: "DEF"
-		}
+        ]
 	},
 	4238: {//Vivi
 		captain: "Reduces crew's current HP by 80% at the start of the fight, reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [DEX], Free Spirit and Slasher characters by 4.5x-4.95x depending on the amount healed in the last turn, boosts RCV of [DEX], Free Spirit and Slasher characters by 1.3x, and reduces damage received by 20%.",
@@ -158348,69 +158061,7 @@ window.details = {
 	4241: {//Prince Grus & Kujaku & Hibari
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 4.5x, by 5.75x instead if you have a Fighter, Slasher, Striker and Shooter character on your crew, boosts HP of all characters by 1.25x, and makes [INT] and [RCV] orbs beneficial for all characters. If you have a Fighter, Slasher, Striker and Shooter character on your crew, up to 8 times per adventure and 4 times per turn, reduces Special Cooldown of this character by 3 turns.",
 		special: "Reduces enemies' Threshold Damage Reduction effect by 90%, deals 200x character's ATK in [INT] damage to all enemies at the end of each turn for 3 turns, reduces Counter-Healing and Counter-RCV duration by 4 turns, boosts ATK of Fighter, Slasher, Striker, and Shooter characters by 2.75x for 1 turn, changes [BLOCK], [STR], [DEX], [QCK], [PSY] and [INT] orbs into [RCV] orbs, and reduces enemies' Fighter, Slasher, Striker, and Shooter Resistance by -10% for 1 turn. Up to 1 time per adventure, if your crew has 5 turns or more of End of Turn Healing when the special is activated and a [STR], [DEX], or [QCK] character is supporting this character, reduces Special Cooldown of bottom row characters by 4 turns; reduces Special Cooldown of this character by 12 turns otherwise. Recovers 9,292 HP at the end of the turn for 7 turns.",
-		specialName: "Navy HQ Top Secret Special Force \"SWORD\"",
-		festAbility: [
-			"Striker/Shooter class teammates HP Up Lv.2, ATK Up Lv.2; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.1; self HP Up Lv.6, SPD Up Lv.6",
-			"Striker/Shooter class teammates HP Up Lv.3, ATK Up Lv.3; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.2; self HP Up Lv.7, SPD Up Lv.7",
-			"Striker/Shooter class teammates HP Up Lv.4, ATK Up Lv.4; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.3; self HP Up Lv.8, SPD Up Lv.8",
-			"Striker/Shooter class teammates HP Up Lv.5, ATK Up Lv.5; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.4; self HP Up Lv.9, SPD Up Lv.9",
-			"Striker/Shooter class teammates HP Up Lv.6, ATK Up Lv.6; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.5; self HP Up Lv.10, SPD Up Lv.10"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Special Bind, reduce damage taken from [PSY] by 30％",
-		festSpecial: [
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.1 (20 s); targets 3 high ATK enemies for 50% chance of Halve ATK (15 s); targets 3 high SPD enemies for 40% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.1 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.1 (20 s); targets 3 high ATK enemies for 55% chance of Halve ATK (15 s); targets 3 high SPD enemies for 44% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.1 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.1 (20 s); targets 3 high ATK enemies for 60% chance of Halve ATK (15 s); targets 3 high SPD enemies for 48% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.1 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.2 (20 s); targets 3 high ATK enemies for 65% chance of Halve ATK (15 s); targets 3 high SPD enemies for 52% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.2 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.2 (20 s); targets 3 high ATK enemies for 70% chance of Halve ATK (15 s); targets 3 high SPD enemies for 56% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.2 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.3 (20 s); targets 3 high ATK enemies for 75% chance of Halve ATK (15 s); targets 3 high SPD enemies for 60% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.3 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.3 (20 s); targets 3 high ATK enemies for 80% chance of Halve ATK (15 s); targets 3 high SPD enemies for 64% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.3 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.3 (20 s); targets 3 high ATK enemies for 85% chance of Halve ATK (15 s); targets 3 high SPD enemies for 68% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.3 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.4 (20 s); targets 3 high ATK enemies for 90% chance of Halve ATK (15 s); targets 3 high SPD enemies for 72% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.4 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.5 (20 s); targets 3 high ATK enemies for 100% chance of Halve ATK (15 s); targets 3 high SPD enemies for 80% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.5 (20 s)"
-			}
-		],
-		festStats: {
-			def: 195,
-			spd: 144,
-			style: "DBF"
-		}
+		specialName: "Navy HQ Top Secret Special Force \"SWORD\""
 	},
 	4242: {//Prince Grus & Kujaku & Hibari
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 4.5x, by 5.75x instead if you have a Fighter, Slasher, Striker and Shooter character on your crew, boosts HP of all characters by 1.25x, and makes [INT] and [RCV] orbs beneficial for all characters. If you have a Fighter, Slasher, Striker and Shooter character on your crew, up to 8 times per adventure and 4 times per turn, reduces Special Cooldown of this character by 3 turns.",
@@ -158507,97 +158158,7 @@ window.details = {
 			{ description: "Boosts base HP by 150" },
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Reduce base Special Cooldown by 1 turn" }
-		],
-		festAbility: [
-			"Striker/Shooter class teammates HP Up Lv.2, ATK Up Lv.2; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.1; self HP Up Lv.6, SPD Up Lv.6",
-			"Striker/Shooter class teammates HP Up Lv.3, ATK Up Lv.3; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.2; self HP Up Lv.7, SPD Up Lv.7",
-			"Striker/Shooter class teammates HP Up Lv.4, ATK Up Lv.4; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.3; self HP Up Lv.8, SPD Up Lv.8",
-			"Striker/Shooter class teammates HP Up Lv.5, ATK Up Lv.5; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.4; self HP Up Lv.9, SPD Up Lv.9",
-			"Striker/Shooter class teammates HP Up Lv.6, ATK Up Lv.6; if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team, team DEF Up Lv.5; self HP Up Lv.10, SPD Up Lv.10"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Special Bind, reduce damage taken from [PSY] by 30％",
-		festSpecial: [
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.1 (20 s); targets 3 high ATK enemies for 50% chance of Halve ATK (15 s); targets 3 high SPD enemies for 40% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.1 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.1 (20 s); targets 3 high ATK enemies for 55% chance of Halve ATK (15 s); targets 3 high SPD enemies for 44% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.1 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.1 (20 s); targets 3 high ATK enemies for 60% chance of Halve ATK (15 s); targets 3 high SPD enemies for 48% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.1 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.2 (20 s); targets 3 high ATK enemies for 65% chance of Halve ATK (15 s); targets 3 high SPD enemies for 52% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.2 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.2 (20 s); targets 3 high ATK enemies for 70% chance of Halve ATK (15 s); targets 3 high SPD enemies for 56% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.2 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.3 (20 s); targets 3 high ATK enemies for 75% chance of Halve ATK (15 s); targets 3 high SPD enemies for 60% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.3 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.3 (20 s); targets 3 high ATK enemies for 80% chance of Halve ATK (15 s); targets 3 high SPD enemies for 64% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.3 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.3 (20 s); targets 3 high ATK enemies for 85% chance of Halve ATK (15 s); targets 3 high SPD enemies for 68% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.3 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.4 (20 s); targets 3 high ATK enemies for 90% chance of Halve ATK (15 s); targets 3 high SPD enemies for 72% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.4 (20 s)"
-			},
-			{
-				cooldown: 27,
-				description: "Targets Striker/Shooter class teammates for Shield Lv.5 (20 s); targets 3 high ATK enemies for 100% chance of Halve ATK (15 s); targets 3 high SPD enemies for 80% chance of Confusion (10 s); if \"Monkey D. Garp\", \"Coby\", \"Helmeppo\", or \"X Drake\" is on the team; targets 3 teammates with low current HP for Shield Lv.5 (20 s)"
-			}
-		],
-		festStats: {
-			def: 195,
-			spd: 144,
-			style: "DBF"
-		},
-		festAbilityGP: [
-			{
-				festGPAbility: "[INT] teammates HP, SPD Up Lv.1, DEF Up Lv.1; Striker/Shooter class teammates Special CT Speed Up Lv.1, ATK, HP Up Lv.1",
-				festGPSpecial: "Targets 1 high SPD enemy for 60% chance of Action Bind (10 s), SPD Down Lv.8 (20 s); targets 1 high ATK enemy for 60% chance of Special Bind (10 s), ATK Down Lv.8 (20 s); activates Provoke on 1 high DEF enemy (12 s), DEF Down Lv.8 (20 s); targets 1 teammate with low current Special CT for Special CT 60% reduction",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates HP, SPD Up Lv.2, DEF Up Lv.1; Striker/Shooter class teammates Special CT Speed Up Lv.1, ATK, HP Up Lv.2",
-				festGPSpecial: "Targets 1 high SPD enemy for 70% chance of Action Bind (10 s), SPD Down Lv.8 (20 s); targets 1 high ATK enemy for 70% chance of Special Bind (10 s), ATK Down Lv.8 (20 s); activates Provoke on 1 high DEF enemy (14 s), DEF Down Lv.8 (20 s); targets 1 teammate with low current Special CT for Special CT 70% reduction",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates HP, SPD Up Lv.3, DEF Up Lv.2; Striker/Shooter class teammates Special CT Speed Up Lv.1, ATK, HP Up Lv.3",
-				festGPSpecial: "Targets 1 high SPD enemy for 80% chance of Action Bind (10 s), SPD Down Lv.9 (20 s); targets 1 high ATK enemy for 80% chance of Special Bind (10 s), ATK Down Lv.9 (20 s); activates Provoke on 1 high DEF enemy (16 s), DEF Down Lv.9 (20 s); targets 1 teammate with low current Special CT for Special CT 80% reduction",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates HP, SPD Up Lv.3, DEF Up Lv.2; Striker/Shooter class teammates Special CT Speed Up Lv.2, ATK, HP Up Lv.3",
-				festGPSpecial: "Targets 1 high SPD enemy for 90% chance of Action Bind (10 s), SPD Down Lv.9 (20 s); targets 1 high ATK enemy for 90% chance of Special Bind (10 s), ATK Down Lv.9 (20 s); activates Provoke on 1 high DEF enemy (18 s), DEF Down Lv.9 (20 s); targets 1 teammate with low current Special CT for Special CT 90% reduction",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates HP, SPD Up Lv.4, DEF Up Lv.2; Striker/Shooter class teammates Special CT Speed Up Lv.2, ATK, HP Up Lv.4",
-				festGPSpecial: "Targets 1 high SPD enemy for 100% chance of Action Bind (10 s), SPD Down Lv.10 (20 s); targets 1 high ATK enemy for 100% chance of Special Bind (10 s), ATK Down Lv.10 (20 s); activates Provoke on 1 high DEF enemy (20 s), DEF Down Lv.10 (20 s); targets 1 teammate with low current Special CT for Special CT 100% reduction",
-				uses: 3
-			}
-		],
-		festAbilityGPCondition: "After receiving damage 10 times"
+		]
 	},
 	4243: {//Helmeppo
 		captain: "Boosts ATK of all characters by 4x, by 4.5x instead if HP is above 99% or below 10%, boosts HP of all characters by 1.2x, and makes [STR] orbs beneficial for all characters. If this character becomes your captain in the middle of an island, further boosts ATK of all characters by 1.2x, makes this character's normal attacks count as Type Effective against all Types, and reduces damage received by 15%.",
@@ -158657,16 +158218,7 @@ window.details = {
 			{ description: "Boosts base ATK by 40" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Barrier Penetration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4244: {//Tashigi
 		captain: "Boosts ATK of all characters 4x, boosts HP of all characters by 1.2x, and makes [QCK] orbs beneficial for all characters. Boosts ATK of all characters by an additive 0.1x after each PERFECT in a row, up to 4.5x.",
@@ -158726,16 +158278,7 @@ window.details = {
 			{ description: "Boosts base HP by 60" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Critical Hit" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4245: {//Kuzan
 		captain: "Reduces Special Cooldown of this character by 4 turns at the start of the fight, reduces Special Cooldown of all other characters by 1 turn at the start of the fight, boosts ATK of all character by 3x, and boosts HP of all characters by 1.25x. If you defeat an enemy, increases ATK boost slightly. Stacks up to 5 times to a maximum of 5x.",
@@ -158824,69 +158367,7 @@ window.details = {
 			{ description: "Boosts base RCV by 50" },
 			{ description: "Boosts base HP by 150" },
 			{ description: "Acquire Sailor Ability 2: " }
-		],
-		festAbility: [
-			"Free Spirit/Shooter class teammates ATK Up Lv.1, HP Up Lv.1",
-			"Free Spirit/Shooter class teammates ATK Up Lv.2, HP Up Lv.1",
-			"Free Spirit/Shooter class teammates ATK Up Lv.3, HP Up Lv.2",
-			"Free Spirit/Shooter class teammates ATK Up Lv.4, HP Up Lv.2",
-			"Free Spirit/Shooter class teammates ATK Up Lv.5, HP Up Lv.3"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Heal Teammate in Range Lv.2 (Medium Range)",
-			"Power Attack",
-			"Heal Teammate in Range Lv.2 (Small Range)"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "60% chance to evade Special Bind",
-		festSpecial: [
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.1 (21 s), DEF Down Lv.1 (21 s), ATK x 1.1 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.1 (22 s), DEF Down Lv.1 (22 s), ATK x 1.2 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.1 (23 s), DEF Down Lv.1 (23 s), ATK x 1.3 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.2 (24 s), DEF Down Lv.2 (24 s), ATK x 1.4 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.2 (25 s), DEF Down Lv.2 (25 s), ATK x 1.5 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.3 (26 s), DEF Down Lv.3 (26 s), ATK x 1.6 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.3 (27 s), DEF Down Lv.3 (27 s), ATK x 1.7 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.3 (28 s), DEF Down Lv.3 (28 s), ATK x 1.8 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.4 (29 s), DEF Down Lv.4 (29 s), ATK x 1.9 damage"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.5 (30 s), DEF Down Lv.5 (30 s), ATK x 2 damage"
-			}
-		],
-		festStats: {
-			def: 147,
-			spd: 155,
-			style: "DBF"
-		}
+		]
 	},
 	4246: {//Kuzan
 		captain: "Reduces Special Cooldown of this character by 4 turns at the start of the fight, reduces Special Cooldown of all other characters by 1 turn at the start of the fight, boosts ATK of all character by 4x, and boosts HP of all characters by 1.25x. If you defeat an enemy, increases ATK boost slightly. Stacks up to 4 times to a maximum of 5x.",
@@ -158975,69 +158456,7 @@ window.details = {
 			{ description: "Boosts base RCV by 50" },
 			{ description: "Boosts base HP by 150" },
 			{ description: "Acquire Sailor Ability 2: " }
-		],
-		festAbility: [
-			"Free Spirit/Shooter class teammates ATK Up Lv.1, HP Up Lv.1; if 5 or more Free Spirit/Shooter characters are on the team, self ATK Up Lv.1, SPD Up Lv.1",
-			"Free Spirit/Shooter class teammates ATK Up Lv.2, HP Up Lv.2; if 5 or more Free Spirit/Shooter characters are on the team, self ATK Up Lv.2, SPD Up Lv.2",
-			"Free Spirit/Shooter class teammates ATK Up Lv.3, HP Up Lv.3; if 5 or more Free Spirit/Shooter characters are on the team, self ATK Up Lv.3, SPD Up Lv.3",
-			"Free Spirit/Shooter class teammates ATK Up Lv.4, HP Up Lv.4; if 5 or more Free Spirit/Shooter characters are on the team, self ATK Up Lv.4, SPD Up Lv.4",
-			"Free Spirit/Shooter class teammates ATK Up Lv.5, HP Up Lv.5; if 5 or more Free Spirit/Shooter characters are on the team, self ATK Up Lv.5, SPD Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Heal Teammate in Range Lv.2 (Medium Range)",
-			"Power Attack",
-			"Heal Teammate in Range Lv.2 (Small Range)"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "80% chance to evade Special Bind, reduce damage taken from [QCK] by 20％",
-		festSpecial: [
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.2 (21 s), DEF Down Lv.2 (21 s), ATK x 1.3 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.3 (21 s), SPD Down Lv.3 (21 s), DEF Down Lv.1 (21 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.2 (22 s), DEF Down Lv.2 (22 s), ATK x 1.4 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.3 (22 s), SPD Down Lv.3 (22 s), DEF Down Lv.1 (22 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.2 (23 s), DEF Down Lv.2 (23 s), ATK x 1.5 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.3 (23 s), SPD Down Lv.3 (23 s), DEF Down Lv.1 (23 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.3 (24 s), DEF Down Lv.3 (24 s), ATK x 1.6 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.4 (24 s), SPD Down Lv.4 (24 s), DEF Down Lv.2 (24 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.3 (25 s), DEF Down Lv.3 (25 s), ATK x 1.7 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.4 (25 s), SPD Down Lv.4 (25 s), DEF Down Lv.2 (25 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.4 (26 s), DEF Down Lv.4 (26 s), ATK x 1.8 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.5 (26 s), SPD Down Lv.5 (26 s), DEF Down Lv.3 (26 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.4 (27 s), DEF Down Lv.4 (27 s), ATK x 1.9 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.5 (27 s), SPD Down Lv.5 (27 s), DEF Down Lv.3 (27 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.4 (28 s), DEF Down Lv.4 (28 s), ATK x 2 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.5 (28 s), SPD Down Lv.5 (28 s), DEF Down Lv.3 (28 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.5 (29 s), DEF Down Lv.5 (29 s), ATK x 2.1 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.6 (29 s), SPD Down Lv.6 (29 s), DEF Down Lv.4 (29 s)"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range for ATK Down Lv.6 (30 s), DEF Down Lv.6 (30 s), ATK x 2.2 damage; if 5 or more Free Spirit/Shooter characters are on the team, targets 3 enemies with high Special CT for ATK Down Lv.7 (30 s), SPD Down Lv.7 (30 s), DEF Down Lv.5 (30 s)"
-			}
-		],
-		festStats: {
-			def: 172,
-			spd: 160,
-			style: "DBF"
-		}
+		]
 	},
 	4247: {//Pizarro
 		captain: "Reduces Special Cooldown of Powerhouse characters by 1 turn at the start of the fight, boosts ATK of Powerhouse characters by 5.25x, boosts HP of Powerhouse characters by 1.3x, reduces damage received by 15%, and deals 0x-500x character's ATK in Typeless damage to one enemy at the end of each turn depending on how many PERFECTs scored that turn. If this character has a [DEX], [TND], or [EMPTY] orb and you attack with this character, reduces enemies' Threshold Damage Reduction duration by 3 turns.",
@@ -159132,69 +158551,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Boosts base RCV by 30" },
 			{ description: "Reduce base Special Cooldown by 1 turn" }
-		],
-		festAbility: [
-			"Powerhouse/Free Spirit class teammates ATK Up Lv.2, HP Up Lv.2, SPD Up Lv.2; if 6 or more Powerhouse/Free Spirit characters are on the team, all enemies ATK Down Lv.2, SPD Down Lv.2",
-			"Powerhouse/Free Spirit class teammates ATK Up Lv.3, HP Up Lv.3, SPD Up Lv.3; if 6 or more Powerhouse/Free Spirit characters are on the team, all enemies ATK Down Lv.3, SPD Down Lv.3",
-			"Powerhouse/Free Spirit class teammates ATK Up Lv.4, HP Up Lv.4, SPD Up Lv.4; if 6 or more Powerhouse/Free Spirit characters are on the team, all enemies ATK Down Lv.4, SPD Down Lv.4",
-			"Powerhouse/Free Spirit class teammates ATK Up Lv.5, HP Up Lv.5, SPD Up Lv.5; if 6 or more Powerhouse/Free Spirit characters are on the team, all enemies ATK Down Lv.5, SPD Down Lv.5",
-			"Powerhouse/Free Spirit class teammates ATK Up Lv.6, HP Up Lv.6, SPD Up Lv.6; if 6 or more Powerhouse/Free Spirit characters are on the team, all enemies ATK Down Lv.6, SPD Down Lv.6"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Heal Teammate in Range Lv.2 (Medium Range)",
-			"Power Attack",
-			"Heal Teammate in Range Lv.2 (Small Range)"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Halve Stats, heal 300 HP at an interval, reduce damage taken from [QCK] by 30%, increase damage dealt to [QCK] by 30%",
-		festSpecial: [
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.3 (11 s); targets 3 enemies with high Special CT for 53% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 73% chance of Halve ATK/Halve DEF (11 s); targets self for ATK Up Lv.1 (21 s), DEF Up Lv.1 (21 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.3 (12 s); targets 3 enemies with high Special CT for 56% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 76% chance of Halve ATK/Halve DEF (12 s); targets self for ATK Up Lv.2 (22 s), DEF Up Lv.1 (22 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.3 (13 s); targets 3 enemies with high Special CT for 59% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 79% chance of Halve ATK/Halve DEF (13 s); targets self for ATK Up Lv.3 (23 s), DEF Up Lv.1 (23 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.4 (14 s); targets 3 enemies with high Special CT for 62% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 82% chance of Halve ATK/Halve DEF (14 s); targets self for ATK Up Lv.4 (24 s), DEF Up Lv.2 (24 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.4 (15 s); targets 3 enemies with high Special CT for 65% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 85% chance of Halve ATK/Halve DEF (15 s); targets self for ATK Up Lv.5 (25 s), DEF Up Lv.2 (25 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.5 (16 s); targets 3 enemies with high Special CT for 68% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 88% chance of Halve ATK/Halve DEF (16 s); targets self for ATK Up Lv.6 (26 s), DEF Up Lv.3 (26 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.5 (17 s); targets 3 enemies with high Special CT for 71% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 91% chance of Halve ATK/Halve DEF (17 s); targets self for ATK Up Lv.7 (27 s), DEF Up Lv.3 (27 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.5 (18 s); targets 3 enemies with high Special CT for 74% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 94% chance of Halve ATK/Halve DEF (18 s); targets self for ATK Up Lv.8 (28 s), DEF Up Lv.4 (28 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.6 (19 s); targets 3 enemies with high Special CT for 77% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 97% chance of Halve ATK/Halve DEF (19 s); targets self for ATK Up Lv.9 (29 s), DEF Up Lv.4 (29 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets enemies within large range for Miss % Up Lv.8 (20 s); targets 3 enemies with high Special CT for 80% chance of Special Bind (10 s); if 6 or more Powerhouse/Free Spirit characters are on the team, targets enemies within large range for 100% chance of Halve ATK/Halve DEF (20 s); targets self for ATK Up Lv.10 (30 s), DEF Up Lv.5 (30 s)"
-			}
-		],
-		festStats: {
-			def: 205,
-			spd: 137,
-			style: "DBF"
-		}
+		]
 	},
 	4248: {//San Juan Wolf
 		captain: "Boosts ATK of [DEX] characters by 2.5x, and boosts HP of [DEX] characters by 1.2x.",
@@ -159234,69 +158591,7 @@ window.details = {
 			{ description: "Boosts base ATK by 150" },
 			{ description: "Acquire 1 additional Socket slot" },
 			{ description: "Acquire Potential 2: [STR] Damage Reduction" }
-		],
-		festAbility: [
-			"Powerhouse/Driven class teammates DEF Up Lv.1, HP Up Lv.1; if 6 or more Powerhouse/Driven characters are on the team, Powerhouse/Driven class teammates ATK Up Lv.1, DEF Up Lv.1, self Shield Lv.6",
-			"Powerhouse/Driven class teammates DEF Up Lv.2, HP Up Lv.2; if 6 or more Powerhouse/Driven characters are on the team, Powerhouse/Driven class teammates ATK Up Lv.2, DEF Up Lv.2, self Shield Lv.7",
-			"Powerhouse/Driven class teammates DEF Up Lv.3, HP Up Lv.3; if 6 or more Powerhouse/Driven characters are on the team, Powerhouse/Driven class teammates ATK Up Lv.3, DEF Up Lv.3, self Shield Lv.8",
-			"Powerhouse/Driven class teammates DEF Up Lv.4, HP Up Lv.4; if 6 or more Powerhouse/Driven characters are on the team, Powerhouse/Driven class teammates ATK Up Lv.4, DEF Up Lv.4, self Shield Lv.9",
-			"Powerhouse/Driven class teammates DEF Up Lv.5, HP Up Lv.5; if 6 or more Powerhouse/Driven characters are on the team, Powerhouse/Driven class teammates ATK Up Lv.5, DEF Up Lv.5, self Shield Lv.10"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Damage Over Time, reduce damage taken from [QCK] by 30％",
-		festSpecial: [
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 1.3 damage; targets self for DEF Up Lv.2 (21 s); activates Provoke on self (21 s); targets Powerhouse/Driven class teammates for ATK x 1.3 Counter stance (21 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 1.4 damage; targets self for DEF Up Lv.2 (22 s); activates Provoke on self (22 s); targets Powerhouse/Driven class teammates for ATK x 1.4 Counter stance (22 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 1.5 damage; targets self for DEF Up Lv.2 (23 s); activates Provoke on self (23 s); targets Powerhouse/Driven class teammates for ATK x 1.5 Counter stance (23 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 1.6 damage; targets self for DEF Up Lv.3 (24 s); activates Provoke on self (24 s); targets Powerhouse/Driven class teammates for ATK x 1.6 Counter stance (24 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 1.7 damage; targets self for DEF Up Lv.3 (25 s); activates Provoke on self (25 s); targets Powerhouse/Driven class teammates for ATK x 1.7 Counter stance (25 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 1.8 damage; targets self for DEF Up Lv.4 (26 s); activates Provoke on self (26 s); targets Powerhouse/Driven class teammates for ATK x 1.8 Counter stance (26 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 1.9 damage; targets self for DEF Up Lv.4 (27 s); activates Provoke on self (27 s); targets Powerhouse/Driven class teammates for ATK x 1.9 Counter stance (27 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 2 damage; targets self for DEF Up Lv.4 (28 s); activates Provoke on self (28 s); targets Powerhouse/Driven class teammates for ATK x 2 Counter stance (28 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 2.1 damage; targets self for DEF Up Lv.5 (29 s); activates Provoke on self (29 s); targets Powerhouse/Driven class teammates for ATK x 2.1 Counter stance (29 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within large range for ATK x 2.2 damage; targets self for DEF Up Lv.6 (30 s); activates Provoke on self (30 s); targets Powerhouse/Driven class teammates for ATK x 2.2 Counter stance (30 s)"
-			}
-		],
-		festStats: {
-			def: 346,
-			spd: 86,
-			style: "DEF"
-		}
+		]
 	},
 	4249: {//Coby
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Fighter, Striker, and Cerebral characters by 5.25x, boosts HP of Fighter, Striker, and Cerebral characters by 1.25x, makes [PSY] and [TND] orbs beneficial for Fighter, Striker, and Cerebral characters, and reduces damage received by 15%. If Territory: Fighter class is on the field, boosts ATK of Fight characters by 6x. Up to 2 times per adventure, if a crew member uses a special to apply Territory, recovers 6,000 HP at the end of each turn for 7 turns, and reduces Special Bind and Bind duration by 6 turns.",
