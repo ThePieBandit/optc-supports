@@ -632,7 +632,7 @@
 		// depending on the conditions (so that one will handle the `Striker characters`,
 		// the other will handle the family names.)
 		let charactersRegex =
-			/of the following, excluding Supports and counting only 1 per unit\: (?!.+:)(?:\d (.*?)characters(?: or )?)?(.*)?\./i;
+			/of the following, excluding Supports and counting only 1 per unit\: (?!.+:)(?:\d (.*?)characters(?: or )?)?(.*)?/i;
 		let match = criteria.match(charactersRegex);
 		if (!match) return null;
 		// prioritize family names. if there are no family names (match[2] is null|undefined), use the classes/types condition.
