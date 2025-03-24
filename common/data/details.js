@@ -139570,12 +139570,12 @@ window.details = {
             }
         ]
     },
-    3992: {
+    3992: {//Uta
         captain: "Boosts ATK of [PSY], Free Spirit, and Shooter characters by 5.25x, by 5.5x instead if they have a [PSY] or [TND] orb, boosts HP of [PSY], Free Spirit, and Shooter characters HP by 1.3x, makes [TND] orbs beneficial for [PSY], Free Spirit and Shooter characters, boosts chances of getting [TND] orbs, reduces Despair duration by 10 turns, and allows HP Overfill up to 2x MAX HP.",
-        special: "Changes the orb, including [BLOCK] orb, of this character into a [TND] orb and barriers this character's orb for 1 PERFECT hit. If this character is a Crewmate when the special is activated, optionally swaps this unit with your captain for 5 turns. Applies a Turn Progress Effect for 3 turns that will apply the following effects: <ul><li><b>Turn 1 (Activation):</b> Reduces Special Bind duration by 6 turns and boosts ATK of [PSY], Free Spirit and Shooter characters by 2.5x for 1 turn</li><li><b>Turn 2:</b> Boosts ATK of [PSY], Free Spirit and Shooter characters by 2.75x for 3 turns and boosts ATK against delayed enemies by 2x for 3 turns<li><b>Turn 3:</b> Increases boost effects of ATK UP and Status ATK Boost buffs by +0.25x</li><li><b>On Effect Removal by Enemy:</b> Boosts ATK of [PSY], Free Spirit and Shooter characters by 2.75x for 1 turn.</li></ul> If your crew has Turn Progress Effect when the special is activated, sets Chain Boundaries to 2.75x and 35.0x for 3 turns.",
+        special: "Changes the orb, including [BLOCK] orb, of this character into a [TND] orb and barriers this character's orb for 1 PERFECT hit. If this character is a Crewmate when the special is activated, optionally swaps this unit with your captain for 5 turns. Applies a Turn Progress Effect for 3 turns that will apply the following effects: <ul><li><b>Turn 1 (Activation):</b> Reduces Special Bind duration by 6 turns, and boosts ATK of [PSY], Free Spirit and Shooter characters by 2.5x for 1 turn</li><li><b>Turn 2:</b> Reduces Special Bind duration by 6 turns, boosts ATK of [PSY], Free Spirit and Shooter characters by 2.75x for 3 turns, and boosts ATK against delayed enemies by 2x for 3 turns<li><b>Turn 3:</b> Reduces Special Bind duration by 6 turns, and increases boost effects of ATK Up and Status ATK Boost buffs by +0.25x</li><li><b>On Effect Removal by Enemy:</b> Boosts ATK of [PSY], Free Spirit and Shooter characters by 2.75x for 1 turn.</li></ul> If your crew has Turn Progress Effect when the special is activated, sets Chain Boundaries to 2.75x and 35.0x for 3 turns.",
         specialName: "Song Against the Backlight",
     },
-    3993: {
+    3993: {//Uta
         captain: "Boosts ATK of [PSY], Free Spirit, and Shooter characters by 5.25x, by 5.5x instead if they have a [PSY] or [TND] orb, boosts HP of [PSY], Free Spirit, and Shooter characters HP by 1.3x, makes [TND] orbs beneficial for [PSY], Free Spirit and Shooter characters, boosts chances of getting [TND] orbs, reduces Despair duration by 10 turns, and allows HP Overfill up to 2x MAX HP.",
         limit: [
             { description: "Boosts base RCV by 10" },
@@ -139655,7 +139655,7 @@ window.details = {
             level1: "Makes [TND] orbs beneficial for [PSY], Free Spirit, and Shooter characters",
             level2: "Boosts base ATK of [PSY], Free Spirit, and Shooter characters by 100"
         },
-        special: "Changes the orb, including [BLOCK] orb, of this character into a [TND] orb and barriers this character's orb for 1 PERFECT hit. If this character is a Crewmate when the special is activated, optionally swaps this unit with your captain for 5 turns. Applies a Turn Progress Effect for 3 turns that will apply the following effects: <ul><li><b>Turn 1 (Activation):</b> Reduces Special Bind duration by 6 turns and boosts ATK of [PSY], Free Spirit and Shooter characters by 2.5x for 1 turn</li><li><b>Turn 2:</b> Boosts ATK of [PSY], Free Spirit and Shooter characters by 2.75x for 3 turns and boosts ATK against delayed enemies by 2x for 3 turns<li><b>Turn 3:</b> Increases boost effects of ATK UP and Status ATK Boost buffs by +0.25x</li><li><b>On Effect Removal by Enemy:</b> Boosts ATK of [PSY], Free Spirit and Shooter characters by 2.75x for 1 turn.</li></ul> If your crew has Turn Progress Effect when the special is activated, sets Chain Boundaries to 2.75x and 35.0x for 3 turns.",
+        special: "Changes the orb, including [BLOCK] orb, of this character into a [TND] orb and barriers this character's orb for 1 PERFECT hit. If this character is a Crewmate when the special is activated, optionally swaps this unit with your captain for 5 turns. Applies a Turn Progress Effect for 3 turns that will apply the following effects: <ul><li><b>Turn 1 (Activation):</b> Reduces Special Bind duration by 6 turns, and boosts ATK of [PSY], Free Spirit and Shooter characters by 2.5x for 1 turn</li><li><b>Turn 2:</b> Reduces Special Bind duration by 6 turns, boosts ATK of [PSY], Free Spirit and Shooter characters by 2.75x for 3 turns, and boosts ATK against delayed enemies by 2x for 3 turns<li><b>Turn 3:</b> Reduces Special Bind duration by 6 turns, and increases boost effects of ATK Up and Status ATK Boost buffs by +0.25x</li><li><b>On Effect Removal by Enemy:</b> Boosts ATK of [PSY], Free Spirit and Shooter characters by 2.75x for 1 turn.</li></ul> If your crew has Turn Progress Effect when the special is activated, sets Chain Boundaries to 2.75x and 35.0x for 3 turns.",
         specialName: "Song Against the Backlight",
         superSpecial: "Optionally removes Captain Swap duration completely, reduces Special Bind duration on this character by 6 turns, ignores Debuff Protection and delays all enemies by 1 turn, recovers 15,000 HP, and transforms [PSY] characters into Super [PSY] characters",
         superSpecialCriteria: "This character must be captain and your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Shanks, Ben Beckman, Lucky Roux, Yasopp, Howling Gabu, Building Snake, Bonk Punch, Monster, Hongo, Gordon",
@@ -158597,69 +158597,7 @@ window.details = {
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Fighter, Striker, and Cerebral characters by 5.25x, boosts HP of Fighter, Striker, and Cerebral characters by 1.25x, makes [PSY] and [TND] orbs beneficial for Fighter, Striker, and Cerebral characters, and reduces damage received by 15%. If Territory: Fighter class is on the field, boosts ATK of Fight characters by 6x. Up to 2 times per adventure, if a crew member uses a special to apply Territory, recovers 6,000 HP at the end of each turn for 7 turns, and reduces Special Bind and Bind duration by 6 turns.",
 		special: "Deals 150x character's ATK in Typeless Fixed True damage to all enemies, boosts Orb Effects of Fighter, Striker, and Cerebral characters by 2.75x for 2 turns, and reduces enemies' Damage Nullification duration by 2 turns. If this character is your Captain or Friend/Guest Captain when the special is activated, applies Territory: Fighter class to the field, boosts ATK by 1x-1.5x and reduces damage received by 0%-25% based on number of characters matching the territory, for 2 turns, reduces Special Cooldown of all characters by 1 turn, and increases boost effects of Orb Amplification buffs by +0.25x, including effects activated in the same Ability. If this character is a Crewmate when the special is activated, reduces Special Bind and Bind duration by 6 turns, and increases the duration of any Orb Amplification buffs by 1 turn, including effects activated in the same Ability.",
 		specialNotes: "0-1: 1.0x, 0%; 2: 1.05x, 5%; 3: 1.1x, 10%; 4: 1.2x, 15%; 5: 1.35x, 20%; 6: 1.5x, 25%",
-		specialName: "Honesty Impact",
-		festAbility: [
-			"Fighter class teammates Special CT Speed Up Lv.1, ATK Up Lv.1; [PSY] teammates HP Up Lv.1, Critical % Up Lv.1",
-			"Fighter class teammates Special CT Speed Up Lv.2, ATK Up Lv.2; [PSY] teammates HP Up Lv.2, Critical % Up Lv.2",
-			"Fighter class teammates Special CT Speed Up Lv.3, ATK Up Lv.3; [PSY] teammates HP Up Lv.3, Critical % Up Lv.3",
-			"Fighter class teammates Special CT Speed Up Lv.4, ATK Up Lv.4; [PSY] teammates HP Up Lv.4, Critical % Up Lv.4",
-			"Fighter class teammates Special CT Speed Up Lv.4, ATK Up Lv.5; [PSY] teammates HP Up Lv.5, Critical % Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Damage Over Time, reduce damage taken from [INT] by 30％",
-		festSpecial: [
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 2500 damage; targets Fighter class teammates for ATK Up Lv.3 (20 s); targets team for Special CT 1% reduction; targets 1 teammate with Special CT 100% or more for 50% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 2750 damage; targets Fighter class teammates for ATK Up Lv.3 (20 s); targets team for Special CT 2% reduction; targets 1 teammate with Special CT 100% or more for 55% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 3000 damage; targets Fighter class teammates for ATK Up Lv.3 (20 s); targets team for Special CT 3% reduction; targets 1 teammate with Special CT 100% or more for 60% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 3250 damage; targets Fighter class teammates for ATK Up Lv.4 (20 s); targets team for Special CT 4% reduction; targets 1 teammate with Special CT 100% or more for 65% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 3500 damage; targets Fighter class teammates for ATK Up Lv.4 (20 s); targets team for Special CT 5% reduction; targets 1 teammate with Special CT 100% or more for 70% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 3750 damage; targets Fighter class teammates for ATK Up Lv.5 (20 s); targets team for Special CT 6% reduction; targets 1 teammate with Special CT 100% or more for 75% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 4000 damage; targets Fighter class teammates for ATK Up Lv.5 (20 s); targets team for Special CT 7% reduction; targets 1 teammate with Special CT 100% or more for 80% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 4250 damage; targets Fighter class teammates for ATK Up Lv.5 (20 s); targets team for Special CT 8% reduction; targets 1 teammate with Special CT 100% or more for 85% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 4500 damage; targets Fighter class teammates for ATK Up Lv.6 (20 s); targets team for Special CT 9% reduction; targets 1 teammate with Special CT 100% or more for 90% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 5000 damage; targets Fighter class teammates for ATK Up Lv.8 (20 s); targets team for Special CT 10% reduction; targets 1 teammate with Special CT 100% or more for 100% chance of Haste"
-			}
-		],
-		festStats: {
-			def: 158,
-			spd: 174,
-			style: "ATK"
-		}
+		specialName: "Honesty Impact"
 	},
 	4250: {//Coby
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Fighter, Striker, and Cerebral characters by 5.25x, boosts HP of Fighter, Striker, and Cerebral characters by 1.25x, makes [PSY] and [TND] orbs beneficial for Fighter, Striker, and Cerebral characters, and reduces damage received by 15%. If Territory: Fighter class is on the field, boosts ATK of Fight characters by 6x. Up to 2 times per adventure, if a crew member uses a special to apply Territory, recovers 6,000 HP at the end of each turn for 7 turns, and reduces Special Bind and Bind duration by 6 turns.",
@@ -158767,69 +158705,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Boosts base RCV by 30" }
-		],
-		festAbility: [
-			"Fighter class teammates Special CT Speed Up Lv.1, ATK Up Lv.1; [PSY] teammates HP Up Lv.1, Critical % Up Lv.1",
-			"Fighter class teammates Special CT Speed Up Lv.2, ATK Up Lv.2; [PSY] teammates HP Up Lv.2, Critical % Up Lv.2",
-			"Fighter class teammates Special CT Speed Up Lv.3, ATK Up Lv.3; [PSY] teammates HP Up Lv.3, Critical % Up Lv.3",
-			"Fighter class teammates Special CT Speed Up Lv.4, ATK Up Lv.4; [PSY] teammates HP Up Lv.4, Critical % Up Lv.4",
-			"Fighter class teammates Special CT Speed Up Lv.4, ATK Up Lv.5; [PSY] teammates HP Up Lv.5, Critical % Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Damage Over Time, reduce damage taken from [INT] by 30％",
-		festSpecial: [
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 2500 damage; targets Fighter class teammates for ATK Up Lv.3 (20 s); targets team for Special CT 1% reduction; targets 1 teammate with Special CT 100% or more for 50% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 2750 damage; targets Fighter class teammates for ATK Up Lv.3 (20 s); targets team for Special CT 2% reduction; targets 1 teammate with Special CT 100% or more for 55% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 3000 damage; targets Fighter class teammates for ATK Up Lv.3 (20 s); targets team for Special CT 3% reduction; targets 1 teammate with Special CT 100% or more for 60% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 3250 damage; targets Fighter class teammates for ATK Up Lv.4 (20 s); targets team for Special CT 4% reduction; targets 1 teammate with Special CT 100% or more for 65% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 3500 damage; targets Fighter class teammates for ATK Up Lv.4 (20 s); targets team for Special CT 5% reduction; targets 1 teammate with Special CT 100% or more for 70% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 3750 damage; targets Fighter class teammates for ATK Up Lv.5 (20 s); targets team for Special CT 6% reduction; targets 1 teammate with Special CT 100% or more for 75% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 4000 damage; targets Fighter class teammates for ATK Up Lv.5 (20 s); targets team for Special CT 7% reduction; targets 1 teammate with Special CT 100% or more for 80% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 4250 damage; targets Fighter class teammates for ATK Up Lv.5 (20 s); targets team for Special CT 8% reduction; targets 1 teammate with Special CT 100% or more for 85% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 4500 damage; targets Fighter class teammates for ATK Up Lv.6 (20 s); targets team for Special CT 9% reduction; targets 1 teammate with Special CT 100% or more for 90% chance of Haste"
-			},
-			{
-				cooldown: 30,
-				description: "Targets enemies within large range (horizontal) for 5000 damage; targets Fighter class teammates for ATK Up Lv.8 (20 s); targets team for Special CT 10% reduction; targets 1 teammate with Special CT 100% or more for 100% chance of Haste"
-			}
-		],
-		festStats: {
-			def: 158,
-			spd: 174,
-			style: "ATK"
-		}
+		]
 	},
 	4251: {//Garp
 		captain: "Boosts ATK of Fighter characters by 3.5x, boosts HP of Fighter characters by 1.25x, boosts ATK of Fighter characters by 4.25x following a chain of GOOD > GREAT > PERFECT hits, and makes [STR] and [RCV] orbs beneficial for Fighter characters.",
@@ -158889,16 +158765,7 @@ window.details = {
 			{ description: "Boosts base ATK by 50" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Enrage/Reduce Increase Damage Taken duration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4252: {//Kuzan
 		captain: "Boosts ATK of Fighter characters by 3.5x, boosts HP of Fighter characters by 1.25x, boosts ATK of Fighter characters by 4.375x following a chain of [QCK] > [STR] > [PSY] attacks no lower than Good, and makes [QCK] and [TND] orbs beneficial for Fighter characters.",
@@ -158958,16 +158825,7 @@ window.details = {
 			{ description: "Boosts base RCV by 20" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Barrier Penetration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4253: {//Shiryu
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [STR], Slasher, and Powerhouse characters by 4.5x, by 5.25x instead if they have a beneficial orb, boosts HP of [STR], Slasher, and Powerhouse characters by 1.2x, and makes [RCV] and [TND] orbs beneficial for [STR], Slasher, and Powerhouse characters. Once per adventure, if HP is below 20%, activates \"Stealthy Sword Thrust\" in the following turn.<br><b>Action:</b> For 5 turns, this character becomes Transparent and prevents all debuffs to themselves (including, but not limited to, Bind, Despair, Special Bind, Slot Bind, Special Rewind, and Paralysis), makes own normal attacks ignore defense, damage reducing Barriers and Buffs, and adds 300x character's ATK as Additional Typeless Damage to own's attacks.",
@@ -159078,69 +158936,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Boosts base HP by 200" },
 			{ description: "Reduce base Special Cooldown by 1 turn" }
-		],
-		festAbility: [
-			"Powerhouse class teammates HP Up Lv.2, DEF, Critical % Up Lv.1; when striking a Critical, up to 2 times team ATK, SPD Up Lv.1",
-			"Powerhouse class teammates HP Up Lv.3, DEF, Critical % Up Lv.2; when striking a Critical, up to 2 times team ATK, SPD Up Lv.2",
-			"Powerhouse class teammates HP Up Lv.4, DEF, Critical % Up Lv.3; when striking a Critical, up to 2 times team ATK, SPD Up Lv.3",
-			"Powerhouse class teammates HP Up Lv.5, DEF, Critical % Up Lv.4; when striking a Critical, up to 2 times team ATK, SPD Up Lv.4",
-			"Powerhouse class teammates HP Up Lv.6, DEF, Critical % Up Lv.5; when striking a Critical, up to 2 times team ATK, SPD Up Lv.4"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Damage Over Time, reduce damage taken from [DEX] by 30％",
-		festSpecial: [
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.1 (6 s), Critical % Up Lv.1 (6 s); targets 1 enemy with low current HP ignoring DEF for ATK x 1.5 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.2 (6 s), Critical % Up Lv.2 (6 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.1 (7 s), Critical % Up Lv.1 (7 s); targets 1 enemy with low current HP ignoring DEF for ATK x 1.6 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.2 (7 s), Critical % Up Lv.2 (7 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.1 (8 s), Critical % Up Lv.1 (8 s); targets 1 enemy with low current HP ignoring DEF for ATK x 1.7 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.2 (8 s), Critical % Up Lv.2 (8 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.1 (9 s), Critical % Up Lv.1 (9 s); targets 1 enemy with low current HP ignoring DEF for ATK x 1.8 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.3 (9 s), Critical % Up Lv.3 (9 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.2 (10 s), Critical % Up Lv.2 (10 s); targets 1 enemy with low current HP ignoring DEF for ATK x 1.9 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.3 (10 s), Critical % Up Lv.3 (10 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.2 (11 s), Critical % Up Lv.2 (11 s); targets 1 enemy with low current HP ignoring DEF for ATK x 2 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.4 (11 s), Critical % Up Lv.4 (11 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.2 (12 s), Critical % Up Lv.2 (12 s); targets 1 enemy with low current HP ignoring DEF for ATK x 2.1 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.4 (12 s), Critical % Up Lv.4 (12 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.3 (13 s), Critical % Up Lv.3 (13 s); targets 1 enemy with low current HP ignoring DEF for ATK x 2.2 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.4 (13 s), Critical % Up Lv.4 (13 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.3 (14 s), Critical % Up Lv.3 (14 s); targets 1 enemy with low current HP ignoring DEF for ATK x 2.3 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.5 (14 s), Critical % Up Lv.5 (14 s)"
-			},
-			{
-				cooldown: 29,
-				description: "Targets self for ATK Up Lv.4 (15 s), Critical % Up Lv.4 (15 s); targets 1 enemy with low current HP ignoring DEF for ATK x 2.5 damage; if \"Marshall D. Teach (Blackbeard)\", \"Jesus Burgess (Mr. Store)\", \"Van Ogre\", \"Avalo Pizarro\", \"Lafitte\", \"Catarina Devon\", \"San Juan Wolf\", \"Vasco Shot\", \"Doc Q\", or \"Kuzan (Aokiji)\" is on the team, targets Powerhouse class teammates for ATK Up Lv.6 (15 s), Critical % Up Lv.6 (15 s)"
-			}
-		],
-		festStats: {
-			def: 129,
-			spd: 181,
-			style: "ATK"
-		}
+		]
 	},
 	4254: {//Vasco Shot
 		captain: "Boosts ATK of Shooter and Powerhouse characters by 4x, by 4.25x instead if HP is below 20% at the start of the turn, and boosts HP of Shooter and Powerhouse characters by 1.5x.",
@@ -159200,16 +158996,7 @@ window.details = {
 			{ description: "Boosts base ATK by 30" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Barrier Penetration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "ATK"
-		}
+		]
 	},
 	4255: {//Doll
 		captain: "Boosts ATK of Fighter and Powerhouse characters by 3.5x, and boosts HP of Fighter and Powerhouse characters by 1.2x.",
@@ -159227,16 +159014,7 @@ window.details = {
 					"Once per adventure, when the supported character uses an Orb Amplification special, reduces enemies' Fighter Resistance by -10% for 1 turn, and increases duration of any Orb Amplification and End of Turn Healing buffs by 1 turn."
 				]
 			}
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "SPT"
-		}
+		]
 	},
 	4256: {//Magellan
 		captain: "Reduces Special Cooldown of [QCK] characters by 1 turn at the start of the fight, boosts ATK of [QCK] characters by 4.75x, by 5x instead if HP is above 70% at the start of the turn, boosts [QCK] characters ATK against Poisoned enemies by 1.1x, boosts ATK of all other characters by 4.25x, boosts HP of all characters by 1.3x, makes [QCK] and [TND] orbs beneficial for all characters, and reduces Paralysis duration by 10 turns, and recovers 25% of damage taken from enemies in the previous stage when entering a new stage.",
@@ -159354,125 +159132,7 @@ window.details = {
                 },
                 rResilience: true
             }
-        ],
-		festAbility: {
-            base: [
-                "[QCK] teammates HP Up Lv.2, ATK Up Lv.2; first 30 s of battle, self Special CT Speed Up Lv.2",
-                "[QCK] teammates HP Up Lv.3, ATK Up Lv.3; first 30 s of battle, self Special CT Speed Up Lv.2",
-                "[QCK] teammates HP Up Lv.4, ATK Up Lv.4; first 30 s of battle, self Special CT Speed Up Lv.2",
-                "[QCK] teammates HP Up Lv.5, ATK Up Lv.5; first 30 s of battle, self Special CT Speed Up Lv.2",
-                "[QCK] teammates HP Up Lv.6, ATK Up Lv.6; first 30 s of battle, self Special CT Speed Up Lv.2"
-		    ],
-            llbbase: [
-                "[QCK] teammates HP Up Lv.2, ATK Up Lv.2, SPD Up Lv.2; first 30 s of battle, self Special CT Speed Up Lv.2",
-                "[QCK] teammates HP Up Lv.3, ATK Up Lv.3, SPD Up Lv.3; first 30 s of battle, self Special CT Speed Up Lv.2",
-                "[QCK] teammates HP Up Lv.4, ATK Up Lv.4, SPD Up Lv.4; first 30 s of battle, self Special CT Speed Up Lv.2",
-                "[QCK] teammates HP Up Lv.5, ATK Up Lv.5, SPD Up Lv.5; first 30 s of battle, self Special CT Speed Up Lv.2",
-                "[QCK] teammates HP Up Lv.6, ATK Up Lv.6, SPD Up Lv.6; first 30 s of battle, self Special CT Speed Up Lv.2"
-            ]
-        },
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: {
-            base: "Completely evades Special Bind, reduce damage taken from [STR] by 30％",
-            llbbase: "Completely evades Special Bind, reduce damage taken from [STR] by 40％"
-        },
-		festSpecial: {
-            base: [
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.1 (20 s), ATK x 1.5 damage; targets self for 50% chance of Haste; targets 1 [QCK] teammate for 30% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.1 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.1 (20 s), ATK x 1.6 damage; targets self for 55% chance of Haste; targets 1 [QCK] teammate for 32% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.1 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.1 (20 s), ATK x 1.7 damage; targets self for 60% chance of Haste; targets 1 [QCK] teammate for 34% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.1 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.1 (20 s), ATK x 1.8 damage; targets self for 65% chance of Haste; targets 1 [QCK] teammate for 36% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.1 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.2 (20 s), ATK x 1.9 damage; targets self for 70% chance of Haste; targets 1 [QCK] teammate for 38% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.2 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.2 (20 s), ATK x 2 damage; targets self for 75% chance of Haste; targets 1 [QCK] teammate for 40% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.2 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.2 (20 s), ATK x 2.1 damage; targets self for 80% chance of Haste; targets 1 [QCK] teammate for 42% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.2 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.3 (20 s), ATK x 2.2 damage; targets self for 85% chance of Haste; targets 1 [QCK] teammate for 44% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.3 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.3 (20 s), ATK x 2.3 damage; targets self for 90% chance of Haste; targets 1 [QCK] teammate for 46% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.3 (20 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.4 (20 s), ATK x 2.5 damage; targets self for 100% chance of Haste; targets 1 [QCK] teammate for 50% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.4 (20 s)"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.1 (25 s), ATK x 2 damage; targets self for 50% chance of Haste; targets 1 [QCK] teammate for 30% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.1 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.1 (25 s), ATK x 2.1 damage; targets self for 55% chance of Haste; targets 1 [QCK] teammate for 32% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.1 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.1 (25 s), ATK x 2.2 damage; targets self for 60% chance of Haste; targets 1 [QCK] teammate for 34% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.1 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.2 (25 s), ATK x 2.3 damage; targets self for 65% chance of Haste; targets 1 [QCK] teammate for 36% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.2 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.2 (25 s), ATK x 2.4 damage; targets self for 70% chance of Haste; targets 1 [QCK] teammate for 38% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.2 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.3 (25 s), ATK x 2.5 damage; targets self for 75% chance of Haste; targets 1 [QCK] teammate for 40% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.3 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.3 (25 s), ATK x 2.6 damage; targets self for 80% chance of Haste; targets 1 [QCK] teammate for 42% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.3 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.3 (25 s), ATK x 2.7 damage; targets self for 85% chance of Haste; targets 1 [QCK] teammate for 44% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.3 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.4 (25 s), ATK x 2.8 damage; targets self for 90% chance of Haste; targets 1 [QCK] teammate for 46% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.4 (25 s)"
-                },
-                {
-                    cooldown: 27,
-                    description: "Targets enemies within large range for DEF Down Lv.5 (25 s), ATK x 3 damage; targets self for 100% chance of Haste; targets 1 [QCK] teammate for 50% chance of Haste; first 40 s of battle, targets all enemies for DEF Down Lv.5 (25 s)"
-                }
-            ]
-        },
-		festStats: {
-			def: 165,
-			spd: 200,
-			style: "DBF"
-		}
+        ]
 	},
 	4257: {//Roger & Rayleigh & Gaban
 		captain: {
@@ -159715,16 +159375,7 @@ window.details = {
 			{ description: "Boosts base RCV by 30" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Critical Hit" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "DEF"
-		}
+		]
 	},
 	4259: {//Whitebeard & Oden
 		captain: "Reduces Special Cooldown of [STR] and [INT] characters by 3 turns at the start of the fight, boosts ATK of [STR] and [INT] characters by 3.5x, and boosts HP of [STR] and [INT] characters by 1.5x.",
@@ -159784,16 +159435,7 @@ window.details = {
 			{ description: "Boosts base HP by 60" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Critical Hit" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "DEF"
-		}
+		]
 	},
 	4260: {//Vega Punk
 		captain: "Reduces Special Cooldown of this character by 4 turns at the start of the fight, reduces Special Cooldown of all other characters by 1 turn at the start of the fight, boosts ATK of all character by 3.5x, boosts HP of all character by 1.25x, and restores Special Cooldown of all characters by 2 turns when they are rewinded.",
@@ -159873,69 +159515,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Boosts base RCV by 100" },
 			{ description: "Acquire Sailor Ability 2: " }
-		],
-		festAbility: [
-			"[STR]/Cerebral class teammates HP Up Lv.1, SPD Up Lv.1, ATK Up Lv.1",
-			"[STR]/Cerebral class teammates HP Up Lv.2, SPD Up Lv.2, ATK Up Lv.2",
-			"[STR]/Cerebral class teammates HP Up Lv.3, SPD Up Lv.3, ATK Up Lv.3",
-			"[STR]/Cerebral class teammates HP Up Lv.4, SPD Up Lv.4, ATK Up Lv.4",
-			"[STR]/Cerebral class teammates HP Up Lv.5, SPD Up Lv.5, ATK Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Power Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "80% chance to evade Damage Over Time, reduce damage taken from [DEX] by 20%",
-		festSpecial: [
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.1 (6 s), Critical % Up Lv.1 (6 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.1 (7 s), Critical % Up Lv.1 (7 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.1 (8 s), Critical % Up Lv.1 (8 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.2 (9 s), Critical % Up Lv.2 (9 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.2 (10 s), Critical % Up Lv.2 (10 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.3 (11 s), Critical % Up Lv.3 (11 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.3 (12 s), Critical % Up Lv.3 (12 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.3 (13 s), Critical % Up Lv.3 (13 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.4 (14 s), Critical % Up Lv.4 (14 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.5 (15 s), Critical % Up Lv.5 (15 s)"
-			}
-		],
-		festStats: {
-			def: 153,
-			spd: 167,
-			style: "SPT"
-		}
+		]
 	},
 	4261: {//Vega Punk
 		captain: "Changes all orbs into [BOMB] orbs at the start of the fight, reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all character by 4x, boosts HP of all character by 1.25x, makes [BOMB] and [S. BOMB] orbs beneficial for all characters, and restores Special Cooldown of all characters by 2 turns when they are rewinded.",
@@ -160015,69 +159595,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Boosts base RCV by 100" },
 			{ description: "Acquire Sailor Ability 2: " }
-		],
-		festAbility: [
-			"[STR]/Cerebral class teammates HP Up Lv.1, SPD Up Lv.1, ATK Up Lv.1",
-			"[STR]/Cerebral class teammates HP Up Lv.2, SPD Up Lv.2, ATK Up Lv.2",
-			"[STR]/Cerebral class teammates HP Up Lv.3, SPD Up Lv.3, ATK Up Lv.3",
-			"[STR]/Cerebral class teammates HP Up Lv.4, SPD Up Lv.4, ATK Up Lv.4",
-			"[STR]/Cerebral class teammates HP Up Lv.5, SPD Up Lv.5, ATK Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Power Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "80% chance to evade Damage Over Time, reduce damage taken from [DEX] by 20%",
-		festSpecial: [
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.2 (11 s), Critical % Up Lv.2 (11 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.1 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.2 (12 s), Critical % Up Lv.2 (12 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.1 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.2 (13 s), Critical % Up Lv.2 (13 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.1 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.3 (14 s), Critical % Up Lv.3 (14 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.1 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.3 (15 s), Critical % Up Lv.3 (15 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.1 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.4 (16 s), Critical % Up Lv.4 (16 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.2 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.4 (17 s), Critical % Up Lv.4 (17 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.2 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.4 (18 s), Critical % Up Lv.4 (18 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.2 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.5 (19 s), Critical % Up Lv.5 (19 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.2 (15 s)"
-			},
-			{
-				cooldown: 25,
-				description: "Targets [STR]/Cerebral class teammates for ATK Up Lv.6 (20 s), Critical % Up Lv.6 (20 s); first 50 s of battle, targets [STR]/Cerebral class teammates for Special CT Speed Up Lv.3 (15 s)"
-			}
-		],
-		festStats: {
-			def: 178,
-			spd: 172,
-			style: "SPT"
-		}
+		]
 	},
 	4262: {//Uta
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts the ATK of [DEX], [INT], Cerebral, and Driven characters by 5x, boosts the HP and RCV of [DEX], [INT], Cerebral, and Driven characters by 1.2x, boosts ATK of [DEX], [INT], Cerebral, and Driven characters by 5.75x following a chain of GOOD > GOOD hits, makes [STR] orbs beneficial for [DEX], [INT], Cerebral, and Driven characters, and removes Blindness duration completely. If HP is below 50% after a special is launched, reduces enemies' Increased Defense duration by 5 turns and reduces ATK Down duration by 5 turns (effect can be activated again if HP goes above 50%, up to 2 times per adventure).",
@@ -160372,125 +159890,7 @@ window.details = {
                 },
                 rResilience: true
             }
-        ],
-		festAbility: {
-            base: [
-                "Shooter class teammates ATK Up Lv.2, HP Up Lv.1, DEF Up Lv.1",
-                "Shooter class teammates ATK Up Lv.3, HP Up Lv.2, DEF Up Lv.2",
-                "Shooter class teammates ATK Up Lv.4, HP Up Lv.3, DEF Up Lv.3",
-                "Shooter class teammates ATK Up Lv.5, HP Up Lv.4, DEF Up Lv.4",
-                "Shooter class teammates ATK Up Lv.6, HP Up Lv.5, DEF Up Lv.4"
-            ],
-            llbbase: [
-                "Shooter class teammates ATK Up Lv.2, HP Up Lv.2, DEF Up Lv.2",
-                "Shooter class teammates ATK Up Lv.3, HP Up Lv.3, DEF Up Lv.3",
-                "Shooter class teammates ATK Up Lv.4, HP Up Lv.4, DEF Up Lv.4",
-                "Shooter class teammates ATK Up Lv.5, HP Up Lv.5, DEF Up Lv.5",
-                "Shooter class teammates ATK Up Lv.6, HP Up Lv.6, DEF Up Lv.6"
-            ]
-        },
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Heal Self Lv.2"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: { 
-            base: "Completely evades Special Bind, reduce damage taken from [PSY] by 30％",
-            llbbase: "Completely evades Special Bind, reduce damage taken from [PSY] by 40％"
-        },
-		festSpecial: {
-            base: [
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.8 (20 s); targets 1 high DEF enemy for DEF Down Lv.8 (20 s); targets 1 high SPD enemy for SPD Down Lv.8 (20 s); targets Shooter class teammates for RCV x 1.75 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.9 (20 s); targets 1 high DEF enemy for DEF Down Lv.9 (20 s); targets 1 high SPD enemy for SPD Down Lv.9 (20 s); targets Shooter class teammates for RCV x 1.85 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.10 (20 s); targets 1 high DEF enemy for DEF Down Lv.10 (20 s); targets 1 high SPD enemy for SPD Down Lv.10 (20 s); targets Shooter class teammates for RCV x 1.95 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.11 (20 s); targets 1 high DEF enemy for DEF Down Lv.11 (20 s); targets 1 high SPD enemy for SPD Down Lv.11 (20 s); targets Shooter class teammates for RCV x 2.05 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.12 (20 s); targets 1 high DEF enemy for DEF Down Lv.12 (20 s); targets 1 high SPD enemy for SPD Down Lv.12 (20 s); targets Shooter class teammates for RCV x 2.15 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.13 (20 s); targets 1 high DEF enemy for DEF Down Lv.13 (20 s); targets 1 high SPD enemy for SPD Down Lv.13 (20 s); targets Shooter class teammates for RCV x 2.25 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.14 (20 s); targets 1 high DEF enemy for DEF Down Lv.14 (20 s); targets 1 high SPD enemy for SPD Down Lv.14 (20 s); targets Shooter class teammates for RCV x 2.35 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.15 (20 s); targets 1 high DEF enemy for DEF Down Lv.15 (20 s); targets 1 high SPD enemy for SPD Down Lv.15 (20 s); targets Shooter class teammates for RCV x 2.45 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.16 (20 s); targets 1 high DEF enemy for DEF Down Lv.16 (20 s); targets 1 high SPD enemy for SPD Down Lv.16 (20 s); targets Shooter class teammates for RCV x 2.55 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.17 (20 s); targets 1 high DEF enemy for DEF Down Lv.17 (20 s); targets 1 high SPD enemy for SPD Down Lv.17 (20 s); targets Shooter class teammates for RCV x 2.75 healing"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.10 (20 s); targets 1 high DEF enemy for DEF Down Lv.10 (20 s); targets 1 high SPD enemy for SPD Down Lv.10 (20 s); targets Shooter class teammates for RCV x 2 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.11 (20 s); targets 1 high DEF enemy for DEF Down Lv.11 (20 s); targets 1 high SPD enemy for SPD Down Lv.11 (20 s); targets Shooter class teammates for RCV x 2.1 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.12 (20 s); targets 1 high DEF enemy for DEF Down Lv.12 (20 s); targets 1 high SPD enemy for SPD Down Lv.12 (20 s); targets Shooter class teammates for RCV x 2.2 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.13 (20 s); targets 1 high DEF enemy for DEF Down Lv.13 (20 s); targets 1 high SPD enemy for SPD Down Lv.13 (20 s); targets Shooter class teammates for RCV x 2.3 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.14 (20 s); targets 1 high DEF enemy for DEF Down Lv.14 (20 s); targets 1 high SPD enemy for SPD Down Lv.14 (20 s); targets Shooter class teammates for RCV x 2.4 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.15 (20 s); targets 1 high DEF enemy for DEF Down Lv.15 (20 s); targets 1 high SPD enemy for SPD Down Lv.15 (20 s); targets Shooter class teammates for RCV x 2.5 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.16 (20 s); targets 1 high DEF enemy for DEF Down Lv.16 (20 s); targets 1 high SPD enemy for SPD Down Lv.16 (20 s); targets Shooter class teammates for RCV x 2.6 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.17 (20 s); targets 1 high DEF enemy for DEF Down Lv.17 (20 s); targets 1 high SPD enemy for SPD Down Lv.17 (20 s); targets Shooter class teammates for RCV x 2.7 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.18 (20 s); targets 1 high DEF enemy for DEF Down Lv.18 (20 s); targets 1 high SPD enemy for SPD Down Lv.18 (20 s); targets Shooter class teammates for RCV x 2.8 healing"
-                },
-                {
-                    cooldown: 30,
-                    description: "Targets 1 high ATK enemy for ATK Down Lv.20 (20 s); targets 1 high DEF enemy for DEF Down Lv.20 (20 s); targets 1 high SPD enemy for SPD Down Lv.20 (20 s); targets Shooter class teammates for RCV x 3 healing"
-                }
-            ]
-        },
-		festStats: {
-			def: 192,
-			spd: 186,
-			style: "DBF"
-		}
+        ]
 	},
 	4264: {//Tsuru
 		captain: "Boosts ATK of [STR] characters by 3.0x, and boosts HP of [STR] characters by 1.3x.",
@@ -160530,69 +159930,7 @@ window.details = {
 			{ description: "Boosts base RCV by 50" },
 			{ description: "Acquire 1 additional Socket slot" },
 			{ description: "Acquire Potential 2: [QCK] Damage Reduction" }
-		],
-		festAbility: [
-			"Shooter class teammates HP Up Lv.3; first 30 s of battle, Shooter class teammates DEF Up Lv.1, Special CT Speed Up Lv.2",
-			"Shooter class teammates HP Up Lv.4; first 30 s of battle, Shooter class teammates DEF Up Lv.2, Special CT Speed Up Lv.3",
-			"Shooter class teammates HP Up Lv.5; first 30 s of battle, Shooter class teammates DEF Up Lv.3, Special CT Speed Up Lv.4",
-			"Shooter class teammates HP Up Lv.6; first 30 s of battle, Shooter class teammates DEF Up Lv.4, Special CT Speed Up Lv.5",
-			"Shooter class teammates HP Up Lv.7; first 30 s of battle, Shooter class teammates DEF Up Lv.5, Special CT Speed Up Lv.6"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Action Bind, reduce damage taken from [DEX] by 30％",
-		festSpecial: [
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.2 (20 s), SPD Up Lv.2 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 10% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.2 (20 s), SPD Up Lv.2 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 12% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1.1 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.2 (20 s), SPD Up Lv.2 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 14% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1.2 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.3 (20 s), SPD Up Lv.3 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 16% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1.3 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.3 (20 s), SPD Up Lv.3 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 18% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1.4 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.4 (20 s), SPD Up Lv.4 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 20% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1.5 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.4 (20 s), SPD Up Lv.4 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 22% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1.6 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.4 (20 s), SPD Up Lv.4 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 24% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1.7 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.5 (20 s), SPD Up Lv.5 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 26% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 1.8 damage"
-			},
-			{
-				cooldown: 22,
-				description: "Targets Shooter class teammates for DEF Up Lv.6 (20 s), SPD Up Lv.6 (20 s); when remaining time is more than 70 s, targets 3 enemies for HP 30% reduction; when remaining time is less than 70 s, targets 3 enemies for ATK x 2 damage"
-			}
-		],
-		festStats: {
-			def: 208,
-			spd: 166,
-			style: "SPT"
-		}
+		]
 	},
 	4265: {//Zoro
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of [INT], Slasher, and Driven characters by 4x, boosts HP of [INT], Slasher, and Driven characters by 1.3x, and deals 50x character's ATK in [INT] damage to all enemies at the end of each turn. At the start of the fight, this character activates their own special.",
@@ -160672,69 +160010,7 @@ window.details = {
 			{ description: "Boosts base RCV by 40" },
 			{ description: "Boosts base RCV by 60" },
 			{ description: "Acquire Potential 3: Reduce Special Use Limit duration" }
-		],
-		festAbility: [
-			"[INT] teammates ATK Up Lv.1, DEF Up Lv.1",
-			"[INT] teammates ATK Up Lv.2, DEF Up Lv.1",
-			"[INT] teammates ATK Up Lv.3, DEF Up Lv.1",
-			"[INT] teammates ATK Up Lv.4, DEF Up Lv.1",
-			"[INT] teammates ATK Up Lv.5, DEF Up Lv.3"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "60% chance to evade Paralysis",
-		festSpecial: [
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 0.75 damage; targets [PSY] enemies for DEF Down Lv.1 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 0.85 damage; targets [PSY] enemies for DEF Down Lv.1 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 0.95 damage; targets [PSY] enemies for DEF Down Lv.1 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.05 damage; targets [PSY] enemies for DEF Down Lv.1 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.15 damage; targets [PSY] enemies for DEF Down Lv.1 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.25 damage; targets [PSY] enemies for DEF Down Lv.2 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.35 damage; targets [PSY] enemies for DEF Down Lv.2 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.45 damage; targets [PSY] enemies for DEF Down Lv.2 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.55 damage; targets [PSY] enemies for DEF Down Lv.2 (15 s)"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.75 damage; targets [PSY] enemies for DEF Down Lv.3 (15 s)"
-			}
-		],
-		festStats: {
-			def: 125,
-			spd: 178,
-			style: "ATK"
-		}
+		]
 	},
 	4266: {//Zoro
 		captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [INT], Slasher, and Driven characters by 4.5x, boosts HP of [INT], Slasher, and Driven characters by 1.3x, and deals 80x character's ATK in [INT] damage to all enemies at the end of each turn. At the start of the fight, this character activates their own special.",
@@ -160817,69 +160093,7 @@ window.details = {
 			{ description: "Boosts base RCV by 40" },
 			{ description: "Boosts base RCV by 60" },
 			{ description: "Acquire Potential 3: Reduce Special Use Limit duration" }
-		],
-		festAbility: [
-			"[INT] teammates ATK Up Lv.1, DEF Up Lv.1; [PSY] enemies DEF Down Lv.1",
-			"[INT] teammates ATK Up Lv.2, DEF Up Lv.2; [PSY] enemies DEF Down Lv.2",
-			"[INT] teammates ATK Up Lv.3, DEF Up Lv.3; [PSY] enemies DEF Down Lv.3",
-			"[INT] teammates ATK Up Lv.4, DEF Up Lv.4; [PSY] enemies DEF Down Lv.4",
-			"[INT] teammates ATK Up Lv.5, DEF Up Lv.5; [PSY] enemies DEF Down Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "80% chance to evade Paralysis, reduce damage taken from [PSY] by 20%",
-		festSpecial: [
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.5 damage; targets [PSY] enemies for DEF Down Lv.1 (20 s); targets 2 enemies with high current HP for ATK x 1 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.6 damage; targets [PSY] enemies for DEF Down Lv.1 (20 s); targets 2 enemies with high current HP for ATK x 1.1 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.7 damage; targets [PSY] enemies for DEF Down Lv.1 (20 s); targets 2 enemies with high current HP for ATK x 1.2 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.8 damage; targets [PSY] enemies for DEF Down Lv.2 (20 s); targets 2 enemies with high current HP for ATK x 1.3 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 1.9 damage; targets [PSY] enemies for DEF Down Lv.2 (20 s); targets 2 enemies with high current HP for ATK x 1.4 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 2 damage; targets [PSY] enemies for DEF Down Lv.3 (20 s); targets 2 enemies with high current HP for ATK x 1.5 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 2.1 damage; targets [PSY] enemies for DEF Down Lv.3 (20 s); targets 2 enemies with high current HP for ATK x 1.6 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 2.2 damage; targets [PSY] enemies for DEF Down Lv.3 (20 s); targets 2 enemies with high current HP for ATK x 1.7 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 2.3 damage; targets [PSY] enemies for DEF Down Lv.4 (20 s); targets 2 enemies with high current HP for ATK x 1.8 damage"
-			},
-			{
-				cooldown: 33,
-				description: "Targets enemies within medium range (horizontal) for ATK x 2.5 damage; targets [PSY] enemies for DEF Down Lv.5 (20 s); targets 2 enemies with high current HP for ATK x 2 damage"
-			}
-		],
-		festStats: {
-			def: 154,
-			spd: 179,
-			style: "ATK"
-		}
+		]
 	},
 	4267: {//Kaido & King
 		captain: {
@@ -161689,125 +160903,7 @@ window.details = {
                 },
                 rResilience: true
             }
-        ],
-		festAbility: {
-            base: [
-                "[DEX] teammates ATK Up Lv.1, HP Up Lv.1; when healing, up to 5 times self ATK Up Lv.1",
-                "[DEX] teammates ATK Up Lv.2, HP Up Lv.2; when healing, up to 5 times self ATK Up Lv.1",
-                "[DEX] teammates ATK Up Lv.3, HP Up Lv.3; when healing, up to 5 times self ATK Up Lv.1",
-                "[DEX] teammates ATK Up Lv.4, HP Up Lv.4; when healing, up to 5 times self ATK Up Lv.1",
-                "[DEX] teammates ATK Up Lv.5, HP Up Lv.5; when healing, up to 5 times self ATK Up Lv.3"
-		    ],
-            llbbase: [
-                "[DEX] teammates ATK Up Lv.2, HP Up Lv.2, SPD Up Lv.2; when healing, up to 6 times self ATK Up Lv.1",
-                "[DEX] teammates ATK Up Lv.3, HP Up Lv.3, SPD Up Lv.3; when healing, up to 6 times self ATK Up Lv.1",
-                "[DEX] teammates ATK Up Lv.4, HP Up Lv.4, SPD Up Lv.4; when healing, up to 6 times self ATK Up Lv.1",
-                "[DEX] teammates ATK Up Lv.5, HP Up Lv.5, SPD Up Lv.5; when healing, up to 6 times self ATK Up Lv.1",
-                "[DEX] teammates ATK Up Lv.6, HP Up Lv.6, SPD Up Lv.6; when healing, up to 6 times self ATK Up Lv.3"
-            ]
-        },
-		festAttackPattern: [
-			"Normal Attack",
-			"Heal Self Lv.2",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: {
-            base: "Completely evades Paralysis, reduce damage taken from [QCK] by 30％",
-            llbbase: "Completely evades Paralysis, reduce damage taken from [QCK] by 40％"
-        },
-		festSpecial: {
-            base: [
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 2500 damage; targets self for HP 1750 healing, ATK Up Lv.1 (20 s), DEF Up Lv.1 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 2800 damage; targets self for HP 1850 healing, ATK Up Lv.1 (20 s), DEF Up Lv.1 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 3100 damage; targets self for HP 1950 healing, ATK Up Lv.1 (20 s), DEF Up Lv.1 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 3400 damage; targets self for HP 2050 healing, ATK Up Lv.2 (20 s), DEF Up Lv.2 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 3700 damage; targets self for HP 2150 healing, ATK Up Lv.2 (20 s), DEF Up Lv.2 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 4000 damage; targets self for HP 2250 healing, ATK Up Lv.3 (20 s), DEF Up Lv.3 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 4300 damage; targets self for HP 2350 healing, ATK Up Lv.3 (20 s), DEF Up Lv.3 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 4600 damage; targets self for HP 2450 healing, ATK Up Lv.3 (20 s), DEF Up Lv.3 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 4900 damage; targets self for HP 2550 healing, ATK Up Lv.4 (20 s), DEF Up Lv.4 (20 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 5500 damage; targets self for HP 2750 healing, ATK Up Lv.5 (20 s), DEF Up Lv.5 (20 s)"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 3000 damage; targets self for HP 2000 healing, ATK Up Lv.2 (30 s), DEF Up Lv.2 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 3300 damage; targets self for HP 2100 healing, ATK Up Lv.2 (30 s), DEF Up Lv.2 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 3600 damage; targets self for HP 2200 healing, ATK Up Lv.2 (30 s), DEF Up Lv.2 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 3900 damage; targets self for HP 2300 healing, ATK Up Lv.3 (30 s), DEF Up Lv.3 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 4200 damage; targets self for HP 2400 healing, ATK Up Lv.3 (30 s), DEF Up Lv.3 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 4500 damage; targets self for HP 2500 healing, ATK Up Lv.4 (30 s), DEF Up Lv.4 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 4800 damage; targets self for HP 2600 healing, ATK Up Lv.4 (30 s), DEF Up Lv.4 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 5100 damage; targets self for HP 2700 healing, ATK Up Lv.4 (30 s), DEF Up Lv.4 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 5400 damage; targets self for HP 2800 healing, ATK Up Lv.5 (30 s), DEF Up Lv.5 (30 s)"
-                },
-                {
-                    cooldown: 25,
-                    description: "Targets 1 enemy for 6000 damage; targets self for HP 3000 healing, ATK Up Lv.6 (30 s), DEF Up Lv.6 (30 s)"
-                }
-            ]
-        },
-		festStats: {
-			def: 149,
-			spd: 194,
-			style: "ATK"
-		}
+        ]
 	},
 	4275: {//Oden & Kin'emon & Denjiro
 		captain: {
@@ -162275,16 +161371,7 @@ window.details = {
 			{ description: "Boosts base HP by 50" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Last Tap" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4278: {//Momo & Yamato
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Slasher and Striker characters by 4x, boosts HP of Slasher and Striker characters by 1.25x, and adds 0.2x to Chain multiplier.",
@@ -162344,16 +161431,7 @@ window.details = {
 			{ description: "Boosts base ATK by 40" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Reduce Slot Bind duration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "BAL"
-		}
+		]
 	},
 	4279: {//Orochi & Kanjuro
 		captain: "Reduces Special Cooldown of Driven and Powerhouse characters by 1 turn at the start of the fight, boosts ATK of Driven and Powerhouse characters by 3.5x, and boosts amount of Beli received by 2x. ",
@@ -162433,69 +161511,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Boosts base HP by 200" },
 			{ description: "Acquire Sailor Ability 2: " }
-		],
-		festAbility: [
-			"[INT] teammates HP Up Lv.1, DEF Up Lv.1",
-			"[INT] teammates HP Up Lv.2, DEF Up Lv.1",
-			"[INT] teammates HP Up Lv.3, DEF Up Lv.2",
-			"[INT] teammates HP Up Lv.4, DEF Up Lv.2",
-			"[INT] teammates HP Up Lv.5, DEF Up Lv.3"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Heal Self Lv.2"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "60% chance to evade Halve Stats",
-		festSpecial: [
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 32% chance of Halve ATK (15 s), 16% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 34% chance of Halve ATK (15 s), 17% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 36% chance of Halve ATK (15 s), 18% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 38% chance of Halve ATK (15 s), 19% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 40% chance of Halve ATK (15 s), 20% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 42% chance of Halve ATK (15 s), 21% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 44% chance of Halve ATK (15 s), 22% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 46% chance of Halve ATK (15 s), 23% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 48% chance of Halve ATK (15 s), 24% chance of Action Bind (5 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 50% chance of Halve ATK (15 s), 25% chance of Action Bind (5 s)"
-			}
-		],
-		festStats: {
-			def: 198,
-			spd: 136,
-			style: "DBF"
-		}
+		]
 	},
 	4280: {//Orochi & Kanjuro
 		captain: "Reduces Special Cooldown of Driven and Powerhouse characters by 2 turns at the start of the fight, boosts ATK of Driven and Powerhouse characters by 4x, boosts HP of Driven and Powerhouse characters by 1.5x, and boosts amount of Beli received by 2x.",
@@ -162575,69 +161591,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Boosts base HP by 200" },
 			{ description: "Acquire Sailor Ability 2: " }
-		],
-		festAbility: [
-			"[INT] teammates HP Up Lv.1, DEF Up Lv.1; Cerebral class enemies ATK Down Lv.1",
-			"[INT] teammates HP Up Lv.2, DEF Up Lv.1; Cerebral class enemies ATK Down Lv.2",
-			"[INT] teammates HP Up Lv.3, DEF Up Lv.2; Cerebral class enemies ATK Down Lv.3",
-			"[INT] teammates HP Up Lv.4, DEF Up Lv.2; Cerebral class enemies ATK Down Lv.4",
-			"[INT] teammates HP Up Lv.5, DEF Up Lv.3; Cerebral class enemies ATK Down Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Heal Self Lv.2"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "80% chance to evade Halve Stats, reduce damage taken from [PSY] by 20%",
-		festSpecial: [
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 48% chance of Halve ATK (15 s), 32% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.1 (15 s), SPD Down Lv.1 (15 s), Special CT Speed Down Lv.1 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 51% chance of Halve ATK (15 s), 34% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.1 (15 s), SPD Down Lv.1 (15 s), Special CT Speed Down Lv.1 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 54% chance of Halve ATK (15 s), 36% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.1 (15 s), SPD Down Lv.1 (15 s), Special CT Speed Down Lv.1 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 57% chance of Halve ATK (15 s), 38% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.2 (15 s), SPD Down Lv.2 (15 s), Special CT Speed Down Lv.2 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 60% chance of Halve ATK (15 s), 40% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.2 (15 s), SPD Down Lv.2 (15 s), Special CT Speed Down Lv.2 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 63% chance of Halve ATK (15 s), 42% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.3 (15 s), SPD Down Lv.3 (15 s), Special CT Speed Down Lv.3 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 66% chance of Halve ATK (15 s), 44% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.3 (15 s), SPD Down Lv.3 (15 s), Special CT Speed Down Lv.3 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 69% chance of Halve ATK (15 s), 46% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.3 (15 s), SPD Down Lv.3 (15 s), Special CT Speed Down Lv.3 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 72% chance of Halve ATK (15 s), 48% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.4 (15 s), SPD Down Lv.4 (15 s), Special CT Speed Down Lv.4 (15 s)"
-			},
-			{
-				cooldown: 23,
-				description: "Targets enemies within large range for 75% chance of Halve ATK (15 s), 50% chance of Action Bind (5 s); targets Cerebral class enemies for ATK Down Lv.5 (15 s), SPD Down Lv.5 (15 s), Special CT Speed Down Lv.5 (15 s)"
-			}
-		],
-		festStats: {
-			def: 223,
-			spd: 141,
-			style: "DBF"
-		}
+		]
 	},
 	4281: {//Dr. Vegapunk - York
 		captain: "Reduces Special Cooldown of [INT], Cerebral and Driven characters by 1 turn at the start of the fight, boosts ATK of [INT], Cerebral and Driven characters by 5.25x, by 5.5x instead if they have a beneficial orb, boosts HP of [INT], Cerebral and Driven characters by 1.35x, makes [INT] orbs beneficial for all characters, reduces Counter-Healing duration by 10 turns, and increases boost effects of Color Affinity buffs by +0.25x.",
@@ -162744,69 +161698,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Boosts base RCV by 20" },
 			{ description: "Reduce base Special Cooldown by 1 turn" }
-		],
-		festAbility: [
-			"[INT] teammates ATK Up Lv.2, DEF Up Lv.2; Cerebral class teammates HP Up Lv.2, Guard % Up Lv.1; Driven class teammates SPD Up Lv.2, Blow Away % Up Lv.1",
-			"[INT] teammates ATK Up Lv.3, DEF Up Lv.3; Cerebral class teammates HP Up Lv.3, Guard % Up Lv.2; Driven class teammates SPD Up Lv.3, Blow Away % Up Lv.2",
-			"[INT] teammates ATK Up Lv.4, DEF Up Lv.4; Cerebral class teammates HP Up Lv.4, Guard % Up Lv.3; Driven class teammates SPD Up Lv.4, Blow Away % Up Lv.3",
-			"[INT] teammates ATK Up Lv.5, DEF Up Lv.5; Cerebral class teammates HP Up Lv.5, Guard % Up Lv.4; Driven class teammates SPD Up Lv.5, Blow Away % Up Lv.4",
-			"[INT] teammates ATK Up Lv.6, DEF Up Lv.6; Cerebral class teammates HP Up Lv.6, Guard % Up Lv.5; Driven class teammates SPD Up Lv.6, Blow Away % Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Action Bind, reduce damage taken from [PSY] by 30%, increase damage dealt to [PSY] by 30%",
-		festSpecial: [
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.2 (16 s); activates Provoke on self (16 s); targets self for ATK x 1 Counter stance (16 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.1 (16 s); targets self for 100 HP per interval auto-healing (16 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.4 (16 s), SPD Down Lv.4 (16 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.2 (17 s); activates Provoke on self (17 s); targets self for ATK x 1.3 Counter stance (17 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.1 (17 s); targets self for 150 HP per interval auto-healing (17 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.4 (17 s), SPD Down Lv.4 (17 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.3 (18 s); activates Provoke on self (18 s); targets self for ATK x 1.6 Counter stance (18 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.1 (18 s); targets self for 200 HP per interval auto-healing (18 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.5 (18 s), SPD Down Lv.5 (18 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.3 (19 s); activates Provoke on self (19 s); targets self for ATK x 1.9 Counter stance (19 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.2 (19 s); targets self for 250 HP per interval auto-healing (19 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.5 (19 s), SPD Down Lv.5 (19 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.4 (20 s); activates Provoke on self (20 s); targets self for ATK x 2.2 Counter stance (20 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.2 (20 s); targets self for 300 HP per interval auto-healing (20 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.6 (20 s), SPD Down Lv.6 (20 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.4 (21 s); activates Provoke on self (21 s); targets self for ATK x 2.5 Counter stance (21 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.3 (21 s); targets self for 350 HP per interval auto-healing (21 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.6 (21 s), SPD Down Lv.6 (21 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.5 (22 s); activates Provoke on self (22 s); targets self for ATK x 2.8 Counter stance (22 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.3 (22 s); targets self for 400 HP per interval auto-healing (22 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.7 (22 s), SPD Down Lv.7 (22 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.5 (23 s); activates Provoke on self (23 s); targets self for ATK x 3.1 Counter stance (23 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.3 (23 s); targets self for 450 HP per interval auto-healing (23 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.7 (23 s), SPD Down Lv.7 (23 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.6 (24 s); activates Provoke on self (24 s); targets self for ATK x 3.4 Counter stance (24 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.4 (24 s); targets self for 500 HP per interval auto-healing (24 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.8 (24 s), SPD Down Lv.8 (24 s)"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT] teammates for DEF Up Lv.7 (25 s); activates Provoke on self (25 s); targets self for ATK x 4 Counter stance (25 s); if 6 or more Cerebral characters are on the team, targets team for Special CT Speed Up Lv.5 (25 s); targets self for 600 HP per interval auto-healing (25 s); if 6 or more Driven characters are on the team, targets 2 enemies with low DEF for DEF Down Lv.9 (25 s), SPD Down Lv.9 (25 s)"
-			}
-		],
-		festStats: {
-			def: 278,
-			spd: 121,
-			style: "DEF"
-		}
+		]
 	},
 	4282: {//Stussy
 		captain: "Reduces Special Cooldown of [INT], Cerebral and Driven characters by 1 turn at the start of the fight, boosts ATK of [INT], Cerebral and Driven characters by 5.25x, boosts HP of [INT], Cerebral and Driven characters by 1.35x, and reduces Counter-Healing duration by 10 turns. Boosts ATK of [INT], Cerebral and Driven characters against delayed enemies, Poisoned enemies and enemies with reduced Defense by 1.15x. If crew uses a Special with an ATK Up or Orb Amplification buff, increases boost effects of those ATK Up and Orb Amplification buffs by +0.25x. If crew is inflicted with Bleed from an Enemy Action, ignores Debuff Protection and delays all enemies by 1 turn, recovers 20x character's RCV in HP at the end of each turn for 3 turns, and reduces Bleed duration by 10 turns.",
@@ -162903,69 +161795,7 @@ window.details = {
 			{ description: "Boosts base HP by 150" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Boosts base RCV by 30" }
-		],
-		festAbility: [
-			"Cerebral class teammates DEF Up Lv.2, ATK Up Lv.2, HP Up Lv.1; when defeating enemy, team SPD Up Lv.1",
-			"Cerebral class teammates DEF Up Lv.3, ATK Up Lv.3, HP Up Lv.2; when defeating enemy, team SPD Up Lv.1",
-			"Cerebral class teammates DEF Up Lv.4, ATK Up Lv.4, HP Up Lv.3; when defeating enemy, team SPD Up Lv.1",
-			"Cerebral class teammates DEF Up Lv.5, ATK Up Lv.5, HP Up Lv.4; when defeating enemy, team SPD Up Lv.1",
-			"Cerebral class teammates DEF Up Lv.6, ATK Up Lv.6, HP Up Lv.4; when defeating enemy, team SPD Up Lv.2"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Heal Self Lv.2"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Paralysis, reduce damage taken from Powerhouse and Free Spirit by 30%",
-		festSpecial: [
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 4200 damage, DEF Down Lv.2 (11 s), 10% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 4400 damage, DEF Down Lv.2 (12 s), 20% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 4600 damage, DEF Down Lv.3 (13 s), 30% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 4800 damage, DEF Down Lv.3 (14 s), 40% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 5000 damage, DEF Down Lv.4 (15 s), 50% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 5200 damage, DEF Down Lv.4 (16 s), 60% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 5400 damage, DEF Down Lv.5 (17 s), 70% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 5600 damage, DEF Down Lv.5 (18 s), 80% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 5800 damage, DEF Down Lv.6 (19 s), 90% chance of Action Bind (10 s)"
-			},
-			{
-				cooldown: 24,
-				description: "Targets 1 high ATK enemy for 6000 damage, DEF Down Lv.7 (20 s), 100% chance of Action Bind (10 s)"
-			}
-		],
-		festStats: {
-			def: 149,
-			spd: 160,
-			style: "DBF"
-		}
+		]
 	},
 	4283: {//Sentomaru
 		captain: "Boosts ATK of Powerhouse and Cerebral characters by 4x, boosts HP of all characters by 1.3x, and makes crew immune to Blow Away.",
@@ -163025,16 +161855,7 @@ window.details = {
 			{ description: "Boosts base ATK by 50" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Nutrition/Reduce Hunger stacks" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "DEF"
-		}
+		]
 	},
 	4284: {//Pacifista
 		captain: "Boosts ATK of Powerhouse and Cerebral characters by 3.75x, boosts HP of all characters by 1.5x, and makes crew immune to Blow Away.",
@@ -163094,16 +161915,7 @@ window.details = {
 			{ description: "Boosts base ATK by 50" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Nutrition/Reduce Hunger stacks" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "DEF"
-		}
+		]
 	},
 	4285: {//Shaka
 		captain: "Reduces Special Cooldown of Cerebral characters by 2 turns at the start of the fight, boosts ATK of Cerebral characters by 5.25x, by 5.5x instead if they have a beneficial orb, boosts HP of Cerebral characters by 1.35x, and makes [PSY] orbs beneficial for [INT] and Cerebral characters. Up to 2 times per adventure, when Dr. Vegapunk (Stella), Dr. Vegapunk \"Lilith the Evil\", Dr. Vegapunk \"Atlas the Violent\" or Dr. Vegapunk \"York the Greedy\" uses a Special as crewmate, advances Special Cooldown of this character to MAX, and reduces Chain Coefficient Reduction duration by 10 turns.",
@@ -163212,69 +162024,7 @@ window.details = {
 			{ description: "Boosts base ATK by 100" },
 			{ description: "Boosts base HP by 200" },
 			{ description: "Reduce base Special Cooldown by 1 turn" }
-		],
-		festAbility: [
-			"[INT]/Cerebral class teammates ATK Up Lv.2, DEF Up Lv.2; if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, self and \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" Special CT Speed Up Lv.1",
-			"[INT]/Cerebral class teammates ATK Up Lv.3, DEF Up Lv.3; if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, self and \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" Special CT Speed Up Lv.2",
-			"[INT]/Cerebral class teammates ATK Up Lv.4, DEF Up Lv.4; if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, self and \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" Special CT Speed Up Lv.3",
-			"[INT]/Cerebral class teammates ATK Up Lv.5, DEF Up Lv.5; if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, self and \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" Special CT Speed Up Lv.4",
-			"[INT]/Cerebral class teammates ATK Up Lv.6, DEF Up Lv.6; if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, self and \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" Special CT Speed Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Heal Teammate in Range Lv.2 (Medium Range)",
-			"Power Attack",
-			"Heal Teammate in Range Lv.2 (Small Range)"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Special Bind, reduce damage taken from [PSY] by 30％",
-		festSpecial: [
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.3 (11 s), SPD Up Lv.3 (11 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 20% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 50% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.3 (12 s), SPD Up Lv.3 (12 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 21% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 55% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.4 (13 s), SPD Up Lv.4 (13 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 22% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 60% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.4 (14 s), SPD Up Lv.4 (14 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 23% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 65% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.5 (15 s), SPD Up Lv.5 (15 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 24% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 70% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.5 (16 s), SPD Up Lv.5 (16 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 25% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 75% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.6 (17 s), SPD Up Lv.6 (17 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 26% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 80% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.6 (18 s), SPD Up Lv.6 (18 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 27% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 85% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.7 (19 s), SPD Up Lv.7 (19 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 28% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 90% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.8 (20 s), SPD Up Lv.8 (20 s); if \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", or \"Dr. Vegapunk \"Atlas the Violent\"\" is on the team, targets 3 teammates (not including self) with high Special CT for Special CT 30% reduction; targets \"Dr. Vegapunk (Stella)\", \"Dr. Vegapunk \"Lilith the Evil\"\", \"Dr. Vegapunk \"York the Greedy\"\", \"Dr. Vegapunk \"Atlas the Violent\"\" for 100% chance of Haste"
-			}
-		],
-		festStats: {
-			def: 165,
-			spd: 163,
-			style: "SPT"
-		}
+		]
 	},
 	4286: {//Dr. Vegapunk - Stella
 		captain: "Boosts ATK of [INT], Cerebral and Free Spirit characters by 3.75x, boosts HP of [INT], Cerebral and Free Spirit characters by 1.4x, and reduces damage received by 10%.",
@@ -163334,16 +162084,7 @@ window.details = {
 			{ description: "Boosts base ATK by 30" },
 			{ description: "Reduce base Special Cooldown by 1 turn" },
 			{ description: "Acquire Potential 2: Reduce Sailor Despair duration" }
-		],
-		festAttackPattern: [
-			"Normal Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festStats: {
-			def: 50,
-			spd: 100,
-			style: "SPT"
-		}
+		]
 	},
 	4287: {//Sanji & Pudding
 		captain: {
@@ -163459,125 +162200,7 @@ window.details = {
                     base: "Recovers 30,000 HP, allowing HP Overfill up to 2x MAX HP, reduces damage received by 80% for 2 turns, removes enemies' Threshold Damage Reduction and Percent Damage Reduction duration completely, removes Counter-RCV duration completely, and boosts Color Affinity of Fighter and Cerebral characters by 2.5x for 3 turns. Becomes Sanji & Pudding for 3 turns."
                 }
             }
-        ],
-		festAbility: {
-            base: [
-			"Fighter/Cerebral class teammates ATK Up Lv.1, HP Up Lv.1, SPD Up Lv.1",
-			"Fighter/Cerebral class teammates ATK Up Lv.2, HP Up Lv.2, SPD Up Lv.2",
-			"Fighter/Cerebral class teammates ATK Up Lv.3, HP Up Lv.3, SPD Up Lv.3",
-			"Fighter/Cerebral class teammates ATK Up Lv.4, HP Up Lv.4, SPD Up Lv.4",
-			"Fighter/Cerebral class teammates ATK Up Lv.5, HP Up Lv.5, SPD Up Lv.5"
-		    ],
-            llbbase: [
-                "Fighter/Cerebral class teammates ATK Up Lv.3, HP Up Lv.3, SPD Up Lv.3",
-                "Fighter/Cerebral class teammates ATK Up Lv.4, HP Up Lv.4, SPD Up Lv.4",
-                "Fighter/Cerebral class teammates ATK Up Lv.5, HP Up Lv.5, SPD Up Lv.5",
-                "Fighter/Cerebral class teammates ATK Up Lv.6, HP Up Lv.6, SPD Up Lv.6",
-                "Fighter/Cerebral class teammates ATK Up Lv.7, HP Up Lv.7, SPD Up Lv.7"
-            ]
-        },
-		festAttackPattern: [
-			"Normal Attack",
-			"Normal Attack",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: {
-            base: "Completely evades Special Bind, reduce damage taken from Shooter and Free Spirit by 30%",
-            llbbase: "Completely evades Special Bind, reduce damage taken from Shooter and Free Spirit by 40%"
-        },
-		festSpecial: {
-                base: [
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 1 damage; targets all enemies for ATK Down Lv.1 (20 s), SPD Down Lv.1 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 1.2 damage; targets all enemies for ATK Down Lv.2 (20 s), SPD Down Lv.2 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 1.4 damage; targets all enemies for ATK Down Lv.3 (20 s), SPD Down Lv.3 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 1.6 damage; targets all enemies for ATK Down Lv.4 (20 s), SPD Down Lv.4 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 1.8 damage; targets all enemies for ATK Down Lv.5 (20 s), SPD Down Lv.5 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2 damage; targets all enemies for ATK Down Lv.6 (20 s), SPD Down Lv.6 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2.2 damage; targets all enemies for ATK Down Lv.7 (20 s), SPD Down Lv.7 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2.4 damage; targets all enemies for ATK Down Lv.8 (20 s), SPD Down Lv.8 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2.6 damage; targets all enemies for ATK Down Lv.9 (20 s), SPD Down Lv.9 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 3 damage; targets all enemies for ATK Down Lv.10 (20 s), SPD Down Lv.10 (20 s)"
-                }
-            ],
-            llbbase: [
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2.5 damage; targets all enemies for ATK Down Lv.2 (20 s), SPD Down Lv.2 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2.6 damage; targets all enemies for ATK Down Lv.3 (20 s), SPD Down Lv.3 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2.7 damage; targets all enemies for ATK Down Lv.4 (20 s), SPD Down Lv.4 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2.8 damage; targets all enemies for ATK Down Lv.5 (20 s), SPD Down Lv.5 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 2.9 damage; targets all enemies for ATK Down Lv.6 (20 s), SPD Down Lv.6 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 3 damage; targets all enemies for ATK Down Lv.7 (20 s), SPD Down Lv.7 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 3.1 damage; targets all enemies for ATK Down Lv.8 (20 s), SPD Down Lv.8 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 3.2 damage; targets all enemies for ATK Down Lv.9 (20 s), SPD Down Lv.9 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 3.3 damage; targets all enemies for ATK Down Lv.10 (20 s), SPD Down Lv.10 (20 s)"
-                },
-                {
-                    cooldown: 33,
-                    description: "Targets 3 enemies for ATK x 3.5 damage; targets all enemies for ATK Down Lv.11 (20 s), SPD Down Lv.11 (20 s)"
-                }
-            ]
-        },
-		festStats: {
-			def: 198,
-			spd: 218,
-			style: "ATK"
-		}
+        ]
 	},
 	4288: {//Uta
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Switch Effect of all characters by 5 at the start of the fight, boosts ATK of [STR], [QCK], Cerebral and Shooter characters by 5x, by 5.5x after the 3rd PERFECT in a row, by 6x after the 5th PERFECT in a row, boosts HP of [STR], [QCK], Cerebral and Shooter characters by 1.35x, changes [PSY] orbs of [STR], [QCK], Cerebral and Shooter characters into [RAINBOW] orbs, and reduces Burn duration by 10 turns. If this character has a [RAINBOW] orb and you attack with this character, reduces enemies' [STR], [DEX] and [QCK] Resistance by -10% for 1 turn. If a Cerebral or Shooter crewmate uses a special, boosts Final Tap ATK of Cerebral and Shooter characters by 20%.",
@@ -164114,97 +162737,7 @@ window.details = {
 				"Boosts base ATK of this character by 2,000 for 1 turn, and increases boost effects of enemies' Increase Damage Taken debuffs by +0.25x.",
 				"Boosts base ATK of this character by 2,500 for 1 turn, and increases boost effects of enemies' Increase Damage Taken debuffs by +0.5x."
 			],
-		},
-		festAbility: [
-			"[STR]/Free Spirit class teammates DEF Up Lv.2, SPD Up Lv.2; HP Up Lv.2; [STR] teammates ATK Up Lv.1; Free Spirit class teammates ATK Up Lv.1; revives self up to 2 times at 35% HP",
-			"[STR]/Free Spirit class teammates DEF Up Lv.3, SPD Up Lv.3; HP Up Lv.3; [STR] teammates ATK Up Lv.1; Free Spirit class teammates ATK Up Lv.1; revives self up to 2 times at 45% HP",
-			"[STR]/Free Spirit class teammates DEF Up Lv.4, SPD Up Lv.4; HP Up Lv.4; [STR] teammates ATK Up Lv.2; Free Spirit class teammates ATK Up Lv.2; revives self up to 2 times at 55% HP",
-			"[STR]/Free Spirit class teammates DEF Up Lv.5, SPD Up Lv.5; HP Up Lv.5; [STR] teammates ATK Up Lv.2; Free Spirit class teammates ATK Up Lv.2; revives self up to 2 times at 65% HP",
-			"[STR]/Free Spirit class teammates DEF Up Lv.6, SPD Up Lv.6; HP Up Lv.6; [STR] teammates ATK Up Lv.3; Free Spirit class teammates ATK Up Lv.3; revives self up to 2 times at 75% HP"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Heal Self Lv.2",
-			"Power Attack",
-			"Full Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Forced Out/Action Bind, reduce damage taken from [DEX] by 30%",
-		festSpecial: [
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.1 (11 s); targets 3 enemies ignoring DEF for ATK x 1.1 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.1 (12 s); targets 3 enemies ignoring DEF for ATK x 1.2 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.2 (13 s); targets 3 enemies ignoring DEF for ATK x 1.3 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.2 (14 s); targets 3 enemies ignoring DEF for ATK x 1.4 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.3 (15 s); targets 3 enemies ignoring DEF for ATK x 1.5 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.3 (16 s); targets 3 enemies ignoring DEF for ATK x 1.6 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.4 (17 s); targets 3 enemies ignoring DEF for ATK x 1.7 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.4 (18 s); targets 3 enemies ignoring DEF for ATK x 1.8 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.5 (19 s); targets 3 enemies ignoring DEF for ATK x 1.9 damage"
-			},
-			{
-				cooldown: 32,
-				description: "Targets [STR]/Free Spirit class teammates for ATK Up Lv.6 (20 s); targets 3 enemies ignoring DEF for ATK x 2 damage"
-			}
-		],
-		festStats: {
-			def: 156,
-			spd: 194,
-			style: "ATK"
-		},
-		festAbilityGP: [
-			{
-				festGPAbility: "[STR]/[PSY] teammates ATK, HP Up Lv.2, Special CT Speed Up Lv.1; Fighter/Free Spirit class teammates HP, SPD Up Lv.2, DEF Up Lv.1",
-				festGPSpecial: "Targets [STR]/[PSY] / Fighter / Free Spirit class teammates for ATK Up Lv.2 (22 s); targets all enemies ignoring DEF for Leader base ATK x 1.7 damage; targets 3 [PSY]/[INT] enemies for 2000 damage",
-				uses: 2
-			},
-			{
-				festGPAbility: "[STR]/[PSY] teammates ATK, HP Up Lv.3, Special CT Speed Up Lv.2; Fighter/Free Spirit class teammates HP, SPD Up Lv.3, DEF Up Lv.2",
-				festGPSpecial: "Targets [STR]/[PSY] / Fighter / Free Spirit class teammates for ATK Up Lv.3 (24 s); targets all enemies ignoring DEF for Leader base ATK x 1.9 damage; targets 3 [PSY]/[INT] enemies for 3000 damage",
-				uses: 2
-			},
-			{
-				festGPAbility: "[STR]/[PSY] teammates ATK, HP Up Lv.4, Special CT Speed Up Lv.2; Fighter/Free Spirit class teammates HP, SPD Up Lv.4, DEF Up Lv.3",
-				festGPSpecial: "Targets [STR]/[PSY] / Fighter / Free Spirit class teammates for ATK Up Lv.4 (26 s); targets all enemies ignoring DEF for Leader base ATK x 2.1 damage; targets 3 [PSY]/[INT] enemies for 4000 damage",
-				uses: 2
-			},
-			{
-				festGPAbility: "[STR]/[PSY] teammates ATK, HP Up Lv.5, Special CT Speed Up Lv.3; Fighter/Free Spirit class teammates HP, SPD Up Lv.5, DEF Up Lv.3",
-				festGPSpecial: "Targets [STR]/[PSY] / Fighter / Free Spirit class teammates for ATK Up Lv.5 (28 s); targets all enemies ignoring DEF for Leader base ATK x 2.3 damage; targets 3 [PSY]/[INT] enemies for 5000 damage",
-				uses: 2
-			},
-			{
-				festGPAbility: "[STR]/[PSY] teammates ATK, HP Up Lv.6, Special CT Speed Up Lv.3; Fighter/Free Spirit class teammates HP, SPD Up Lv.6, DEF Up Lv.4",
-				festGPSpecial: "Targets [STR]/[PSY] / Fighter / Free Spirit class teammates for ATK Up Lv.6 (30 s); targets all enemies ignoring DEF for Leader base ATK x 2.5 damage; targets 3 [PSY]/[INT] enemies for 6000 damage",
-				uses: 2
-			}
-		],
-		festAbilityGPCondition: "After receiving damage 12 times"
+		}
 	},
 	4291: {//Sabo
 		captain: "Boosts ATK of [INT], Cerebral and Fighter characters by 6x, by 6.25x instead if crew is inflicted with 10+ status effects, boosts ATK of all other characters by 4.5x, boosts HP of [INT], Cerebral and Fighter characters by 1.2x, makes [TND] orbs beneficial for all characters, reduces Despair duration by 10 turns, removes Special Bind duration completely on this character, and increases duration of any Advantageous Class Effect buffs applied by specials by 1 turn. If this character is your Captain and performs EXCELLENT with their Action Special, boosts ATK of [INT], Cerebral and Fighter characters by 6.5x instead for 3 turns.",
@@ -164318,97 +162851,7 @@ window.details = {
 				"Boosts Tandem ATK of Cerebral and Fighter characters by 2.5x for 1 turn, and increases Orb Effects of beneficial [INT], [RCV], [TND] and [RAINBOW] orbs to 2.5x for 1 turn.",
 				"Boosts Tandem ATK of Cerebral and Fighter characters by 3x for 1 turn, and increases Orb Effects of beneficial [INT], [RCV], [TND] and [RAINBOW] orbs to 2.5x for 1 turn."
 			]
-		},
-		festAbility: [
-			"[INT]/Cerebral class teammates ATK Up Lv.2, DEF Up Lv.2, SPD Up Lv.2; self Shield Lv.6; first 40 s of battle, self SPD Up Lv.6, Special CT Speed Up Lv.1",
-			"[INT]/Cerebral class teammates ATK Up Lv.3, DEF Up Lv.3, SPD Up Lv.3; self Shield Lv.7; first 40 s of battle, self SPD Up Lv.7, Special CT Speed Up Lv.2",
-			"[INT]/Cerebral class teammates ATK Up Lv.4, DEF Up Lv.4, SPD Up Lv.4; self Shield Lv.8; first 40 s of battle, self SPD Up Lv.8, Special CT Speed Up Lv.3",
-			"[INT]/Cerebral class teammates ATK Up Lv.5, DEF Up Lv.5, SPD Up Lv.5; self Shield Lv.9; first 40 s of battle, self SPD Up Lv.9, Special CT Speed Up Lv.4",
-			"[INT]/Cerebral class teammates ATK Up Lv.6, DEF Up Lv.6, SPD Up Lv.6; self Shield Lv.10; first 40 s of battle, self SPD Up Lv.10, Special CT Speed Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Power Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Paralysis/Special Bind, reduce damage taken from [PSY] by 30%",
-		festSpecial: [
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.1 (11 s), Special CT Speed Up Lv.1 (11 s), Blow Away % Up Lv.1 (11 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.3 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 50% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.1 (12 s), Special CT Speed Up Lv.1 (12 s), Blow Away % Up Lv.2 (12 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.4 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 55% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.2 (13 s), Special CT Speed Up Lv.1 (13 s), Blow Away % Up Lv.3 (13 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.5 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 60% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.3 (14 s), Special CT Speed Up Lv.2 (14 s), Blow Away % Up Lv.4 (14 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.6 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 65% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.3 (15 s), Special CT Speed Up Lv.2 (15 s), Blow Away % Up Lv.5 (15 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.7 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 70% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.4 (16 s), Special CT Speed Up Lv.3 (16 s), Blow Away % Up Lv.6 (16 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.8 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 75% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.5 (17 s), Special CT Speed Up Lv.3 (17 s), Blow Away % Up Lv.7 (17 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.9 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 80% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.5 (18 s), Special CT Speed Up Lv.3 (18 s), Blow Away % Up Lv.8 (18 s); targets 1 high DEF enemy ignoring DEF for ATK x 2 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 85% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.6 (19 s), Special CT Speed Up Lv.4 (19 s), Blow Away % Up Lv.9 (19 s); targets 1 high DEF enemy ignoring DEF for ATK x 2.1 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 90% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.8 (20 s), Special CT Speed Up Lv.5 (20 s), Blow Away % Up Lv.10 (20 s); targets 1 high DEF enemy ignoring DEF for ATK x 2.2 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 100% chance of Haste"
-			}
-		],
-		festStats: {
-			def: 160,
-			spd: 168,
-			style: "SPT"
-		},
-		festAbilityGP: [
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.2; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.2, Special CT Speed Up Lv.1",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.8 (22 s), Special CT Speed Up Lv.8 (22 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 1 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 22% reduction; targets teammates with Special CT 100% or more for 60% chance of Haste",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.3; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.3, Special CT Speed Up Lv.2",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.8 (24 s), Special CT Speed Up Lv.8 (24 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 1.5 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 24% reduction; targets teammates with Special CT 100% or more for 70% chance of Haste",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.4; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.4, Special CT Speed Up Lv.2",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.9 (26 s), Special CT Speed Up Lv.9 (26 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 2 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 26% reduction; targets teammates with Special CT 100% or more for 80% chance of Haste",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.5; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.5, Special CT Speed Up Lv.3",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.9 (28 s), Special CT Speed Up Lv.9 (28 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 2.5 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 28% reduction; targets teammates with Special CT 100% or more for 90% chance of Haste",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.6; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.6, Special CT Speed Up Lv.3",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.10 (30 s), Special CT Speed Up Lv.10 (30 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 3 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 30% reduction; targets teammates with Special CT 100% or more for 100% chance of Haste",
-				uses: 3
-			}
-		],
-		festAbilityGPCondition: "After dealing 40,000 damage"
+		}
 	},
 	4292: {//Sabo
 		captain: "Boosts ATK of [INT], Cerebral and Fighter characters by 6x, by 6.25x instead if crew is inflicted with 10+ status effects, boosts ATK of all other characters by 4.5x, boosts HP of [INT], Cerebral and Fighter characters by 1.2x, makes [TND] orbs beneficial for all characters, reduces Despair duration by 10 turns, removes Special Bind duration completely on this character, and increases duration of any Advantageous Class Effect buffs applied by specials by 1 turn. If this character is your Captain and performs EXCELLENT with their Action Special, boosts ATK of [INT], Cerebral and Fighter characters by 6.5x instead for 3 turns.",
@@ -164522,97 +162965,7 @@ window.details = {
 				"Boosts Tandem ATK of Cerebral and Fighter characters by 2.5x for 1 turn, and increases Orb Effects of beneficial [INT], [RCV], [TND] and [RAINBOW] orbs to 2.5x for 1 turn.",
 				"Boosts Tandem ATK of Cerebral and Fighter characters by 3x for 1 turn, and increases Orb Effects of beneficial [INT], [RCV], [TND] and [RAINBOW] orbs to 2.5x for 1 turn."
 			]
-		},
-		festAbility: [
-			"[INT]/Cerebral class teammates ATK Up Lv.2, DEF Up Lv.2, SPD Up Lv.2; self Shield Lv.6; first 40 s of battle, self SPD Up Lv.6, Special CT Speed Up Lv.1",
-			"[INT]/Cerebral class teammates ATK Up Lv.3, DEF Up Lv.3, SPD Up Lv.3; self Shield Lv.7; first 40 s of battle, self SPD Up Lv.7, Special CT Speed Up Lv.2",
-			"[INT]/Cerebral class teammates ATK Up Lv.4, DEF Up Lv.4, SPD Up Lv.4; self Shield Lv.8; first 40 s of battle, self SPD Up Lv.8, Special CT Speed Up Lv.3",
-			"[INT]/Cerebral class teammates ATK Up Lv.5, DEF Up Lv.5, SPD Up Lv.5; self Shield Lv.9; first 40 s of battle, self SPD Up Lv.9, Special CT Speed Up Lv.4",
-			"[INT]/Cerebral class teammates ATK Up Lv.6, DEF Up Lv.6, SPD Up Lv.6; self Shield Lv.10; first 40 s of battle, self SPD Up Lv.10, Special CT Speed Up Lv.5"
-		],
-		festAttackPattern: [
-			"Normal Attack",
-			"Power Attack",
-			"Heal Teammate in Range Lv.1 (Small Range)",
-			"Power Attack"
-		],
-		festAttackTarget: "Targets closest enemies",
-		festResistance: "Completely evades Paralysis/Special Bind, reduce damage taken from [PSY] by 30%",
-		festSpecial: [
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.1 (11 s), Special CT Speed Up Lv.1 (11 s), Blow Away % Up Lv.1 (11 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.3 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 50% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.1 (12 s), Special CT Speed Up Lv.1 (12 s), Blow Away % Up Lv.2 (12 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.4 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 55% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.2 (13 s), Special CT Speed Up Lv.1 (13 s), Blow Away % Up Lv.3 (13 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.5 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 60% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.3 (14 s), Special CT Speed Up Lv.2 (14 s), Blow Away % Up Lv.4 (14 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.6 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 65% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.3 (15 s), Special CT Speed Up Lv.2 (15 s), Blow Away % Up Lv.5 (15 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.7 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 70% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.4 (16 s), Special CT Speed Up Lv.3 (16 s), Blow Away % Up Lv.6 (16 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.8 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 75% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.5 (17 s), Special CT Speed Up Lv.3 (17 s), Blow Away % Up Lv.7 (17 s); targets 1 high DEF enemy ignoring DEF for ATK x 1.9 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 80% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.5 (18 s), Special CT Speed Up Lv.3 (18 s), Blow Away % Up Lv.8 (18 s); targets 1 high DEF enemy ignoring DEF for ATK x 2 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 85% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.6 (19 s), Special CT Speed Up Lv.4 (19 s), Blow Away % Up Lv.9 (19 s); targets 1 high DEF enemy ignoring DEF for ATK x 2.1 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 90% chance of Haste"
-			},
-			{
-				cooldown: 28,
-				description: "Targets [INT]/Cerebral class teammates for ATK Up Lv.8 (20 s), Special CT Speed Up Lv.5 (20 s), Blow Away % Up Lv.10 (20 s); targets 1 high DEF enemy ignoring DEF for ATK x 2.2 damage; first 40 s of battle, targets 1 teammate (not including self) with high Special CT for 100% chance of Haste"
-			}
-		],
-		festStats: {
-			def: 160,
-			spd: 168,
-			style: "SPT"
-		},
-		festAbilityGP: [
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.2; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.2, Special CT Speed Up Lv.1",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.8 (22 s), Special CT Speed Up Lv.8 (22 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 1 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 22% reduction; targets teammates with Special CT 100% or more for 60% chance of Haste",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.3; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.3, Special CT Speed Up Lv.2",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.8 (24 s), Special CT Speed Up Lv.8 (24 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 1.5 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 24% reduction; targets teammates with Special CT 100% or more for 70% chance of Haste",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.4; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.4, Special CT Speed Up Lv.2",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.9 (26 s), Special CT Speed Up Lv.9 (26 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 2 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 26% reduction; targets teammates with Special CT 100% or more for 80% chance of Haste",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.5; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.5, Special CT Speed Up Lv.3",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.9 (28 s), Special CT Speed Up Lv.9 (28 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 2.5 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 28% reduction; targets teammates with Special CT 100% or more for 90% chance of Haste",
-				uses: 3
-			},
-			{
-				festGPAbility: "[INT] teammates ATK, DEF, SPD Up Lv.6; Cerebral / Fighter / Powerhouse class teammates ATK, SPD Up Lv.6, Special CT Speed Up Lv.3",
-				festGPSpecial: "Targets [INT] / Cerebral / Fighter / Powerhouse class teammates for ATK Up Lv.10 (30 s), Special CT Speed Up Lv.10 (30 s); targets 1 high DEF enemy ignoring DEF for Leader base ATK x 3 damage; targets [INT] / Cerebral / Fighter / Powerhouse class teammates for Special CT 30% reduction; targets teammates with Special CT 100% or more for 100% chance of Haste",
-				uses: 3
-			}
-		],
-		festAbilityGPCondition: "After dealing 40,000 damage"
+		}
 	},
 	4293: {//Whitebeard & Ace
 		captain: {
