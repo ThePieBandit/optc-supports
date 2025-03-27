@@ -167797,7 +167797,7 @@ window.details = {
 		],
 		festAttackTarget: "Targets closest enemies"
 	},
-    	4335: {//Sanji
+    4335: {//Sanji
 		captain: {
 			base: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 4.5x, by 5x instead if they have a [TND] orb, makes [TND] orbs beneficial for all characters, and boosts chances of getting [TND] orbs.<br><b>Action:</b> Sanji Vanishes and prevents all debuffs to himself (including, but not limited to, Bind, Despair, Special Bind, Slot Bind, Special Rewind, and Paralysis), makes own normal attacks ignore defense, damage reducing Barriers and Buffs, and adds 500x character's ATK as Additional Typeless Damage to own's attacks.",
 			level1: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of all characters by 4.75x, by 5x instead if they have a [TND] orb, makes [TND] orbs beneficial for all characters, and greatly boosts chances of getting [TND] orbs. Up to 1 time per adventure, if \"Monkey  D. Luffy\", \"Roronoa Zoro\", \"Usopp\", \"Nami\", \"Tony Tony Chopper\", \"Nico Robin\", \"Franky\", \"Brook\", \"Jinbe\", or \"Vinsmoke Reiju\" is a crewmate and they use their special, removes Special Bind duration completely on this characters and advances Special Cooldown of this character to MAX.<br><b>Action:</b> Sanji Vanishes and prevents all debuffs to himself (including, but not limited to, Bind, Despair, Special Bind, Slot Bind, Special Rewind, and Paralysis), makes own normal attacks ignore defense, damage reducing Barriers and Buffs, and adds 500x character's ATK as Additional Typeless Damage to own's attacks."
@@ -167977,6 +167977,887 @@ window.details = {
 			{
 				cooldown: 32,
 				description: "Targets enemies within large range for ATK x 2 damage; targets all enemies for Miss % Up Lv.5 (20 s); when less than 40 s of battle, targets [STR] enemies for ATK Down Lv.7 (20 s); after 40 s of battle, targets [STR] enemies for ATK x 2 damage"
+			}
+		]
+	},
+    4336: {//Alber
+		captain: "Boosts Slasher and Driven characters' HP by 1.5x, ATK by 5.25x, boosts their ATK by approximately 5.75x when they have [DEX][RCV][TND][WANO] slots, makes their [DEX][RCV][TND] slots have matching slot effects, slightly boosts their chance of landing on own type slot, makes crew's [QCK] slots into [WANO] slots (boosts ATK by 2.5x; cannot be changed by crew or enemies), and reduces crew's Despair/Bind duration by 10 turns",
+		special: "Sets all enemies' DEF to 0 for 1 turn, applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 1 turn (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action), reduces crew's Burn duration by 7 turns, reduces all enemies' Resilience duration by 7 turns, and applies -30% All Type Resistance to all enemies for 1 turn. If 5 or more Slasher characters are on the crew, boosts Slasher and Driven characters' advantageous class effect by 2x for 1 turn. If 5 or more Driven characters are on the crew, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.3x if enemy has Increased Damage Taken) to all enemies for 1 turn",
+		specialName: "Strike of the Flaming Blade",
+		sailor: {
+			base: "Boosts Slasher and Driven characters' base stats by 100, and makes their [DEX][RCV] slots have matching slot effects",
+			level1: "Tapping on this character with a [WANO] slot will further increase all enemies' increase damage taken effect by +0.2"
+		},
+		superSpecial: "Changes right column slots (including [BLOCK] slots and unless they are [TND] slots) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), locks crew's slots for 1 turn, boosts the ATK of the next final tap performed by crew by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes [DEX] characters to Super [DEX]",
+		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Roronoa Zoro, Kaido",
+		support: [
+			{
+				Characters: "Slasher characters",
+				description: [
+					"Reduces damage taken from [QCK] characters by 1% and adds 7% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [QCK] characters by 2% and adds 8% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [QCK] characters by 3% and adds 9% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [QCK] characters by 4% and adds 10% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [QCK] characters by 5% and adds 11% of character's base ATK to supported character's base ATK"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Acquire Potential 1: Reduce Special Use Limit duration" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire Potential 2: Critical Hit" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base RCV by 40" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Acquire Potential 3: Last Tap" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+		potential: [
+			{
+				Name: "Reduce Special Use Limit duration",
+				description: [
+					"Reduces Special Use Limit duration by 1 turn",
+					"Reduces Special Use Limit duration by 1 turn",
+					"Reduces Special Use Limit duration by 2 turns",
+					"Reduces Special Use Limit duration by 2 turns",
+					"Reduces Special Use Limit duration by 3 turns"
+				]
+			},
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+				]
+			},
+			{
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
+			}
+		],
+		lastTap: {
+			condition: "At final battle and 4 or more Slasher or Driven characters are on the crew (not including self) and on the turn character uses Special",
+			description: [
+				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and adds 0.1x of damage dealt by normal attacks of other characters this turn on top of the final damage",
+				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage",
+				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and adds 0.3x of damage dealt by normal attacks of other characters this turn on top of the final damage",
+				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), adds 0.4x of damage dealt by normal attacks of other characters this turn on top of the final damage, and changes crew's ATK multiplier of [WANO] slots to 3x when slots match (normally 2.5x), 0.5x when unfavorable, 1.0x otherwise for 1 turn",
+				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), adds 0.5x of damage dealt by normal attacks of other characters this turn on top of the final damage, and changes crew's ATK multiplier of [WANO] slots to 3.25x when slots match (normally 2.5x), 0.5x when unfavorable, 1.0x otherwise for 1 turn"
+			],
+		},
+		festStats: {
+			def: 282,
+			spd: 132,
+			style: "DEF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Completely evades Halve Stats, reduce damage taken from [QCK] by 30%",
+		festAbility: [
+			"Slasher/Driven class teammates HP Up Lv.2, DEF Up Lv.2, SPD Up Lv.2; if 8 or more Slasher/Driven characters are on the team, self Shield Lv.1",
+			"Slasher/Driven class teammates HP Up Lv.3, DEF Up Lv.3, SPD Up Lv.3; if 8 or more Slasher/Driven characters are on the team, self Shield Lv.2",
+			"Slasher/Driven class teammates HP Up Lv.4, DEF Up Lv.4, SPD Up Lv.4; if 8 or more Slasher/Driven characters are on the team, self Shield Lv.3",
+			"Slasher/Driven class teammates HP Up Lv.5, DEF Up Lv.5, SPD Up Lv.5; if 8 or more Slasher/Driven characters are on the team, self Shield Lv.4",
+			"Slasher/Driven class teammates HP Up Lv.6, DEF Up Lv.6, SPD Up Lv.6; if 8 or more Slasher/Driven characters are on the team, self Shield Lv.5"
+		],
+		festSpecial: [
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (6 s), targets self for ATK x 1 Counter stance (6 s); targets Slasher/Driven class teammates for DEF Up Lv.1 (6 s); targets self for 100 HP per interval healing (6 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 3000 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (7 s), targets self for ATK x 1.2 Counter stance (7 s); targets Slasher/Driven class teammates for DEF Up Lv.1 (7 s); targets self for 140 HP per interval healing (7 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 3200 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (8 s), targets self for ATK x 1.4 Counter stance (8 s); targets Slasher/Driven class teammates for DEF Up Lv.2 (8 s); targets self for 180 HP per interval healing (8 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 3400 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (9 s), targets self for ATK x 1.6 Counter stance (9 s); targets Slasher/Driven class teammates for DEF Up Lv.2 (9 s); targets self for 220 HP per interval healing (9 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 3600 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (10 s), targets self for ATK x 1.8 Counter stance (10 s); targets Slasher/Driven class teammates for DEF Up Lv.3 (10 s); targets self for 260 HP per interval healing (10 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 3800 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (11 s), targets self for ATK x 2 Counter stance (11 s); targets Slasher/Driven class teammates for DEF Up Lv.3 (11 s); targets self for 300 HP per interval healing (11 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 4000 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (12 s), targets self for ATK x 2.2 Counter stance (12 s); targets Slasher/Driven class teammates for DEF Up Lv.4 (12 s); targets self for 340 HP per interval healing (12 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 4200 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (13 s), targets self for ATK x 2.4 Counter stance (13 s); targets Slasher/Driven class teammates for DEF Up Lv.4 (13 s); targets self for 380 HP per interval healing (13 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 4400 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (14 s), targets self for ATK x 2.6 Counter stance (14 s); targets Slasher/Driven class teammates for DEF Up Lv.5 (14 s); targets self for 420 HP per interval healing (14 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 4600 damage"
+			},
+			{
+				cooldown: 20,
+				description: "Activates Provoke on self (15 s), targets self for ATK x 3 Counter stance (15 s); targets Slasher/Driven class teammates for DEF Up Lv.6 (15 s); targets self for 500 HP per interval healing (15 s); if 8 or more Slasher or Driven characters are on the team, targets 1 enemy with high current HP for 5000 damage"
+			}
+		],
+		festSuperSpecial: {
+            base: {
+                condition: "After character receives enemy's Rumble Special 2 times",
+                description: "Activates Provoke on self (30 s), targets self for ATK x 3.5 Counter stance (30 s); targets Slasher/Driven class teammates for DEF Up Lv.10 (30 s); targets team for 500 HP per interval healing (30 s); if 8 or more Slasher/Driven characters are on the team, targets 1 enemy with high current HP for 8000 damage"
+            },
+            llbbase: {
+                condition: "After character receives enemy's Rumble Special 1 time",
+                description: "Activates Provoke on self (30 s), targets self for ATK x 4 Counter stance (30 s); targets Slasher/Driven class teammates for DEF Up Lv.15 (30 s); targets team for 1000 HP per interval healing (30 s); if 8 or more Slasher/Driven characters are on the team, targets 2 enemies with high current HP for 8000 damage"
+            }
+        }
+	},
+    4337: {//Mihawk
+		captain: "Reduces crew's Special charge time by 2 turns, VS Effect gauge and Switch Effect by 2 at start of quest, boosts Slasher and Cerebral characters' HP by 1.5x, ATK by 5.25x, boosts their ATK by approximately 6x until a character lands a non-PERFECT strike, makes their [PSY][RCV][TND] slots have matching slot effects, adds +0.2 to the chain multiplier minimum (effect is stackable), and if crew uses a Special to apply ATK boosts, extends the duration of that effect by 1 turn",
+		special: "Reduces one enemy's HP by 25% (ignoring all defensive effects), reduces crew's ATK Down duration by 7 turns, reduces all enemies' Threshold Damage Reduction duration by 7 turns, increases all enemies' damage taken by 2x for 2 turns ignoring immunity to status effects, and if crew has ATK Up status when Special is launched, boosts Slasher and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0; GREAT +0.1; PERFECT +0.7) for 2 turns (boosts their ATK by 3x for 2 turns otherwise; up to 2 ATK boost increasing effects can be applied)",
+		specialName: "Black Blade to Sink the Young Power",
+		sailor: {
+			base: "Boosts Slasher and Cerebral characters' base stats by 100, and makes their [PSY][TND] slots have matching slot effects",
+			level1: "Tapping on this character with a [PSY][TND][WANO] slot will apply -10% Slasher and Cerebral Resistance to all enemies for 1 turn"
+		},
+		superSpecial: "Heals 25% of crew's maximum HP, boosts the type effects of normal attacks for Slasher and Cerebral characters by 1.5x for 1 turn (effect can be overwritten with other type effect boost effects), changes character's slot (including [BLOCK] slot) to [TND], prevents character's slot from being changed until character lands a PERFECT strike, boosts the ATK of the next final tap performed by a Slasher or Cerebral character by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes Slasher characters to Super Slasher",
+		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Roronoa Zoro, Shanks",
+		support: [
+			{
+				Characters: "Slasher characters",
+				description: [
+					"Reduces damage taken from [INT] characters by 1% and adds 7% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [INT] characters by 2% and adds 8% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [INT] characters by 3% and adds 9% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [INT] characters by 4% and adds 10% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [INT] characters by 5% and adds 11% of character's base ATK to supported character's base ATK"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Acquire Potential 1: Reduce Special Use Limit duration" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 2: Critical Hit" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base RCV by 40" },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Acquire Potential 3: Super Tandem" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 200" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+		potential: [
+			{
+				Name: "Reduce Special Use Limit duration",
+				description: [
+					"Reduces Special Use Limit duration by 1 turn",
+					"Reduces Special Use Limit duration by 1 turn",
+					"Reduces Special Use Limit duration by 2 turns",
+					"Reduces Special Use Limit duration by 2 turns",
+					"Reduces Special Use Limit duration by 3 turns"
+				]
+			},
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+				]
+			},
+			{
+				Name: "Super Tandem",
+				description: [
+					"Obtain Super Tandem Lv.1",
+					"Obtain Super Tandem Lv.2",
+					"Obtain Super Tandem Lv.3",
+					"Obtain Super Tandem Lv.4",
+					"Obtain Super Tandem Lv.5"
+				]
+			}
+		],
+		superTandem: {
+			characterCondition: [
+				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks",
+				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks",
+				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks",
+				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks",
+				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks"
+			],
+			description: [
+				"Applies ATK Boost (Tandem) of 1.25x to Slasher and Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.5x to Slasher and Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.75x to Slasher and Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 2x to Slasher and Cerebral characters for 1 turn, and boosts the ATK of the next final tap performed by a Slasher or Cerebral character by 10% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
+				"Applies ATK Boost (Tandem) of 2.25x to Slasher and Cerebral characters for 1 turn, and boosts the ATK of the next final tap performed by a Slasher or Cerebral character by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+			]
+		},
+		festStats: {
+			def: 127,
+			spd: 184,
+			style: "ATK"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Full Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Completely evades Special Bind, reduce damage taken from [INT] by 30％",
+		festAbility: [
+			"Slasher/Cerebral class teammates HP Up Lv.3, SPD Up Lv.3; self Critical % Up Lv.6, self Blow Away % Up Lv.6; when striking a Critical, up to 3 times self Special CT Speed Up Lv.1; when Blowing Away enemy, up to 3 times self Special CT Speed Up Lv.1",
+			"Slasher/Cerebral class teammates HP Up Lv.4, SPD Up Lv.4; self Critical % Up Lv.7, self Blow Away % Up Lv.7; when striking a Critical, up to 3 times self Special CT Speed Up Lv.1; when Blowing Away enemy, up to 3 times self Special CT Speed Up Lv.1",
+			"Slasher/Cerebral class teammates HP Up Lv.5, SPD Up Lv.5; self Critical % Up Lv.8, self Blow Away % Up Lv.8; when striking a Critical, up to 3 times self Special CT Speed Up Lv.1; when Blowing Away enemy, up to 3 times self Special CT Speed Up Lv.1",
+			"Slasher/Cerebral class teammates HP Up Lv.6, SPD Up Lv.6; self Critical % Up Lv.9, self Blow Away % Up Lv.9; when striking a Critical, up to 3 times self Special CT Speed Up Lv.1; when Blowing Away enemy, up to 3 times self Special CT Speed Up Lv.1",
+			"Slasher/Cerebral class teammates HP Up Lv.7, SPD Up Lv.7; self Critical % Up Lv.10, self Blow Away % Up Lv.10; when striking a Critical, up to 3 times self Special CT Speed Up Lv.2; when Blowing Away enemy, up to 3 times self Special CT Speed Up Lv.2"
+		],
+		festSpecial: [
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.1 (21 s); targets all enemies ignoring DEF for ATK x 0.3 damage; targets 1 high DEF enemy ignoring DEF for ATK x 0.3 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.1 (22 s); targets all enemies ignoring DEF for ATK x 0.4 damage; targets 1 high DEF enemy ignoring DEF for ATK x 0.4 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.2 (23 s); targets all enemies ignoring DEF for ATK x 0.5 damage; targets 1 high DEF enemy ignoring DEF for ATK x 0.5 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.3 (24 s); targets all enemies ignoring DEF for ATK x 0.6 damage; targets 1 high DEF enemy ignoring DEF for ATK x 0.6 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.3 (25 s); targets all enemies ignoring DEF for ATK x 0.7 damage; targets 1 high DEF enemy ignoring DEF for ATK x 0.7 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.4 (26 s); targets all enemies ignoring DEF for ATK x 0.8 damage; targets 1 high DEF enemy ignoring DEF for ATK x 0.8 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.5 (27 s); targets all enemies ignoring DEF for ATK x 0.9 damage; targets 1 high DEF enemy ignoring DEF for ATK x 0.9 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.5 (28 s); targets all enemies ignoring DEF for ATK x 1 damage; targets 1 high DEF enemy ignoring DEF for ATK x 1 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.6 (29 s); targets all enemies ignoring DEF for ATK x 1.1 damage; targets 1 high DEF enemy ignoring DEF for ATK x 1.1 damage"
+			},
+			{
+				cooldown: 39,
+				description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.8 (30 s); targets all enemies ignoring DEF for ATK x 1.3 damage; targets 1 high DEF enemy ignoring DEF for ATK x 1.3 damage"
+			}
+		],
+		festSuperSpecial: {
+            base: {
+                condition: "After character receives enemy's Rumble Special 2 times",
+                description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.10 (60 s); targets all enemies ignoring DEF for ATK x 1.7 damage; targets 1 high DEF enemy ignoring DEF for ATK x 1.7 damage"
+            },
+            llbbase: {
+                condition: "After character receives enemy's Rumble Special 2 times",
+                description: "Targets Slasher/Cerebral class teammates for ATK Up Lv.10 (60 s), DEF Up Lv.10 (60 s); targets all enemies ignoring DEF for ATK x 1.7 damage; targets 2 high DEF enemies ignoring DEF for ATK x 1.7 damage"
+            }
+        }
+	},
+    4338: {//Mr. 1
+		captain: "Reduces Slasher and Driven characters' Special charge time by 2 turns at start of quest, boosts their HP by 1.35x, ATK by approximately 5.75x when slots match (5.5x otherwise), makes their [TND] slots have matching slot effects, and reduces damage taken by 25%. When a crewmate launches a Special, adds 5% ATK to Slasher and Driven characters' next final tap (can be launched up to 10 times, 5 times in a single turn, both effects will count towards the total regardless of crew's status; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If the final tap ATK boost effect activates before the final battle, effect accumulates until the final battle. At the start of the final battle, applies a final tap ATK boost based on the accumulated value",
+		special: "Reduces top-right and middle-right characters' Special charge time by 2 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns, and changes character's slot (including [BLOCK] slot) to [TND] (ignoring inability to change [WANO] slots). Launches the following effects based on character's Special launch status: (0) boosts Slasher and Driven characters' ATK by 2.75x for 2 turns, and if 5 or more Slasher characters, or 5 or more Driven characters are on the crew, reduces character's Special charge time by 13 turns, then sets character's Special launch status to (1); (1) reduces crew's Bind duration by 7 turns, applies -30% Slasher and Driven Resistance to all enemies for 1 turn, and if crew has ATK or slot effect boosts when Special is launched, further increases crew's ATK and slot effects boosts by +0.5 and extends their duration by 1 turn",
+		specialName: "Dicing Slashes",
+		sailor: {
+			base: "Boosts Slasher and Driven characters' base stats by 100, and makes their [QCK][TND] slots have matching slot effects",
+			level1: "If field has any applicable Territory, adds +0.2 to the chain multiplier minimum (effect is stackable; boosts Slasher and Driven characters' base ATK by 50 otherwise)"
+		},
+		superSpecial: "Allows crew's slot effect boost to be further increased up to 2 times, activates HP Guard of 75% effect for 1 turn, boosts the ATK of the next final tap performed by a Slasher or Driven character by 20% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes Slasher characters to Super Slasher",
+		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Roronoa Zoro, Sir Crocodile (Mr. 0)",
+		support: [
+			{
+				Characters: "Slasher characters",
+				description: [
+					"Reduces damage taken from [STR] characters by 1% and adds 7% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [STR] characters by 2% and adds 8% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [STR] characters by 3% and adds 9% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [STR] characters by 4% and adds 10% of character's base ATK to supported character's base ATK",
+					"Reduces damage taken from [STR] characters by 5% and adds 11% of character's base ATK to supported character's base ATK"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base HP by 10" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Acquire Potential 1: Reduce Special Use Limit duration" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 2: Critical Hit" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base RCV by 40" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Acquire Potential 3: Super Tandem" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+        lLimit: [
+            null,
+            null,
+            null,
+            null,
+            {
+                rSuperSpecial: true
+            }
+        ],
+		potential: [
+			{
+				Name: "Reduce Special Use Limit duration",
+				description: [
+					"Reduces Special Use Limit duration by 1 turn",
+					"Reduces Special Use Limit duration by 1 turn",
+					"Reduces Special Use Limit duration by 2 turns",
+					"Reduces Special Use Limit duration by 2 turns",
+					"Reduces Special Use Limit duration by 3 turns"
+				]
+			},
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 70% chance to deal 7% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+				]
+			},
+			{
+				Name: "Super Tandem",
+				description: [
+					"Obtain Super Tandem Lv.1",
+					"Obtain Super Tandem Lv.2",
+					"Obtain Super Tandem Lv.3",
+					"Obtain Super Tandem Lv.4",
+					"Obtain Super Tandem Lv.5"
+				]
+			}
+		],
+		superTandem: {
+			characterCondition: [
+				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
+				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
+				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
+				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
+				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine"
+			],
+			description: [
+				"Applies ATK Boost (Tandem) of 1.25x to Slasher and Driven characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.5x to Slasher and Driven characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.75x to Slasher and Driven characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 2x to Slasher and Driven characters for 1 turn",
+				"Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn, and applies ATK Boost (Tandem) of 2.25x to Slasher and Driven characters for 1 turn"
+			]
+		},
+		festStats: {
+			def: 187,
+			spd: 151,
+			style: "DBF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Heal Self Lv.2"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Heal 400 HP at an interval, reduce damage taken from Fighter and Slasher by 30%",
+		festAbility: [
+			"[QCK]/Slasher class teammates ATK Up Lv.2, HP Up Lv.2; Slasher/Fighter class enemies ATK Down Lv.2; when receiving damage, up to 3 times self DEF Up Lv.1",
+			"[QCK]/Slasher class teammates ATK Up Lv.3, HP Up Lv.3; Slasher/Fighter class enemies ATK Down Lv.3; when receiving damage, up to 3 times self DEF Up Lv.1",
+			"[QCK]/Slasher class teammates ATK Up Lv.4, HP Up Lv.4; Slasher/Fighter class enemies ATK Down Lv.4; when receiving damage, up to 3 times self DEF Up Lv.2",
+			"[QCK]/Slasher class teammates ATK Up Lv.5, HP Up Lv.5; Slasher/Fighter class enemies ATK Down Lv.5; when receiving damage, up to 3 times self DEF Up Lv.2",
+			"[QCK]/Slasher class teammates ATK Up Lv.6, HP Up Lv.6; Slasher/Fighter class enemies ATK Down Lv.6; when receiving damage, up to 3 times self DEF Up Lv.3"
+		],
+		festSpecial: [
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 10% reduction, Damage Over Time Lv.1 (6 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.3 (6 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 12% reduction, Damage Over Time Lv.1 (7 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.3 (7 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 14% reduction, Damage Over Time Lv.1 (8 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.3 (8 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 16% reduction, Damage Over Time Lv.2 (9 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.3 (9 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 18% reduction, Damage Over Time Lv.2 (10 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.3 (10 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 20% reduction, Damage Over Time Lv.3 (11 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.4 (11 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 22% reduction, Damage Over Time Lv.3 (12 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.4 (12 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 24% reduction, Damage Over Time Lv.3 (13 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.4 (13 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 26% reduction, Damage Over Time Lv.4 (14 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.4 (14 s)"
+			},
+			{
+				cooldown: 17,
+				description: "Targets 2 enemies with high current HP for HP 30% reduction, Damage Over Time Lv.5 (15 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.5 (15 s)"
+			}
+		],
+		festSuperSpecial: {
+            base: {
+                condition: "After character receives enemy's Rumble Special 2 times",
+                description: "Targets 3 enemies with high current HP for HP 40% reduction, Damage Over Time Lv.8 (30 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.8 (30 s)"
+            },
+            llbbase: {
+                condition: "After character receives enemy's Rumble Special 2 times",
+                description: "Targets 3 enemies with high current HP for HP 50% reduction, Damage Over Time Lv.10 (30 s); if 6 or more Slasher characters are on the team, targets self for Shield Lv.8 (30 s)"
+            }
+        }
+	},
+    4339: {//Kuma
+		captain: "Boosts crew's HP by 1.75x and ATK by 3.5x",
+		special: "Deals 100x the amount of accumulated damage received before Special is launched in non-type damage to all enemies (maximum 1,000,000 damage), heals 30% of crew's maximum HP, reduces crew's Paralysis/Pain duration by 3 turns, and boosts crew's slot effects by 1.75x for 1 turn. If 1 Fighter character is on the crew, sets the chain multiplier's minimum value at 2.75 and maximum value at 15.0 for 2 turns. If 2 or more Fighter characters are on the crew, sets the chain multiplier to 3.25x for 3 turns. If 1 Powerhouse character is on the crew, extends the duration of crew's lock chain multiplier effect by 1 turn and further increases its effect by +0.5 (effect applies to lock chain multiplier effect from this Special). If 2 or more Powerhouse characters are on the crew, further increases crew's lock chain multiplier effect by +0.25 (effect applies to lock chain multiplier effect from this Special)",
+		specialName: "Repelling-Out the Critical Pain",
+		sailor: {
+			base: "Boosts crew's base HP by 200",
+			level1: "Character cannot be blown away by attack"
+		},
+		support: [
+			{
+				Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook",
+				description: [
+					"Adds 6% of character's base HP to supported character's base HP",
+					"Adds 7% of character's base HP to supported character's base HP",
+					"Adds 8% of character's base HP to supported character's base HP",
+					"Adds 9% of character's base HP to supported character's base HP",
+					"Adds 10% of character's base HP to supported character's base HP"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Nutrition/Reduce Hunger stacks" }
+		],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			},
+			{
+				Name: "Nutrition/Reduce Hunger stacks",
+				description: [
+					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack"
+				]
+			}
+		],
+		festStats: {
+			def: 50,
+			spd: 100,
+			style: "DBF"
+		},
+		festAttackPattern: [
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies"
+	},
+    4340: {//Ryuma
+		captain: "Boosts Slasher characters' ATK by 3.5x and heals crew by 4x character's RCV at end of turn",
+		special: [
+			{
+				description: "Reduces all enemies' DEF by 80% for 1 turn, reduces crew's Special Bind duration by 6 turns, changes character's slot (including [BLOCK] slot) to [TND], boosts damage dealt to DEF Down enemies by 1.25x for 2 turns, and further increases crew's damage dealt to enemies with a specific status effect boost effect by +0.5 (effect applies to damage dealt to enemies with a specific status effect boost effect from this Special)",
+				cooldown: [ 19, 13 ]
+			},
+			{
+				description: "Reduces all enemies' DEF by 80% for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity (excluding certain status effect)), reduces crew's Special Bind duration by 6 turns, changes adjacent slots (including [BLOCK] slots) to character's own type, boosts damage dealt to DEF Down enemies by 2.25x for 3 turns, and if crew's HP is at 31% or above when Special is launched, cuts crew's HP by 30% of maximum HP but reduces character's Special charge time by 8 turns",
+				cooldown: [ 23, 17 ]
+			}
+		],
+		specialName: "Samurai Art of the Blades for the Swordsman",
+		sailor: {
+			base: "Reduces character's Special Bind duration by 6 turns",
+			level1: "Makes character immune to Stun"
+		},
+		support: [
+			{
+				Characters: "Slasher characters",
+				description: [
+					"Adds 6% of character's base RCV to supported character's base RCV",
+					"Adds 7% of character's base RCV to supported character's base RCV",
+					"Adds 8% of character's base RCV to supported character's base RCV",
+					"Adds 9% of character's base RCV to supported character's base RCV",
+					"Adds 10% of character's base RCV to supported character's base RCV"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Critical Hit" }
+		],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+				]
+			},
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage"
+				]
+			}
+		],
+		festStats: {
+			def: 50,
+			spd: 100,
+			style: "SPT"
+		},
+		festAttackPattern: [
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies"
+	},
+    4341: {//Monet
+		captain: "Boosts Driven, Slasher, and Cerebral characters' ATK by 3.25x, boosts their ATK by approximately 4x after characters attack at GOOD or better in the order of [STR], [STR] without breaking the chain, and reduces damage taken by 20%",
+		special: "Delays all enemies by 1 turn, reduces crew's Despair duration by 6 turns, applies -20% Slasher, Driven, and Cerebral Resistance to all enemies for 1 turn, and if 6 Slasher or 6 Driven characters are on the crew, boosts the chain multiplier by 1.5x for 1 turn (cannot be removed by crew or enemies)",
+		specialName: "Snow Sheet: Skin Blade Against the Swordsman",
+		sailor: {
+			base: "Boosts crew's base RCV by 60",
+			level1: "Reduces crew's Despair duration by 1 turn"
+		},
+		support: [
+			{
+				Characters: "Driven characters",
+				description: [
+					"Adds 3% of character's base RCV to supported character's base RCV",
+					"Adds 4% of character's base RCV to supported character's base RCV",
+					"Adds 6% of character's base RCV to supported character's base RCV",
+					"Adds 7% of character's base RCV to supported character's base RCV",
+					"Adds 9% of character's base RCV to supported character's base RCV"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Acquire Potential 2: Critical Hit" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base RCV by 30" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Acquire Potential 3: Super Tandem" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Boosts base HP by 200" },
+			{ description: "Acquire Sailor Ability 2: " }
+		],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+					"Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+				]
+			},
+			{
+				Name: "Critical Hit",
+				description: [
+					"If you hit a PERFECT with this character, there is a 30% chance to deal 4% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 40% chance to deal 5% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 50% chance to deal 6% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 60% chance to deal 7% of this character's attack in extra damage",
+					"If you hit a PERFECT with this character, there is a 80% chance to deal 8% of this character's attack in extra damage"
+				]
+			},
+			{
+				Name: "Super Tandem",
+				description: [
+					"Obtain Super Tandem Lv.1",
+					"Obtain Super Tandem Lv.2",
+					"Obtain Super Tandem Lv.3",
+					"Obtain Super Tandem Lv.4",
+					"Obtain Super Tandem Lv.5"
+				]
+			}
+		],
+		superTandem: {
+			characterCondition: [
+				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy"
+			],
+			description: [
+				"Applies ATK Boost (Tandem) of 1.05x to Driven, Slasher, and Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.1x to Driven, Slasher, and Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.15x to Driven, Slasher, and Cerebral characters for 1 turn",
+				"Applies ATK Boost (Tandem) of 1.2x to Driven, Slasher, and Cerebral characters for 1 turn, and further increases crew's slot boost by +0.25",
+				"Applies ATK Boost (Tandem) of 1.25x to Driven, Slasher, and Cerebral characters for 1 turn, and further increases crew's slot boost by +0.5"
+			]
+		},
+		festStats: {
+			def: 199,
+			spd: 152,
+			style: "SPT"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Power Attack"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "60% chance to evade Paralysis",
+		festAbility: [
+			"Driven class teammates ATK Up Lv.1, SPD Up Lv.1; first 40 s of battle, Driven class teammates Special CT Speed Up Lv.2",
+			"Driven class teammates ATK Up Lv.2, SPD Up Lv.2; first 40 s of battle, Driven class teammates Special CT Speed Up Lv.2",
+			"Driven class teammates ATK Up Lv.3, SPD Up Lv.3; first 40 s of battle, Driven class teammates Special CT Speed Up Lv.2",
+			"Driven class teammates ATK Up Lv.4, SPD Up Lv.4; first 40 s of battle, Driven class teammates Special CT Speed Up Lv.2",
+			"Driven class teammates ATK Up Lv.4, SPD Up Lv.4; first 40 s of battle, Driven class teammates Special CT Speed Up Lv.3"
+		],
+		festSpecial: [
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.3 (6 s); targets ATK Style teammates for ATK Up Lv.3 (6 s), SPD Up Lv.3 (6 s), Special CT Speed Up Lv.1 (6 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.3 (7 s); targets ATK Style teammates for ATK Up Lv.3 (7 s), SPD Up Lv.3 (7 s), Special CT Speed Up Lv.1 (7 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.3 (8 s); targets ATK Style teammates for ATK Up Lv.3 (8 s), SPD Up Lv.3 (8 s), Special CT Speed Up Lv.1 (8 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.3 (9 s); targets ATK Style teammates for ATK Up Lv.3 (9 s), SPD Up Lv.3 (9 s), Special CT Speed Up Lv.1 (9 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.3 (10 s); targets ATK Style teammates for ATK Up Lv.3 (10 s), SPD Up Lv.3 (10 s), Special CT Speed Up Lv.1 (10 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.4 (11 s); targets ATK Style teammates for ATK Up Lv.4 (11 s), SPD Up Lv.4 (11 s), Special CT Speed Up Lv.1 (11 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.4 (12 s); targets ATK Style teammates for ATK Up Lv.4 (12 s), SPD Up Lv.4 (12 s), Special CT Speed Up Lv.1 (12 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.4 (13 s); targets ATK Style teammates for ATK Up Lv.4 (13 s), SPD Up Lv.4 (13 s), Special CT Speed Up Lv.1 (13 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.4 (14 s); targets ATK Style teammates for ATK Up Lv.4 (14 s), SPD Up Lv.4 (14 s), Special CT Speed Up Lv.1 (14 s)"
+			},
+			{
+				cooldown: 22,
+				description: "Targets enemies within large range for SPD Down Lv.5 (15 s); targets ATK Style teammates for ATK Up Lv.5 (15 s), SPD Up Lv.5 (15 s), Special CT Speed Up Lv.2 (15 s)"
 			}
 		]
 	},
