@@ -4799,11 +4799,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 250 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 250 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			}
         ],
@@ -18664,11 +18664,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 250 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 250 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			}
         ],
@@ -115457,11 +115457,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 250 HP and reduces Hunger stack by 2 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 250 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			}
         ],
@@ -121030,11 +121030,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			}
         ],
@@ -139866,11 +139866,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 250 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 250 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			}
         ],
@@ -155302,11 +155302,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 300 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 300 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -155463,11 +155463,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack"
 				]
 			},
 			{
@@ -158482,11 +158482,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 300 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 300 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -160779,11 +160779,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 300 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 300 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -160881,11 +160881,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -161583,11 +161583,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 2,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 2,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 2,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 2,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 2,000, the turn after recovering 200 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 2,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 50 the turn after recovering 2,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 2,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 150 the turn after recovering 2,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 2,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -161786,11 +161786,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack"
 				]
 			}
 		],
@@ -161846,11 +161846,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack"
 				]
 			}
 		],
@@ -162183,11 +162183,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 2,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 2,000, the turn after recovering 75 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 2,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 2,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 2,000, the turn after recovering 200 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 2,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 75 the turn after recovering 2,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 2,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 150 the turn after recovering 2,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 2,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -162655,11 +162655,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 300 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 300 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -163503,11 +163503,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack"
 				]
 			}
 		]
@@ -164403,11 +164403,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 300 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 300 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -164685,11 +164685,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 300 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 300 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -165863,11 +165863,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 300 HP and reduces Hunger stack by 3 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 300 the turn after recovering 3,000, HP and reduces Hunger stack by 3 stack"
 				]
 			},
 			{
@@ -167981,24 +167981,24 @@ window.details = {
 		]
 	},
     4336: {//Alber
-		captain: "Boosts Slasher and Driven characters' HP by 1.5x, ATK by 5.25x, boosts their ATK by approximately 5.75x when they have [DEX][RCV][TND][WANO] slots, makes their [DEX][RCV][TND] slots have matching slot effects, slightly boosts their chance of landing on own type slot, makes crew's [QCK] slots into [WANO] slots (boosts ATK by 2.5x; cannot be changed by crew or enemies), and reduces crew's Despair/Bind duration by 10 turns",
-		special: "Sets all enemies' DEF to 0 for 1 turn, applies Ignited status to all enemies (ignoring immunity to all status effects or immunity excluding certain status effect) for 1 turn (deals 100x enemy ATK in non-type damage at end of enemy turn; Ignited damage effect will not be applied after an enemy's preemptive action), reduces crew's Burn duration by 7 turns, reduces all enemies' Resilience duration by 7 turns, and applies -30% All Type Resistance to all enemies for 1 turn. If 5 or more Slasher characters are on the crew, boosts Slasher and Driven characters' advantageous class effect by 2x for 1 turn. If 5 or more Driven characters are on the crew, applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.3x if enemy has Increased Damage Taken) to all enemies for 1 turn",
+		captain: "Boosts ATK of Slasher and Driven characters by 5.25x, by 5.75x instead if they have a [DEX], [RCV], [TND] or [WANO] orb, boosts HP of Slasher and Driven characters by 1.5x, makes [DEX], [RCV] and [TND] orbs beneficial for Slasher and Driven characters, boosts chances of getting Matching orbs, changes [QCK] orbs into [WANO] orbs, and reduces Despair and Bind duration by 10 turns.",
+		special: "Reduces the defense of all enemies by 100% for 1 turn, ignores Debuff Protection and inflicts all enemies with Burn that will deal 100x enemies' ATK in damage for 1 turn, reduces Burn duration by 7 turns, reduces enemies' Resilience duration by 7 turns, and reduces enemies' [STR], [DEX], [QCK], [PSY] and [INT] Resistance by -30% for 1 turn. If your crew has 5+ Slasher characters when the special is activated, boosts Advantageous Class Effect of Slasher and Driven characters by 2x for 1 turn. If your crew has 5+ Driven characters when the special is activated, inflicts all enemies with Weaken by 1.5x, by 1.95x if enemies are inflicted with Increase Damage Taken, for 1 turn.",
 		specialName: "Strike of the Flaming Blade",
 		sailor: {
-			base: "Boosts Slasher and Driven characters' base stats by 100, and makes their [DEX][RCV] slots have matching slot effects",
-			level1: "Tapping on this character with a [WANO] slot will further increase all enemies' increase damage taken effect by +0.2"
+			base: "Boosts base ATK, HP and RCV of Slasher and Driven characters by 100; makes [DEX] and [RCV] orbs beneficial for Slasher and Driven characters.",
+			level1: "If this character has a [WANO] orb and you attack with this character, increases boost effects of enemies' Increase Damage Taken debuffs by +0.2x."
 		},
-		superSpecial: "Changes right column slots (including [BLOCK] slots and unless they are [TND] slots) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), locks crew's slots for 1 turn, boosts the ATK of the next final tap performed by crew by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes [DEX] characters to Super [DEX]",
-		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Roronoa Zoro, Kaido",
+		superSpecial: "Changes orbs, including [BLOCK] orbs, of right column characters into [WANO] orbs unless orbs are [TND] orbs, locks all orbs for 1 turn, boosts Final Tap ATK of all characters by 30%, and transforms [DEX] characters into Super [DEX] characters.",
+		superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Kaido",
 		support: [
 			{
 				Characters: "Slasher characters",
 				description: [
-					"Reduces damage taken from [QCK] characters by 1% and adds 7% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [QCK] characters by 2% and adds 8% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [QCK] characters by 3% and adds 9% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [QCK] characters by 4% and adds 10% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [QCK] characters by 5% and adds 11% of character's base ATK to supported character's base ATK"
+					"Reduces damage received from [QCK] characters by 1%; adds 7% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [QCK] characters by 2%; adds 8% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [QCK] characters by 3%; adds 9% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [QCK] characters by 4%; adds 10% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [QCK] characters by 5%; adds 11% of this character's base ATK to the supported character's base ATK."
 				]
 			}
 		],
@@ -168086,13 +168086,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle and 4 or more Slasher or Driven characters are on the crew (not including self) and on the turn character uses Special",
+			condition: "On the last Stage, on the turn this character's special is used, and your crew must consist of 5+ Slasher or Driven characters",
 			description: [
-				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and adds 0.1x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and adds 0.2x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and adds 0.3x of damage dealt by normal attacks of other characters this turn on top of the final damage",
-				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), adds 0.4x of damage dealt by normal attacks of other characters this turn on top of the final damage, and changes crew's ATK multiplier of [WANO] slots to 3x when slots match (normally 2.5x), 0.5x when unfavorable, 1.0x otherwise for 1 turn",
-				"Changes character's slot (including [BLOCK] slot) to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), adds 0.5x of damage dealt by normal attacks of other characters this turn on top of the final damage, and changes crew's ATK multiplier of [WANO] slots to 3.25x when slots match (normally 2.5x), 0.5x when unfavorable, 1.0x otherwise for 1 turn"
+				"Changes the orb, including [BLOCK] orb, of this character into a [WANO] orb, and adds 0.1x of total damage dealt with normal attacks from other characters this turn to this character's normal attack in damage.",
+				"Changes the orb, including [BLOCK] orb, of this character into a [WANO] orb, and adds 0.2x of total damage dealt with normal attacks from other characters this turn to this character's normal attack in damage.",
+				"Changes the orb, including [BLOCK] orb, of this character into a [WANO] orb, and adds 0.3x of total damage dealt with normal attacks from other characters this turn to this character's normal attack in damage.",
+				"Changes the orb, including [BLOCK] orb, of this character into a [WANO] orb, adds 0.4x of total damage dealt with normal attacks from other characters this turn to this character's normal attack in damage, and increases Orb Effects of beneficial [WANO] orbs to 3x for 1 turn.",
+				"Changes the orb, including [BLOCK] orb, of this character into a [WANO] orb, adds 0.5x of total damage dealt with normal attacks from other characters this turn to this character's normal attack in damage, and increases Orb Effects of beneficial [WANO] orbs to 3.25x for 1 turn."
 			],
 		},
 		festStats: {
@@ -168169,24 +168169,25 @@ window.details = {
         }
 	},
     4337: {//Mihawk
-		captain: "Reduces crew's Special charge time by 2 turns, VS Effect gauge and Switch Effect by 2 at start of quest, boosts Slasher and Cerebral characters' HP by 1.5x, ATK by 5.25x, boosts their ATK by approximately 6x until a character lands a non-PERFECT strike, makes their [PSY][RCV][TND] slots have matching slot effects, adds +0.2 to the chain multiplier minimum (effect is stackable), and if crew uses a Special to apply ATK boosts, extends the duration of that effect by 1 turn",
-		special: "Reduces one enemy's HP by 25% (ignoring all defensive effects), reduces crew's ATK Down duration by 7 turns, reduces all enemies' Threshold Damage Reduction duration by 7 turns, increases all enemies' damage taken by 2x for 2 turns ignoring immunity to status effects, and if crew has ATK Up status when Special is launched, boosts Slasher and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.7 (GOOD +0; GREAT +0.1; PERFECT +0.7) for 2 turns (boosts their ATK by 3x for 2 turns otherwise; up to 2 ATK boost increasing effects can be applied)",
-		specialName: "Black Blade to Sink the Young Power",
+		captain: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, reduces Switch Effect and VS Gauge of all characters by 2 at the start of the fight, boosts ATK of Slasher and Cerebral characters by 5.25x, by 6x instead until a character lands non-PERFECT hit, boosts HP of Slasher and Cerebral characters by 1.5x, makes [PSY], [RCV] and [TND] orbs beneficial for Slasher and Cerebral characters, adds 0.2x to Chain multiplier, and increases duration of any ATK Up buffs applied by specials by 1 turn.",
+		special: "Deals 25% of enemies' current HP in True damage to one enemy, reduces ATK Down duration by 7 turns, reduces enemies' Threshold Damage Reduction duration by 7 turns, and ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 2x for 2 turns. If your crew has ATK Up when the special is activated, increases Chain Tap Timing Bonus of Slasher and Cerebral characters to +0.0x-0.7x for 2 turns depending on Tap Timing; boosts ATK of Slasher and Cerebral characters by 3x, can be enhanced up to 2 times, for 2 turns otherwise.",
+		specialNotes: "GOOD: +0.0, GREAT: +0.1, PERFECT: +0.7",
+        specialName: "Black Blade to Sink the Young Power",
 		sailor: {
-			base: "Boosts Slasher and Cerebral characters' base stats by 100, and makes their [PSY][TND] slots have matching slot effects",
-			level1: "Tapping on this character with a [PSY][TND][WANO] slot will apply -10% Slasher and Cerebral Resistance to all enemies for 1 turn"
+			base: "Boosts base ATK, HP and RCV of Slasher and Cerebral characters by 100; makes [PSY] and [TND] orbs beneficial for Slasher and Cerebral characters.",
+			level1: "If this character has a [PSY], [TND] or [WANO] orb and you attack with this character, reduces enemies' Slasher and Cerebral Resistance by -10% for 1 turn."
 		},
-		superSpecial: "Heals 25% of crew's maximum HP, boosts the type effects of normal attacks for Slasher and Cerebral characters by 1.5x for 1 turn (effect can be overwritten with other type effect boost effects), changes character's slot (including [BLOCK] slot) to [TND], prevents character's slot from being changed until character lands a PERFECT strike, boosts the ATK of the next final tap performed by a Slasher or Cerebral character by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes Slasher characters to Super Slasher",
-		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Roronoa Zoro, Shanks",
+		superSpecial: "Recovers 25% of crew's MAX HP, boosts Color Affinity of Slasher and Cerebral characters by 1.5x, allowing override, for 1 turn, changes the orb, including [BLOCK] orb, of this character into a [TND] orb, barriers this character's orb for 1 PERFECT hit, boosts Final Tap ATK of Slasher and Cerebral characters by 25%, and transforms Slasher characters into Super Slasher characters.",
+		superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Shanks",
 		support: [
 			{
 				Characters: "Slasher characters",
 				description: [
-					"Reduces damage taken from [INT] characters by 1% and adds 7% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [INT] characters by 2% and adds 8% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [INT] characters by 3% and adds 9% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [INT] characters by 4% and adds 10% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [INT] characters by 5% and adds 11% of character's base ATK to supported character's base ATK"
+					"Reduces damage received from [INT] characters by 1%; adds 7% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [INT] characters by 2%; adds 8% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [INT] characters by 3%; adds 9% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [INT] characters by 4%; adds 10% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [INT] characters by 5%; adds 11% of this character's base ATK to the supported character's base ATK."
 				]
 			}
 		],
@@ -168275,18 +168276,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks",
-				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks",
-				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks",
-				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks",
-				"At final battle, when any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Shanks"
+				"On the last stage and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Shanks",
+				"On the last stage and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Shanks",
+				"On the last stage and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Shanks",
+				"On the last stage and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Shanks",
+				"On the last stage and your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Shanks"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.25x to Slasher and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.5x to Slasher and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.75x to Slasher and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 2x to Slasher and Cerebral characters for 1 turn, and boosts the ATK of the next final tap performed by a Slasher or Cerebral character by 10% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)",
-				"Applies ATK Boost (Tandem) of 2.25x to Slasher and Cerebral characters for 1 turn, and boosts the ATK of the next final tap performed by a Slasher or Cerebral character by 25% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)"
+				"Boosts Tandem ATK of Slasher and Cerebral characters by 1.25x for 1 turn.",
+				"Boosts Tandem ATK of Slasher and Cerebral characters by 1.5x for 1 turn.",
+				"Boosts Tandem ATK of Slasher and Cerebral characters by 1.75x for 1 turn.",
+				"Boosts Tandem ATK of Slasher and Cerebral characters by 2x for 1 turn, and boosts Final Tap ATK of Slasher and Cerebral characters by 10%.",
+				"Boosts Tandem ATK of Slasher and Cerebral characters by 2.25x for 1 turn, and boosts Final Tap ATK of Slasher and Cerebral characters by 25%."
 			]
 		},
 		festStats: {
@@ -168363,24 +168364,25 @@ window.details = {
         }
 	},
     4338: {//Mr. 1
-		captain: "Reduces Slasher and Driven characters' Special charge time by 2 turns at start of quest, boosts their HP by 1.35x, ATK by approximately 5.75x when slots match (5.5x otherwise), makes their [TND] slots have matching slot effects, and reduces damage taken by 25%. When a crewmate launches a Special, adds 5% ATK to Slasher and Driven characters' next final tap (can be launched up to 10 times, 5 times in a single turn, both effects will count towards the total regardless of crew's status; similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If the final tap ATK boost effect activates before the final battle, effect accumulates until the final battle. At the start of the final battle, applies a final tap ATK boost based on the accumulated value",
-		special: "Reduces top-right and middle-right characters' Special charge time by 2 turns, reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 3 turns, and changes character's slot (including [BLOCK] slot) to [TND] (ignoring inability to change [WANO] slots). Launches the following effects based on character's Special launch status: (0) boosts Slasher and Driven characters' ATK by 2.75x for 2 turns, and if 5 or more Slasher characters, or 5 or more Driven characters are on the crew, reduces character's Special charge time by 13 turns, then sets character's Special launch status to (1); (1) reduces crew's Bind duration by 7 turns, applies -30% Slasher and Driven Resistance to all enemies for 1 turn, and if crew has ATK or slot effect boosts when Special is launched, further increases crew's ATK and slot effects boosts by +0.5 and extends their duration by 1 turn",
-		specialName: "Dicing Slashes",
+		captain: "Reduces Special Cooldown of Slasher and Driven characters by 2 turns at the start of the fight, boosts ATK of Slasher and Driven characters by 5.5x, by 5.75x instead if they have a beneficial orb, boosts HP of Slasher and Driven characters by 1.35x, makes [TND] orbs beneficial for Slasher and Driven characters, and reduces damage received by 25%. Up to 10 times per adventure but up to 5 times per turn, when a crewmate uses a special, boosts Final Tap ATK of Slasher and Driven characters by 5%. If the Final Tap ATK boost effect activates before the Final Stage, effect accumulates until the Final Stage. At the start of the Final Stage, applies Final Tap ATK boost based on the accumulated value.",
+		special: "Reduces Special Cooldown of top-right and middle right characters by 2 turns, reduces enemies' Percent Damage Reduction duration by 3 turns, and changes the orb, including [BLOCK] and [WANO] orb, of this character into a [TND] orb. Launches the following effects depending on the Special Counter of this character when the special is activated:<ul><li><b>0:</b> Boosts ATK of Slasher and Driven characters by 2.75x for 2 turns. If your crew has 5+ Slasher or 5+ Driven characters when the special is activated, reduces Special Cooldown of this character by 13 turns. Sets Special Counter of this character to 1.</li><li><b>1:</b> Reduces Bind duration by 7 turns, and reduces enemies' Slasher and Driven Resistance by -30% for 1 turn. If your crew has ATK Up and Orb Amplification when the special is activated, increases boost effects of ATK Up and Orb Amplification buffs by +0.5x, and increases duration of any ATK Up and Orb Amplification buffs by 1 turn.</li></ul>",
+		specialNotes: "Special Counter counts the number of times that the character's special has been used in the adventure.",
+        specialName: "Dicing Slashes",
 		sailor: {
-			base: "Boosts Slasher and Driven characters' base stats by 100, and makes their [QCK][TND] slots have matching slot effects",
-			level1: "If field has any applicable Territory, adds +0.2 to the chain multiplier minimum (effect is stackable; boosts Slasher and Driven characters' base ATK by 50 otherwise)"
+			base: "Boosts base ATK, HP and RCV of Slasher and Driven characters by 100; makes [QCK] and [TND] orbs beneficial for Slasher and Driven characters.",
+			level1: "If field has Territory: Any, adds 0.2x to Chain multiplier; boosts base ATK of Slasher and Driven characters by 50 otherwise."
 		},
-		superSpecial: "Allows crew's slot effect boost to be further increased up to 2 times, activates HP Guard of 75% effect for 1 turn, boosts the ATK of the next final tap performed by a Slasher or Driven character by 20% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect), and changes Slasher characters to Super Slasher",
-		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters; can be launched when character is a crewmate): Roronoa Zoro, Sir Crocodile (Mr. 0)",
+		superSpecial: "Enables Orb Amplification buffs to be enhanced up to 2 times, activates HP Guard of 75% effect for 1 turn, boosts Final Tap ATK of Slasher and Driven characters by 20%, and transforms Slasher characters into Super Slasher characters.",
+		superSpecialCriteria: "Can be launched as crewmate. Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Sir Crocodile (Mr. 0)",
 		support: [
 			{
 				Characters: "Slasher characters",
 				description: [
-					"Reduces damage taken from [STR] characters by 1% and adds 7% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [STR] characters by 2% and adds 8% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [STR] characters by 3% and adds 9% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [STR] characters by 4% and adds 10% of character's base ATK to supported character's base ATK",
-					"Reduces damage taken from [STR] characters by 5% and adds 11% of character's base ATK to supported character's base ATK"
+					"Reduces damage received from [STR] characters by 1%; adds 7% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [STR] characters by 2%; adds 8% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [STR] characters by 3%; adds 9% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [STR] characters by 4%; adds 10% of this character's base ATK to the supported character's base ATK.",
+					"Reduces damage received from [STR] characters by 5%; adds 11% of this character's base ATK to the supported character's base ATK."
 				]
 			}
 		],
@@ -168469,18 +168471,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
-				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
-				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
-				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
-				"When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine"
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine",
+				"Your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Nico Robin, Sir Crocodile (Mr. 0), Miss Doublefinger, Mr. 2 Bon Clay, Galdino (Mr. 3), Miss Goldenweek, Mr. 4, Miss Merry Christmas, Mr. 5, Miss Valentine"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.25x to Slasher and Driven characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.5x to Slasher and Driven characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.75x to Slasher and Driven characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 2x to Slasher and Driven characters for 1 turn",
-				"Reduces all enemies' damage reduction (except Threshold Damage Reduction) duration by 1 turn, and applies ATK Boost (Tandem) of 2.25x to Slasher and Driven characters for 1 turn"
+				"Boosts Tandem ATK of Slasher and Driven characters by 1.25x for 1 turn.",
+				"Boosts Tandem ATK of Slasher and Driven characters by 1.5x for 1 turn.",
+				"Boosts Tandem ATK of Slasher and Driven characters by 1.75x for 1 turn.",
+				"Boosts Tandem ATK of Slasher and Driven characters by 2x for 1 turn.",
+				"Reduces enemies' Percent Damage Reduction duration by 1 turn, and boosts Tandem ATK of Slasher and Driven characters by 2.25x for 1 turn."
 			]
 		},
 		festStats: {
@@ -168557,22 +168559,23 @@ window.details = {
         }
 	},
     4339: {//Kuma
-		captain: "Boosts crew's HP by 1.75x and ATK by 3.5x",
-		special: "Deals 100x the amount of accumulated damage received before Special is launched in non-type damage to all enemies (maximum 1,000,000 damage), heals 30% of crew's maximum HP, reduces crew's Paralysis/Pain duration by 3 turns, and boosts crew's slot effects by 1.75x for 1 turn. If 1 Fighter character is on the crew, sets the chain multiplier's minimum value at 2.75 and maximum value at 15.0 for 2 turns. If 2 or more Fighter characters are on the crew, sets the chain multiplier to 3.25x for 3 turns. If 1 Powerhouse character is on the crew, extends the duration of crew's lock chain multiplier effect by 1 turn and further increases its effect by +0.5 (effect applies to lock chain multiplier effect from this Special). If 2 or more Powerhouse characters are on the crew, further increases crew's lock chain multiplier effect by +0.25 (effect applies to lock chain multiplier effect from this Special)",
-		specialName: "Repelling-Out the Critical Pain",
+		captain: "Boosts ATK of all characters by 3.5x, and boost HP of all characters by 1.75x.",
+		special: "Deals 100x the damage taken from enemies before the special is activated in Typeless damage to all enemies, recovers 30% of crew's MAX HP, reduces Paralysis and Pain duration by 3 turns, and boosts Orb Effects of all characters by 1.75x for 1 turn. If your crew has exactly 1 Fighter character when the special is activated, sets Chain Boundaries to 2.75x and 15.0x for 2 turns. If your crew has 2+ Fighter characters when the special is activated, locks the chain multiplier at 3.25x for 3 turns. If your crew has exactly 1 Powerhouse character when the special is activated, increases duration of any Chain Lock buffs by 1 turn and increases boost effects of Chain Lock buffs by +0.5x, including effects activated in the same Ability. If your crew has 2+ Powerhouse characters when the special is activated, increases boost effects of Chain Lock buffs by +0.25x, including effects activated in the same Ability.",
+		specialNotes: "The amount of damage possible caps at 10,000 damage taken, so 1,000,000 AOE Typeless damage.",
+        specialName: "Repelling-Out the Critical Pain",
 		sailor: {
-			base: "Boosts crew's base HP by 200",
-			level1: "Character cannot be blown away by attack"
+			base: "Boosts base HP of all characters by 200.",
+			level1: "This character cannot be Blown Away."
 		},
 		support: [
 			{
 				Characters: "Monkey D. Luffy, Roronoa Zoro, Nami, Usopp, Sanji, Tony Tony Chopper, Nico Robin, Franky, Brook",
 				description: [
-					"Adds 6% of character's base HP to supported character's base HP",
-					"Adds 7% of character's base HP to supported character's base HP",
-					"Adds 8% of character's base HP to supported character's base HP",
-					"Adds 9% of character's base HP to supported character's base HP",
-					"Adds 10% of character's base HP to supported character's base HP"
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 7% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 9% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP."
 				]
 			}
 		],
@@ -168607,11 +168610,11 @@ window.details = {
 			{
 				Name: "Nutrition/Reduce Hunger stacks",
 				description: [
-					"Boosts base ATK by 3,000, the turn after recovering 50 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 1 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 100 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 150 HP and reduces Hunger stack by 2 stack",
-					"Boosts base ATK by 3,000, the turn after recovering 200 HP and reduces Hunger stack by 2 stack"
+					"Boosts base ATK by 50 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by 100 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack"
 				]
 			}
 		],
@@ -168626,31 +168629,31 @@ window.details = {
 		festAttackTarget: "Targets closest enemies"
 	},
     4340: {//Ryuma
-		captain: "Boosts Slasher characters' ATK by 3.5x and heals crew by 4x character's RCV at end of turn",
+		captain: "Boosts ATK of Slasher characters by 3.5x, and recovers 4x character's RCV in HP at the end of each turn.",
 		special: [
 			{
-				description: "Reduces all enemies' DEF by 80% for 1 turn, reduces crew's Special Bind duration by 6 turns, changes character's slot (including [BLOCK] slot) to [TND], boosts damage dealt to DEF Down enemies by 1.25x for 2 turns, and further increases crew's damage dealt to enemies with a specific status effect boost effect by +0.5 (effect applies to damage dealt to enemies with a specific status effect boost effect from this Special)",
+				description: "Reduces the defense of all enemies by 80% for 1 turn, reduces Special Bind duration by 6 turns, changes the orb, including [BLOCK] orb, of this character into a [TND] orb, boosts ATK against enemies with reduced defense by 1.25x for 2 turns, and increases boost effects of Status ATK Boost buffs by +0.5x, including effects activated in the same Ability.",
 				cooldown: [ 19, 13 ]
 			},
 			{
-				description: "Reduces all enemies' DEF by 80% for 1 turn (ignoring immunity to DEF Down, immunity to all status effects, or immunity (excluding certain status effect)), reduces crew's Special Bind duration by 6 turns, changes adjacent slots (including [BLOCK] slots) to character's own type, boosts damage dealt to DEF Down enemies by 2.25x for 3 turns, and if crew's HP is at 31% or above when Special is launched, cuts crew's HP by 30% of maximum HP but reduces character's Special charge time by 8 turns",
+				description: "Ignores Debuff Protection and reduces the defense of all enemies by 80% for 1 turn, reduces Special Bind duration by 6 turns, changes orbs, including [BLOCK] orbs, of adjacent characters into Matching orbs, and boosts ATK against enemies with reduced defense by 2.25x for 3 turns. If HP is above 31% when the special is activated, reduces crew's current HP by 30%, and reduces Special Cooldown of this character by 8 turns.",
 				cooldown: [ 23, 17 ]
 			}
 		],
 		specialName: "Samurai Art of the Blades for the Swordsman",
 		sailor: {
-			base: "Reduces character's Special Bind duration by 6 turns",
-			level1: "Makes character immune to Stun"
+			base: "Reduces Special Bind duration by 6 turns on this character.",
+			level1: "Removes Stun duration completely on this character."
 		},
 		support: [
 			{
 				Characters: "Slasher characters",
 				description: [
-					"Adds 6% of character's base RCV to supported character's base RCV",
-					"Adds 7% of character's base RCV to supported character's base RCV",
-					"Adds 8% of character's base RCV to supported character's base RCV",
-					"Adds 9% of character's base RCV to supported character's base RCV",
-					"Adds 10% of character's base RCV to supported character's base RCV"
+					"Adds 6% of this character's base RCV to the supported character's base RCV.",
+					"Adds 7% of this character's base RCV to the supported character's base RCV.",
+					"Adds 8% of this character's base RCV to the supported character's base RCV.",
+					"Adds 9% of this character's base RCV to the supported character's base RCV.",
+					"Adds 10% of this character's base RCV to the supported character's base RCV."
 				]
 			}
 		],
@@ -168704,22 +168707,22 @@ window.details = {
 		festAttackTarget: "Targets closest enemies"
 	},
     4341: {//Monet
-		captain: "Boosts Driven, Slasher, and Cerebral characters' ATK by 3.25x, boosts their ATK by approximately 4x after characters attack at GOOD or better in the order of [STR], [STR] without breaking the chain, and reduces damage taken by 20%",
-		special: "Delays all enemies by 1 turn, reduces crew's Despair duration by 6 turns, applies -20% Slasher, Driven, and Cerebral Resistance to all enemies for 1 turn, and if 6 Slasher or 6 Driven characters are on the crew, boosts the chain multiplier by 1.5x for 1 turn (cannot be removed by crew or enemies)",
+		captain: "Boosts ATK of Driven, Slasher and Cerebral characters by 3.25x, boosts ATK of Driven, Slasher and Cerebral characters by 4x following a chain of [STR] > [STR] attacks no lower than Good, and reduces damage received by 20%.",
+		special: "Delays all enemies by 1 turn, reduces Despair duration by 6 turns, and reduces enemies' Slasher, Driven and Cerebral Resistance by -20% for 1 turn. If your crew has 6 Slasher or 6 Driven characters when the special is activated, boosts Chain Multiplier Growth Rate by 1.5x, preventing buff clears, for 1 turn.",
 		specialName: "Snow Sheet: Skin Blade Against the Swordsman",
 		sailor: {
-			base: "Boosts crew's base RCV by 60",
-			level1: "Reduces crew's Despair duration by 1 turn"
+			base: "Boosts base RCV of all characters by 60.",
+			level1: "Reduces Despair duration by 1 turn."
 		},
 		support: [
 			{
 				Characters: "Driven characters",
 				description: [
-					"Adds 3% of character's base RCV to supported character's base RCV",
-					"Adds 4% of character's base RCV to supported character's base RCV",
-					"Adds 6% of character's base RCV to supported character's base RCV",
-					"Adds 7% of character's base RCV to supported character's base RCV",
-					"Adds 9% of character's base RCV to supported character's base RCV"
+					"Adds 3% of this character's base RCV to the supported character's base RCV.",
+					"Adds 4% of this character's base RCV to the supported character's base RCV.",
+					"Adds 6% of this character's base RCV to the supported character's base RCV.",
+					"Adds 7% of this character's base RCV to the supported character's base RCV.",
+					"Adds 9% of this character's base RCV to the supported character's base RCV."
 				]
 			}
 		],
@@ -168784,18 +168787,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy"
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.05x to Driven, Slasher, and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.1x to Driven, Slasher, and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.15x to Driven, Slasher, and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.2x to Driven, Slasher, and Cerebral characters for 1 turn, and further increases crew's slot boost by +0.25",
-				"Applies ATK Boost (Tandem) of 1.25x to Driven, Slasher, and Cerebral characters for 1 turn, and further increases crew's slot boost by +0.5"
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.05x for 1 turn.",
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.1x for 1 turn.",
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.15x for 1 turn.",
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.2x for 1 turn, and increases boost effects of Orb Amplification buffs by +0.25x.",
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.25x for 1 turn, and increases boost effects of Orb Amplification buffs by +0.5x."
 			]
 		},
 		festStats: {
