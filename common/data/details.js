@@ -168864,6 +168864,75 @@ window.details = {
 			}
 		]
 	},
+	4359: {//Imposter Straw Hats
+		captain: "Reduces crew's Special charge time by 1 turn at start of quest, drastically cuts crew's HP, but boosts ATK for characters with a Cost of 40 or less by 4.5x",
+		special: "Makes it harder to land PERFECT strikes for 1 turn, but increases all enemies' damage taken by 1.5x for 1 turn, and changes the slots on the left to Rainbow, [BOMB], [PARALYSIS] starting from the top, and the slots on the right to [WANO][SEMLA][S. BOMB] starting from the top",
+		specialName: "Pirate Posers: Neo",
+		sailor: {
+			base: "Boosts crew's base stats by 56",
+			level1: "Makes crew's [RCV] slots have matching slot effects"
+		},
+		support: [
+			{
+				Characters: "Driven characters",
+				description: [
+					"Adds 2% of character's base stats to supported character's base stats",
+					"Adds 3% of character's base stats to supported character's base stats",
+					"Adds 4% of character's base stats to supported character's base stats",
+					"Adds 5% of character's base stats to supported character's base stats",
+					"Adds 6% of character's base stats to supported character's base stats"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base HP by 35" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 25" },
+			{ description: "Acquire Potential 1: [QCK] Damage Reduction" },
+			{ description: "Boosts base HP by 45" },
+			{ description: "Boosts base RCV by 15" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 55" },
+			{ description: "Boosts base RCV by 25" },
+			{ description: "Boosts base ATK by 45" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 65" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Barrier Penetration" }
+		],
+		potential: [
+			{
+				Name: "[QCK] Damage Reduction",
+				description: [
+					"Reduces damage taken from [QCK] characters by 1%",
+					"Reduces damage taken from [QCK] characters by 2%",
+					"Reduces damage taken from [QCK] characters by 3%",
+					"Reduces damage taken from [QCK] characters by 4%",
+					"Reduces damage taken from [QCK] characters by 5%"
+				]
+			},
+			{
+				Name: "Barrier Penetration",
+				description: [
+					"This character's normal attack will ignore barriers if HP is above 99% at the start of the turn",
+					"This character's normal attack will ignore barriers if HP is above 90% at the start of the turn",
+					"This character's normal attack will ignore barriers if HP is above 80% at the start of the turn",
+					"This character's normal attack will ignore barriers if HP is above 60% at the start of the turn",
+					"This character's normal attack will ignore barriers if HP is above 50% at the start of the turn"
+				]
+			}
+		],
+		festStats: {
+			def: 50,
+			spd: 100,
+			style: "DBF"
+		},
+		festAttackPattern: [
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies"
+	},
     4986: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",
