@@ -168865,22 +168865,23 @@ window.details = {
 		]
 	},
 	4359: {//Imposter Straw Hats
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, drastically cuts crew's HP, but boosts ATK for characters with a Cost of 40 or less by 4.5x",
-		special: "Makes it harder to land PERFECT strikes for 1 turn, but increases all enemies' damage taken by 1.5x for 1 turn, and changes the slots on the left to Rainbow, [BOMB], [PARALYSIS] starting from the top, and the slots on the right to [WANO][SEMLA][S. BOMB] starting from the top",
-		specialName: "Pirate Posers: Neo",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cost 40 or lower characters by 4.5x, and boosts HP of all characters by 0.1x.",
+		special: "Makes PERFECTs harder to hit for 1 turn, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn, changes orbs of left column characters into [RAINBOW], [BOMB] and [PARALYSIS] orbs, and changes orbs of right column characters into [WANO], [SEMLA] and [SUPERBOMB] orbs.",
+		specialNotes: "The special is not based on chance; the orbs are always changed with the same pattern. Starting from the top left orb and proceeding clockwise, after the special is used the orbs will be: [RAINBOW], [WANO], [SEMLA], [SUPERBOMB], [PARALYSIS] and [BOMB]",
+        specialName: "Pirate Posers: Neo",
 		sailor: {
-			base: "Boosts crew's base stats by 56",
-			level1: "Makes crew's [RCV] slots have matching slot effects"
+			base: "Boosts base ATK, HP and RCV of all characters by 56.",
+			level1: "Makes [RCV] orbs beneficial for all characters."
 		},
 		support: [
 			{
 				Characters: "Driven characters",
 				description: [
-					"Adds 2% of character's base stats to supported character's base stats",
-					"Adds 3% of character's base stats to supported character's base stats",
-					"Adds 4% of character's base stats to supported character's base stats",
-					"Adds 5% of character's base stats to supported character's base stats",
-					"Adds 6% of character's base stats to supported character's base stats"
+					"Adds 2% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 3% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 4% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 5% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV.",
+					"Adds 6% of this character's base ATK, HP and RCV to the supported character's base ATK, HP and RCV."
 				]
 			}
 		],
