@@ -168876,22 +168876,22 @@ window.details = {
 		]
 	},
 	4343: {//Pica
-		captain: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Driven characters' ATK by 4.75x, HP by 2.25x, and if crew uses a Special to apply base ATK boost, additive chain multiplier boost, or multiplicative chain multiplier boost, extends the duration of that effect by 1 turn",
-		special: "Deals 120x character's ATK in non-type damage to all enemies, removes all beneficial effects placed on the crew, then after that, allows crew's ATK boost to be further increased up to 2 times, further increases crew's ATK boost by 1.4x (up to 4x), nullifies damage for 1 turn, boosts damage dealt to delayed or Weakened enemies by 3x for 1 turn, and reduces Special charge time for \"Donquixote Doflamingo\" by 14 turns (Special charge time reduction effect of \"Gigantic Fist on the Swordsman\" can be activated up to 1 time including any Specials with similar effect)",
+		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Driven characters by 4.75x, boosts HP of Driven characters by 2.25x, and increases duration of any ATK Up, Chain Addition and Chain Multiplication buffs applied by Specials by 1 turn.",
+		special: "Deals 120x character's ATK in Typeless damage to all enemies, removes all positive buffs on your team, enables ATK Up buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by 1.4x (up to 4x), reduces damage received by 100% for 1 turn, and boosts ATK against delayed enemies and enemies inflicted with weaken by 3x for 1 turn. Up to 1 time per adventure, reduces Special Cooldown of Donquixote Doflamingo by 14 turns.",
 		specialName: "Gigantic Fist on the Swordsman",
 		sailor: {
-			level1: "Character cannot be blown away by attack",
-			level2: "Boosts Driven characters' base HP by 300"
+			level1: "This character cannot be Blown Away.",
+			level2: "Boosts base HP of Driven characters by 300."
 		},
 		support: [
 			{
 				Characters: "Driven characters",
 				description: [
-					"Adds 5% of character's base HP to supported character's base HP",
-					"Adds 6% of character's base HP to supported character's base HP",
-					"Adds 8% of character's base HP to supported character's base HP",
-					"Adds 10% of character's base HP to supported character's base HP",
-					"Adds 13% of character's base HP to supported character's base HP"
+					"Adds 5% of this character's base HP to the supported character's base HP.",
+					"Adds 6% of this character's base HP to the supported character's base HP.",
+					"Adds 8% of this character's base HP to the supported character's base HP.",
+					"Adds 10% of this character's base HP to the supported character's base HP.",
+					"Adds 13% of this character's base HP to the supported character's base HP."
 				]
 			}
 		],
@@ -169033,24 +169033,24 @@ window.details = {
 		]
 	},
 	4344: {//Doflamingo
-		captain: "Boosts Driven characters' ATK by 5.25x, boosts other characters' ATK by 3.75x, boosts crew's HP by 1.3x, makes Driven characters' [DEX][QCK] slots have matching slot effects, and reduces crew's Special Bind duration by 10 turns",
-		special: "Deals 300x character's ATK in non-type damage to all enemies, changes all slots (including [BLOCK] slots) to character's own type, and heals 30% of crew's maximum HP. If crew has ATK Up status and slot effect boosts at the same time when Special is launched, boosts Driven characters' base ATK by +1250 for 2 turns and boosts chain multiplier by +1.5 for 2 turns (boosts Driven characters' ATK and slot effects by 2.5x for 2 turns otherwise; base ATK, chain multiplier, ATK, and slot effect boosts cannot be removed by enemies or crew)",
+		captain: "Boosts ATK of Driven characters by 5.25x, boosts ATK of all other characters by 3.75x, boosts HP of all characters by 1.3x, makes [DEX] and [QCK] orbs beneficial for Driven characters, and reduces Special Bind duration by 10 turns.",
+		special: "Deals 300x character's ATK in Typeless damage to all enemies, changes all orbs, including [BLOCK] orbs, into Matching orbs, and recovers 30% of crew's MAX HP. If your crew has ATK Up and Orb Amplification when the special is activated, boosts Base ATK of Driven characters by 1,250, preventing buff clears, for 2 turns, and adds 1.5 to Chain Multiplier, preventing buff clears, for 2 turns; otherwise, boosts ATK of Driven characters by 2.5x, preventing buff clears, for 2 turns, and boosts Orb Effects of Driven characters by 2.5x, preventing buff clears, for 2 turns.",
 		specialName: "Sixteen Holy Bullets: Godthread",
 		sailor: {
-			level1: "Boosts Driven characters' base ATK by 125",
-			level2: "Reduces character's Special charge time by 1 turn every time another Driven character uses a Special"
+			level1: "Boosts base ATK of Driven characters by 125.",
+			level2: "When any other Driven character uses a special, reduces special cooldown of this character by 1 turn."
 		},
-		superSpecial: "Deals 150x character's ATK in non-type damage to all enemies, reduces Driven and Slasher characters' Special charge time by 2 turns, and changes Driven characters to Super Driven",
-		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Monkey D. Luffy, Trafalgar Law, Diamante, Pica, Trebol, Vergo, Sugar, Kaido, Caesar Clown (Gastino), Monet; or when any crew Support Effect is triggered by an enemy action",
+		superSpecial: "Deals 150x character's ATK in Typeless damage to all enemies, reduces Special Cooldown of Driven and Slasher characters by 2 turns, and transforms Driven characters into Super Driven characters.",
+		superSpecialCriteria: "This character must be captain and an active support ability must have been activated by being inflicted by an enemy action or your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Monkey D. Luffy, Trafalgar Law, Diamante, Pica, Trebol, Vergo, Sugar, Kaido, Caesar Clown (Gastino), Monet",
 		support: [
 			{
 				Characters: "Driven characters",
 				description: [
-					"Boosts chain multiplier by +0.1 for 1 turn at start of final battle",
-					"Boosts chain multiplier by +0.2 for 1 turn at start of final battle",
-					"Boosts chain multiplier by +0.3 for 1 turn at start of final battle",
-					"Boosts chain multiplier by +0.4 for 1 turn at start of final battle",
-					"Boosts chain multiplier by +0.5 for 1 turn at start of final battle"
+					"Once per adventure, when you reach the final stage, adds 0.1x to Chain Multiplier for 1 turn.",
+					"Once per adventure, when you reach the final stage, adds 0.2x to Chain Multiplier for 1 turn.",
+					"Once per adventure, when you reach the final stage, adds 0.3x to Chain Multiplier for 1 turn.",
+					"Once per adventure, when you reach the final stage, adds 0.4x to Chain Multiplier for 1 turn.",
+					"Once per adventure, when you reach the final stage, adds 0.5x to Chain Multiplier for 1 turn."
 				]
 			}
 		],
@@ -169103,7 +169103,7 @@ window.details = {
             },
             {
                 captain: {
-                    base: "Reduces crew's Special charge time by 1 turn at start of quest, boosts Driven and Slasher characters' ATK by 5.5x, boosts other characters' ATK by 3.75x, boosts crew's HP by 1.3x, makes Driven characters' [DEX][QCK] slots have matching slot effects, reduces crew's Special Bind duration by 10 turns, and if crew uses a Special to boost ATK or slot effects, extends the duration of that effect by 1 turn"
+                    base: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Driven and Slasher characters by 5.5x, boosts ATK of all other characters by 3.75x, boosts HP of all characters by 1.3x, makes [DEX] and [QCK] orbs beneficial for Driven characters, reduces Special Bind duration by 10 turns, and increases duration of any ATK Up and Orb Amplification buffs applied by specials by 1 turn."
                 }
             },
             {
@@ -169111,7 +169111,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Deals 300x character's ATK in non-type damage to all enemies, changes all slots (including [BLOCK] slots) to character's own type, reduces crew's Paralysis duration by 6 turns, and heals 30% of crew's maximum HP. If crew has ATK Up status and slot effect boosts at the same time when Special is launched, boosts Driven characters' base ATK by +1500 for 2 turns and boosts chain multiplier by +1.8 for 2 turns (boosts Driven characters' ATK by 2.75x and slot effects by 2.5x for 2 turns otherwise; base ATK, chain multiplier, ATK, and slot effect boosts cannot be removed by enemies or crew)"
+                    base: "Deals 300x character's ATK in Typeless damage to all enemies, changes all orbs, including [BLOCK] orbs, into Matching orbs, reduces Paralysis duration by 6 turns, and recovers 30% of crew's MAX HP. If your crew has ATK Up and Orb Amplification when the special is activated, boosts Base ATK of Driven characters by 1,500, preventing buff clears, for 2 turns, and adds 1.8 to Chain Multiplier, preventing buff clears, for 2 turns; otherwise, boosts ATK of Driven characters by 2.75x, preventing buff clears, for 2 turns, and boosts Orb Effects of Driven characters by 2.5x, preventing buff clears, for 2 turns."
                 },
                 rSuperSpecial: true,
                 rResilience: true
