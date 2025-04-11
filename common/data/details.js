@@ -168876,22 +168876,22 @@ window.details = {
 		]
 	},
     4342: {//5+ Monet
-		captain: "Boosts Driven, Slasher, and Cerebral characters' ATK by 3.25x, boosts their ATK by approximately 4.25x after characters attack at GOOD or better in the order of [STR], [STR] without breaking the chain, and reduces damage taken by 20%",
-		special: "Delays all enemies by 1 turn ignoring immunity to Delay, immunity to all status effects, or immunity (excluding certain status effect), reduces crew's Despair duration by 6 turns, applies -20% Slasher, Driven, and Cerebral Resistance to all enemies for 1 turn, and if 6 Slasher or 6 Driven characters are on the crew, boosts the chain multiplier by 1.75x for 1 turn (cannot be removed by crew or enemies)",
+		captain: "Boosts ATK of Driven, Slasher and Cerebral characters by 3.25x, boosts ATK of Driven, Slasher and Cerebral characters by 4.25x following a chain of [STR] > [STR] attacks no lower than GOOD, and reduces damage received by 20%.",
+		special: "Ignores Debuff Protection and delays all enemies by 1 turn, reduces Despair duration by 6 turns, and reduces enemies' Slasher, Driven and Cerebral Resistance by -20% for 1 turn. If your crew has 6 Slasher or 6 Driven characters when the special is activated, boosts Chain Multiplier Growth Rate by 1.75x, preventing buff clears, for 1 turn.",
 		specialName: "Snow Sheet: Skin Blade Against the Swordsman",
 		sailor: {
-			base: "Boosts crew's base RCV by 60",
-			level1: "Reduces crew's Despair duration by 1 turn"
+			base: "Boosts base RCV of all characters by 60.",
+			level1: "Reduces Despair duration by 1 turn."
 		},
 		support: [
 			{
 				Characters: "Driven characters",
 				description: [
-					"Adds 3% of character's base RCV to supported character's base RCV",
-					"Adds 4% of character's base RCV to supported character's base RCV",
-					"Adds 6% of character's base RCV to supported character's base RCV",
-					"Adds 7% of character's base RCV to supported character's base RCV",
-					"Adds 9% of character's base RCV to supported character's base RCV"
+					"Adds 3% of this character's base RCV to the supported character's base RCV.",
+					"Adds 4% of this character's base RCV to the supported character's base RCV.",
+					"Adds 6% of this character's base RCV to the supported character's base RCV.",
+					"Adds 7% of this character's base RCV to the supported character's base RCV.",
+					"Adds 9% of this character's base RCV to the supported character's base RCV."
 				]
 			}
 		],
@@ -168956,18 +168956,18 @@ window.details = {
 		],
 		superTandem: {
 			characterCondition: [
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
-				"When any 2 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1): Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy"
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy",
+				"Your crew must consist of any 2 of the following, excluding Supports and counting only 1 per unit: Donquixote Doflamingo, Vergo, Trebol, Diamante, Pica, Sugar, Giolla, Lao G., Senor Pink, Machvise, Dellinger, Gladius, Buffalo, Viola (Violet), Baby 5, Bellamy"
 			],
 			description: [
-				"Applies ATK Boost (Tandem) of 1.1x to Driven, Slasher, and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.2x to Driven, Slasher, and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.3x to Driven, Slasher, and Cerebral characters for 1 turn",
-				"Applies ATK Boost (Tandem) of 1.4x to Driven, Slasher, and Cerebral characters for 1 turn, and further increases crew's slot boost by +0.25",
-				"Applies ATK Boost (Tandem) of 1.5x to Driven, Slasher, and Cerebral characters for 1 turn, and further increases crew's slot boost by +0.5"
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.1x for 1 turn.",
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.2x for 1 turn.",
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.3x for 1 turn.",
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.4x for 1 turn, and increases boost effects of Orb Amplification buffs by +0.25x.",
+				"Boosts Tandem ATK of Driven, Slasher and Cerebral characters by 1.5x for 1 turn, and increases boost effects of Orb Amplification buffs by +0.5x."
 			]
 		},
 		festStats: {
@@ -169437,24 +169437,24 @@ window.details = {
         }
 	},
 	4345: {//Tashigi
-		captain: "Reduces ship's Special charge time by 5 turns at start of quest, boosts Slasher and Cerebral characters' ATK by 5.5x when slots match (5x otherwise), HP and RCV by 1.25x, and makes crew's [INT][RCV][TND] slots have matching slot effects. If crew applies slot effect boost or another status effect is applied to the crew, all enemies, or an individual enemy on the same turn after the required effect was applied, launches \"Memories of the Swordsman\" at start of crew's next turn (only once per quest; Specials launched due to Captain Ability will not reduce the character's Special charge time and will not affect the amount of HP beyond crew's maximum HP healed before Special is launched)",
-		special: "Deals 100x characters' ATK in non-type damage to all enemies (ignoring all defensive effects and DEF), reduces crew's Special Bind duration by 7 turns, heals crew by 10x character's RCV at end of turn for 1 turn, further increases crew's slot effect boost by +0.5, and boosts Slasher and Cerebral characters' slot effects by 2.75x for 3 turns (effect can be further increased up to 2 times; cannot be removed by crew or enemies). If amount of HP beyond crew's maximum HP healed before Special is launched is 50,000 or more, boosts crew's damage dealt when landing a Critical hit by 75% (effect applies only to characters with Critical ATK Potential Ability) for 1 turn",
+		captain: "Reduces Special Cooldown of ship by 5 turns at the start of the fight, boosts ATK of Slasher and Cerebral characters by 5x, by 5.5x instead if they have a beneficial orb, boosts HP and RCV of Slasher and Cerebral characters by 1.25x, and makes [INT], [RCV] and [TND] orbs beneficial for all characters. Once per adventure, if your crew obtains an Orb Boost effect, activates \"Memories of the Swordsman\" in the following turn.",
+		special: "Deals 100x character's ATK in Typeless Fixed True damage to all enemies, reduces Special Bind duration by 7 turns, recovers 10x character's RCV in HP at the end of each turn for 1 turn, increases boost effects of Orb Amplification buffs by +0.5x, and boosts Orb Effects of Slasher and Cerebral characters by 2.75x, preventing buff clears and can be enhanced up to 2 times, for 3 turns. If there is more than 50,000 Excess Healing done when the special is activated, boosts Critical Hit Damage of all characters by 75% for 1 turn.",
 		specialName: "Memories of the Swordsman",
 		sailor: {
-			level1: "Reduces character's Special Bind duration by 8 turns, and makes Slasher and Cerebral characters' [INT][TND] slots have matching slot effects",
-			level2: "When a Slasher or Cerebral Captain uses a Special, reduces character's Special charge time by 12 turns (only once per quest)"
+			level1: "Reduces Special Bind duration by 8 turns on this character; makes [INT] and [TND] orbs beneficial for Slasher and Cerebral characters.",
+			level2: "Once per adventure, when any other Slasher or Cerebral captain character uses a special, reduces Special Cooldown of this character by 12 turns."
 		},
-		superSpecial: "Removes all beneficial effects placed on the crew, deals 80x character's ATK in non-type damage to all enemies, heals crew by 20,000 HP, sets character's Special charge to MAX, and changes [PSY] characters to Super [PSY]",
-		superSpecialCriteria: "When any of the following characters are on the crew (except as Support Characters): Roronoa Zoro, Smoker; or when crew has End of Turn Healing",
+		superSpecial: "Removes all positive buffs on your team, deals 80x character's ATK in Typeless damage to all enemies, recovers 20,000 HP, advances Special Cooldown of this character to MAX, and transforms [PSY] characters into Super [PSY] characters.",
+		superSpecialCriteria: "This character must be captain and you must have End of Turn Healing or your crew must consist of any 1 of the following, excluding Supports and counting only 1 per unit: Roronoa Zoro, Smoker",
 		support: [
 			{
 				Characters: "Roronoa Zoro, Smoker",
 				description: [
-					"Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-					"Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-					"Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-					"Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 1 turn at start of crew's next turn",
-					"Once per quest, if inflicted with Special Bind status from the enemy, reduces crew's Special Bind duration by 2 turns at start of crew's next turn"
+					"Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 1 turn.",
+					"Once per adventure, when an enemy inflicts you with Special Bind, reduces Special Bind duration by 2 turns."
 				]
 			}
 		],
@@ -169533,13 +169533,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle",
+			condition: "On the last stage",
 			description: [
-				"Boosts character's base ATK by +200 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +400 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +600 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +800 (stacks with effects from Special) for 1 turn",
-				"Boosts character's base ATK by +800 (stacks with effects from Special) for 1 turn, and boosts the type effects of normal attacks for character by 2.5x for 1 turn"
+				"Boosts base ATK of this character by 200 for 1 turn.",
+				"Boosts base ATK of this character by 400 for 1 turn.",
+				"Boosts base ATK of this character by 600 for 1 turn.",
+				"Boosts base ATK of this character by 800 for 1 turn.",
+				"Boosts base ATK of this character by 800 for 1 turn, and boosts Color Affinity of this character by 2.5x for 1 turn."
 			],
 		},
 		festStats: {
@@ -169606,22 +169606,22 @@ window.details = {
 		]
 	},
 	4346: {//Hiyori
-		captain: "Reduces Slasher and Cerebral characters' Special charge time by 1 turn at start of quest, boosts their RCV by 1.25x, ATK by 3.5x, and makes their [INT] slots have matching slot effects",
-		special: "Heals crew by 25x character's RCV (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP), and reduces crew's ATK Down/Paralysis/Burn duration by 5 turns. If amount of HP beyond crew's maximum HP healed before Special is launched is 20,000 or more, changes adjacent slots to [WANO] (boosts ATK by 2.5x; cannot be changed by crew or enemies), and boosts Slasher and Cerebral characters' ATK by 2.5x for 1 turn (doubles their ATK for 1 turn otherwise)",
+		captain: "Reduces Special Cooldown of Slasher and Cerebral characters by 1 turn at the start of the fight, boosts ATK of Slasher and Cerebral characters by 3.5x, boosts RCV of Slasher and Cerebral characters by 1.25x, and makes [INT] orbs beneficial for Slasher and Cerebral characters.",
+		special: "Recovers 25x character's RCV in HP, allowing HP Overfill up to 2x MAX HP, and reduces ATK Down, Paralysis and Burn duration by 5 turns. If there is more than 20,000 Excess Healing done when the special is activated, changes adjacent orbs into [WANO] orbs, and boosts ATK of Slasher and Cerebral characters by 2.5x for 1 turn; otherwise, boosts ATK of Slasher and Cerebral characters by 2x for 1 turn.",
 		specialName: "Maiden Who is Fond of Napping Together",
 		sailor: {
-			base: "If 6 Cerebral characters on the crew, reduces crew's Burn duration by 1 turn",
-			level1: "If 6 Slasher characters on the crew, reduces crew's Paralysis duration by 1 turn"
+			base: "If your crew has 6 Cerebral characters, reduces Burn duration by 1 turn.",
+			level1: "If your crew has 6 Slasher characters, reduces Paralysis duration by 1 turn."
 		},
 		support: [
 			{
 				Characters: "[PSY] Slasher characters",
 				description: [
-					"Once per quest, if supported character uses a Special to boost ATK, heals crew by 1,000 HP",
-					"Once per quest, if supported character uses a Special to boost ATK, heals crew by 2,000 HP",
-					"Once per quest, if supported character uses a Special to boost ATK, heals crew by 3,000 HP",
-					"Once per quest, if supported character uses a Special to boost ATK, heals crew by 4,000 HP",
-					"Once per quest, if supported character uses a Special to boost ATK, reduces crew's Paralysis duration by 1 turn, and heals crew by 5,000 HP"
+					"Once per adventure, when the supported character uses any ATK Up special, recovers 1,000 HP.",
+					"Once per adventure, when the supported character uses any ATK Up special, recovers 2,000 HP.",
+					"Once per adventure, when the supported character uses any ATK Up special, recovers 3,000 HP.",
+					"Once per adventure, when the supported character uses any ATK Up special, recovers 4,000 HP.",
+					"Once per adventure, when the supported character uses any ATK Up special, reduces Paralysis duration by 1 turn, and recovers 5,000 HP."
 				]
 			}
 		],
@@ -169675,22 +169675,22 @@ window.details = {
 		festAttackTarget: "Targets closest enemies"
 	},
 	4347: {//Perona
-		captain: "Reduces Cerebral, Driven, and Slasher characters' Special charge time by 1 turn at start of quest, boosts their RCV by 1.25x, ATK by 3.5x, and makes their [PSY] slots have matching slot effects",
-		special: "Reduces crew's Special charge time by 2 turns, heals crew by 25x character's RCV (up to 2x max HP ignoring max HP limit; if HP is above max limit, it is treated as being full HP), and reduces crew's Despair duration by 6 turns. If amount of HP beyond crew's maximum HP healed before Special is launched is 20,000 or more, boosts the chain multiplier by +1.5 for 3 turns. If Captain is a Slasher class, boosts Cerebral, Driven, and Slasher characters' base ATK by +1250 for 3 turns (cannot be removed by crew or enemies), and heals crew by 5,000 HP at end of turn for 3 turns",
+		captain: "Reduces Special Cooldown of Cerebral, Driven and Slasher characters by 1 turn at the start of the fight, boosts ATK of Cerebral, Driven and Slasher characters by 3.5x, boosts RCV of Cerebral, Driven and Slasher characters by 1.25x, and makes [PSY] orbs beneficial for Cerebral, Driven and Slasher characters.",
+		special: "Reduces Special Cooldown of all characters by 2 turns, recovers 25x character's RCV in HP, allowing HP Overfill up to 2x MAX HP, and reduces Despair duration by 6 turns. If there is more than 20,000 Excess Healing done when the special is activated, adds 1.5x to Chain Multiplier for 3 turns. If your Captain is a Slasher character, boosts Base ATK of Cerebral, Driven and Slasher characters by 1,250, preventing buff clears, for 3 turns, and recovers 5,000 HP at the end of the turn for 3 turns.",
 		specialName: "Constant Care",
 		sailor: {
-			base: "Reduces character's Special Reverse by 3 turns",
-			level1: "Boosts Slasher characters' base ATK by 1.1x when Captain is a Slasher class"
+			base: "Restores Special Cooldown of this character by 3 turns when it is rewinded.",
+			level1: "If your Captain is a Slasher character, boosts base ATK of Slasher characters by 1.1x."
 		},
 		support: [
 			{
 				Characters: "[PSY] Slasher characters",
 				description: [
-					"Once per quest, if supported character uses a Special to boost slot effects, heals crew by 1,000 HP",
-					"Once per quest, if supported character uses a Special to boost slot effects, heals crew by 2,000 HP",
-					"Once per quest, if supported character uses a Special to boost slot effects, heals crew by 3,000 HP",
-					"Once per quest, if supported character uses a Special to boost slot effects, heals crew by 4,000 HP",
-					"Once per quest, if supported character uses a Special to boost slot effects, reduces supported character's Special charge time by 1 turn, and heals crew by 5,000 HP"
+					"Once per adventure, when the supported character uses any Orb Boost special, recovers 1,000 HP.",
+					"Once per adventure, when the supported character uses any Orb Boost special, recovers 2,000 HP.",
+					"Once per adventure, when the supported character uses any Orb Boost special, recovers 3,000 HP.",
+					"Once per adventure, when the supported character uses any Orb Boost special, recovers 4,000 HP.",
+					"Once per adventure, when the supported character uses any Orb Boost special, reduces Special Cooldown of supported character by 1 turn, and recovers 5,000 HP."
 				]
 			}
 		],
