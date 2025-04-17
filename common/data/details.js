@@ -169743,6 +169743,477 @@ window.details = {
 		],
 		festAttackTarget: "Targets closest enemies"
 	},
+	4348: {//Sabo & Bonney
+		captain: {
+			character1: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1 at start of quest, boosts [PSY], Cerebral, and Fighter characters' HP by 1.2x, ATK by 4.75x, boosts their ATK by approximately 5.25x when HP is 80% or above, and makes their [TND][RCV] slots have matching slot effects. If crew uses a Special to apply additive chain multiplier boosts (except multiplicative boosts) or lock chain multiplier effect, extends the duration of the effect by 1 turn. Tapping on this character with a [RCV][SEMLA] slot will apply increase damage taken status to all enemies by 1.5x for 1 turn ignoring immunity to all status effects (visible effect will be 2 turns and become 1 during character's next action)",
+			character2: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1 at start of quest, boosts [DEX], Cerebral, and Fighter characters' HP by 1.2x, ATK by 5x, and makes their [TND][RCV] slots have matching slot effects. If crew uses a Special to apply additive chain multiplier boosts (except multiplicative boosts) or lock chain multiplier effect, extends the duration of the effect by 1 turn. Tapping on this character with a [RCV][SEMLA] slot will apply increase damage taken status to all enemies by 1.5x for 1 turn ignoring immunity to all status effects (visible effect will be 2 turns and become 1 during character's next action)",
+			combined: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1 at start of quest, boosts [PSY], [DEX], Cerebral and Fighter characters' HP by 1.2x, ATK by 5.25x, boosts their ATK by approximately 6x when HP is 70% or above, and makes their [TND][RCV] slots have matching slot effects. If crew uses a Special to apply additive chain multiplier boosts (except multiplicative boosts) or lock chain multiplier effect, extends the duration of the effect by 1 turn. Tapping on this character with a [RCV][SEMLA] slot will apply increase damage taken status to all enemies by 1.75x for 1 turn ignoring immunity to all status effects (visible effect will be 2 turns and become 1 during character's next action)"
+		},
+		special: "Reduces crew's Despair duration by 10 turns, and reduces damage taken by 95% for 1 turn. If Captain is a Cerebral or Fighter class, sets the chain multiplier's minimum value at 3.5 and maximum value at 35.0 for 1 turn (allows this effect to be further increased up to 2 times). If Captain is a [PSY] or [DEX] type, boosts the chain multiplier by +1.7 for 1 turn, then after that, becomes \"Sabo & Bonney\" for 3 turns, and applies Partial Immunity to selected character (can select up to 1 character) for 3 turns (this effect does not activate ATK boost and slot effect boost from passing turns)",
+		specialName: "Intruders Escaping Their Pursuers",
+		sailor: {
+			character1: "Makes Cerebral and Fighter characters' [RCV][TND] slots have matching slot effects",
+			character2: "Makes Cerebral and Fighter characters' [RCV][TND] slots have matching slot effects",
+			combined: "Makes Cerebral and Fighter characters' [RCV][TND] slots have matching slot effects",
+			level1: "Boosts Cerebral and Fighter characters' base stats by 150"
+		},
+		swap: {
+			base: "Completely removes character's Slot Bind and changes adjacent slots to [TND]",
+			super: "Completely removes character's Slot Bind, changes character's slot to [RCV], changes adjacent slots (including [BLOCK] slots) to [TND], applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.2x if enemy has Increased Damage Taken) to all enemies for 1 turn, and becomes \"Sabo & Bonney\" for 3 turns",
+			superTurns: "8"
+		},
+		superSpecial: "Allows crew's additive chain multiplier boost (except multiplicative boosts) to be further increased up to 2 times, further increases crew's ATK boost by 1.2x (up to +4.0), and changes Cerebral characters to Super Cerebral",
+		superSpecialCriteria: "When character becomes \"Sabo & Bonney\" with Super Switch effect and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Hack, Inazuma, Koala, Bartholomew Kuma, Dr. Vegapunk (Stella), Nefeltari Cobra, Monkey D. Luffy, Portgas D. Ace",
+		limit: [
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Acquire Potential 1: Pinch Healing" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Boosts base HP by 20" },
+			{ description: "Acquire Potential 2: Nutrition/Reduce Hunger stacks" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 60" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 60" },
+			{ description: "Acquire Potential 3: Last Tap" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base HP by 150" },
+			{ description: "Boosts base ATK by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" }
+		],
+		potential: [
+			{
+				Name: "Pinch Healing",
+				description: [
+					"If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+				]
+			},
+			{
+				Name: "Nutrition/Reduce Hunger stacks",
+				description: [
+					"Boosts base ATK by up to 3,000, the turn after recovering up to 50 HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by up 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by up 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by up 200 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack",
+					"Boosts base ATK by up to 3,000, the turn after recovering up to 300 HP and reduces Hunger stack by 3 stack"
+				]
+			},
+			{
+				Name: "Last Tap",
+				description: [
+					"Obtain Last Tap Lv.1",
+					"Obtain Last Tap Lv.2",
+					"Obtain Last Tap Lv.3",
+					"Obtain Last Tap Lv.4",
+					"Obtain Last Tap Lv.5"
+				]
+			}
+		],
+		lastTap: {
+			condition: "At final battle and character's slot is [RCV] or [SEMLA]",
+			description: [
+				"Boosts character's base ATK by +200 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.3x for 1 turn",
+				"Boosts character's base ATK by +400 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.4x for 1 turn",
+				"Boosts character's base ATK by +600 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.5x for 1 turn",
+				"Boosts character's base ATK by +800 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.6x for 1 turn",
+				"Boosts character's base ATK by +1000 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.75x for 1 turn"
+			],
+		},
+		festStats: {
+			def: 158,
+			spd: 183,
+			style: "DBF"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Normal Attack",
+			"Power Attack",
+			"Heal Self Lv.2"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: "Completely evades Action Bind, reduce damage taken from Free Spirit and Shooter by 30%",
+		festAbility: [
+			"Free Spirit/Shooter class enemies ATK Down Lv.4, SPD Down Lv.4; if 8 or more Cerebral/Fighter characters are on the team, Free Spirit class enemies DEF Down Lv.4, Shooter class enemies Special CT Speed Down Lv.1",
+			"Free Spirit/Shooter class enemies ATK Down Lv.5, SPD Down Lv.5; if 8 or more Cerebral/Fighter characters are on the team, Free Spirit class enemies DEF Down Lv.5, Shooter class enemies Special CT Speed Down Lv.2",
+			"Free Spirit/Shooter class enemies ATK Down Lv.6, SPD Down Lv.6; if 8 or more Cerebral/Fighter characters are on the team, Free Spirit class enemies DEF Down Lv.6, Shooter class enemies Special CT Speed Down Lv.3",
+			"Free Spirit/Shooter class enemies ATK Down Lv.7, SPD Down Lv.7; if 8 or more Cerebral/Fighter characters are on the team, Free Spirit class enemies DEF Down Lv.7, Shooter class enemies Special CT Speed Down Lv.4",
+			"Free Spirit/Shooter class enemies ATK Down Lv.8, SPD Down Lv.8; if 8 or more Cerebral/Fighter characters are on the team, Free Spirit class enemies DEF Down Lv.8, Shooter class enemies Special CT Speed Down Lv.5"
+		],
+		festSpecial: [
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.1 (11 s), SPD Down Lv.1 (11 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 21% delay, targets 1 high ATK teammate for 50% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.1 (12 s), SPD Down Lv.1 (12 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 22% delay, targets 1 high ATK teammate for 55% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.2 (13 s), SPD Down Lv.2 (13 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 23% delay, targets 1 high ATK teammate for 60% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.2 (14 s), SPD Down Lv.2 (14 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 24% delay, targets 1 high ATK teammate for 65% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.3 (15 s), SPD Down Lv.3 (15 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 25% delay, targets 1 high ATK teammate for 70% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.4 (16 s), SPD Down Lv.4 (16 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 26% delay, targets 1 high ATK teammate for 75% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.4 (17 s), SPD Down Lv.4 (17 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 27% delay, targets 1 high ATK teammate for 80% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.5 (18 s), SPD Down Lv.5 (18 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 28% delay, targets 1 high ATK teammate for 85% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.5 (19 s), SPD Down Lv.5 (19 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 29% delay, targets 1 high ATK teammate for 90% chance of Haste"
+			},
+			{
+				cooldown: 27,
+				description: "Targets enemies within large range (horizontal) for ATK Down Lv.7 (20 s), SPD Down Lv.7 (20 s); if 8 or more Cerebral/Fighter characters are on the team, targets 2 enemies with high Special CT for 30% delay, targets 1 high ATK teammate for 100% chance of Haste"
+			}
+		]
+	},
+	4349: {//Cobra
+		captain: "Boosts Cerebral characters' ATK by 4x, RCV by 1.3x, and heals crew by 4x character's RCV at end of turn",
+		special: "Reduces crew's Special Bind/Paralysis duration by 6 turns. If Captain is a Cerebral class and has [RCV] slot when Special is launched, boosts the type effects of normal attacks for Cerebral and Fighter characters by 2.25x for 3 turns, and boosts the ATK of the next final tap performed by a Cerebral or Fighter character by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If Captain is a Cerebral class and has [STR][DEX][QCK][PSY][INT][TND] or Rainbow slot when Special is launched, doubles the type effects of normal attacks for Cerebral and Fighter characters for 1 turn",
+		specialName: "Passing On the Message",
+		sailor: {
+			base: "Reduces character's Special Bind duration by 6 turns",
+			level1: "Heals crew by 500 HP at end of turn"
+		},
+		support: [
+			{
+				Characters: "Nefeltari Vivi",
+				description: [
+					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.1",
+					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.1",
+					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.15",
+					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.2",
+					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.3"
+				]
+			}
+		],
+		limit: [
+			{ description: "Boosts base HP by 60" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Acquire Potential 1: Nutrition/Reduce Hunger stacks" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base HP by 70" },
+			{ description: "Acquire 1 additional Socket slot" },
+			{ description: "Boosts base HP by 70" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Acquire Potential 2: Pinch Healing" }
+		],
+		potential: [
+			{
+				Name: "Nutrition/Reduce Hunger stacks",
+				description: [
+					"Boosts base ATK by up to 3,000, the turn after recovering up to 50 HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by up to 3,000, the turn after recovering up to 75 HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by up 100 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by up 125 the turn after recovering 3,000, HP and reduces Hunger stack by 1 stack",
+					"Boosts base ATK by up 150 the turn after recovering 3,000, HP and reduces Hunger stack by 2 stack"
+				]
+			},
+			{
+				Name: "Pinch Healing",
+				description: [
+					"If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 40% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+				]
+			}
+		],
+		festStats: {
+			def: 50,
+			spd: 100,
+			style: "RCV"
+		},
+		festAttackPattern: [
+			"Normal Attack"
+		],
+		festAttackTarget: "Targets closest enemies"
+	},
+	4350: {//Vivi & Rebecca 6+
+		captain: {
+			character1: "Boosts crew's ATK by 3.25x, boosts the type effects of normal attacks for crew by 1.5x, boosts HP by 1.2x, makes crew's [PSY][TND] slots have matching slot effects, and reduces damage taken by 20%",
+			character2: "Boosts crew's ATK by 3x, boosts the type effects of normal attacks for crew by 1.75x, boosts HP by 1.2x, makes crew's [INT][RCV] slots have matching slot effects, and reduces damage taken by 20%",
+			combined: "Boosts crew's ATK by 3.25x, boosts the type effects of normal attacks for crew by 1.75x, boosts HP by 1.2x, makes crew's [PSY][INT][TND][RCV] slots have matching slot effects, and reduces damage taken by 20%"
+		},
+		special: "Completely removes all enemies' DEF Up and damage reduction (except Threshold Damage Reduction), boosts the type effects of normal attacks for Cerebral and Striker characters by 2.75x for 3 turns (up to 2 type effect increasing effects can be applied), and becomes \"Vivi & Rebecca\" for 3 turns",
+		specialName: "Talking About Memories of Their Savior",
+		sailor: {
+			character1: "Boosts Cerebral and Striker characters' base HP and RCV by 50",
+			character2: "Boosts Cerebral and Striker characters' base ATK by 50",
+			combined: "Boosts Cerebral and Striker characters' base stats by 75",
+			level1: "Makes Cerebral and Striker characters' [QCK] slots have matching slot effects"
+		},
+		swap: {
+			base: "Changes Cerebral and Striker characters' [STR][DEX] slots to character's own type, heals crew by 3,000 HP at end of turn for 1 turn, and sets the chain multiplier to 2.5x for 1 turn",
+			super: "Changes Cerebral and Striker characters' [BLOCK] and type slots to character's own type, heals crew by 10,000 HP at end of turn for 1 turn, and sets the chain multiplier's minimum value at 2.75 and maximum value at 35.0 for 1 turn",
+			superTurns: "8"
+		},
+		limit: [
+			{ description: "Boosts base HP by 30" },
+			{ description: "Boosts base HP by 40" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Acquire Potential 1: Enrage/Reduce Increase Damage Taken duration" },
+			{ description: "Boosts base RCV by 5" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base ATK by 5" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base ATK by 10" },
+			{ description: "Boosts base ATK by 15" },
+			{ description: "Boosts base HP by 50" },
+			{ description: "Boosts base HP by 75" },
+			{ description: "Boosts base HP by 75" },
+			{ description: "Acquire Potential 2: Reduce No Healing duration" },
+			{ description: "Boosts base RCV by 10" },
+			{ description: "Boosts base RCV by 15" },
+			{ description: "Boosts base RCV by 15" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 20" },
+			{ description: "Boosts base ATK by 25" },
+			{ description: "Boosts base ATK by 25" },
+			{ description: "Acquire Sailor Ability 2: " },
+			{ description: "Boosts base HP by 80" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base RCV by 15" },
+			{ description: "Boosts base RCV by 20" },
+			{ description: "Boosts base ATK by 30" },
+			{ description: "Boosts base ATK by 40" },
+			{ description: "Acquire Potential 3: Pinch Healing" },
+			{ description: "LOCKED WITH KEY" },
+			{ description: "Boosts base RCV by 25" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base RCV by 25" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Boosts base RCV by 50" },
+			{ description: "Boosts base ATK by 50" },
+			{ description: "Boosts base HP by 100" },
+			{ description: "Reduce base Special Cooldown by 1 turn" },
+			{ description: "Boosts base ATK by 100" }
+		],
+        lLimit: [
+            null,
+            {
+                rAbility: true
+            },
+            {
+                captain: {
+                    character1: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1, boosts crew's ATK by 3.25x, boosts the type effects of normal attacks for crew by 1.5x, boosts HP by 1.2x, makes crew's [PSY][TND] slots have matching slot effects, and reduces damage taken by 20%",
+                    character2: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1, boosts crew's ATK by 3x, boosts the type effects of normal attacks for crew by 1.75x, boosts HP by 1.2x, makes crew's [INT][RCV] slots have matching slot effects, and reduces damage taken by 20%",
+                    combined: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1, boosts crew's ATK by 3.25x, boosts the type effects of normal attacks for crew by 1.8x, boosts HP by 1.2x, makes crew's [PSY][INT][TND][RCV] slots have matching slot effects, and reduces damage taken by 20%"
+                }
+            },
+            {
+                rSpecial: true
+            },
+            {
+                special: {
+                    base: "Completely removes all enemies' DEF Up and damage reduction (except Threshold Damage Reduction). If crew has type effect nullification when Special is launched, boosts Cerebral and Striker characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 3 turns (boosts the type effects of normal attacks for Cerebral and Striker characters by 3x for 3 turns otherwisel; up to 2 type effect increasing effects can be applied), and becomes \"Vivi & Rebecca\" for 3 turns"
+                },
+                rResilience: true
+            }
+        ],
+		potential: [
+			{
+				Name: "Enrage/Reduce Increase Damage Taken duration",
+				description: [
+					"Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+					"Boosts base ATK by 125 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+					"Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+					"Boosts base ATK by 200 the turn after taking damage and reduces Increase Damage Taken duration by 3 turns"
+				]
+			},
+			{
+				Name: "Reduce No Healing duration",
+				description: [
+					"Reduces No Healing duration by 2 turns",
+					"Reduces No Healing duration by 3 turns",
+					"Reduces No Healing duration by 4 turns",
+					"Reduces No Healing duration by 5 turns",
+					"Reduces No Healing duration by 7 turns"
+				]
+			},
+			{
+				Name: "Pinch Healing",
+				description: [
+					"If HP is below 10% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 20% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 30% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 40% at the start of the turn, recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT with this character",
+					"If HP is below 50% at the start of the turn, recovers 1.5x this character's RCV at the end of the turn for each time you hit a PERFECT with this character"
+				]
+			}
+		],
+		festStats: {
+			def: 164,
+			spd: 175,
+			style: "SPT"
+		},
+		festAttackPattern: [
+			"Normal Attack",
+			"Power Attack",
+			"Heal Teammate in Range Lv.1 (Small Range)",
+			"Heal Teammate in Range Lv.2 (Large Range)"
+		],
+		festAttackTarget: "Targets closest enemies",
+		festResistance: {
+            base: "Completely evades Action Bind, reduce damage taken from Slasher and Free Spirit by 30%",
+            llbbase: "Completely evades Action Bind, reduce damage taken from Slasher and Free Spirit by 40%"
+        },
+		festAbility: {
+            base: [
+                "Striker/Cerebral class teammates HP Up Lv.1, SPD Up Lv.1; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.3, DEF Up Lv.1",
+                "Striker/Cerebral class teammates HP Up Lv.2, SPD Up Lv.2; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.4, DEF Up Lv.2",
+                "Striker/Cerebral class teammates HP Up Lv.3, SPD Up Lv.3; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.5, DEF Up Lv.3",
+                "Striker/Cerebral class teammates HP Up Lv.4, SPD Up Lv.4; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.6, DEF Up Lv.4",
+                "Striker/Cerebral class teammates HP Up Lv.5, SPD Up Lv.5; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.7, DEF Up Lv.4"
+            ],
+            llbbase: [
+                "Striker/Cerebral class teammates HP Up Lv.2, SPD Up Lv.2; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.4, DEF Up Lv.1",
+                "Striker/Cerebral class teammates HP Up Lv.3, SPD Up Lv.3; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.5, DEF Up Lv.2",
+                "Striker/Cerebral class teammates HP Up Lv.4, SPD Up Lv.4; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.6, DEF Up Lv.3",
+                "Striker/Cerebral class teammates HP Up Lv.5, SPD Up Lv.5; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.7, DEF Up Lv.4",
+                "Striker/Cerebral class teammates HP Up Lv.6, SPD Up Lv.6; when remaining time is less than 70 s, Striker/Cerebral class teammates ATK Up Lv.8, DEF Up Lv.5"
+            ]
+        },
+		festSpecial: {
+            base: [
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (21 s); targets Striker/Cerebral class teammates for ATK Up Lv.4 (21 s), SPD Up Lv.4 (21 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 11% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (22 s); targets Striker/Cerebral class teammates for ATK Up Lv.4 (22 s), SPD Up Lv.4 (22 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 12% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (23 s); targets Striker/Cerebral class teammates for ATK Up Lv.4 (23 s), SPD Up Lv.4 (23 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 13% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (24 s); targets Striker/Cerebral class teammates for ATK Up Lv.4 (24 s), SPD Up Lv.4 (24 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 14% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (25 s); targets Striker/Cerebral class teammates for ATK Up Lv.4 (25 s), SPD Up Lv.4 (25 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 15% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.4 (26 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (26 s), SPD Up Lv.5 (26 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 16% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.4 (27 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (27 s), SPD Up Lv.5 (27 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 17% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.4 (28 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (28 s), SPD Up Lv.5 (28 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 18% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.4 (29 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (29 s), SPD Up Lv.5 (29 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 19% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.5 (30 s); targets Striker/Cerebral class teammates for ATK Up Lv.6 (30 s), SPD Up Lv.6 (30 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 20% reduction"
+                }
+            ],
+            llbbase: [
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (21 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (21 s), SPD Up Lv.5 (21 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 21% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (22 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (22 s), SPD Up Lv.5 (22 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 22% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (23 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (23 s), SPD Up Lv.5 (23 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 23% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (24 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (24 s), SPD Up Lv.5 (24 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 24% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.3 (25 s); targets Striker/Cerebral class teammates for ATK Up Lv.5 (25 s), SPD Up Lv.5 (25 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 25% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.4 (26 s); targets Striker/Cerebral class teammates for ATK Up Lv.6 (26 s), SPD Up Lv.6 (26 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 26% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.4 (27 s); targets Striker/Cerebral class teammates for ATK Up Lv.6 (27 s), SPD Up Lv.6 (27 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 27% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.4 (28 s); targets Striker/Cerebral class teammates for ATK Up Lv.6 (28 s), SPD Up Lv.6 (28 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 28% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.4 (29 s); targets Striker/Cerebral class teammates for ATK Up Lv.6 (29 s), SPD Up Lv.6 (29 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 29% reduction"
+                },
+                {
+                    cooldown: 24,
+                    description: "Targets all enemies for DEF Down Lv.5 (30 s); targets Striker/Cerebral class teammates for ATK Up Lv.7 (30 s), SPD Up Lv.7 (30 s); when remaining time is less than 70 s, targets (not including self) 1 high ATK teammate for Special CT 30% reduction"
+                }
+            ]
+        }
+	},
 	4359: {//Imposter Straw Hats
 		captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of Cost 40 or lower characters by 4.5x, and boosts HP of all characters by 0.1x.",
 		special: "Makes PERFECTs harder to hit for 1 turn, inflicts all enemies with Increase Damage Taken by 1.5x for 1 turn, changes orbs of left column characters into [RAINBOW], [BOMB] and [PARALYSIS] orbs, and changes orbs of right column characters into [WANO], [SEMLA] and [SUPERBOMB] orbs.",
@@ -170209,4 +170680,6 @@ if (UnitUtils){
     UnitUtils.extendDouble(calcGhostStartID, 4319, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4322, "dual");
     UnitUtils.extendDouble(calcGhostStartID, 4323, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4348, "dual");
+    UnitUtils.extendDouble(calcGhostStartID, 4350, "dual");
 }

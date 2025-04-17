@@ -4346,9 +4346,9 @@ window.units = [
     [ "Tashigi - Cutting Down the Snow Woman", "PSY", ["Slasher", "Cerebral"], 6, 55, 4, 5, 99, 5000000, 1930, 819, 168, 3860, 1638, 336, 1 ],     
     [ "Kozuki Hiyori - Napping with the Swordsman", "PSY", ["Slasher", "Cerebral"], 5, 30, 5, 4, 99, 4000000, 1265, 680, 225, 2530, 1360, 450, 1 ],
     [ "Perona - Devoted Care", "PSY", ["Cerebral", "Driven"], 5, 30, 4, 4, 99, 4000000, 1271, 712, 214, 2542, 1423, 427, 1 ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
-    [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
+    [ "Sabo & Bonney - Chance Meeting Between Intruders", ["PSY", "DEX"], [["Cerebral", "Fighter"], ["Cerebral", "Fighter"], ["Cerebral", "Fighter"]], 6, 55, 4, 5, 99, 5000000, 2262, 921, 141, 4524, 1842, 282, 1 ],
+    [ "Nefeltari Cobra - The King's Resolve", "PSY", ["Cerebral", "Fighter"], 5, 30, 4, 4, 99, 4000000, 1914, 792, 67, 3828, 1584, 134, 1 ],
+    [ "Vivi & Rebecca - Cheerful Talk About Their Savior", ["DEX", "STR"], [["Cerebral", "Striker"], ["Cerebral", "Striker"], ["Cerebral", "Striker"]], "6+", 65, 4, 5, 99, 5000000, 1804, 1102, 249, 3608, 1653, 498, 1 ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
     [ "", "Type", [ "Class1", "Class2" ], null, null, null, null, null, null, null, null, null, null, null, null, null ],
@@ -5095,6 +5095,14 @@ var ghostsUnits = [
     [ "⚐ Kaku - Intersecting Trails of Blades and Kicks", "QCK", ["Slasher", "Shooter"], 6, 55, 4, 5, 99, 5000000, 2103, 930, 165, 4206, 1860, 329, 1 ],
     [ "⚐ Zoro & Kaku - Intersecting Trails of Blades and Kicks", "DEX", ["Slasher", "Free Spirit"], 6, 55, 4, 5, 99, 5000000, 2233, 972, 179, 4466, 1943, 358, 1 ],
     [ "⚐ Zoro & Kaku - Intersecting Trails of Blades and Kicks", "QCK", ["Slasher", "Shooter"], 6, 55, 4, 5, 99, 5000000, 2233, 972, 179, 4466, 1943, 358, 1 ],
+    [ "⚐ Sabo - Chance Meeting Between Intruders", "PSY", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2105, 892, 127, 4210, 1783, 254, 1 ],
+    [ "⚐ Jewelry Bonney - Chance Meeting Between Intruders", "DEX", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2096, 881, 132, 4192, 1762, 264, 1 ],
+    [ "⚐ Sabo & Bonney - Chance Meeting Between Intruders", "PSY", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2262, 921, 141, 4524, 1842, 282, 1 ],
+    [ "⚐ Sabo & Bonney - Chance Meeting Between Intruders", "DEX", ["Cerebral", "Fighter"], 6, 55, 4, 5, 99, 5000000, 2262, 921, 141, 4524, 1842, 282, 1 ],
+    [ "⚐ Nefeltari Vivi - Cheerful Talk About Their Savior", "DEX", ["Cerebral", "Striker"], "6+", 65, 6, 5, 99, 5000000, 1740, 1008, 233, 3480, 1512, 466, 1 ],
+    [ "⚐ Rebecca - Cheerful Talk About Their Savior", "STR", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1736, 1027, 229, 3472, 1540, 458, 1 ],
+    [ "⚐ Vivi & Rebecca - Cheerful Talk About Their Savior", "DEX", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1804, 1102, 249, 3608, 1653, 498, 1 ],
+    [ "⚐ Vivi & Rebecca - Cheerful Talk About Their Savior", "STR", ["Cerebral", "Striker"], "6+", 65, 4, 5, 99, 5000000, 1804, 1102, 249, 3608, 1653, 498, 1 ],
 ];
 
 window.units = window.units.concat(ghostsUnits);
