@@ -99299,14 +99299,14 @@ window.details = {
     },
     3390: {//Toki&Kids
         captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 4.75x, their HP by 1.2x, makes [STR] orbs beneficial for all characters and recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT.",
-        special: "Apply Toki-Toki state to 2 characters for 2 turns. After Toki-Toki state expires, boosts ATK of selected characters by 3.5x for 1 turn and boosts Orb Effects of selected characters by 3.5x for 1 turn.",
-        specialNotes: "Toki-Toki state makes certain members of your crew immune to debuffs including, but not limited to: Bind, Despair, Special Bind, Slot Bind, Paralysis, Special Rewind, Captain Swap and Blow Away, including self-inflicted debuffs.",
+        special: "Apply Partial Immunity to 2 characters for 2 turns. After Partial Immunity expires, boosts ATK of selected characters by 3.5x for 1 turn and boosts Orb Effects of selected characters by 3.5x for 1 turn.",
+        specialNotes: "Partial Immunity makes certain members of your crew immune to debuffs including, but not limited to: Bind, Despair, Special Bind, Slot Bind, Paralysis, Special Rewind, Captain Swap and Blow Away, including self-inflicted debuffs.",
         specialName: "Tale Woven Together for Twenty Years",
     },
     3391: {//Toki&Kids
         captain: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, boosts ATK of all characters by 4.75x, their HP by 1.2x, makes [STR] orbs beneficial for all characters and recovers 1x this character's RCV at the end of the turn for each time you hit a PERFECT.",
-        special: "Apply Toki-Toki state to 2 characters for 2 turns. After Toki-Toki state expires, boosts ATK of selected characters by 3.5x for 1 turn and boosts Orb Effects of selected characters by 3.5x for 1 turn.",
-        specialNotes: "Toki-Toki state makes certain members of your crew immune to debuffs including, but not limited to: Bind, Despair, Special Bind, Slot Bind, Paralysis, Special Rewind, Captain Swap and Blow Away, including self-inflicted debuffs.",
+        special: "Apply Partial Immunity to 2 characters for 2 turns. After Partial Immunity expires, boosts ATK of selected characters by 3.5x for 1 turn and boosts Orb Effects of selected characters by 3.5x for 1 turn.",
+        specialNotes: "Partial Immunity makes certain members of your crew immune to debuffs including, but not limited to: Bind, Despair, Special Bind, Slot Bind, Paralysis, Special Rewind, Captain Swap and Blow Away, including self-inflicted debuffs.",
         superSpecial: "Reduces Special Cooldown of this character by 5 turns, boosts the Color Affinity of [STR] characters by 2x for 1 turn and transforms [STR] characters into Super [STR] characters.",
         superSpecialCriteria: "This character must be captain and another crew member must activate a Special Ability.",
         specialName: "Tale Woven Together for Twenty Years",
@@ -169745,25 +169745,26 @@ window.details = {
 	},
 	4348: {//Sabo & Bonney
 		captain: {
-			character1: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1 at start of quest, boosts [PSY], Cerebral, and Fighter characters' HP by 1.2x, ATK by 4.75x, boosts their ATK by approximately 5.25x when HP is 80% or above, and makes their [TND][RCV] slots have matching slot effects. If crew uses a Special to apply additive chain multiplier boosts (except multiplicative boosts) or lock chain multiplier effect, extends the duration of the effect by 1 turn. Tapping on this character with a [RCV][SEMLA] slot will apply increase damage taken status to all enemies by 1.5x for 1 turn ignoring immunity to all status effects (visible effect will be 2 turns and become 1 during character's next action)",
-			character2: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1 at start of quest, boosts [DEX], Cerebral, and Fighter characters' HP by 1.2x, ATK by 5x, and makes their [TND][RCV] slots have matching slot effects. If crew uses a Special to apply additive chain multiplier boosts (except multiplicative boosts) or lock chain multiplier effect, extends the duration of the effect by 1 turn. Tapping on this character with a [RCV][SEMLA] slot will apply increase damage taken status to all enemies by 1.5x for 1 turn ignoring immunity to all status effects (visible effect will be 2 turns and become 1 during character's next action)",
-			combined: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1 at start of quest, boosts [PSY], [DEX], Cerebral and Fighter characters' HP by 1.2x, ATK by 5.25x, boosts their ATK by approximately 6x when HP is 70% or above, and makes their [TND][RCV] slots have matching slot effects. If crew uses a Special to apply additive chain multiplier boosts (except multiplicative boosts) or lock chain multiplier effect, extends the duration of the effect by 1 turn. Tapping on this character with a [RCV][SEMLA] slot will apply increase damage taken status to all enemies by 1.75x for 1 turn ignoring immunity to all status effects (visible effect will be 2 turns and become 1 during character's next action)"
+			character1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of [PSY], Cerebral and Fighter characters by 4.75x, by 5.25x instead if HP is above 80% at the start of the turn, boosts HP of [PSY], Cerebral and Fighter characters by 1.2x, makes [TND] and [RCV] orbs beneficial for [PSY], Cerebral and Fighter characters, and increases duration of any Chain Addition and Chain Lock buffs applied by Specials by 1 turn. If this character has a [RCV] or [SEMLA] orb and you attack with this character, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.5x for 2 turns.",
+			character2: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of [DEX], Cerebral and Fighter characters by 5x, boosts HP of [DEX], Cerebral and Fighter characters by 1.2x, makes [TND] and [RCV] orbs beneficial for [DEX], Cerebral and Fighter characters, and increases duration of any Chain Addition and Chain Lock buffs applied by Specials by 1 turn. If this character has a [RCV] or [SEMLA] orb and you attack with this character, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.5x for 2 turns.",
+			combined: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of [PSY], [DEX], Cerebral and Fighter characters by 5.25x, by 6x instead if HP is above 70% at the start of the turn, boosts HP of [PSY], [DEX], Cerebral and Fighter characters by 1.2x, makes [TND] and [RCV] orbs beneficial for [PSY], [DEX], Cerebral and Fighter characters, and increases duration of any Chain Addition and Chain Lock buffs applied by Specials by 1 turn. If this character has a [RCV] or [SEMLA] orb and you attack with this character, ignores Debuff Protection and inflicts all enemies with Increase Damage Taken by 1.75x for 2 turns."
 		},
-		special: "Reduces crew's Despair duration by 10 turns, and reduces damage taken by 95% for 1 turn. If Captain is a Cerebral or Fighter class, sets the chain multiplier's minimum value at 3.5 and maximum value at 35.0 for 1 turn (allows this effect to be further increased up to 2 times). If Captain is a [PSY] or [DEX] type, boosts the chain multiplier by +1.7 for 1 turn, then after that, becomes \"Sabo & Bonney\" for 3 turns, and applies Partial Immunity to selected character (can select up to 1 character) for 3 turns (this effect does not activate ATK boost and slot effect boost from passing turns)",
-		specialName: "Intruders Escaping Their Pursuers",
+		special: "Reduces Despair duration by 10 turns, reduces damage received by 95% for 1 turn, and apply Partial Immunity to 1 character for 3 turns. If your Captain is a Cerebral or Fighter character, sets Chain Boundaries to 3.5x and 35.0x, can be enhanced up to 2 times, for 1 turn. If your Captain is a [PSY] or [DEX] character, adds 1.7x to Chain Multiplier for 1 turn. Becomes Sabo & Bonney for 3 turns.",
+		specialNotes: "Partial Immunity makes certain members of your crew immune to debuffs including, but not limited to: Bind, Despair, Special Bind, Slot Bind, Paralysis, Special Rewind, Captain Swap and Blow Away, including self-inflicted debuffs.",
+        specialName: "Intruders Escaping Their Pursuers",
 		sailor: {
-			character1: "Makes Cerebral and Fighter characters' [RCV][TND] slots have matching slot effects",
-			character2: "Makes Cerebral and Fighter characters' [RCV][TND] slots have matching slot effects",
-			combined: "Makes Cerebral and Fighter characters' [RCV][TND] slots have matching slot effects",
-			level1: "Boosts Cerebral and Fighter characters' base stats by 150"
+			character1: "Makes [RCV] and [TND] orbs beneficial for Cerebral and Fighter characters.",
+			character2: "Makes [RCV] and [TND] orbs beneficial for Cerebral and Fighter characters.",
+			combined: "Makes [RCV] and [TND] orbs beneficial for Cerebral and Fighter characters.",
+			level1: "Boosts base ATK, HP and RCV of Cerebral and Fighter characters by 150."
 		},
 		swap: {
-			base: "Completely removes character's Slot Bind and changes adjacent slots to [TND]",
-			super: "Completely removes character's Slot Bind, changes character's slot to [RCV], changes adjacent slots (including [BLOCK] slots) to [TND], applies Weakened status (increase damage taken by 1.5x for all enemies, damage further increased by 1.2x if enemy has Increased Damage Taken) to all enemies for 1 turn, and becomes \"Sabo & Bonney\" for 3 turns",
+			base: "Removes Slot Bind duration completely on this character, and changes orbs of adjacent characters into [TND] orbs.",
+			super: "Removes Slot Bind duration completely on this character, changes orb of this character into a [RCV] orb, changes orbs, including [BLOCK] orbs, of adjacent characters into [TND] orbs, inflicts all enemies with Weaken by 1.5x, by 1.8x if enemies are inflicted with Increase Damage Taken, for 1 turn, and becomes Sabo & Bonney for 3 turns.",
 			superTurns: "8"
 		},
-		superSpecial: "Allows crew's additive chain multiplier boost (except multiplicative boosts) to be further increased up to 2 times, further increases crew's ATK boost by 1.2x (up to +4.0), and changes Cerebral characters to Super Cerebral",
-		superSpecialCriteria: "When character becomes \"Sabo & Bonney\" with Super Switch effect and any 3 of the following characters are on the crew (except as Support Characters; Double Characters counts as 1; can be launched when character is a crewmate): Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Hack, Inazuma, Koala, Bartholomew Kuma, Dr. Vegapunk (Stella), Nefeltari Cobra, Monkey D. Luffy, Portgas D. Ace",
+		superSpecial: "Enables Chain Addition buffs to be enhanced up to 2 times, increases boost effects of ATK Up buffs by 1.2x (up to 4x), and transforms Cerebral characters into Super Cerebral characters.",
+		superSpecialCriteria: "Can be launched as crewmate. When this character is in Combined Form from Super Swap Effect and your crew must consist of any 3 of the following, excluding Supports and counting only 1 per unit: Emporio Ivankov, Belo Betty, Morley, Karasu, Lindbergh, Hack, Inazuma, Koala, Bartholomew Kuma, Dr. Vegapunk (Stella), Nefeltari Cobra, Monkey D. Luffy, Portgas D. Ace",
 		limit: [
 			{ description: "Boosts base ATK by 20" },
 			{ description: "Boosts base RCV by 20" },
@@ -169839,13 +169840,13 @@ window.details = {
 			}
 		],
 		lastTap: {
-			condition: "At final battle and character's slot is [RCV] or [SEMLA]",
+			condition: "On the last stage when character has a [RCV] or [SEMLA] orb",
 			description: [
-				"Boosts character's base ATK by +200 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.3x for 1 turn",
-				"Boosts character's base ATK by +400 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.4x for 1 turn",
-				"Boosts character's base ATK by +600 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.5x for 1 turn",
-				"Boosts character's base ATK by +800 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.6x for 1 turn",
-				"Boosts character's base ATK by +1000 (stacks with effects from Special) for 1 turn, and boosts Cerebral and Fighter characters' advantageous class effect by 1.75x for 1 turn"
+				"Boosts base ATK of this character by 200 for 1 turn, and boosts Advantageous Class Effect of Cerebral and Fighter characters by 1.3x for 1 turn.",
+				"Boosts base ATK of this character by 400 for 1 turn, and boosts Advantageous Class Effect of Cerebral and Fighter characters by 1.4x for 1 turn.",
+				"Boosts base ATK of this character by 600 for 1 turn, and boosts Advantageous Class Effect of Cerebral and Fighter characters by 1.5x for 1 turn.",
+				"Boosts base ATK of this character by 800 for 1 turn, and boosts Advantageous Class Effect of Cerebral and Fighter characters by 1.6x for 1 turn.",
+				"Boosts base ATK of this character by 1,000 for 1 turn, and boosts Advantageous Class Effect of Cerebral and Fighter characters by 1.75x for 1 turn."
 			],
 		},
 		festStats: {
@@ -169912,22 +169913,22 @@ window.details = {
 		]
 	},
 	4349: {//Cobra
-		captain: "Boosts Cerebral characters' ATK by 4x, RCV by 1.3x, and heals crew by 4x character's RCV at end of turn",
-		special: "Reduces crew's Special Bind/Paralysis duration by 6 turns. If Captain is a Cerebral class and has [RCV] slot when Special is launched, boosts the type effects of normal attacks for Cerebral and Fighter characters by 2.25x for 3 turns, and boosts the ATK of the next final tap performed by a Cerebral or Fighter character by 30% (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect). If Captain is a Cerebral class and has [STR][DEX][QCK][PSY][INT][TND] or Rainbow slot when Special is launched, doubles the type effects of normal attacks for Cerebral and Fighter characters for 1 turn",
+		captain: "Boosts ATK of Cerebral characters by 4x, boosts RCV of Cerebral characters by 1.3x, and recovers 4x character's RCV in HP at the end of each turn.",
+		special: "Reduces Special Bind and Paralysis duration by 6 turns. If your Captain is a Cerebral character and your Captain's orb is a [RCV] orb when the Special is activated, boosts Color Affinity of Cerebral and Fighter characters by 2.25x for 3 turns, and boosts Final Tap ATK of Cerebral and Fighter characters by 30%. If your Captain is a Cerebral character and your Captain's orb is a [STR], [DEX], [QCK], [PSY], [INT], [TND] or [RAINBOW] orb when the Special is activated, boosts Color Affinity of Cerebral and Fighter characters by 2x for 1 turn.",
 		specialName: "Passing On the Message",
 		sailor: {
-			base: "Reduces character's Special Bind duration by 6 turns",
-			level1: "Heals crew by 500 HP at end of turn"
+			base: "Reduces Special Bind duration by 6 turns on this character.",
+			level1: "Recovers 500 HP at the end of each turn."
 		},
 		support: [
 			{
 				Characters: "Nefeltari Vivi",
 				description: [
-					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.1",
-					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.1",
-					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.15",
-					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.2",
-					"Once per quest, if supported character uses a Special to boost type effects, further increases crew's type effect boost by +0.3"
+					"Once per adventure, when the supported character uses any Color Affinity special, increases boost effects of Color Affinity buffs by +0.1x.",
+					"Once per adventure, when the supported character uses any Color Affinity special, increases boost effects of Color Affinity buffs by +0.1x.",
+					"Once per adventure, when the supported character uses any Color Affinity special, increases boost effects of Color Affinity buffs by +0.15x.",
+					"Once per adventure, when the supported character uses any Color Affinity special, increases boost effects of Color Affinity buffs by +0.2x.",
+					"Once per adventure, when the supported character uses any Color Affinity special, increases boost effects of Color Affinity buffs by +0.3x."
 				]
 			}
 		],
@@ -169982,21 +169983,22 @@ window.details = {
 	},
 	4350: {//Vivi & Rebecca 6+
 		captain: {
-			character1: "Boosts crew's ATK by 3.25x, boosts the type effects of normal attacks for crew by 1.5x, boosts HP by 1.2x, makes crew's [PSY][TND] slots have matching slot effects, and reduces damage taken by 20%",
-			character2: "Boosts crew's ATK by 3x, boosts the type effects of normal attacks for crew by 1.75x, boosts HP by 1.2x, makes crew's [INT][RCV] slots have matching slot effects, and reduces damage taken by 20%",
-			combined: "Boosts crew's ATK by 3.25x, boosts the type effects of normal attacks for crew by 1.75x, boosts HP by 1.2x, makes crew's [PSY][INT][TND][RCV] slots have matching slot effects, and reduces damage taken by 20%"
+			character1: "Boosts ATK of all characters by 3.25x, boosts Color Affinity of all characters by 1.5x, boosts HP of all characters by 1.2x, makes [PSY] and [TND] orbs beneficial for all characters, and reduces damage received by 20%.",
+			character2: "Boosts ATK of all characters by 3x, boosts Color Affinity of all characters by 1.75x, boosts HP of all characters by 1.2x, makes [INT] and [RCV] orbs beneficial for all characters, and reduces damage received by 20%.",
+			combined: "Boosts ATK of all characters by 3.25x, boosts Color Affinity of all characters by 1.75x, boosts HP of all characters by 1.2x, makes [PSY], [INT], [TND] and [RCV] orbs beneficial for all characters, and reduces damage received by 20%."
 		},
-		special: "Completely removes all enemies' DEF Up and damage reduction (except Threshold Damage Reduction), boosts the type effects of normal attacks for Cerebral and Striker characters by 2.75x for 3 turns (up to 2 type effect increasing effects can be applied), and becomes \"Vivi & Rebecca\" for 3 turns",
-		specialName: "Talking About Memories of Their Savior",
+		special: "Removes enemies' Increased Defense and Percent Damage Reduction buffs duration completely, boosts the Color Affinity of Cerebral and Striker characters by 2.75x, can be enhanced up to 2 times, for 3 turns, and becomes Vivi & Rebecca for 3 turns.",
+		specialNotes: "GOOD: +0.2, GREAT: +0.4, PERFECT: +0.6",
+        specialName: "Talking About Memories of Their Savior",
 		sailor: {
-			character1: "Boosts Cerebral and Striker characters' base HP and RCV by 50",
-			character2: "Boosts Cerebral and Striker characters' base ATK by 50",
-			combined: "Boosts Cerebral and Striker characters' base stats by 75",
-			level1: "Makes Cerebral and Striker characters' [QCK] slots have matching slot effects"
+			character1: "Boosts base HP and RCV of Cerebral and Striker characters by 50.",
+			character2: "Boosts base ATK of Cerebral and Striker characters by 50.",
+			combined: "Boosts base ATK, HP and RCV of Cerebral and Striker characters by 75.",
+			level1: "Makes [QCK] orbs beneficial for Cerebral and Striker characters."
 		},
 		swap: {
-			base: "Changes Cerebral and Striker characters' [STR][DEX] slots to character's own type, heals crew by 3,000 HP at end of turn for 1 turn, and sets the chain multiplier to 2.5x for 1 turn",
-			super: "Changes Cerebral and Striker characters' [BLOCK] and type slots to character's own type, heals crew by 10,000 HP at end of turn for 1 turn, and sets the chain multiplier's minimum value at 2.75 and maximum value at 35.0 for 1 turn",
+			base: "Changes [STR] and [DEX] orbs of Cerebral and Striker characters into Matching orbs, recovers 3,000 HP at the end of each turn for 1 turn, and locks the chain multiplier at 2.5x for 1 turn.",
+			super: "Changes [STR], [DEX], [QCK], [PSY], [INT] and [BLOCK] orbs of Cerebral and Striker characters into Matching orbs, recovers 10,000 HP at the end of each turn for 1 turn, and sets Chain Boundaries to 2.75x and 35.0x for 1 turn.",
 			superTurns: "8"
 		},
 		limit: [
@@ -170048,9 +170050,9 @@ window.details = {
             },
             {
                 captain: {
-                    character1: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1, boosts crew's ATK by 3.25x, boosts the type effects of normal attacks for crew by 1.5x, boosts HP by 1.2x, makes crew's [PSY][TND] slots have matching slot effects, and reduces damage taken by 20%",
-                    character2: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1, boosts crew's ATK by 3x, boosts the type effects of normal attacks for crew by 1.75x, boosts HP by 1.2x, makes crew's [INT][RCV] slots have matching slot effects, and reduces damage taken by 20%",
-                    combined: "Reduces crew's Special charge time by 1 turn and Switch Effect use by 1, boosts crew's ATK by 3.25x, boosts the type effects of normal attacks for crew by 1.8x, boosts HP by 1.2x, makes crew's [PSY][INT][TND][RCV] slots have matching slot effects, and reduces damage taken by 20%"
+                    character1: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 3.25x, boosts Color Affinity of all characters by 1.5x, boosts HP of all characters by 1.2x, makes [PSY] and [TND] orbs beneficial for all characters, and reduces damage received by 20%.",
+                    character2: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 3x, boosts Color Affinity of all characters by 1.75x, boosts HP of all characters by 1.2x, makes [INT] and [RCV] orbs beneficial for all characters, and reduces damage received by 20%.",
+                    combined: "Reduces Special Cooldown of all characters by 1 turn at the start of the fight, reduces Switch Effect of all characters by 1 at the start of the fight, boosts ATK of all characters by 3.25x, boosts Color Affinity of all characters by 1.8x, boosts HP of all characters by 1.2x, makes [PSY], [INT], [TND] and [RCV] orbs beneficial for all characters, and reduces damage received by 20%."
                 }
             },
             {
@@ -170058,7 +170060,7 @@ window.details = {
             },
             {
                 special: {
-                    base: "Completely removes all enemies' DEF Up and damage reduction (except Threshold Damage Reduction). If crew has type effect nullification when Special is launched, boosts Cerebral and Striker characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 3 turns (boosts the type effects of normal attacks for Cerebral and Striker characters by 3x for 3 turns otherwisel; up to 2 type effect increasing effects can be applied), and becomes \"Vivi & Rebecca\" for 3 turns"
+                    base: "Removes enemies' Increased Defense and Percent Damage Reduction buffs duration completely. If your crew has Color Affinity Nullification when the special is activated, increases Chain Tap Timing Bonus of Cerebral and Striker characters to +0.2x-0.6x for 3 turns depending on Tap Timing; boosts the Color Affinity of Cerebral and Striker characters by 3x, can be enhanced up to 2 times, for 3 turns otherwise. Becomes Vivi & Rebecca for 3 turns."
                 },
                 rResilience: true
             }
