@@ -7037,6 +7037,22 @@
 					},
 				],
 			},
+
+			{
+				name: "Blown Away",
+				targets: [
+					"special",
+				],
+				regex:
+					/(?:reduces|removes)[^."]+?Blown Away[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Turns:",
+						groups: [1, 2, 3, 4, 5],
+					},
+				],
+			},
 		],
 		"Apply Enemy Effects": [
 			{
