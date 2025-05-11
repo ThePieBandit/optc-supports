@@ -7878,6 +7878,12 @@
 			},
 
 			{
+				name: "Super Tandem Boost",
+				targets: ["potential"],
+				regex: /Super Tandem Boost/i,
+			},
+
+			{
 				name: "Rush",
 				targets: ["potential"],
 				regex: /Rush/i,
