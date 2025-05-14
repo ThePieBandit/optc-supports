@@ -2677,14 +2677,14 @@
 				name: "Chain Limit: Boundary",
 				targets: ["special", "superSpecial", "swap", "support"],
 				regex:
-					/Sets chain boundaries to ([?.\d]+)x and ([?.\d]+)x(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
+					/Sets chain boundaries to ([?.\d]+)x(?:-([?.\d]+)x)? and ([?.\d]+)x(?:-([?.\d]+)x)?(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "option",
 						description: "Allowing Override",
 						regex: /allowing override/,
 						radioGroup: "targets",
-						groups: [3],
+						groups: [5],
 						cssClasses: ["min-width-6"],
 					},
 					{
@@ -2692,23 +2692,23 @@
 						description: "Double Enhance",
 						regex: /can be enhanced up to 2 times/,
 						radioGroup: "targets",
-						groups: [3],
+						groups: [5],
 						cssClasses: ["min-width-6"],
 					},
 					{
 						type: "number",
 						description: "Lower Bound:",
-						groups: [1],
+						groups: [1, 2],
 					},
 					{
 						type: "number",
 						description: "Upper Bound:",
-						groups: [2],
+						groups: [3, 4],
 					},
 					{
 						type: "number",
 						description: "Turns:",
-						groups: [4, 5],
+						groups: [6, 7],
 					},
 				],
 			},
@@ -2843,7 +2843,7 @@
 				name: "Territory",
 				targets: ["captain", "special", "superSpecial", "swap", "support"],
 				regex:
-					/Applies Territory: (?=((?:[^c."]+|c(?!lass))*))\1class to the field, boosts ATK by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, (\D+?),)? and reduces damage received by ([?.\d]+)%(?:-([?.\d]+)%)? (?:based|depending) on number of characters matching the territory, for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
+					/Applies Territory: (?=((?:[^ct."]+|c(?!lass)|t(?!ype))*))\1(?:class|type) to the field, boosts ATK by ([?.\d]+)x(?:-([?.\d]+)x)?(?:, (\D+?),)? and reduces damage received by ([?.\d]+)%(?:-([?.\d]+)%)? (?:based|depending) on number of characters matching the territory, for ([?\d]+\+?)(?:-([?\d]+))? turns?(?:, for ([?\d]+\+?)(?:-([?\d]+))? turns?)?/i,
 				submatchers: [
 					{
 						type: "number",
