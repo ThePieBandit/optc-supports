@@ -7874,7 +7874,7 @@
 			{
 				name: "Super Tandem",
 				targets: ["potential"],
-				regex: /Super Tandem/i,
+				regex: /Super Tandem(?! Boost)/i,
 			},
 
 			{
