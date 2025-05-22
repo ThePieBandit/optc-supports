@@ -2928,7 +2928,7 @@
 
 			{
 				name: "Advantageous Class Effect",
-				targets: ["special", "superSpecial"],
+				targets: ["special", "superSpecial", "support"],
 				regex:
 					/Boosts Advantageous Class Effect of (?=((?:[^c."]+|c(?!har))*))\1characters? by(?: up to)? ([?.\d]+)x(?:-([?.\d]+)x)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
