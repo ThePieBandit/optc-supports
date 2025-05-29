@@ -7659,6 +7659,7 @@
 					},
 				],
 			},
+
 			{
 				name: "Positive Buff",
 				targets: ["special", "superSpecial", "swap", "support"],
@@ -7672,6 +7673,21 @@
 					},
 				],
 			},
+
+			{
+				name: "Intimidation",
+				targets: ["special", "superSpecial", "swap", "support"],
+				regex:
+					/(?:reduces|removes) enemies'[^."]+?Intimidation[^."]+?duration (?:by ([?\d]+)(?:-([?\d]+))? turns?|(completely))(?:, by ([?\d]+)(?:-([?\d]+))? turns?)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Turns:",
+						groups: [1, 2, 3, 4, 5],
+					},
+				],
+			},
+
 		],
 		Other: [
 			{
