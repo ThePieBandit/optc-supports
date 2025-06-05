@@ -4383,6 +4383,8 @@ window.festival = [
 	[ "DBF", 153, 170 ],
 	[ "DEF", 288, 127 ],
 	[ "DEF", 269, 132 ],
+	[ "", null, null ],
+	[ "ATK", 172, 175 ],
 ];
 // [ "Class", DEF, SPD ],
 // Make sure all characters have valid or NULL values for each value, don't just use empty arrays for placeholders
