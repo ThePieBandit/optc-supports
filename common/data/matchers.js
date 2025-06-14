@@ -3147,7 +3147,7 @@
 					{
 						type: "option",
 						description: "Chain Multiplication",
-						regex: /Chain Multiplication/i,
+						regex: /(?:Chain Multiplication|Chain Multiplier Growth Rate)/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
@@ -3270,7 +3270,7 @@
 					{
 						type: "option",
 						description: "Chain Multiplication",
-						regex: /Chain Multiplication/i,
+						regex: /(?:Chain Multiplication|Chain Multiplier Growth Rate)/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
@@ -3400,7 +3400,7 @@
 					{
 						type: "option",
 						description: "Chain Multiplication",
-						regex: /Chain Multiplication/i,
+						regex: /(?:Chain Multiplication|Chain Multiplier Growth Rate)/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
@@ -3494,7 +3494,7 @@
 					{
 						type: "option",
 						description: "Chain Multiplication",
-						regex: /Chain Multiplication/i,
+						regex: /(?:Chain Multiplication|Chain Multiplier Growth Rate)/i,
 						groups: [1],
 						cssClasses: ["min-width-12"],
 					},
@@ -5046,7 +5046,7 @@
 			},
 			{
 				name: "STND Expansion",
-				targets: ["special", "support"],
+				targets: ["special", "superSpecial", "support"],
 				regex:
 					/allows crew to perform Super Tandem with ([^".]+?)orbs for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
