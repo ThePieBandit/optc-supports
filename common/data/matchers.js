@@ -3677,7 +3677,7 @@
 					"sailor",
 					"support",
 				],
-				regex: /If there is more than \d+(,\d+)* Excess Healing done /i,
+				regex: /If there is more than \d+(,\d+)* Excess Healing(?: done)?/i,
 			},
 
 			{
@@ -4371,7 +4371,7 @@
 
 			{
 				name: "Healer: End-of-Turn",
-				targets: ["captain"],
+				targets: ["captain", "sailor"],
 				regex: /Recovers[^."]+?HP at the end of (?:the|each) turn/i,
 			},
 
@@ -5156,7 +5156,7 @@
 				// "Changes orbs of right column characters into [DEX], [STR] and [QCK], from top to bottom"
 				// "changes [STR], [QCK], [DEX], [PSY] and [INT] orbs of right column Shooter and Striker characters into Matching orbs"
 				regex:
-					/changes (?:the )?((?:(?!changes)[^."])*?)orbs?(, including \[BLOCK\] orbs?,)? (?:of (?=((?:[^c."]+|c(?!har))*))\3characters? )?into([^."]+?)orbs?/i,
+					/changes (?:the )?((?:(?!changes)[^."])*?)orbs?(?:, including (?=((?:[^o."]+|o(?!rb))*))\2orbs?,)? (?:of (?=((?:[^c."]+|c(?!har))*))\3characters? )?into([^."]+?)orbs?/i,
 				submatchers: [
 					{
 						type: "separator",
@@ -5169,13 +5169,18 @@
 						cssClasses: ["min-width-6"],
 						groups: [1],
 					},
-					{
-						type: "option",
-						description: "BLOCK",
-						regex: /\[BLOCK\]/i,
-						cssClasses: ["min-width-6"],
-						groups: [1, 2], // the only one that includes group 2, so don't add [BLOCK] to `createOrbsSubmatchers`
-					},
+					...createOrbsSubmatchers(
+						[
+							"BLOCK",
+							"SUPERBLOCK",
+							"RAINBOW",
+							"SUPERBOMB",
+							"SEMLA",
+							"WANO",
+						],
+						[1, 2],
+						false
+					),
 					...createOrbsSubmatchers(
 						[
 							"STR",
