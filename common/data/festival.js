@@ -4998,7 +4998,6 @@ window.festival = [
 	["", null, null],
 	["", null, null],
 	["", null, null],
-	["", null, null],
 ];
 // ["Class", DEF, SPD ],
 // Make sure all characters have valid or NULL values for each value, don't just use empty arrays for placeholders
