@@ -8273,7 +8273,7 @@
 				name: "Accuracy",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Accuracy[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+Accuracy[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8283,7 +8283,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8315,7 +8315,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8323,7 +8323,7 @@
 				name: "ATK",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+ATK[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+ATK[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8333,7 +8333,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8365,7 +8365,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8373,7 +8373,7 @@
 				name: "Blow Away",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Blow Away[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+Blow Away[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8383,7 +8383,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8415,7 +8415,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8423,7 +8423,7 @@
 				name: "Critical Hit",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Critical Hit[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+Critical Hit[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8433,7 +8433,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8465,7 +8465,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8473,7 +8473,7 @@
 				name: "DEF",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+DEF[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+DEF[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8483,7 +8483,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8515,7 +8515,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8523,7 +8523,7 @@
 				name: "Guard",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Guard[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+Guard[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8533,7 +8533,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8565,7 +8565,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8573,7 +8573,7 @@
 				name: "RCV",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+RCV[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+RCV[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8583,7 +8583,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8615,7 +8615,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8623,7 +8623,7 @@
 				name: "Shield",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Shield[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+Shield[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8633,7 +8633,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8665,7 +8665,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8673,7 +8673,7 @@
 				name: "SPD",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+SPD[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+SPD[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8683,7 +8683,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8715,7 +8715,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -8723,7 +8723,7 @@
 				name: "Special CT",
 				targets: ["rumbleSpecial"],
 				regex:
-					/Applies Lv. ([\d]+)[^.]+Special CT[^.]+up buff to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+					/Applies Lv. ([\d]+)[^.]+Special CT[^.]+up buff to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
@@ -8733,7 +8733,7 @@
 					{
 						type: "number",
 						description: "Duration:",
-						groups: [6],
+						groups: [7],
 					},
 					{
 						type: "separator",
@@ -8765,7 +8765,7 @@
 						type: "separator",
 						description: "Range:",
 					},
-					...createRangeSubmatcher([5]),
+					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -9414,6 +9414,374 @@
 
 		],
 
+		"Recharge": [
+
+			{
+				name: "Healer: RCV",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Heals ([.\d]+)x RCV of HP to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Amount:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([6]),
+				],
+			},
+
+			{
+				name: "Healer: Percentage",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Heals ([.\d]+)% of HP to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Amount:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([6]),
+				],
+			},
+
+			{
+				name: "Healer: Fixed",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Heals ([,\d]+) fixed HP to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Amount:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([6]),
+				],
+			},
+
+			{
+				name: "Healer: Interval",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Heals ([,\d]+) fixed HP every (\d+) seconds to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\5crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Amount:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "Interval:",
+						groups: [2],
+					},
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [8],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [3],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [4],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([4]),
+				],
+			},
+
+			{
+				name: "Special CT",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Reduces ([.\d]+)% of Special CT to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Amount:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-12"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([7]),
+				],
+			},
+
+		],
+
+		"Boons": [
+
+			{
+				name: "Counter",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Grant ([.\d]+)x Counter to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Amount:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [7],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([6]),
+				],
+			},
+
+			{
+				name: "Haste",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to grant Haste to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Chance:",
+						groups: [1],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [2],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [3],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([3]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([3]),
+				],
+			},
+
+			{
+				name: "Provoke",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Provoke enemies to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [5],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [1],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+				],
+			},
+
+		],
+
 		"Hinderances": [
 
 			{
@@ -9853,6 +10221,280 @@
 
 		],
 
+		"Hinderance Reducers": [
+
+			{
+				name: "Action Bind",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Reduce[^.]+Action Bind[^.]+to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [1],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "Damage Over Time",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Reduce[^.]+Damage Over Time[^.]+to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [1],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "Half Stats",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Reduce[^.]+Half Stats[^.]+to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [1],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "Paralysis",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Reduce[^.]+Paralysis[^.]+to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [1],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "RCV Bind",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Reduce[^.]+RCV Bind[^.]+to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [1],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+			{
+				name: "Special Bind",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Reduce[^.]+Special Bind[^.]+to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [1],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Range:",
+					},
+					...createRangeSubmatcher([5]),
+				],
+			},
+
+		],
+
 		"Cleanse": [
 
 			{
@@ -9917,240 +10559,6 @@
 						description: "Targeting:",
 					},
 					...createUniversalSubmatcher([3]),
-				],
-			},
-
-		],
-
-		"Recharge": [
-
-			{
-				name: "Healer: RCV",
-				targets: ["rumbleSpecial"],
-				regex:
-					/Heals ([.\d]+)x RCV of HP to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
-				submatchers: [
-					{
-						type: "number",
-						description: "Amount:",
-						groups: [1],
-					},
-					{
-						type: "separator",
-						description: "Targeting:",
-					},
-					{
-						type: "number",
-						description: "Count:",
-						groups: [2],
-					},
-					{
-						type: "option",
-						description: "Universal",
-						regex: /all/i,
-						groups: [3],
-						cssClasses: ["min-width-6"],
-					},
-					{
-						type: "separator",
-						description: "Types:",
-					},
-					...createTypesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "Classes:",
-					},
-					...createClassesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "Range:",
-					},
-					...createRangeSubmatcher([5]),
-				],
-			},
-
-			{
-				name: "Healer: Percentage",
-				targets: ["rumbleSpecial"],
-				regex:
-					/Heals ([.\d]+)% of HP to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
-				submatchers: [
-					{
-						type: "number",
-						description: "Amount:",
-						groups: [1],
-					},
-					{
-						type: "separator",
-						description: "Targeting:",
-					},
-					{
-						type: "number",
-						description: "Count:",
-						groups: [2],
-					},
-					{
-						type: "option",
-						description: "Universal",
-						regex: /all/i,
-						groups: [3],
-						cssClasses: ["min-width-6"],
-					},
-					{
-						type: "separator",
-						description: "Types:",
-					},
-					...createTypesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "Classes:",
-					},
-					...createClassesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "Range:",
-					},
-					...createRangeSubmatcher([5]),
-				],
-			},
-
-			{
-				name: "Healer: Fixed",
-				targets: ["rumbleSpecial"],
-				regex:
-					/Heals ([,\d]+) fixed HP to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
-				submatchers: [
-					{
-						type: "number",
-						description: "Amount:",
-						groups: [1],
-					},
-					{
-						type: "separator",
-						description: "Targeting:",
-					},
-					{
-						type: "number",
-						description: "Count:",
-						groups: [2],
-					},
-					{
-						type: "option",
-						description: "Universal",
-						regex: /all/i,
-						groups: [3],
-						cssClasses: ["min-width-6"],
-					},
-					{
-						type: "separator",
-						description: "Types:",
-					},
-					...createTypesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "Classes:",
-					},
-					...createClassesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "Range:",
-					},
-					...createRangeSubmatcher([5]),
-				],
-			},
-
-			{
-				name: "Healer: Interval",
-				targets: ["rumbleSpecial"],
-				regex:
-					/Heals ([,\d]+) fixed HP every (\d+) seconds to (\d)?(?=((?:[^c]+|c(?!rew))*))\4crew members?(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?(?: for (\d+) seconds)?/i,
-				submatchers: [
-					{
-						type: "number",
-						description: "Amount:",
-						groups: [1],
-					},
-					{
-						type: "number",
-						description: "Interval:",
-						groups: [2],
-					},
-					{
-						type: "number",
-						description: "Interval:",
-						groups: [7],
-					},
-					{
-						type: "separator",
-						description: "Targeting:",
-					},
-					{
-						type: "number",
-						description: "Count:",
-						groups: [3],
-					},
-					{
-						type: "option",
-						description: "Universal",
-						regex: /all/i,
-						groups: [4],
-						cssClasses: ["min-width-6"],
-					},
-					{
-						type: "separator",
-						description: "Types:",
-					},
-					...createTypesSubmatchers([4]),
-					{
-						type: "separator",
-						description: "Classes:",
-					},
-					...createClassesSubmatchers([4]),
-				],
-			},
-
-			{
-				name: "Special CT",
-				targets: ["rumbleSpecial"],
-				regex:
-					/Reduces ([.\d]+)% of Special CT to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
-				submatchers: [
-					{
-						type: "number",
-						description: "Amount:",
-						groups: [1],
-					},
-					{
-						type: "separator",
-						description: "Targeting:",
-					},
-					{
-						type: "number",
-						description: "Count:",
-						groups: [2],
-					},
-					{
-						type: "option",
-						description: "Universal",
-						regex: /all/i,
-						groups: [3],
-						cssClasses: ["min-width-12"],
-					},
-					{
-						type: "separator",
-						description: "Types:",
-					},
-					...createTypesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "Classes:",
-					},
-					...createClassesSubmatchers([3]),
-					{
-						type: "separator",
-						description: "Range:",
-					},
-					...createRangeSubmatcher([6]),
 				],
 			},
 
@@ -10522,6 +10930,28 @@
 						groups: [3],
 					},
 				],
+			},
+
+			/* * * * * Rumble Special * * * * */
+
+			{
+				name: "Cooldown",
+				targets: ["rumbleSpecial"],
+				regex:
+					/["']cooldown["']:\s?(\d+)/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Seconds:",
+						groups: [1],
+					}
+				],
+			},
+
+			{
+				name: "Has Super Special",
+				targets: ["rumbleSpecial"],
+				regex: /\^\$/i,
 			},
 
 			/* * * * * Rumble Resistance * * * * */
