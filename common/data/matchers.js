@@ -4911,12 +4911,17 @@
 				// match "Reduces damage received by 70%-100% for 1 turn"
 				// match "reduces any damage received above 2,000 HP by 100% for 1 turn" (3282)
 				regex:
-					/Reduces (?:any )?damage (?:received|taken) (?:above [?\d,]+ HP )?(?:from ([^."]+?)(?:characters?|enemies) )?by (?:100%|[?.\d]+%-100%) for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
+					/Reduces (?:any )?damage (?:received|taken) (?:above [?\d,]+ HP )?(?:from ([^."]+?)(?:characters?|enemies) )?by (?:100%|[?.\d]+%-100%) for (?:([?\d]+\+?)(?:-([?\d]+))? turns?|([?\d]+\+?)(?:-([?\d]+))? attacks?)/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "Turns:",
-						groups: [2, 3, 4, 5],
+						groups: [2, 3],
+					},
+					{
+						type: "number",
+						description: "Attacks:",
+						groups: [4, 5],
 					},
 					{
 						type: "option",
@@ -11316,6 +11321,46 @@
 				targets: ["rumbleSpecial"],
 				regex:
 					/([.\d]+)% chance to evade[^.]+Action Bind[^.]+to (self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Chance:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [5],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+				],
+			},
+
+			{
+				name: "Forced Out",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to evade[^.]+Forced Out[^.]+to (self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
 				submatchers: [
 					{
 						type: "number",
