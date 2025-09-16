@@ -19,6 +19,7 @@ jobs:
         UTILS_FILE: common/js/utils.js
         UNIT_UTILS_FILE: common/js/unitUtils.js
         FESTIVAL_FILE: common/data/festival.js
+        RUMBLE_FILE: common/data/rumble.js
         ALIASES_FILE: common/data/aliases.js
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -37,6 +38,7 @@ jobs:
           cp -v optc-db/$DETAILS_FILE optc-supports/$DETAILS_FILE
           cp -v optc-db/$MATCHERS_FILE optc-supports/$MATCHERS_FILE
           cp -v optc-db/$FESTIVAL_FILE optc-supports/$FESTIVAL_FILE
+          cp -v optc-db/$RUMBLE_FILE optc-supports/$RUMBLE_FILE
           cp -v optc-db/$ALIASES_FILE optc-supports/$ALIASES_FILE
           cp -v optc-db/$UTILS_FILE optc-supports/$UTILS_FILE
           cp -v optc-db/$UNIT_UTILS_FILE optc-supports/$UNIT_UTILS_FILE
@@ -45,6 +47,6 @@ jobs:
           cd optc-supports
           git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
           git config --global user.name "ThePieBandit"
-          git add $UNITS_FILE $DETAILS_FILE $MATCHERS_FILE $FESTIVAL_FILE $ALIASES_FILE $UTILS_FILE $UNIT_UTILS_FILE
+          git add $UNITS_FILE $DETAILS_FILE $MATCHERS_FILE $FESTIVAL_FILE $RUMBLE_FILE $ALIASES_FILE $UTILS_FILE $UNIT_UTILS_FILE
           git diff-index --quiet HEAD || git commit -m "Automatic publish syncing the latest from OPTC-DB"
           git push
