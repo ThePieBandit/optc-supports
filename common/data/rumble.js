@@ -111090,6 +111090,171 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    4436: {
+        festCost: 55,
+        festStats: {
+            def: 188,
+            spd: 160,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from Fighter enemies.', '30% damage reduction from Cerebral enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK, HP and SPD up buff to Slasher and Powerhouse crew members.', 'For the first 40 seconds, applies Lv. 2 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK, HP and SPD up buff to Slasher and Powerhouse crew members.', 'For the first 40 seconds, applies Lv. 3 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK, HP and SPD up buff to Slasher and Powerhouse crew members.', 'For the first 40 seconds, applies Lv. 4 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK, HP and SPD up buff to Slasher and Powerhouse crew members.', 'For the first 40 seconds, applies Lv. 5 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 6 ATK, HP and SPD up buff to Slasher and Powerhouse crew members.', 'For the first 40 seconds, applies Lv. 6 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 5 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to Slasher and Powerhouse crew members for 11 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 70% chance to cleanse ATK down debuffs to all crew members.', 'Deals 2x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 1x ATK in damage to all enemies.'],
+                    ['Applies Lv. 1 ATK up buff to Slasher and Powerhouse crew members for 12 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 73% chance to cleanse ATK down debuffs to all crew members.', 'Deals 2.3x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 1.2x ATK in damage to all enemies.'],
+                    ['Applies Lv. 2 ATK up buff to Slasher and Powerhouse crew members for 13 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 76% chance to cleanse ATK down debuffs to all crew members.', 'Deals 2.6x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 1.4x ATK in damage to all enemies.'],
+                    ['Applies Lv. 2 ATK up buff to Slasher and Powerhouse crew members for 14 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 79% chance to cleanse ATK down debuffs to all crew members.', 'Deals 2.9x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 1.6x ATK in damage to all enemies.'],
+                    ['Applies Lv. 3 ATK up buff to Slasher and Powerhouse crew members for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 82% chance to cleanse ATK down debuffs to all crew members.', 'Deals 3.2x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 1.8x ATK in damage to all enemies.'],
+                    ['Applies Lv. 3 ATK up buff to Slasher and Powerhouse crew members for 16 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 85% chance to cleanse ATK down debuffs to all crew members.', 'Deals 3.5x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 2x ATK in damage to all enemies.'],
+                    ['Applies Lv. 4 ATK up buff to Slasher and Powerhouse crew members for 17 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 88% chance to cleanse ATK down debuffs to all crew members.', 'Deals 3.8x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 2.2x ATK in damage to all enemies.'],
+                    ['Applies Lv. 4 ATK up buff to Slasher and Powerhouse crew members for 18 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 91% chance to cleanse ATK down debuffs to all crew members.', 'Deals 4.1x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 2.4x ATK in damage to all enemies.'],
+                    ['Applies Lv. 5 ATK up buff to Slasher and Powerhouse crew members for 19 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 94% chance to cleanse ATK down debuffs to all crew members.', 'Deals 4.4x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 2.6x ATK in damage to all enemies.'],
+                    ['Applies Lv. 5 ATK up buff to Slasher and Powerhouse crew members for 20 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Red-Haired Pirates] and [Giant] crew members, 100% chance to cleanse ATK down debuffs to all crew members.', 'Deals 5x ATK in damage to all enemies.', 'When there are 40 seconds or less remaining, deals 3x ATK in damage to all enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4437: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4438: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4439: {
+        festCost: 55,
+        festStats: {
+            def: 185,
+            spd: 186,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Paralysis.', '30% damage reduction from Free Spirit enemies.'],
+            llbbase: ['100% chance to resist Paralysis.', '40% damage reduction from Free Spirit enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP up buff to Cerebral crew members.', 'Applies Lv. 3 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 2 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 2 DEF down debuff to all enemies.'],
+                ['Applies Lv. 3 HP up buff to Cerebral crew members.', 'Applies Lv. 4 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 2 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 3 DEF down debuff to all enemies.'],
+                ['Applies Lv. 4 HP up buff to Cerebral crew members.', 'Applies Lv. 5 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 4 DEF down debuff to all enemies.'],
+                ['Applies Lv. 5 HP up buff to Cerebral crew members.', 'Applies Lv. 6 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 5 DEF down debuff to all enemies.'],
+                ['Applies Lv. 6 HP up buff to Cerebral crew members.', 'Applies Lv. 7 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 4 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 6 DEF down debuff to all enemies.']
+            ],
+            llbbase: [
+                ['Applies Lv. 3 HP up buff to Cerebral crew members.', 'Applies Lv. 4 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 3 DEF down debuff to all enemies.'],
+                ['Applies Lv. 4 HP up buff to Cerebral crew members.', 'Applies Lv. 5 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 4 DEF down debuff to all enemies.'],
+                ['Applies Lv. 5 HP up buff to Cerebral crew members.', 'Applies Lv. 6 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 4 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 5 DEF down debuff to all enemies.'],
+                ['Applies Lv. 6 HP up buff to Cerebral crew members.', 'Applies Lv. 7 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 4 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 6 DEF down debuff to all enemies.'],
+                ['Applies Lv. 7 HP up buff to Cerebral crew members.', 'Applies Lv. 8 Critical Hit up buff to Cerebral crew members.', 'Applies Lv. 5 DEF up buff to [STR] and [PSY] crew members.', 'When there is 5 or more Cerebral crew members, inflicts Lv. 7 DEF down debuff to all enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Deals 2x ATK in damage to all enemies in a large, sideways range.', '70% chance to inflict Paralysis to all enemies in a large, sideways range for 11 seconds.', 'Applies Lv. 2 Critical Hit up buff to Cerebral crew members for 21 seconds.'],
+                    ['Deals 2.1x ATK in damage to all enemies in a large, sideways range.', '72% chance to inflict Paralysis to all enemies in a large, sideways range for 12 seconds.', 'Applies Lv. 2 Critical Hit up buff to Cerebral crew members for 22 seconds.'],
+                    ['Deals 2.2x ATK in damage to all enemies in a large, sideways range.', '74% chance to inflict Paralysis to all enemies in a large, sideways range for 13 seconds.', 'Applies Lv. 3 Critical Hit up buff to Cerebral crew members for 23 seconds.'],
+                    ['Deals 2.3x ATK in damage to all enemies in a large, sideways range.', '76% chance to inflict Paralysis to all enemies in a large, sideways range for 14 seconds.', 'Applies Lv. 4 Critical Hit up buff to Cerebral crew members for 24 seconds.'],
+                    ['Deals 2.4x ATK in damage to all enemies in a large, sideways range.', '78% chance to inflict Paralysis to all enemies in a large, sideways range for 15 seconds.', 'Applies Lv. 4 Critical Hit up buff to Cerebral crew members for 25 seconds.'],
+                    ['Deals 2.5x ATK in damage to all enemies in a large, sideways range.', '80% chance to inflict Paralysis to all enemies in a large, sideways range for 16 seconds.', 'Applies Lv. 5 Critical Hit up buff to Cerebral crew members for 26 seconds.'],
+                    ['Deals 2.6x ATK in damage to all enemies in a large, sideways range.', '82% chance to inflict Paralysis to all enemies in a large, sideways range for 17 seconds.', 'Applies Lv. 6 Critical Hit up buff to Cerebral crew members for 27 seconds.'],
+                    ['Deals 2.7x ATK in damage to all enemies in a large, sideways range.', '84% chance to inflict Paralysis to all enemies in a large, sideways range for 18 seconds.', 'Applies Lv. 6 Critical Hit up buff to Cerebral crew members for 28 seconds.'],
+                    ['Deals 2.8x ATK in damage to all enemies in a large, sideways range.', '86% chance to inflict Paralysis to all enemies in a large, sideways range for 19 seconds.', 'Applies Lv. 7 Critical Hit up buff to Cerebral crew members for 29 seconds.'],
+                    ['Deals 3x ATK in damage to all enemies in a large, sideways range.', '90% chance to inflict Paralysis to all enemies in a large, sideways range for 20 seconds.', 'Applies Lv. 8 Critical Hit up buff to Cerebral crew members for 30 seconds.']
+                ]
+            },
+            llbbase: {
+                cooldown: 32,
+                descriptions: [
+                    ['Deals 2.5x ATK in damage to all enemies in a large, sideways range.', '80% chance to inflict Paralysis to all enemies in a large, sideways range for 11 seconds.', 'Removes 10% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 3 Critical Hit up buff to Cerebral crew members for 21 seconds.'],
+                    ['Deals 2.6x ATK in damage to all enemies in a large, sideways range.', '82% chance to inflict Paralysis to all enemies in a large, sideways range for 12 seconds.', 'Removes 11% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 3 Critical Hit up buff to Cerebral crew members for 22 seconds.'],
+                    ['Deals 2.7x ATK in damage to all enemies in a large, sideways range.', '84% chance to inflict Paralysis to all enemies in a large, sideways range for 13 seconds.', 'Removes 12% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 4 Critical Hit up buff to Cerebral crew members for 23 seconds.'],
+                    ['Deals 2.8x ATK in damage to all enemies in a large, sideways range.', '86% chance to inflict Paralysis to all enemies in a large, sideways range for 14 seconds.', 'Removes 13% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 5 Critical Hit up buff to Cerebral crew members for 24 seconds.'],
+                    ['Deals 2.9x ATK in damage to all enemies in a large, sideways range.', '88% chance to inflict Paralysis to all enemies in a large, sideways range for 15 seconds.', 'Removes 14% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 5 Critical Hit up buff to Cerebral crew members for 25 seconds.'],
+                    ['Deals 3x ATK in damage to all enemies in a large, sideways range.', '90% chance to inflict Paralysis to all enemies in a large, sideways range for 16 seconds.', 'Removes 15% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 6 Critical Hit up buff to Cerebral crew members for 26 seconds.'],
+                    ['Deals 3.1x ATK in damage to all enemies in a large, sideways range.', '92% chance to inflict Paralysis to all enemies in a large, sideways range for 17 seconds.', 'Removes 16% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 7 Critical Hit up buff to Cerebral crew members for 27 seconds.'],
+                    ['Deals 3.2x ATK in damage to all enemies in a large, sideways range.', '94% chance to inflict Paralysis to all enemies in a large, sideways range for 18 seconds.', 'Removes 17% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 7 Critical Hit up buff to Cerebral crew members for 28 seconds.'],
+                    ['Deals 3.3x ATK in damage to all enemies in a large, sideways range.', '96% chance to inflict Paralysis to all enemies in a large, sideways range for 19 seconds.', 'Removes 18% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 8 Critical Hit up buff to Cerebral crew members for 29 seconds.'],
+                    ['Deals 3.5x ATK in damage to all enemies in a large, sideways range.', '100% chance to inflict Paralysis to all enemies in a large, sideways range for 20 seconds.', 'Removes 20% of Special CT to all enemies in a large, sideways range.', 'Applies Lv. 9 Critical Hit up buff to Cerebral crew members for 30 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
     4986: {
         festCost: 55,
         festStats: {
