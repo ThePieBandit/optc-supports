@@ -111655,6 +111655,464 @@ window.rumble = {
             }
         }
     },
+    4448: {
+        festCost: 20,
+        festStats: {
+            def: 150,
+            spd: 184,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Special Bind.', '20% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK, SPD and RCV up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, applies Lv. 1 DEF up buff to [STR] crew members.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 ATK, SPD and RCV up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, applies Lv. 1 DEF up buff to [STR] crew members.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK, SPD and RCV up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, applies Lv. 1 DEF up buff to [STR] crew members.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK, SPD and RCV up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, applies Lv. 1 DEF up buff to [STR] crew members.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK, SPD and RCV up buff to [STR] crew members.', 'When there is 6 or more [STR] crew members, applies Lv. 3 DEF up buff to [STR] crew members.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 34,
+                descriptions: [
+                    ['Applies Lv. 1 ATK, SPD and Special CT up buff to self for 16 seconds.', 'Deals 3.1x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 80% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.1x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 1 ATK, SPD and Special CT up buff to self for 16 seconds.', 'Deals 3.2x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 82% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.2x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 2 ATK, SPD and Special CT up buff to self for 17 seconds.', 'Deals 3.3x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 84% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.3x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 2 ATK, SPD and Special CT up buff to self for 17 seconds.', 'Deals 3.4x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 86% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.4x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 3 ATK, SPD and Special CT up buff to self for 18 seconds.', 'Deals 3.5x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 88% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.5x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 3 ATK, SPD and Special CT up buff to self for 18 seconds.', 'Deals 3.6x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 90% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.6x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 4 ATK, SPD and Special CT up buff to self for 19 seconds.', 'Deals 3.7x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 92% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.7x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 4 ATK, SPD and Special CT up buff to self for 19 seconds.', 'Deals 3.8x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 94% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.8x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 5 ATK, SPD and Special CT up buff to self for 20 seconds.', 'Deals 3.9x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 96% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 4.9x ATK in damage to 2 [DEX] enemies.'],
+                    ['Applies Lv. 5 ATK, SPD and Special CT up buff to self for 20 seconds.', 'Deals 4x ATK in damage to 3 enemies with the highest ATK.', 'When there is 6 or more [STR] crew members, 100% chance to inflict Forced Out to 1 [DEX] enemy for 5 seconds.', 'During Assault Rumble, deals 5x ATK in damage to 2 [DEX] enemies.']
+                ]
+            }
+        }
+    },
+    4450: {
+        festCost: 55,
+        festStats: {
+            def: 274,
+            spd: 111,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['Heals 400 HP every 5 seconds.', '100% chance to resist Damage Over Time.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 1 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 1 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 30% HP after death to self 1 time.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 3 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 2 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 2 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 35% HP after death to self 1 time.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 4 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 3 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 40% HP after death to self 1 time.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 3 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 5 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 4 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 4 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 4 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 45% HP after death to self 1 time.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 4 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 7 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 5 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 5 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 5 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 50% HP after death to self 2 times.', 'Applies Lv. 3 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 5 Blow Away up buff to [Navy] and [World Government] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['Deals 0.7x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 70% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 11 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 11 seconds.'],
+                    ['Deals 0.75x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 73% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 12 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 12 seconds.'],
+                    ['Deals 0.8x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 76% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 13 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 13 seconds.'],
+                    ['Deals 0.85x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 79% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 14 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 14 seconds.'],
+                    ['Deals 0.9x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 82% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 15 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 15 seconds.'],
+                    ['Deals 0.95x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 85% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 16 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] and [World Government] crew members for 16 seconds.'],
+                    ['Deals 1x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 88% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 17 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] and [World Government] crew members for 17 seconds.'],
+                    ['Deals 1.05x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 91% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 18 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] and [World Government] crew members for 18 seconds.'],
+                    ['Deals 1.1x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 94% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 19 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] and [World Government] crew members for 19 seconds.'],
+                    ['Deals 1.2x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 100% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 20 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 3 Shield up buff to [Navy] and [World Government] crew members for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 1 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 1 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 2 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 1 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 1 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 3 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 2 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 2 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 4 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 2 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 4 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 5 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 5 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 6 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 4 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 6 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 4 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 3 Blow Away up buff to [Navy] and [World Government] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 3,
+                condition: "After landing a Blow Away 6 times",
+                descriptions: [
+                    ['80% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 16 seconds.', 'Applies Lv. 1 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
+                    ['85% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 17 seconds.', 'Applies Lv. 2 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 4,500 fixed damage to all enemies.'],
+                    ['90% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 18 seconds.', 'Applies Lv. 3 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
+                    ['95% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 19 seconds.', 'Applies Lv. 4 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 5,500 fixed damage to all enemies.'],
+                    ['100% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Applies Lv. 5 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 6,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4451: {
+        festCost: 55,
+        festStats: {
+            def: 274,
+            spd: 111,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['Heals 400 HP every 5 seconds.', '100% chance to resist Damage Over Time.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 1 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 1 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 30% HP after death to self 1 time.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 3 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 2 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 2 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 35% HP after death to self 1 time.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 4 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 3 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 40% HP after death to self 1 time.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 3 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 5 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 4 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 4 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 4 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 45% HP after death to self 1 time.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 4 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 7 ATK up buff to [QCK], Driven and [Five Elders] crew members.', 'Applies Lv. 5 DEF up buff to [QCK], Driven and [Five Elders] crew members.', 'When HP is below 50%, applies Lv. 5 Special CT up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 5 Shield up buff to self.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, revive to 50% HP after death to self 2 times.', 'Applies Lv. 3 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 5 Blow Away up buff to [Navy] and [World Government] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['Deals 0.7x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 70% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 11 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 11 seconds.'],
+                    ['Deals 0.75x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 73% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 12 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 12 seconds.'],
+                    ['Deals 0.8x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 76% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 13 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 13 seconds.'],
+                    ['Deals 0.85x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 79% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 14 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 14 seconds.'],
+                    ['Deals 0.9x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 82% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 15 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] and [World Government] crew members for 15 seconds.'],
+                    ['Deals 0.95x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 85% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 16 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] and [World Government] crew members for 16 seconds.'],
+                    ['Deals 1x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 88% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 17 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] and [World Government] crew members for 17 seconds.'],
+                    ['Deals 1.05x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 91% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 18 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] and [World Government] crew members for 18 seconds.'],
+                    ['Deals 1.1x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 94% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 19 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] and [World Government] crew members for 19 seconds.'],
+                    ['Deals 1.2x ATK in damage ignoring DEF to all enemies in a large, radial range.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, 100% chance to evade Fixed Damage, Damage Ignoring DEF and Percentage Damage to self for 20 seconds.', 'When there is 5 or more Driven crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to self for 50 seconds.', 'Applies Lv. 3 Shield up buff to [Navy] and [World Government] crew members for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 1 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 1 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 2 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 1 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 1 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 3 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 2 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 2 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 4 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 2 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 4 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 5 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 5 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 Blow Away up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 6 HP up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 4 DEF up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 3 Special CT up buff to [QCK] and [Five Elders] crew members.', 'Applies Lv. 6 ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 Blow Away up buff to Driven and Powerhouse crew members.', 'Applies Lv. 4 HP up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 3 Blow Away up buff to [Navy] and [World Government] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 3,
+                condition: "After landing a Blow Away 6 times",
+                descriptions: [
+                    ['80% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 16 seconds.', 'Applies Lv. 1 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
+                    ['85% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 17 seconds.', 'Applies Lv. 2 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 4,500 fixed damage to all enemies.'],
+                    ['90% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 18 seconds.', 'Applies Lv. 3 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
+                    ['95% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 19 seconds.', 'Applies Lv. 4 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 5,500 fixed damage to all enemies.'],
+                    ['100% chance to evade Percentage Damage to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Applies Lv. 5 Shield up buff to [DEX], [QCK], Driven and Powerhouse crew members for 20 seconds.', 'Deals 6,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4452: {
+        festCost: 55,
+        festStats: {
+            def: 198,
+            spd: 144,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Half Stats.', '100% chance to resist Action Bind.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 1 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.'],
+                ['Applies Lv. 3 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 2 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.'],
+                ['Applies Lv. 4 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 2 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 2 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.'],
+                ['Applies Lv. 5 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 4 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 2 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 2 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.'],
+                ['Applies Lv. 7 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 5 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 3 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 3 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Deals 1,650 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 ATK and SPD up buff to all crew members for 11 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 Special CT up buff to all crew members for 11 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 Special CT down debuff to all enemies for 11 seconds.', 'Reduces 10% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 70% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 55% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 1,800 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 ATK and SPD up buff to all crew members for 12 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 Special CT up buff to all crew members for 12 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 Special CT down debuff to all enemies for 12 seconds.', 'Reduces 11% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 73% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 60% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 1,950 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 ATK and SPD up buff to all crew members for 13 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 Special CT up buff to all crew members for 13 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 Special CT down debuff to all enemies for 13 seconds.', 'Reduces 12% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 76% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 65% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,100 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 ATK and SPD up buff to all crew members for 14 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 Special CT up buff to all crew members for 14 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 2 Special CT down debuff to all enemies for 14 seconds.', 'Reduces 13% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 79% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 70% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,250 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 ATK and SPD up buff to all crew members for 15 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 Special CT up buff to all crew members for 15 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 2 Special CT down debuff to all enemies for 15 seconds.', 'Reduces 14% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 82% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 75% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,400 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 ATK and SPD up buff to all crew members for 16 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 Special CT up buff to all crew members for 16 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 3 Special CT down debuff to all enemies for 16 seconds.', 'Reduces 15% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 85% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 80% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,550 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 4 ATK and SPD up buff to all crew members for 17 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 Special CT up buff to all crew members for 17 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 3 Special CT down debuff to all enemies for 17 seconds.', 'Reduces 16% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 88% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 85% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,700 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 4 ATK and SPD up buff to all crew members for 18 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 Special CT up buff to all crew members for 18 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 3 Special CT down debuff to all enemies for 18 seconds.', 'Reduces 17% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 91% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 90% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,850 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 5 ATK and SPD up buff to all crew members for 19 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 4 Special CT up buff to all crew members for 19 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 4 Special CT down debuff to all enemies for 19 seconds.', 'Reduces 18% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 94% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 95% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 3,000 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 5 ATK and SPD up buff to all crew members for 20 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 5 Special CT up buff to all crew members for 20 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to all enemies for 20 seconds.', 'Reduces 20% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 100% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 100% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 1 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 2 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 1 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 1 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 3 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 2 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 2 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 2 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 4 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 4 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 3 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 3 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 5 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 5 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 3 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 3 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 6 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 4 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 6 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 4 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 4 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 3,
+                condition: "After dealing damage 16 times",
+                descriptions: [
+                    ['Deals 4,000 fixed damage to all enemies.', "Deals 1x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 20% of Special CT to [STR], Shooter and Driven crew members.'],
+                    ['Deals 4,500 fixed damage to all enemies.', "Deals 1.25x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 25% of Special CT to [STR], Shooter and Driven crew members.'],
+                    ['Deals 5,000 fixed damage to all enemies.', "Deals 1.5x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 30% of Special CT to [STR], Shooter and Driven crew members.'],
+                    ['Deals 5,500 fixed damage to all enemies.', "Deals 1.75x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 35% of Special CT to [STR], Shooter and Driven crew members.'],
+                    ['Deals 6,000 fixed damage to all enemies.', "Deals 2x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 40% of Special CT to [STR], Shooter and Driven crew members.']
+                ]
+            }
+        }
+    },
+    4453: {
+        festCost: 55,
+        festStats: {
+            def: 198,
+            spd: 144,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Half Stats.', '100% chance to resist Action Bind.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 1 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.'],
+                ['Applies Lv. 3 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 2 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 1 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.'],
+                ['Applies Lv. 4 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 2 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 2 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.'],
+                ['Applies Lv. 5 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 4 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 2 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 2 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.'],
+                ['Applies Lv. 7 HP and SPD up buff to [STR], Shooter and [Five Elders] crew members.', 'Applies Lv. 5 DEF up buff to [STR], Shooter and [Five Elders] crew members.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 3 DEF and Special CT down debuff to all enemies.', 'Applies Lv. 3 Special CT up buff to [Navy] and [World Government] crew members.', 'On death launches rumble special 1 time.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Deals 1,650 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 ATK and SPD up buff to all crew members for 11 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 Special CT up buff to all crew members for 11 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 Special CT down debuff to all enemies for 11 seconds.', 'Reduces 10% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 70% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 55% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 1,800 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 ATK and SPD up buff to all crew members for 12 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 Special CT up buff to all crew members for 12 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 Special CT down debuff to all enemies for 12 seconds.', 'Reduces 11% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 73% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 60% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 1,950 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 ATK and SPD up buff to all crew members for 13 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 1 Special CT up buff to all crew members for 13 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 1 Special CT down debuff to all enemies for 13 seconds.', 'Reduces 12% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 76% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 65% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,100 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 ATK and SPD up buff to all crew members for 14 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 Special CT up buff to all crew members for 14 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 2 Special CT down debuff to all enemies for 14 seconds.', 'Reduces 13% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 79% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 70% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,250 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 ATK and SPD up buff to all crew members for 15 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 2 Special CT up buff to all crew members for 15 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 2 Special CT down debuff to all enemies for 15 seconds.', 'Reduces 14% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 82% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 75% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,400 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 ATK and SPD up buff to all crew members for 16 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 Special CT up buff to all crew members for 16 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 3 Special CT down debuff to all enemies for 16 seconds.', 'Reduces 15% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 85% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 80% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,550 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 4 ATK and SPD up buff to all crew members for 17 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 Special CT up buff to all crew members for 17 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 3 Special CT down debuff to all enemies for 17 seconds.', 'Reduces 16% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 88% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 85% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,700 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 4 ATK and SPD up buff to all crew members for 18 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 3 Special CT up buff to all crew members for 18 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 3 Special CT down debuff to all enemies for 18 seconds.', 'Reduces 17% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 91% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 90% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 2,850 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 5 ATK and SPD up buff to all crew members for 19 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 4 Special CT up buff to all crew members for 19 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 4 Special CT down debuff to all enemies for 19 seconds.', 'Reduces 18% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 94% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 95% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.'],
+                    ['Deals 3,000 fixed damage to all enemies.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 5 ATK and SPD up buff to all crew members for 20 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, applies Lv. 5 Special CT up buff to all crew members for 20 seconds.', 'When there is 5 or more Shooter crew members or when there is 5 or more [Five Elders] crew members, inflicts Lv. 5 Special CT down debuff to all enemies for 20 seconds.', 'Reduces 20% of Special CT to [Navy] and [World Government] crew members, excluding self.', 'When HP is below 1%, reduces 100% of Special CT to 1 ATK-Style crew member with the lowest Special CT.', 'When HP is below 1%, 100% chance to grant Haste to 1 ATK-Style crew member with the highest Special CT.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 1 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 2 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 1 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 1 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 3 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 2 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 2 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 2 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 1 DEF up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 4 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 4 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 3 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 3 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 5 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 5 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 3 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 3 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.'],
+                ['Applies Lv. 6 RCV up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 4 DEF up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] and [Five Elders] crew members.', 'Applies Lv. 6 ATK and SPD up buff to Shooter and Driven crew members.', 'Applies Lv. 4 ATK up buff to Shooter and Driven crew members.', 'Applies Lv. 4 HP and RCV up buff to [Navy] and [World Government] crew members.', 'Applies Lv. 2 DEF up buff to [Navy] and [World Government] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 3,
+                condition: "After dealing damage 16 times",
+                descriptions: [
+                    ['Deals 4,000 fixed damage to all enemies.', "Deals 1x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 20% of Special CT to [STR], Shooter and Driven crew members.'],
+                    ['Deals 4,500 fixed damage to all enemies.', "Deals 1.25x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 25% of Special CT to [STR], Shooter and Driven crew members.'],
+                    ['Deals 5,000 fixed damage to all enemies.', "Deals 1.5x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 30% of Special CT to [STR], Shooter and Driven crew members.'],
+                    ['Deals 5,500 fixed damage to all enemies.', "Deals 1.75x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 35% of Special CT to [STR], Shooter and Driven crew members.'],
+                    ['Deals 6,000 fixed damage to all enemies.', "Deals 2x Leader's base ATK in damage ignoring DEF to Striker and Powerhouse enemies.", 'Reduces 40% of Special CT to [STR], Shooter and Driven crew members.']
+                ]
+            }
+        }
+    },
+    4454: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4455: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4456: {
+        festCost: 55,
+        festStats: {
+            def: 131,
+            spd: 162,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Half Stats.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 2 HP up buff to [Blackbeard Pirates] crew members.', 'Applies Lv. 1 RCV up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 1 ATK up buff to self.'],
+                ['Applies Lv. 3 HP, ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 3 HP up buff to [Blackbeard Pirates] crew members.', 'Applies Lv. 1 RCV up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 1 ATK up buff to self.'],
+                ['Applies Lv. 4 HP, ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 4 HP up buff to [Blackbeard Pirates] crew members.', 'Applies Lv. 2 RCV up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 2 ATK up buff to self.'],
+                ['Applies Lv. 5 HP, ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 5 HP up buff to [Blackbeard Pirates] crew members.', 'Applies Lv. 3 RCV up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 3 ATK up buff to self.'],
+                ['Applies Lv. 6 HP, ATK and SPD up buff to Driven and Powerhouse crew members.', 'Applies Lv. 6 HP up buff to [Blackbeard Pirates] crew members.', 'Applies Lv. 4 RCV up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 4 ATK up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Deals 2.1x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 1 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 11 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.1x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 11% of Special CT to all enemies.'],
+                    ['Deals 2.2x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 1 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 11 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.2x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 12% of Special CT to all enemies.'],
+                    ['Deals 2.3x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 1 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 12 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.3x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 13% of Special CT to all enemies.'],
+                    ['Deals 2.4x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 2 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 12 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.4x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 14% of Special CT to all enemies.'],
+                    ['Deals 2.5x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 2 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 13 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.5x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 15% of Special CT to all enemies.'],
+                    ['Deals 2.6x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 3 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 13 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.6x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 16% of Special CT to all enemies.'],
+                    ['Deals 2.7x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 3 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 14 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.7x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 17% of Special CT to all enemies.'],
+                    ['Deals 2.8x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 3 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 14 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.8x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 18% of Special CT to all enemies.'],
+                    ['Deals 2.9x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 4 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 15 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 3.9x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 19% of Special CT to all enemies.'],
+                    ['Deals 3x ATK in damage to all enemies in a large, sideways range.', 'Applies Lv. 5 ATK, SPD and DEF up buff to [Blackbeard Pirates] crew members for 15 seconds.', 'When there is 4 or more [Blackbeard Pirates] crew members, deals 4x ATK in damage to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, removes 20% of Special CT to all enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4457: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4458: {
+        festCost: 55,
+        festStats: {
+            def: 241,
+            spd: 147,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '100% chance to resist Action Bind.', '30% damage reduction from Cerebral enemies.', '30% damage reduction from Powerhouse enemies.'],
+            llbbase: ['100% chance to resist Special Bind.', '100% chance to resist Action Bind.', '40% damage reduction from Cerebral enemies.', '40% damage reduction from Powerhouse enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 1 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 1 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to Powerhouse and Cerebral enemies.'],
+                ['Applies Lv. 3 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 2 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 1 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to Powerhouse and Cerebral enemies.'],
+                ['Applies Lv. 4 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 3 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 2 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Powerhouse and Cerebral enemies.'],
+                ['Applies Lv. 5 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 4 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 3 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Powerhouse and Cerebral enemies.'],
+                ['Applies Lv. 6 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 5 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 4 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to Powerhouse and Cerebral enemies.']
+            ],
+            llbbase: [
+                ['Applies Lv. 3 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 3 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 1 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Powerhouse and Cerebral enemies.'],
+                ['Applies Lv. 4 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 4 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 2 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Powerhouse and Cerebral enemies.'],
+                ['Applies Lv. 5 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 5 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 3 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to Powerhouse and Cerebral enemies.'],
+                ['Applies Lv. 6 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 6 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 4 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to Powerhouse and Cerebral enemies.'],
+                ['Applies Lv. 7 ATK and HP up buff to Driven and Powerhouse crew members.', 'Inflicts Lv. 7 SPD down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 5 ATK down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 3 Special CT down debuff to all enemies.', 'During Assault Rumble, inflicts Lv. 4 DEF down debuff to Powerhouse and Cerebral enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 33,
+                descriptions: [
+                    ['Deals 1.6x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 11 seconds.', '73% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 1.6x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 1.7x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 12 seconds.', '76% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 1.7x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 1.8x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 13 seconds.', '79% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 1.8x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 1.9x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 4 ATK and SPD down debuff to all enemies for 14 seconds.', '82% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 1.9x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 4 ATK and SPD down debuff to all enemies for 15 seconds.', '85% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.1x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 16 seconds.', '88% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.1x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.2x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 17 seconds.', '91% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.3x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 18 seconds.', '94% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.3x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.4x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 6 ATK and SPD down debuff to all enemies for 19 seconds.', '97% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.4x ATK in damage to 2 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.5x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 7 ATK and SPD down debuff to all enemies for 20 seconds.', '100% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.5x ATK in damage to 2 Powerhouse and Cerebral enemies.']
+                ]
+            },
+            llbbase: {
+                cooldown: 33,
+                descriptions: [
+                    ['Deals 2.1x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 11 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies for 11 seconds.', '73% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.1x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.2x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 12 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies for 12 seconds.', '76% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.3x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 3 ATK and SPD down debuff to all enemies for 13 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies for 13 seconds.', '79% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.3x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.4x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 4 ATK and SPD down debuff to all enemies for 14 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies for 14 seconds.', '82% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.4x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.5x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 4 ATK and SPD down debuff to all enemies for 15 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies for 15 seconds.', '85% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.5x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.6x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 16 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies for 16 seconds.', '88% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.6x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.7x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 17 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies for 17 seconds.', '91% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.7x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.8x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 5 ATK and SPD down debuff to all enemies for 18 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies for 18 seconds.', '94% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.8x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 2.9x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 6 ATK and SPD down debuff to all enemies for 19 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies for 19 seconds.', '97% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 2.9x ATK in damage to 3 Powerhouse and Cerebral enemies.'],
+                    ['Deals 3x ATK in damage to all enemies in a large, radial range.', 'Inflicts Lv. 7 ATK and SPD down debuff to all enemies for 20 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies for 20 seconds.', '100% chance to inflict Action Bind to 2 enemies for 10 seconds.', 'During Assault Rumble, deals 3x ATK in damage to 3 Powerhouse and Cerebral enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
     4986: {
         festCost: 55,
         festStats: {
