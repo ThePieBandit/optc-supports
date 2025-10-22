@@ -111694,6 +111694,67 @@ window.rumble = {
             }
         }
     },
+    4449: {
+        festCost: 20,
+        festStats: {
+            def: 138,
+            spd: 173,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [STR] enemies.', '1.3x damage boost to [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 4 ATK up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 1 DEF down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 3 ATK down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'When there is 5 or more Shooter enemies, reduces 10% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 2 DEF down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 4 ATK down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'When there is 5 or more Shooter enemies, reduces 15% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 ATK up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 3 DEF down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 5 ATK down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'When there is 5 or more Shooter enemies, reduces 20% of Special CT to self upon appearance.'],
+                ['Applies Lv. 7 ATK up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 4 DEF down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 6 ATK down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'When there is 5 or more Shooter enemies, reduces 25% of Special CT to self upon appearance.'],
+                ['Applies Lv. 8 ATK up buff to [QCK] and Fighter crew members.', 'Inflicts Lv. 5 DEF down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 7 ATK down debuff to all enemies.', 'When there is 6 or more Fighter and Driven crew members, inflicts Lv. 3 Special CT down debuff to all enemies.', 'When there is 5 or more Shooter enemies, reduces 30% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['Removes 32% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '73% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 73% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 1 Special CT up buff to self for 11 seconds.'],
+                    ['Removes 34% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '76% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 76% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 1 Special CT up buff to self for 12 seconds.'],
+                    ['Removes 36% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '79% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 79% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 1 Special CT up buff to self for 13 seconds.'],
+                    ['Removes 38% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '82% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 82% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 2 Special CT up buff to self for 14 seconds.'],
+                    ['Removes 40% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '85% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 85% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 2 Special CT up buff to self for 15 seconds.'],
+                    ['Removes 42% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '88% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 88% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 3 Special CT up buff to self for 16 seconds.'],
+                    ['Removes 44% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '91% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 91% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 3 Special CT up buff to self for 17 seconds.'],
+                    ['Removes 46% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '94% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 94% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 3 Special CT up buff to self for 18 seconds.'],
+                    ['Removes 48% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '97% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 97% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 4 Special CT up buff to self for 19 seconds.'],
+                    ['Removes 50% of Special CT to 1 DBF-Style enemy with the highest Special CT.', '100% chance to inflict Action Bind to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Fighter and Driven crew members, 100% chance to inflict Confusion to 1 enemy with the highest Special CT for 10 seconds.', 'When there is 5 or more Shooter enemies, applies Lv. 5 Special CT up buff to self for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
     4450: {
         festCost: 55,
         festStats: {
