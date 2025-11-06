@@ -112389,6 +112389,45 @@ window.rumble = {
             }
         }
     },
+    4464: {
+        festCost: 20,
+        festStats: {
+            def: 172,
+            spd: 163,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Action Bind.', '20% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP and SPD up buff to [QCK] and Driven crew members.', 'Applies Lv. 1 DEF up buff to [QCK] and Driven crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 1 ATK up buff to all crew members.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 HP and SPD up buff to [QCK] and Driven crew members.', 'Applies Lv. 1 DEF up buff to [QCK] and Driven crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 2 ATK up buff to all crew members.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 HP and SPD up buff to [QCK] and Driven crew members.', 'Applies Lv. 2 DEF up buff to [QCK] and Driven crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 3 ATK up buff to all crew members.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 4 HP and SPD up buff to [QCK] and Driven crew members.', 'Applies Lv. 2 DEF up buff to [QCK] and Driven crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 4 ATK up buff to all crew members.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 5 HP and SPD up buff to [QCK] and Driven crew members.', 'Applies Lv. 3 DEF up buff to [QCK] and Driven crew members.', 'When there is 6 or more [QCK] crew members, applies Lv. 5 ATK up buff to all crew members.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 33,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to [QCK] and Driven crew members for 11 seconds.', 'Heals 230 fixed HP every 3 seconds to [QCK] and Driven crew members for 11 seconds.', 'Reduces 21% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 1 ATK and DEF up buff to [Big Mom Pirates] crew members for 11 seconds.'],
+                    ['Applies Lv. 1 ATK up buff to [QCK] and Driven crew members for 12 seconds.', 'Heals 260 fixed HP every 3 seconds to [QCK] and Driven crew members for 12 seconds.', 'Reduces 22% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 1 ATK and DEF up buff to [Big Mom Pirates] crew members for 12 seconds.'],
+                    ['Applies Lv. 1 ATK up buff to [QCK] and Driven crew members for 13 seconds.', 'Heals 290 fixed HP every 3 seconds to [QCK] and Driven crew members for 13 seconds.', 'Reduces 23% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 1 ATK and DEF up buff to [Big Mom Pirates] crew members for 13 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [QCK] and Driven crew members for 14 seconds.', 'Heals 320 fixed HP every 3 seconds to [QCK] and Driven crew members for 14 seconds.', 'Reduces 24% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 2 ATK and DEF up buff to [Big Mom Pirates] crew members for 14 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [QCK] and Driven crew members for 15 seconds.', 'Heals 350 fixed HP every 3 seconds to [QCK] and Driven crew members for 15 seconds.', 'Reduces 25% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 2 ATK and DEF up buff to [Big Mom Pirates] crew members for 15 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [QCK] and Driven crew members for 16 seconds.', 'Heals 380 fixed HP every 3 seconds to [QCK] and Driven crew members for 16 seconds.', 'Reduces 26% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 3 ATK and DEF up buff to [Big Mom Pirates] crew members for 16 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [QCK] and Driven crew members for 17 seconds.', 'Heals 410 fixed HP every 3 seconds to [QCK] and Driven crew members for 17 seconds.', 'Reduces 27% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 3 ATK and DEF up buff to [Big Mom Pirates] crew members for 17 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [QCK] and Driven crew members for 18 seconds.', 'Heals 440 fixed HP every 3 seconds to [QCK] and Driven crew members for 18 seconds.', 'Reduces 28% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 3 ATK and DEF up buff to [Big Mom Pirates] crew members for 18 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to [QCK] and Driven crew members for 19 seconds.', 'Heals 470 fixed HP every 3 seconds to [QCK] and Driven crew members for 19 seconds.', 'Reduces 29% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 4 ATK and DEF up buff to [Big Mom Pirates] crew members for 19 seconds.'],
+                    ['Applies Lv. 5 ATK up buff to [QCK] and Driven crew members for 20 seconds.', 'Heals 500 fixed HP every 3 seconds to [QCK] and Driven crew members for 20 seconds.', 'Reduces 30% of Special CT to [Big Mom Pirates] crew members, excluding self.', 'During Assault Rumble, applies Lv. 5 ATK and DEF up buff to [Big Mom Pirates] crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
     4465: {
         festCost: 55,
         festStats: {
@@ -112599,6 +112638,126 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4469: {
+        character1: {
+            festCost: 55,
+            festStats: {
+                def: 171,
+                spd: 162,
+                style: "ATK"
+            },
+            festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+            festAttackTarget: "Nearby Enemies.",
+            festResistance: {
+                base: ['100% chance to resist Special Bind.', '30% damage reduction from [PSY] enemies.']
+            },
+            festAbility: {
+                base: [
+                    ['Applies Lv. 2 ATK, RCV and SPD up buff to [INT] and Slasher crew members.', 'When there is 2 or more [Straw Hat Pirates] crew members, applies Lv. 1 Guard up buff to [INT] and Slasher crew members.', 'When there is 3 or more [Straw Hat Pirates] crew members, applies Lv. 1 HP up buff to [INT] and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 1 DEF up buff to [INT] and Slasher crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 1 Special CT up buff to [INT] and Slasher crew members.'],
+                    ['Applies Lv. 3 ATK, RCV and SPD up buff to [INT] and Slasher crew members.', 'When there is 2 or more [Straw Hat Pirates] crew members, applies Lv. 2 Guard up buff to [INT] and Slasher crew members.', 'When there is 3 or more [Straw Hat Pirates] crew members, applies Lv. 2 HP up buff to [INT] and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 1 DEF up buff to [INT] and Slasher crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 1 Special CT up buff to [INT] and Slasher crew members.'],
+                    ['Applies Lv. 4 ATK, RCV and SPD up buff to [INT] and Slasher crew members.', 'When there is 2 or more [Straw Hat Pirates] crew members, applies Lv. 3 Guard up buff to [INT] and Slasher crew members.', 'When there is 3 or more [Straw Hat Pirates] crew members, applies Lv. 3 HP up buff to [INT] and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 DEF up buff to [INT] and Slasher crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 2 Special CT up buff to [INT] and Slasher crew members.'],
+                    ['Applies Lv. 5 ATK, RCV and SPD up buff to [INT] and Slasher crew members.', 'When there is 2 or more [Straw Hat Pirates] crew members, applies Lv. 4 Guard up buff to [INT] and Slasher crew members.', 'When there is 3 or more [Straw Hat Pirates] crew members, applies Lv. 4 HP up buff to [INT] and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 DEF up buff to [INT] and Slasher crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 2 Special CT up buff to [INT] and Slasher crew members.'],
+                    ['Applies Lv. 6 ATK, RCV and SPD up buff to [INT] and Slasher crew members.', 'When there is 2 or more [Straw Hat Pirates] crew members, applies Lv. 5 Guard up buff to [INT] and Slasher crew members.', 'When there is 3 or more [Straw Hat Pirates] crew members, applies Lv. 5 HP up buff to [INT] and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 DEF up buff to [INT] and Slasher crew members.', 'When there is 5 or more [Straw Hat Pirates] crew members, applies Lv. 3 Special CT up buff to [INT] and Slasher crew members.']
+                ]
+            },
+            festSpecial: {
+                base: {
+                    cooldown: 30,
+                    descriptions: [
+                        ['Deals 4.1x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 1 DEF up buff to self for 11 seconds.', 'Heals 230 fixed HP every 3 seconds to self for 11 seconds.', 'Applies Lv. 1 Shield up buff to self for 11 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 3 ATK up buff to self for 11 seconds.', 'When there are 70 seconds or less remaining, deals 2.1x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.2x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 1 DEF up buff to self for 12 seconds.', 'Heals 260 fixed HP every 3 seconds to self for 12 seconds.', 'Applies Lv. 1 Shield up buff to self for 12 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 3 ATK up buff to self for 12 seconds.', 'When there are 70 seconds or less remaining, deals 2.2x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.3x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 2 DEF up buff to self for 13 seconds.', 'Heals 290 fixed HP every 3 seconds to self for 13 seconds.', 'Applies Lv. 1 Shield up buff to self for 13 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 3 ATK up buff to self for 13 seconds.', 'When there are 70 seconds or less remaining, deals 2.3x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.4x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 2 DEF up buff to self for 14 seconds.', 'Heals 320 fixed HP every 3 seconds to self for 14 seconds.', 'Applies Lv. 2 Shield up buff to self for 14 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 4 ATK up buff to self for 14 seconds.', 'When there are 70 seconds or less remaining, deals 2.4x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.5x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 3 DEF up buff to self for 15 seconds.', 'Heals 350 fixed HP every 3 seconds to self for 15 seconds.', 'Applies Lv. 2 Shield up buff to self for 15 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 4 ATK up buff to self for 15 seconds.', 'When there are 70 seconds or less remaining, deals 2.5x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.6x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 3 DEF up buff to self for 16 seconds.', 'Heals 380 fixed HP every 3 seconds to self for 16 seconds.', 'Applies Lv. 3 Shield up buff to self for 16 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 5 ATK up buff to self for 16 seconds.', 'When there are 70 seconds or less remaining, deals 2.6x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.7x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 4 DEF up buff to self for 17 seconds.', 'Heals 410 fixed HP every 3 seconds to self for 17 seconds.', 'Applies Lv. 3 Shield up buff to self for 17 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 5 ATK up buff to self for 17 seconds.', 'When there are 70 seconds or less remaining, deals 2.7x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.8x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 4 DEF up buff to self for 18 seconds.', 'Heals 440 fixed HP every 3 seconds to self for 18 seconds.', 'Applies Lv. 3 Shield up buff to self for 18 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 5 ATK up buff to self for 18 seconds.', 'When there are 70 seconds or less remaining, deals 2.8x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.9x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 5 DEF up buff to self for 19 seconds.', 'Heals 470 fixed HP every 3 seconds to self for 19 seconds.', 'Applies Lv. 4 Shield up buff to self for 19 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 6 ATK up buff to self for 19 seconds.', 'When there are 70 seconds or less remaining, deals 2.9x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 5x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 6 DEF up buff to self for 20 seconds.', 'Heals 500 fixed HP every 3 seconds to self for 20 seconds.', 'Applies Lv. 5 Shield up buff to self for 20 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 8 ATK up buff to self for 20 seconds.', 'When there are 70 seconds or less remaining, deals 3x ATK in damage to all enemies in a large, radial range.']
+                    ]
+                }
+            },
+            festSuperSpecial: {
+                base: {
+                    condition: "After enemies use 8 Rumble Specials",
+                    description: ['Deals 5x ATK in damage to all enemies in a medium, radial range.', 'Applies Lv. 8 DEF up buff to self for 25 seconds.', 'Heals 500 fixed HP every 3 seconds to self for 25 seconds.', 'Applies Lv. 6 Shield up buff to self for 25 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 9 ATK up buff to self for 25 seconds.', 'When there are 70 seconds or less remaining, deals 3.5x ATK in damage to all enemies in a large, radial range.', 'When there are 25 seconds or less remaining, deals 1.5x ATK in damage ignoring DEF to all enemies.']
+                },
+                llbbase: {
+                    condition: "After enemies use 7 Rumble Specials",
+                    description: ['Deals 5x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 10 DEF up buff to self for 30 seconds.', 'Heals 500 fixed HP every 3 seconds to self for 30 seconds.', 'Heals 50% of HP to self.', 'Applies Lv. 7 Shield up buff to self for 30 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 10 ATK up buff to self for 30 seconds.', 'When there are 75 seconds or less remaining, deals 4x ATK in damage to all enemies in a large, radial range.', 'When there are 35 seconds or less remaining, deals 2x ATK in damage ignoring DEF to all enemies.']
+                }
+            }
+        },
+        character2: {
+            festCost: 55,
+            festStats: {
+                def: 119,
+                spd: 196,
+                style: "ATK"
+            },
+            festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+            festAttackTarget: "Nearby Enemies.",
+            festResistance: {
+                base: ['100% chance to resist Action Bind.', '30% damage reduction from [DEX] enemies.']
+            },
+            festAbility: {
+                base: [
+                    ['Applies Lv. 2 HP, RCV and SPD up buff to [STR] and Driven crew members.', 'When there is 2 or more [Navy] and [World Government] crew members, applies Lv. 1 Blow Away up buff to [STR] and Driven crew members.', 'When there is 3 or more [Navy] and [World Government] crew members, applies Lv. 1 ATK up buff to [STR] and Driven crew members.', 'When there is 4 or more [Navy] and [World Government] crew members, applies Lv. 1 DEF up buff to [STR] and Driven crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, applies Lv. 1 Special CT up buff to [STR] and Driven crew members.'],
+                    ['Applies Lv. 3 HP, RCV and SPD up buff to [STR] and Driven crew members.', 'When there is 2 or more [Navy] and [World Government] crew members, applies Lv. 2 Blow Away up buff to [STR] and Driven crew members.', 'When there is 3 or more [Navy] and [World Government] crew members, applies Lv. 2 ATK up buff to [STR] and Driven crew members.', 'When there is 4 or more [Navy] and [World Government] crew members, applies Lv. 1 DEF up buff to [STR] and Driven crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, applies Lv. 1 Special CT up buff to [STR] and Driven crew members.'],
+                    ['Applies Lv. 4 HP, RCV and SPD up buff to [STR] and Driven crew members.', 'When there is 2 or more [Navy] and [World Government] crew members, applies Lv. 3 Blow Away up buff to [STR] and Driven crew members.', 'When there is 3 or more [Navy] and [World Government] crew members, applies Lv. 3 ATK up buff to [STR] and Driven crew members.', 'When there is 4 or more [Navy] and [World Government] crew members, applies Lv. 2 DEF up buff to [STR] and Driven crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, applies Lv. 2 Special CT up buff to [STR] and Driven crew members.'],
+                    ['Applies Lv. 5 HP, RCV and SPD up buff to [STR] and Driven crew members.', 'When there is 2 or more [Navy] and [World Government] crew members, applies Lv. 4 Blow Away up buff to [STR] and Driven crew members.', 'When there is 3 or more [Navy] and [World Government] crew members, applies Lv. 4 ATK up buff to [STR] and Driven crew members.', 'When there is 4 or more [Navy] and [World Government] crew members, applies Lv. 2 DEF up buff to [STR] and Driven crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, applies Lv. 2 Special CT up buff to [STR] and Driven crew members.'],
+                    ['Applies Lv. 6 HP, RCV and SPD up buff to [STR] and Driven crew members.', 'When there is 2 or more [Navy] and [World Government] crew members, applies Lv. 5 Blow Away up buff to [STR] and Driven crew members.', 'When there is 3 or more [Navy] and [World Government] crew members, applies Lv. 5 ATK up buff to [STR] and Driven crew members.', 'When there is 4 or more [Navy] and [World Government] crew members, applies Lv. 3 DEF up buff to [STR] and Driven crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, applies Lv. 3 Special CT up buff to [STR] and Driven crew members.']
+                ]
+            },
+            festSpecial: {
+                base: {
+                    cooldown: 30,
+                    descriptions: [
+                        ['Deals 4.1x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 1 ATK and SPD up buff to self for 11 seconds.', 'For the first 50 seconds, reduces 12% of Special CT to self.', 'For the first 50 seconds, applies Lv. 1 Special CT up buff to self for 11 seconds.', 'For the first 35 seconds, deals 2.1x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.2x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 1 ATK and SPD up buff to self for 12 seconds.', 'For the first 50 seconds, reduces 14% of Special CT to self.', 'For the first 50 seconds, applies Lv. 1 Special CT up buff to self for 12 seconds.', 'For the first 35 seconds, deals 2.2x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.3x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 2 ATK and SPD up buff to self for 13 seconds.', 'For the first 50 seconds, reduces 16% of Special CT to self.', 'For the first 50 seconds, applies Lv. 2 Special CT up buff to self for 13 seconds.', 'For the first 35 seconds, deals 2.3x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.4x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 2 ATK and SPD up buff to self for 14 seconds.', 'For the first 50 seconds, reduces 18% of Special CT to self.', 'For the first 50 seconds, applies Lv. 2 Special CT up buff to self for 14 seconds.', 'For the first 35 seconds, deals 2.4x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.5x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 3 ATK and SPD up buff to self for 15 seconds.', 'For the first 50 seconds, reduces 20% of Special CT to self.', 'For the first 50 seconds, applies Lv. 3 Special CT up buff to self for 15 seconds.', 'For the first 35 seconds, deals 2.5x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.6x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 3 ATK and SPD up buff to self for 16 seconds.', 'For the first 50 seconds, reduces 22% of Special CT to self.', 'For the first 50 seconds, applies Lv. 3 Special CT up buff to self for 16 seconds.', 'For the first 35 seconds, deals 2.6x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.7x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 4 ATK and SPD up buff to self for 17 seconds.', 'For the first 50 seconds, reduces 24% of Special CT to self.', 'For the first 50 seconds, applies Lv. 4 Special CT up buff to self for 17 seconds.', 'For the first 35 seconds, deals 2.7x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.8x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 4 ATK and SPD up buff to self for 18 seconds.', 'For the first 50 seconds, reduces 26% of Special CT to self.', 'For the first 50 seconds, applies Lv. 4 Special CT up buff to self for 18 seconds.', 'For the first 35 seconds, deals 2.8x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 4.9x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 5 ATK and SPD up buff to self for 19 seconds.', 'For the first 50 seconds, reduces 28% of Special CT to self.', 'For the first 50 seconds, applies Lv. 5 Special CT up buff to self for 19 seconds.', 'For the first 35 seconds, deals 2.9x ATK in damage to all enemies in a large, radial range.'],
+                        ['Deals 5x ATK in damage to all enemies in a small, radial range.', 'Applies Lv. 6 ATK and SPD up buff to self for 20 seconds.', 'For the first 50 seconds, reduces 30% of Special CT to self.', 'For the first 50 seconds, applies Lv. 5 Special CT up buff to self for 20 seconds.', 'For the first 35 seconds, deals 3x ATK in damage to all enemies in a large, radial range.']
+                    ]
+                }
+            },
+            festSuperSpecial: {
+                base: {
+                    condition: "When there are 80 seconds or less remaining",
+                    description: ['Deals 5x ATK in damage to all enemies in a medium, radial range.', 'Applies Lv. 7 ATK and SPD up buff to self for 25 seconds.', 'For the first 50 seconds, reduces 50% of Special CT to self.', 'For the first 50 seconds, applies Lv. 6 Special CT up buff to self for 25 seconds.', 'For the first 65 seconds, deals 3.5x ATK in damage to all enemies in a large, radial range.', 'For the first 25 seconds, deals 1x ATK in damage ignoring DEF to all enemies.']
+                },
+                llbbase: {
+                    condition: "When there are 80 seconds or less remaining",
+                    description: ['Deals 5x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 8 ATK and SPD up buff to self for 30 seconds.', 'For the first 50 seconds, reduces 70% of Special CT to self.', 'For the first 50 seconds, applies Lv. 7 Special CT up buff to self for 30 seconds.', 'For the first 65 seconds, deals 4x ATK in damage to all enemies in a large, radial range.', 'For the first 30 seconds, deals 1.2x ATK in damage ignoring DEF to all enemies.']
+                }
+            }
+        }
+    },
+    4470: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4471: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     4986: {
         festCost: 55,
