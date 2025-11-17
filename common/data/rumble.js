@@ -108590,11 +108590,11 @@ window.rumble = {
                 uses: 2,
                 condition: "After 50 seconds",
                 descriptions: [
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 16 seconds.', 'Deals 2,000 fixed damage to all enemies.'],
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 17 seconds.', 'Deals 3,000 fixed damage to all enemies.'],
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 18 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 19 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 20 seconds.', 'Deals 6,000 fixed damage to all enemies.']
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 16 seconds.', 'Deals 2,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 17 seconds.', 'Deals 3,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 18 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 19 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 20 seconds.', 'Deals 6,000 fixed damage to all enemies.']
                 ]
             }
         }
@@ -108651,11 +108651,11 @@ window.rumble = {
                 uses: 2,
                 condition: "After 50 seconds",
                 descriptions: [
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 16 seconds.', 'Deals 2,000 fixed damage to all enemies.'],
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 17 seconds.', 'Deals 3,000 fixed damage to all enemies.'],
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 18 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 19 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
-                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Stiker and Driven crew members for 20 seconds.', 'Deals 6,000 fixed damage to all enemies.']
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 16 seconds.', 'Deals 2,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 17 seconds.', 'Deals 3,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 18 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 19 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Damage Ignoring DEF to [PSY], [INT], Striker and Driven crew members for 20 seconds.', 'Deals 6,000 fixed damage to all enemies.']
                 ]
             }
         }
