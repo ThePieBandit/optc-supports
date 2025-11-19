@@ -112759,6 +112759,167 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    4472: {
+        festCost: 55,
+        festStats: {
+            def: 153,
+            spd: 180,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK, SPD and RCV up buff to [QCK] and Driven crew members.', 'When there is 5 or more Driven crew members, applies Lv. 1 Special CT up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.', 'When there is 5 or more Driven crew members, applies Lv. 1 SPD up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.'],
+                ['Applies Lv. 3 ATK, SPD and RCV up buff to [QCK] and Driven crew members.', 'When there is 5 or more Driven crew members, applies Lv. 1 Special CT up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.', 'When there is 5 or more Driven crew members, applies Lv. 1 SPD up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.'],
+                ['Applies Lv. 4 ATK, SPD and RCV up buff to [QCK] and Driven crew members.', 'When there is 5 or more Driven crew members, applies Lv. 2 Special CT up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.', 'When there is 5 or more Driven crew members, applies Lv. 2 SPD up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.'],
+                ['Applies Lv. 5 ATK, SPD and RCV up buff to [QCK] and Driven crew members.', 'When there is 5 or more Driven crew members, applies Lv. 2 Special CT up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.', 'When there is 5 or more Driven crew members, applies Lv. 3 SPD up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.'],
+                ['Applies Lv. 6 ATK, SPD and RCV up buff to [QCK] and Driven crew members.', 'When there is 5 or more Driven crew members, applies Lv. 3 Special CT up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.', 'When there is 5 or more Driven crew members, applies Lv. 4 SPD up buff to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 31,
+                descriptions: [
+                    ['Inflicts Lv. 1 ATK and SPD down debuff to all enemies in a large, radial range for 11 seconds.', 'Deals 1x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 1 Shield up buff to Driven crew members for 11 seconds.', 'When there is 5 or more [QCK] crew members, 32% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 11 seconds.'],
+                    ['Inflicts Lv. 1 ATK and SPD down debuff to all enemies in a large, radial range for 12 seconds.', 'Deals 1.1x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 1 Shield up buff to Driven crew members for 12 seconds.', 'When there is 5 or more [QCK] crew members, 34% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 12 seconds.'],
+                    ['Inflicts Lv. 1 ATK and SPD down debuff to all enemies in a large, radial range for 13 seconds.', 'Deals 1.2x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 1 Shield up buff to Driven crew members for 13 seconds.', 'When there is 5 or more [QCK] crew members, 36% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 13 seconds.'],
+                    ['Inflicts Lv. 2 ATK and SPD down debuff to all enemies in a large, radial range for 14 seconds.', 'Deals 1.3x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 1 Shield up buff to Driven crew members for 14 seconds.', 'When there is 5 or more [QCK] crew members, 38% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 14 seconds.'],
+                    ['Inflicts Lv. 2 ATK and SPD down debuff to all enemies in a large, radial range for 15 seconds.', 'Deals 1.4x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 2 Shield up buff to Driven crew members for 15 seconds.', 'When there is 5 or more [QCK] crew members, 40% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 15 seconds.'],
+                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies in a large, radial range for 16 seconds.', 'Deals 1.5x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 2 Shield up buff to Driven crew members for 16 seconds.', 'When there is 5 or more [QCK] crew members, 42% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 16 seconds.'],
+                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies in a large, radial range for 17 seconds.', 'Deals 1.6x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 2 Shield up buff to Driven crew members for 17 seconds.', 'When there is 5 or more [QCK] crew members, 44% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 17 seconds.'],
+                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies in a large, radial range for 18 seconds.', 'Deals 1.7x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 3 Shield up buff to Driven crew members for 18 seconds.', 'When there is 5 or more [QCK] crew members, 46% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 18 seconds.'],
+                    ['Inflicts Lv. 4 ATK and SPD down debuff to all enemies in a large, radial range for 19 seconds.', 'Deals 1.8x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 3 Shield up buff to Driven crew members for 19 seconds.', 'When there is 5 or more [QCK] crew members, 48% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 19 seconds.'],
+                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a large, radial range for 20 seconds.', 'Deals 2x ATK in damage ignoring DEF to 3 enemies.', 'Applies Lv. 4 Shield up buff to Driven crew members for 20 seconds.', 'When there is 5 or more [QCK] crew members, 50% chance to evade Damage Ignoring DEF to [Donquixote Pirates], [Paramythia-type], [Logia-type] and [World Government] crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
+    4473: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4474: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4475: {
+        festCost: 55,
+        festStats: {
+            def: 185,
+            spd: 194,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['Heals 300 HP every 5 seconds.', '30% damage reduction from Fighter enemies.', '30% damage reduction from Shooter enemies.'],
+            llbbase: ['Heals 300 HP every 5 seconds.', '40% damage reduction from Fighter enemies.', '40% damage reduction from Shooter enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 1 ATK up buff to self.', 'During Assault Rumble, applies Lv. 1 HP up buff to Fighter and Slasher crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 1 ATK up buff to self.', 'During Assault Rumble, applies Lv. 1 HP up buff to Fighter and Slasher crew members.'],
+                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 4 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 2 ATK up buff to self.', 'During Assault Rumble, applies Lv. 2 HP up buff to Fighter and Slasher crew members.'],
+                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 5 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 2 ATK up buff to self.', 'During Assault Rumble, applies Lv. 2 HP up buff to Fighter and Slasher crew members.'],
+                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 6 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 3 ATK up buff to self.', 'During Assault Rumble, applies Lv. 3 HP up buff to Fighter and Slasher crew members.']
+            ],
+            llbbase: [
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 1 ATK up buff to self.', 'During Assault Rumble, applies Lv. 1 HP up buff to Fighter and Slasher crew members.'],
+                ['Applies Lv. 4 ATK up buff to all crew members.', 'Applies Lv. 4 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 2 ATK up buff to self.', 'During Assault Rumble, applies Lv. 2 HP up buff to Fighter and Slasher crew members.'],
+                ['Applies Lv. 5 ATK up buff to all crew members.', 'Applies Lv. 5 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 3 ATK up buff to self.', 'During Assault Rumble, applies Lv. 3 HP up buff to Fighter and Slasher crew members.'],
+                ['Applies Lv. 6 ATK up buff to all crew members.', 'Applies Lv. 6 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 4 ATK up buff to self.', 'During Assault Rumble, applies Lv. 4 HP up buff to Fighter and Slasher crew members.'],
+                ['Applies Lv. 7 ATK up buff to all crew members.', 'Applies Lv. 7 HP and SPD up buff to Fighter and Slasher crew members.', 'When there is 4 or more [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, applies Lv. 5 ATK up buff to self.', 'During Assault Rumble, applies Lv. 5 HP up buff to Fighter and Slasher crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Deals 3,100 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 1 ATK up buff to all crew members for 11 seconds.', 'Deals 3.1x ATK in damage to 2 enemies.', 'Reduces 6% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.1x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 3,200 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 1 ATK up buff to all crew members for 12 seconds.', 'Deals 3.2x ATK in damage to 2 enemies.', 'Reduces 7% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.2x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 3,300 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 2 ATK up buff to all crew members for 13 seconds.', 'Deals 3.3x ATK in damage to 2 enemies.', 'Reduces 8% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.3x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 3,400 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 2 ATK up buff to all crew members for 14 seconds.', 'Deals 3.4x ATK in damage to 2 enemies.', 'Reduces 9% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.4x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 3,500 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 3 ATK up buff to all crew members for 15 seconds.', 'Deals 3.5x ATK in damage to 2 enemies.', 'Reduces 10% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.5x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 3,600 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 3 ATK up buff to all crew members for 16 seconds.', 'Deals 3.6x ATK in damage to 2 enemies.', 'Reduces 11% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.6x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 3,700 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 4 ATK up buff to all crew members for 17 seconds.', 'Deals 3.7x ATK in damage to 2 enemies.', 'Reduces 12% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.7x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 3,800 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 4 ATK up buff to all crew members for 18 seconds.', 'Deals 3.8x ATK in damage to 2 enemies.', 'Reduces 13% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.8x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 3,900 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 5 ATK up buff to all crew members for 19 seconds.', 'Deals 3.9x ATK in damage to 2 enemies.', 'Reduces 14% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 3.9x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,000 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 ATK up buff to all crew members for 20 seconds.', 'Deals 4x ATK in damage to 2 enemies.', 'Reduces 15% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4x ATK in damage to 2 Shooter and Fighter enemies.']
+                ]
+            },
+            llbbase: {
+                cooldown: 35,
+                descriptions: [
+                    ['Deals 4,100 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 2 ATK up buff to all crew members for 11 seconds.', 'Deals 4.1x ATK in damage to 2 enemies.', 'Reduces 11% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.1x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,200 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 2 ATK up buff to all crew members for 12 seconds.', 'Deals 4.2x ATK in damage to 2 enemies.', 'Reduces 12% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.2x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,300 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 3 ATK up buff to all crew members for 13 seconds.', 'Deals 4.3x ATK in damage to 2 enemies.', 'Reduces 13% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.3x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,400 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 3 ATK up buff to all crew members for 14 seconds.', 'Deals 4.4x ATK in damage to 2 enemies.', 'Reduces 14% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.4x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,500 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 4 ATK up buff to all crew members for 15 seconds.', 'Deals 4.5x ATK in damage to 2 enemies.', 'Reduces 15% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.5x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,600 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 4 ATK up buff to all crew members for 16 seconds.', 'Deals 4.6x ATK in damage to 2 enemies.', 'Reduces 16% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.6x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,700 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 5 ATK up buff to all crew members for 17 seconds.', 'Deals 4.7x ATK in damage to 2 enemies.', 'Reduces 17% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.7x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,800 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 5 ATK up buff to all crew members for 18 seconds.', 'Deals 4.8x ATK in damage to 2 enemies.', 'Reduces 18% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.8x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 4,900 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 6 ATK up buff to all crew members for 19 seconds.', 'Deals 4.9x ATK in damage to 2 enemies.', 'Reduces 19% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 4.9x ATK in damage to 2 Shooter and Fighter enemies.'],
+                    ['Deals 5,000 fixed damage to all enemies in a large, radial range.', 'Applies Lv. 7 ATK up buff to all crew members for 20 seconds.', 'Deals 5x ATK in damage to 2 enemies.', 'Reduces 20% of Special CT to [Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members, excluding self.', 'During Assault Rumble, deals 5x ATK in damage to 2 Shooter and Fighter enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 1 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 1 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 1 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 2 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 1 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 2 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 1 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 3 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 2 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 1 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 4 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 2 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 2 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 5 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 3 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 4 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 2 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.']
+            ],
+            llbbase: [
+                ['Applies Lv. 1 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 1 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 1 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 1 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 2 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 2 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 2 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 1 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 4 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 3 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 3 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 2 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 5 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 3 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 4 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 2 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 6 ATK, HP and RCV up buff to [DEX] and [QCK] crew members.', 'Applies Lv. 4 ATK and DEF up buff to Fighter and Slasher crew members.', 'Applies Lv. 5 Critical Hit up buff to Fighter and Slasher crew members.', 'Applies Lv. 3 Special CT up buff to Straw Hat Pirates], [Heart Pirates] and [Paramythia-type] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After enemies use 6 Rumble Specials",
+                descriptions: [
+                    ['Deals 3,000 fixed damage to 3 enemies with the highest ATK.', "Deals 1x Leader's base ATK in damage to 3 enemies with the highest HP."],
+                    ['Deals 3,500 fixed damage to 3 enemies with the highest ATK.', "Deals 2x Leader's base ATK in damage to 3 enemies with the highest HP."],
+                    ['Deals 4,000 fixed damage to 3 enemies with the highest ATK.', "Deals 3x Leader's base ATK in damage to 3 enemies with the highest HP."],
+                    ['Deals 4,500 fixed damage to 3 enemies with the highest ATK.', "Deals 4x Leader's base ATK in damage to 3 enemies with the highest HP."],
+                    ['Deals 5,000 fixed damage to 3 enemies with the highest ATK.', "Deals 5x Leader's base ATK in damage to 3 enemies with the highest HP."]
+                ]
+            },
+            llbbase: {
+                uses: 2,
+                condition: "After enemies use 6 Rumble Specials",
+                descriptions: [
+                    ['Deals 3,000 fixed damage to 4 enemies with the highest ATK.', "Deals 1x Leader's base ATK in damage to 4 enemies with the highest HP."],
+                    ['Deals 3,500 fixed damage to 4 enemies with the highest ATK.', "Deals 2x Leader's base ATK in damage to 4 enemies with the highest HP."],
+                    ['Deals 4,000 fixed damage to 4 enemies with the highest ATK.', "Deals 3x Leader's base ATK in damage to 4 enemies with the highest HP."],
+                    ['Deals 4,500 fixed damage to 4 enemies with the highest ATK.', "Deals 4x Leader's base ATK in damage to 4 enemies with the highest HP."],
+                    ['Deals 5,000 fixed damage to 4 enemies with the highest ATK.', "Deals 5x Leader's base ATK in damage to 4 enemies with the highest HP."]
+                ]
+            }
+        }
+    },
     4986: {
         festCost: 55,
         festStats: {
