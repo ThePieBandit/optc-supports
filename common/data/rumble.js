@@ -106723,7 +106723,7 @@ window.rumble = {
                 description: ['Provoke enemies to self for 30 seconds.', 'Grant 3.5x Counter to self for 30 seconds.', 'Applies Lv. 10 DEF up buff to Slasher and Driven crew members for 30 seconds.', 'Heals 500 fixed HP every 3 seconds to all crew members for 30 seconds.', 'When there is 8 or More Slasher and Driven crew members, deals 8,000 fixed damage to 1 enemy with the highest HP.']
             },
             llbbase: {
-                condition: "After this character receives enemies' Rumble Specials 1 times",
+                condition: "After this character receives enemies' Rumble Specials 1 time",
                 description: ['Provoke enemies to self for 30 seconds.', 'Grant 4x Counter to self for 30 seconds.', 'Applies Lv. 15 DEF up buff to Slasher and Driven crew members for 30 seconds.', 'Heals 1,000 fixed HP every 3 seconds to all crew members for 30 seconds.', 'When there is 8 or More Slasher and Driven crew members, deals 8,000 fixed damage to 2 enemies with the highest HP.']
             }
         },
@@ -107574,7 +107574,7 @@ window.rumble = {
                 description: ['Heals 3.5x RCV of HP to [DEX] and Free Spirit crew members.', 'Reduce Special Bind to [DEX] and Free Spirit crew members for 15 seconds.', 'Applies Lv. 6 Special CT up buff to [DEX] and Free Spirit crew members for 30 seconds.', 'Applies Lv. 3 Shield up buff to [DEX] and Free Spirit crew members for 30 seconds.', 'Heals 1.5x RCV of HP to all crew members with below 50% HP.', '100% chance to cleanse DEF down debuffs to all crew members.']
             },
             llbbase: {
-                condition: "After this character receives enemies' Rumble Specials 1 times",
+                condition: "After this character receives enemies' Rumble Specials 1 time",
                 description: ['Heals 4x RCV of HP to [DEX] and Free Spirit crew members.', 'Reduce Special Bind to [DEX] and Free Spirit crew members for 20 seconds.', 'Applies Lv. 7 Special CT up buff to [DEX] and Free Spirit crew members for 30 seconds.', 'Applies Lv. 5 Shield up buff to [DEX] and Free Spirit crew members for 30 seconds.', 'Heals 2x RCV of HP to all crew members with below 50% HP.', '100% chance to cleanse ATK and DEF down debuffs to all crew members.']
             }
         },
@@ -110704,7 +110704,7 @@ window.rumble = {
                 description: ['Deals 5.5x ATK in damage to 2 enemies.', '70% chance to inflict Paralysis to all enemies in a large, radial range for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 100% chance to evade Action Bind to [PSY] crew members for 30 seconds.']
             },
             llbbase: {
-                condition: "After enemies use 1 Rumble Specials",
+                condition: "After enemies use 1 Rumble Special",
                 description: ['Deals 6x ATK in damage to 2 enemies.', '100% chance to inflict Paralysis to all enemies in a large, radial range for 20 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 100% chance to evade Action Bind to [PSY] crew members for 40 seconds.']
             }
         },
@@ -112916,6 +112916,221 @@ window.rumble = {
                     ['Deals 4,000 fixed damage to 4 enemies with the highest ATK.', "Deals 3x Leader's base ATK in damage to 4 enemies with the highest HP."],
                     ['Deals 4,500 fixed damage to 4 enemies with the highest ATK.', "Deals 4x Leader's base ATK in damage to 4 enemies with the highest HP."],
                     ['Deals 5,000 fixed damage to 4 enemies with the highest ATK.', "Deals 5x Leader's base ATK in damage to 4 enemies with the highest HP."]
+                ]
+            }
+        }
+    },
+    4476: {
+        festCost: 55,
+        festStats: {
+            def: 179,
+            spd: 182,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from Fighter enemies.', '30% damage reduction from Slasher enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, ATK and RCV up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 2 SPD and DEF up buff to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type] crew members.'],
+                ['Applies Lv. 3 HP, ATK and RCV up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 3 SPD and DEF up buff to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type] crew members.'],
+                ['Applies Lv. 4 HP, ATK and RCV up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 4 SPD and DEF up buff to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type] crew members.'],
+                ['Applies Lv. 5 HP, ATK and RCV up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 5 SPD and DEF up buff to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type] crew members.'],
+                ['Applies Lv. 6 HP, ATK and RCV up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 6 SPD and DEF up buff to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['Deals 1x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 1 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 11 seconds 2 times.', 'Reduces 6% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '70% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 1.2x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 1 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 12 seconds 2 times.', 'Reduces 7% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '73% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 1.4x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 1 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 13 seconds 2 times.', 'Reduces 8% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '76% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 1.6x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 2 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 14 seconds 2 times.', 'Reduces 9% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '79% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 1.8x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 2 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 15 seconds 2 times.', 'Reduces 10% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '82% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 2x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 2 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 16 seconds 2 times.', 'Reduces 11% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '85% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 2.2x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 3 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 17 seconds 2 times.', 'Reduces 12% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '88% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 2.4x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 3 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 18 seconds 2 times.', 'Reduces 13% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '91% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 2.6x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 3 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 19 seconds 2 times.', 'Reduces 14% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '94% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.'],
+                    ['Deals 3x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 4 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 20 seconds 2 times.', 'Reduces 15% of Special CT to 3 crew members, excluding self, with the lowest Special CT 2 times.', '100% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 15 seconds.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives Special CT Delay 3 times",
+                description: ['Deals 4x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 5 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 20 seconds 3 times.', 'Reduces 15% of Special CT to 3 crew members, excluding self, with the lowest Special CT 3 times.', '100% chance to evade Fixed Damage to [Straw Hat Pirates], [Kozuki Clan], [Paramythia-type], [Mythical Zoan-type] and [Ancient Zoan-type crew members for 20 seconds.']
+            },
+            llbbase: {
+                condition: "After this character receives Special CT Delay 1 time",
+                description: ['Deals 5x ATK in damage to all enemies in a large, radial range.', 'Applies Lv. 6 ATK up buff to 3 crew members, excluding self, with the lowest Special CT for 30 seconds 3 times.', 'Reduces 25% of Special CT to 3 crew members, excluding self, with the lowest Special CT 3 times.', '100% chance to evade Fixed Damage to all crew members for 30 seconds.']
+            }
+        }
+    },
+    4477: {
+        festCost: 55,
+        festStats: {
+            def: 208,
+            spd: 185,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Confusion.', '30% damage reduction from Fighter enemies.', '30% damage reduction from Slasher enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 1 ATK and DEF up buff to self.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, reduces 15% of Special CT to self upon appearance.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, revive to 25% HP after death to self 1 time.'],
+                ['Applies Lv. 2 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 2 ATK and DEF up buff to self.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, reduces 19% of Special CT to self upon appearance.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, revive to 30% HP after death to self 1 time.'],
+                ['Applies Lv. 3 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 3 ATK and DEF up buff to self.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, reduces 23% of Special CT to self upon appearance.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, revive to 35% HP after death to self 1 time.'],
+                ['Applies Lv. 4 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 4 ATK and DEF up buff to self.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, reduces 27% of Special CT to self upon appearance.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, revive to 40% HP after death to self 1 time.'],
+                ['Applies Lv. 5 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'When there is 6 or more Slasher and Striker crew members, applies Lv. 5 ATK and DEF up buff to self.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, reduces 30% of Special CT to self upon appearance.', 'When there is 3 or more [Mythical Zoan-type], [Paramythia-type], [Animal Kingdom Pirates] and [Big Mom Pirates] crew members, revive to 50% HP after death to self 1 time.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 50,
+                descriptions: [
+                    ['Applies Lv. 1 SPD up buff to Striker and Slasher crew members for 11 seconds.', 'Applies Lv. 3 ATK up buff to self for 11 seconds.', '20% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 1x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 1x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 3 DEF up buff to self for 11 seconds.', 'When HP is below 50%, 70% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 1 SPD up buff to Striker and Slasher crew members for 12 seconds.', 'Applies Lv. 3 ATK up buff to self for 12 seconds.', '23% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 1.2x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 1.35x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 3 DEF up buff to self for 12 seconds.', 'When HP is below 50%, 73% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 2 SPD up buff to Striker and Slasher crew members for 13 seconds.', 'Applies Lv. 4 ATK up buff to self for 13 seconds.', '26% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 1.4x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 1.7x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 4 DEF up buff to self for 13 seconds.', 'When HP is below 50%, 76% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 2 SPD up buff to Striker and Slasher crew members for 14 seconds.', 'Applies Lv. 4 ATK up buff to self for 14 seconds.', '29% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 1.6x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 2.05x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 4 DEF up buff to self for 14 seconds.', 'When HP is below 50%, 79% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 3 SPD up buff to Striker and Slasher crew members for 15 seconds.', 'Applies Lv. 5 ATK up buff to self for 15 seconds.', '32% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 1.8x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 2.4x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 5 DEF up buff to self for 15 seconds.', 'When HP is below 50%, 82% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 3 SPD up buff to Striker and Slasher crew members for 16 seconds.', 'Applies Lv. 5 ATK up buff to self for 16 seconds.', '35% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 2x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 2.75x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 5 DEF up buff to self for 16 seconds.', 'When HP is below 50%, 85% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 4 SPD up buff to Striker and Slasher crew members for 17 seconds.', 'Applies Lv. 6 ATK up buff to self for 17 seconds.', '38% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 2.2x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 3.1x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 6 DEF up buff to self for 17 seconds.', 'When HP is below 50%, 88% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 4 SPD up buff to Striker and Slasher crew members for 18 seconds.', 'Applies Lv. 6 ATK up buff to self for 18 seconds.', '41% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 2.4x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 3.45x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 6 DEF up buff to self for 18 seconds.', 'When HP is below 50%, 91% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 5 SPD up buff to Striker and Slasher crew members for 19 seconds.', 'Applies Lv. 7 ATK up buff to self for 19 seconds.', '44% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 2.6x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 3.8x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 7 DEF up buff to self for 19 seconds.', 'When HP is below 50%, 94% chance to inflict Special Bind to 2 enemies for 10 seconds.'],
+                    ['Applies Lv. 6 SPD up buff to Striker and Slasher crew members for 20 seconds.', 'Applies Lv. 8 ATK up buff to self for 20 seconds.', '50% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 3x ATK in damage to 3 enemies with the lowest DEF.', 'When there is 6 or more Striker and Slasher crew members, deals 4x ATK in damage to all enemies.', 'When HP is below 50%, applies Lv. 8 DEF up buff to self for 20 seconds.', 'When HP is below 50%, 100% chance to inflict Special Bind to 2 enemies for 10 seconds.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives damage 8 times",
+                description: ['Applies Lv. 8 SPD up buff to Striker and Slasher crew members for 30 seconds.', 'Applies Lv. 9 ATK and DEF up buff to Striker and Slasher crew members for 30 seconds.', '70% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 3.5x ATK in damage to 3 enemies with the lowest DEF.', '100% chance to inflict Special Bind to 2 enemies for 10 seconds.', 'When there is 6 or more Striker and Slasher crew members, deals 4.5x ATK in damage to all enemies.']
+            },
+            llbbase: {
+                condition: "After this character receives damage 8 times",
+                description: ['Applies Lv. 10 SPD, ATK and DEF up buff to Striker and Slasher crew members for 40 seconds.', '100% chance to inflict Half Stats to 3 enemies for 15 seconds.', 'Deals 4x ATK in damage to 3 enemies with the lowest DEF.', '100% chance to inflict Special Bind to all enemies for 10 seconds.', 'When there is 6 or more Striker and Slasher crew members, deals 5x ATK in damage to all enemies.']
+            }
+        }
+    },
+    4478: {
+        festCost: 20,
+        festStats: {
+            def: 311,
+            spd: 118,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Damage Over Time.', '20% damage reduction from Fighter enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK up buff to Slasher crew members.', 'Applies Lv. 1 DEF up buff to Slasher crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 1 DEF down debuff to all enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK up buff to Slasher crew members.', 'Applies Lv. 1 DEF up buff to Slasher crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 1 DEF down debuff to all enemies.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK up buff to Slasher crew members.', 'Applies Lv. 2 DEF up buff to Slasher crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 2 DEF down debuff to all enemies.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK up buff to Slasher crew members.', 'Applies Lv. 2 DEF up buff to Slasher crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 3 DEF down debuff to all enemies.', 'During Assault Rumble, applies Lv. 9 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 6 ATK up buff to Slasher crew members.', 'Applies Lv. 3 DEF up buff to Slasher crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 4 DEF down debuff to all enemies.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Applies Lv. 3 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 11 seconds.', 'Applies Lv. 1 DEF up buff to Slasher crew members for 11 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 70% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 1x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 250 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 12 seconds.', 'Applies Lv. 1 DEF up buff to Slasher crew members for 12 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 73% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 1.35x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 275 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 13 seconds.', 'Applies Lv. 2 DEF up buff to Slasher crew members for 13 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 76% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 1.7x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 300 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 4 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 14 seconds.', 'Applies Lv. 2 DEF up buff to Slasher crew members for 14 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 79% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 2.05x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 325 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 5 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 15 seconds.', 'Applies Lv. 3 DEF up buff to Slasher crew members for 15 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 82% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 2.4x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 350 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 5 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 16 seconds.', 'Applies Lv. 3 DEF up buff to Slasher crew members for 16 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 85% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 2.75x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 375 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 6 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 17 seconds.', 'Applies Lv. 4 DEF up buff to Slasher crew members for 17 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 88% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 3.1x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 400 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 6 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 18 seconds.', 'Applies Lv. 4 DEF up buff to Slasher crew members for 18 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 91% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 3.45x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 425 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 7 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 19 seconds.', 'Applies Lv. 5 DEF up buff to Slasher crew members for 19 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 94% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 3.8x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 450 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.'],
+                    ['Applies Lv. 8 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 20 seconds.', 'Applies Lv. 6 DEF up buff to Slasher crew members for 20 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, 100% chance to evade Percentage Damage to Slasher crew members for 20 seconds.', 'During Assault Rumble, deals 4x ATK in damage to 3 Fighter enemies.', 'During Assault Rumble, heals 500 fixed HP every 3 seconds to [Land of Wano Arc] crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
+    4479: {
+        festCost: 20,
+        festStats: {
+            def: 165,
+            spd: 143,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '20% damage reduction from Slasher enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to Striker crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 3 ATK down debuff to Slasher enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 3 HP and SPD up buff to Striker crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 4 ATK down debuff to Slasher enemies.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 4 HP and SPD up buff to Striker crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 5 ATK down debuff to Slasher enemies.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 5 HP and SPD up buff to Striker crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 6 ATK down debuff to Slasher enemies.', 'During Assault Rumble, applies Lv. 9 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 6 HP and SPD up buff to Striker crew members.', 'When there is 3 or more [Land of Wano Arc] crew members, inflicts Lv. 7 ATK down debuff to Slasher enemies.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Applies Lv. 3 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 11 seconds.', 'Applies Lv. 1 DEF up buff to Striker crew members for 11 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 20% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 70% chance to inflict Half DEF to 1 Slasher enemy for 11 seconds.', 'During Assault Rumble, applies Lv. 1 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 11 seconds.', 'During Assault Rumble, inflicts Lv. 6 DEF down debuff to 1 Slasher enemy for 11 seconds.', 'During Assault Rumble, deals 1x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 3 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 12 seconds.', 'Applies Lv. 1 DEF up buff to Striker crew members for 12 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 23% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 73% chance to inflict Half DEF to 1 Slasher enemy for 12 seconds.', 'During Assault Rumble, applies Lv. 1 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 12 seconds.', 'During Assault Rumble, inflicts Lv. 7 DEF down debuff to 1 Slasher enemy for 12 seconds.', 'During Assault Rumble, deals 1.2x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 4 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 13 seconds.', 'Applies Lv. 2 DEF up buff to Striker crew members for 13 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 26% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 76% chance to inflict Half DEF to 1 Slasher enemy for 13 seconds.', 'During Assault Rumble, applies Lv. 2 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 13 seconds.', 'During Assault Rumble, inflicts Lv. 8 DEF down debuff to 1 Slasher enemy for 13 seconds.', 'During Assault Rumble, deals 1.4x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 4 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 14 seconds.', 'Applies Lv. 2 DEF up buff to Striker crew members for 14 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 29% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 79% chance to inflict Half DEF to 1 Slasher enemy for 14 seconds.', 'During Assault Rumble, applies Lv. 2 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 14 seconds.', 'During Assault Rumble, inflicts Lv. 9 DEF down debuff to 1 Slasher enemy for 14 seconds.', 'During Assault Rumble, deals 1.6x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 5 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 15 seconds.', 'Applies Lv. 3 DEF up buff to Striker crew members for 15 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 32% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 82% chance to inflict Half DEF to 1 Slasher enemy for 15 seconds.', 'During Assault Rumble, applies Lv. 3 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 15 seconds.', 'During Assault Rumble, inflicts Lv. 10 DEF down debuff to 1 Slasher enemy for 15 seconds.', 'During Assault Rumble, deals 1.8x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 5 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 16 seconds.', 'Applies Lv. 3 DEF up buff to Striker crew members for 16 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 35% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 85% chance to inflict Half DEF to 1 Slasher enemy for 16 seconds.', 'During Assault Rumble, applies Lv. 3 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 16 seconds.', 'During Assault Rumble, inflicts Lv. 11 DEF down debuff to 1 Slasher enemy for 16 seconds.', 'During Assault Rumble, deals 2x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 6 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 17 seconds.', 'Applies Lv. 4 DEF up buff to Striker crew members for 17 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 38% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 88% chance to inflict Half DEF to 1 Slasher enemy for 17 seconds.', 'During Assault Rumble, applies Lv. 4 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 17 seconds.', 'During Assault Rumble, inflicts Lv. 12 DEF down debuff to 1 Slasher enemy for 17 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 6 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 18 seconds.', 'Applies Lv. 4 DEF up buff to Striker crew members for 18 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 41% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 91% chance to inflict Half DEF to 1 Slasher enemy for 18 seconds.', 'During Assault Rumble, applies Lv. 4 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 18 seconds.', 'During Assault Rumble, inflicts Lv. 13 DEF down debuff to 1 Slasher enemy for 18 seconds.', 'During Assault Rumble, deals 2.4x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 7 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 19 seconds.', 'Applies Lv. 5 DEF up buff to Striker crew members for 19 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 44% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 94% chance to inflict Half DEF to 1 Slasher enemy for 19 seconds.', 'During Assault Rumble, applies Lv. 5 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 19 seconds.', 'During Assault Rumble, inflicts Lv. 14 DEF down debuff to 1 Slasher enemy for 19 seconds.', 'During Assault Rumble, deals 2.6x ATK in damage to 1 Slasher enemy.'],
+                    ['Applies Lv. 8 SPD up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 20 seconds.', 'Applies Lv. 6 DEF up buff to Striker crew members for 20 seconds.', 'When there is 3 or more [Land of Wano Arc] crew members, removes 50% of Special CT to 1 Slasher enemy.', 'When there is 3 or more [Land of Wano Arc] crew members, 100% chance to inflict Half DEF to 1 Slasher enemy for 20 seconds.', 'During Assault Rumble, applies Lv. 6 ATK up buff to [Animal Kingdom Pirates] and [Big Mom Pirates] crew members for 20 seconds.', 'During Assault Rumble, inflicts Lv. 15 DEF down debuff to 1 Slasher enemy for 20 seconds.', 'During Assault Rumble, deals 3x ATK in damage to 1 Slasher enemy.']
+                ]
+            }
+        }
+    },
+    4480: {
+        festCost: 20,
+        festStats: {
+            def: 153,
+            spd: 173,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['60% chance to resist Special Bind.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and RCV up buff to Striker and Slasher crew members.', 'Inflicts Lv. 1 DEF down debuff to [Four Emperors] enemies.'],
+                ['Applies Lv. 2 ATK and RCV up buff to Striker and Slasher crew members.', 'Inflicts Lv. 1 DEF down debuff to [Four Emperors] enemies.'],
+                ['Applies Lv. 3 ATK and RCV up buff to Striker and Slasher crew members.', 'Inflicts Lv. 1 DEF down debuff to [Four Emperors] enemies.'],
+                ['Applies Lv. 4 ATK and RCV up buff to Striker and Slasher crew members.', 'Inflicts Lv. 1 DEF down debuff to [Four Emperors] enemies.'],
+                ['Applies Lv. 5 ATK and RCV up buff to Striker and Slasher crew members.', 'Inflicts Lv. 2 DEF down debuff to [Four Emperors] enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to self for 11 seconds.', 'Deals 1x ATK in damage to all enemies in a large, sideways range.', 'Deals 1x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 1 ATK up buff to self for 12 seconds.', 'Deals 1.1x ATK in damage to all enemies in a large, sideways range.', 'Deals 1.2x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 1 ATK up buff to self for 13 seconds.', 'Deals 1.2x ATK in damage to all enemies in a large, sideways range.', 'Deals 1.4x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 1 ATK up buff to self for 14 seconds.', 'Deals 1.3x ATK in damage to all enemies in a large, sideways range.', 'Deals 1.6x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 1 ATK up buff to self for 15 seconds.', 'Deals 1.4x ATK in damage to all enemies in a large, sideways range.', 'Deals 1.8x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 2 ATK up buff to self for 16 seconds.', 'Deals 1.5x ATK in damage to all enemies in a large, sideways range.', 'Deals 2x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 2 ATK up buff to self for 17 seconds.', 'Deals 1.6x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.2x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 2 ATK up buff to self for 18 seconds.', 'Deals 1.7x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.4x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 2 ATK up buff to self for 19 seconds.', 'Deals 1.8x ATK in damage to all enemies in a large, sideways range.', 'Deals 2.6x ATK in damage to [Four Emperors] enemies.'],
+                    ['Applies Lv. 3 ATK up buff to self for 20 seconds.', 'Deals 2x ATK in damage to all enemies in a large, sideways range.', 'Deals 3x ATK in damage to [Four Emperors] enemies.']
                 ]
             }
         }
