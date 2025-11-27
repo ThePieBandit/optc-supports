@@ -113135,6 +113135,45 @@ window.rumble = {
             }
         }
     },
+    4482: {
+        festCost: 20,
+        festStats: {
+            def: 191,
+            spd: 147,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [QCK] enemies.', '1.3x damage boost to [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, SPD and DEF up buff to [DEX] and Cerebral crew members.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, reduces 60% of Special CT to self upon appearance.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.'],
+                ['Applies Lv. 3 HP, SPD and DEF up buff to [DEX] and Cerebral crew members.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, reduces 70% of Special CT to self upon appearance.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 2 Special CT down debuff to all enemies.'],
+                ['Applies Lv. 4 HP, SPD and DEF up buff to [DEX] and Cerebral crew members.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, reduces 80% of Special CT to self upon appearance.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 3 Special CT down debuff to all enemies.'],
+                ['Applies Lv. 5 HP, SPD and DEF up buff to [DEX] and Cerebral crew members.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, reduces 90% of Special CT to self upon appearance.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 4 Special CT down debuff to all enemies.'],
+                ['Applies Lv. 6 HP, SPD and DEF up buff to [DEX] and Cerebral crew members.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, reduces 100% of Special CT to self upon appearance.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 5 Special CT down debuff to all enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['Inflicts Lv. 1 ATK and SPD down debuff to all enemies in a large, radial range for 73 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 73 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 73 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 73 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 70% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 11 seconds.'],
+                    ['Inflicts Lv. 1 ATK and SPD down debuff to all enemies in a large, radial range for 76 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 76 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 76 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 76 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 73% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 12 seconds.'],
+                    ['Inflicts Lv. 1 ATK and SPD down debuff to all enemies in a large, radial range for 79 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 79 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 79 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 79 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 76% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 13 seconds.'],
+                    ['Inflicts Lv. 2 ATK and SPD down debuff to all enemies in a large, radial range for 82 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 82 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 82 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 82 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 79% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 14 seconds.'],
+                    ['Inflicts Lv. 2 ATK and SPD down debuff to all enemies in a large, radial range for 85 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 85 seconds.', 'Inflicts Lv. 1 Special CT down debuff to all enemies in a large, radial range for 85 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 1 Damage Over Time to all enemies for 85 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 82% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 15 seconds.'],
+                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies in a large, radial range for 88 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 88 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 88 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 2 Damage Over Time to all enemies for 88 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 85% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 16 seconds.'],
+                    ['Inflicts Lv. 3 ATK and SPD down debuff to all enemies in a large, radial range for 91 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies in a large, radial range for 91 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 91 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 2 Damage Over Time to all enemies for 91 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 88% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 17 seconds.'],
+                    ['Inflicts Lv. 4 ATK and SPD down debuff to all enemies in a large, radial range for 94 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies in a large, radial range for 94 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 94 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 2 Damage Over Time to all enemies for 94 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 91% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 18 seconds.'],
+                    ['Inflicts Lv. 4 ATK and SPD down debuff to all enemies in a large, radial range for 97 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies in a large, radial range for 97 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies in a large, radial range for 97 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 2 Damage Over Time to all enemies for 97 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 94% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 19 seconds.'],
+                    ['Inflicts Lv. 5 ATK and SPD down debuff to all enemies in a large, radial range for 100 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies in a large, radial range for 100 seconds.', 'Inflicts Lv. 3 Special CT down debuff to all enemies in a large, radial range for 100 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, inflicts Lv. 3 Damage Over Time to all enemies for 100 seconds.', 'When there is 3 or more [Scientist], [Logia-type] and [Zoan-type] crew members, 100% chance to evade Damage Over Time to [DEX] and Cerebral crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
     4986: {
         festCost: 55,
         festStats: {
