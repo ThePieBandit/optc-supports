@@ -113135,6 +113135,45 @@ window.rumble = {
             }
         }
     },
+    4481: {
+        festCost: 20,
+        festStats: {
+            def: 178,
+            spd: 178,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Special Bind.', '20% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'Inflicts Lv. 1 DEF down debuff to [Four Emperors] enemies.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'Inflicts Lv. 1 DEF down debuff to [Four Emperors] enemies.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'Inflicts Lv. 2 DEF down debuff to [Four Emperors] enemies.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'Inflicts Lv. 2 DEF down debuff to [Four Emperors] enemies.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK, RCV and SPD up buff to Striker and Slasher crew members.', 'Inflicts Lv. 3 DEF down debuff to [Four Emperors] enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to self for 11 seconds.', 'Applies Lv. 1 DEF up buff to Striker and Slasher crew members for 11 seconds.', 'Deals 1x ATK in damage to all enemies in a large, sideways range.', '70% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 1x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 1.6x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 1 ATK up buff to self for 12 seconds.', 'Applies Lv. 1 DEF up buff to Striker and Slasher crew members for 12 seconds.', 'Deals 1.2x ATK in damage to all enemies in a large, sideways range.', '73% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 1.4x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 1.7x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 2 ATK up buff to self for 13 seconds.', 'Applies Lv. 2 DEF up buff to Striker and Slasher crew members for 13 seconds.', 'Deals 1.4x ATK in damage to all enemies in a large, sideways range.', '76% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 1.8x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 1.8x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 2 ATK up buff to self for 14 seconds.', 'Applies Lv. 2 DEF up buff to Striker and Slasher crew members for 14 seconds.', 'Deals 1.6x ATK in damage to all enemies in a large, sideways range.', '79% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 2.2x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 1.9x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 3 ATK up buff to self for 15 seconds.', 'Applies Lv. 3 DEF up buff to Striker and Slasher crew members for 15 seconds.', 'Deals 1.8x ATK in damage to all enemies in a large, sideways range.', '82% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 2.6x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 2x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 3 ATK up buff to self for 16 seconds.', 'Applies Lv. 3 DEF up buff to Striker and Slasher crew members for 16 seconds.', 'Deals 2x ATK in damage to all enemies in a large, sideways range.', '85% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 3x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 2.1x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 4 ATK up buff to self for 17 seconds.', 'Applies Lv. 4 DEF up buff to Striker and Slasher crew members for 17 seconds.', 'Deals 2.2x ATK in damage to all enemies in a large, sideways range.', '88% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 3.4x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 2.2x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 4 ATK up buff to self for 18 seconds.', 'Applies Lv. 4 DEF up buff to Striker and Slasher crew members for 18 seconds.', 'Deals 2.4x ATK in damage to all enemies in a large, sideways range.', '91% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 3.8x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 2.3x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 5 ATK up buff to self for 19 seconds.', 'Applies Lv. 5 DEF up buff to Striker and Slasher crew members for 19 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, sideways range.', '94% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 4.2x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 2.4x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.'],
+                    ['Applies Lv. 5 ATK up buff to self for 20 seconds.', 'Applies Lv. 5 DEF up buff to Striker and Slasher crew members for 20 seconds.', 'Deals 3x ATK in damage to all enemies in a large, sideways range.', '100% chance to inflict Action Bind to [Four Emperors] enemies for 10 seconds.', 'Deals 5x ATK in damage to [Four Emperors] enemies.', 'During Assault Rumble, deals 2.5x ATK in damage ignoring DEF to Charlotte Linlin (Big Mom) enemy.']
+                ]
+            }
+        }
+    },
     4482: {
         festCost: 20,
         festStats: {
@@ -113173,6 +113212,75 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4483: {
+        festCost: 55,
+        festStats: {
+            def: 184,
+            spd: 176,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from Driven enemies.', '30% damage reduction from Cerebral enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 Special CT up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 1 DEF up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 2 ATK and RCV up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members.', 'For the first 50 seconds, inflicts Lv. 1 Special CT and ATK down debuff to Cerebral and Driven enemies.', 'When there is 6 or more Powerhouse and Free Spirit crew members, on death launches rumble special 1 time.'],
+                ['Applies Lv. 2 Special CT up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 1 DEF up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 3 ATK and RCV up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members.', 'For the first 50 seconds, inflicts Lv. 2 Special CT and ATK down debuff to Cerebral and Driven enemies.', 'When there is 6 or more Powerhouse and Free Spirit crew members, on death launches rumble special 1 time.'],
+                ['Applies Lv. 3 Special CT up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 2 DEF up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 4 ATK and RCV up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members.', 'For the first 50 seconds, inflicts Lv. 3 Special CT and ATK down debuff to Cerebral and Driven enemies.', 'When there is 6 or more Powerhouse and Free Spirit crew members, on death launches rumble special 1 time.'],
+                ['Applies Lv. 4 Special CT up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 2 DEF up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 5 ATK and RCV up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members.', 'For the first 50 seconds, inflicts Lv. 4 Special CT and ATK down debuff to Cerebral and Driven enemies.', 'When there is 6 or more Powerhouse and Free Spirit crew members, on death launches rumble special 1 time.'],
+                ['Applies Lv. 5 Special CT up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 3 DEF up buff to Powerhouse and Free Spirit crew members.', 'Applies Lv. 6 ATK and RCV up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members.', 'For the first 50 seconds, inflicts Lv. 5 Special CT and ATK down debuff to Cerebral and Driven enemies.', 'When there is 6 or more Powerhouse and Free Spirit crew members, on death launches rumble special 1 time.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['If this character has Damage Over Time, inflicts Lv. 5 Damage Over Time to all enemies for 11 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 6 seconds.', '70% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 6 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 70% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 1 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 11 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 5 Damage Over Time to all enemies for 12 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 7 seconds.', '73% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 7 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 73% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 1 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 12 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 6 Damage Over Time to all enemies for 13 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 8 seconds.', '76% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 8 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 76% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 2 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 13 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 6 Damage Over Time to all enemies for 14 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 9 seconds.', '79% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 9 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 79% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 2 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 14 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 7 Damage Over Time to all enemies for 15 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 10 seconds.', '82% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 10 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 82% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 3 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 15 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 7 Damage Over Time to all enemies for 16 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 11 seconds.', '85% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 11 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 85% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 3 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 16 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 8 Damage Over Time to all enemies for 17 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 12 seconds.', '88% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 12 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 88% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 4 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 17 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 8 Damage Over Time to all enemies for 18 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 13 seconds.', '91% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 13 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 91% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 4 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 18 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 9 Damage Over Time to all enemies for 19 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 14 seconds.', '94% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 14 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 94% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 5 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 19 seconds.'],
+                    ['If this character has Damage Over Time, inflicts Lv. 10 Damage Over Time to all enemies for 20 seconds.', 'Reduce Damage Over Time to Powerhouse and Free Spirit crew members for 15 seconds.', '100% chance to evade Damage Over Time to Powerhouse and Free Spirit crew members, excluding self, for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, reduce Half Stats to Powerhouse and Free Spirit crew members for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members, 100% chance to evade Half Stats and Stats Down to Powerhouse and Free Spirit crew members for 15 seconds.', 'When HP is below 1%, applies Lv. 6 ATK and DEF up buff to [Straw Hat Pirates], [Germa 66], [Paramythia-type] and [Logia-type] crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
+    4484: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4485: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4486: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     4986: {
         festCost: 55,

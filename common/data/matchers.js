@@ -4065,6 +4065,24 @@
 					},
 				],
 			},
+
+			{
+				name: "Stackable: ATK Boost",
+				targets: ["captain", "special"],
+				regex: /converts ATK Up into a Stackable ATK Up/i,
+			},
+
+			{
+				name: "Stackable: Orb Boost",
+				targets: ["captain", "special"],
+				regex: /converts Orb Amplification into a Stackable Orb Amplification/i,
+			},
+
+			{
+				name: "Stackable: Color Affinity",
+				targets: ["captain", "special"],
+				regex: /converts Color Affinity into a Stackable Color Affinity/i,
+			},
 		],
 		"Ability Requirements": [
 			{
@@ -6236,6 +6254,20 @@
 					...createPositionsSubmatchers([1]),
 				],
 			},
+
+			{
+				name: "Status ATK Boost Stack",
+				targets: ["special", "superSpecial"],
+				regex: /allows crew to stack 2 different Status ATK Boost buffs for ([?\d]+)(?:-([?\d]+))? turns?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Turns:",
+						groups: [1, 2],
+					},
+				],
+			},
+
 		],
 		"Bad Team Effects": [
 			{
@@ -7995,6 +8027,7 @@
 					},
 				],
 			},
+
 			{
 				name: "Marked",
 				targets: ["special", "superSpecial"],
@@ -8023,6 +8056,85 @@
 						type: "number",
 						description: "Turns:",
 						groups: [3, 4],
+					},
+				],
+			},
+
+			{
+				name: "Allow Ignore Debuff Protection",
+				targets: ["captain"],
+				regex:
+					/allows effects that inflict (?=((?:[^i]+|i(?!gnore))*))\1ignore Debuff Protection/i,
+				submatchers: [
+					{
+						type: "option",
+						description: "ATK Down",
+						regex: /ATK Down/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "Burn",
+						regex: /Burn/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "Delay",
+						regex: /Delay/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "Melo-Melo",
+						regex: /Melo-Melo/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "Negative",
+						regex: /Negative/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "Paralysis",
+						regex: /Paralysis/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "Poison",
+						regex: /Poison/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "Weaken",
+						regex: /Weaken/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "Defense Reduction",
+						regex: /Defense Reduction/i,
+						groups: [1],
+						cssClasses: ["min-width-12"],
+					},
+					{
+						type: "option",
+						description: "Increase Damage Taken",
+						regex: /Increase Damage Taken/i,
+						groups: [1],
+						cssClasses: ["min-width-12"],
 					},
 				],
 			},
@@ -12982,6 +13094,46 @@
 						type: "number",
 						description: "Duration:",
 						groups: [4],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [2],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([2]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([2]),
+				],
+			},
+
+			{
+				name: "Stats Down",
+				targets: ["rumbleSpecial"],
+				regex:
+					/([.\d]+)% chance to evade[^.]+Stats Down[^.]+to (self|(?=((?:[^c]+|c(?!rew))*))\3crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Chance:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [5],
 					},
 					{
 						type: "separator",
