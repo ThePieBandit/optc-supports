@@ -113282,6 +113282,139 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    4487: {
+        festCost: 55,
+        festStats: {
+            def: 271,
+            spd: 125,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and RCV up buff to Cerebral and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 4 Special CT up buff to self.', 'For the first 40 seconds, inflicts Lv. 1 Special CT down debuff to [Navy] and [World Government] enemies.', 'After the first 40 seconds, applies Lv. 2 ATK up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members.', 'After the first 40 seconds, inflicts Lv. 1 DEF down debuff to [Navy] and [World Government] enemies.'],
+                ['Applies Lv. 3 HP and RCV up buff to Cerebral and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 5 Special CT up buff to self.', 'For the first 40 seconds, inflicts Lv. 2 Special CT down debuff to [Navy] and [World Government] enemies.', 'After the first 40 seconds, applies Lv. 3 ATK up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members.', 'After the first 40 seconds, inflicts Lv. 2 DEF down debuff to [Navy] and [World Government] enemies.'],
+                ['Applies Lv. 4 HP and RCV up buff to Cerebral and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 6 Special CT up buff to self.', 'For the first 40 seconds, inflicts Lv. 3 Special CT down debuff to [Navy] and [World Government] enemies.', 'After the first 40 seconds, applies Lv. 4 ATK up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members.', 'After the first 40 seconds, inflicts Lv. 3 DEF down debuff to [Navy] and [World Government] enemies.'],
+                ['Applies Lv. 5 HP and RCV up buff to Cerebral and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 7 Special CT up buff to self.', 'For the first 40 seconds, inflicts Lv. 4 Special CT down debuff to [Navy] and [World Government] enemies.', 'After the first 40 seconds, applies Lv. 5 ATK up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members.', 'After the first 40 seconds, inflicts Lv. 4 DEF down debuff to [Navy] and [World Government] enemies.'],
+                ['Applies Lv. 6 HP and RCV up buff to Cerebral and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 8 Special CT up buff to self.', 'For the first 40 seconds, inflicts Lv. 5 Special CT down debuff to [Navy] and [World Government] enemies.', 'After the first 40 seconds, applies Lv. 6 ATK up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members.', 'After the first 40 seconds, inflicts Lv. 5 DEF down debuff to [Navy] and [World Government] enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 27,
+                descriptions: [
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 80% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 11 seconds.', 'For the first 40 seconds, heals 400 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 11 seconds.', 'After the first 40 seconds, applies Lv. 3 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 11 seconds.', 'After the first 40 seconds, deals 2x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 82% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 12 seconds.', 'For the first 40 seconds, heals 420 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 12 seconds.', 'After the first 40 seconds, applies Lv. 3 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 12 seconds.', 'After the first 40 seconds, deals 2.3x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 84% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 13 seconds.', 'For the first 40 seconds, heals 440 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 13 seconds.', 'After the first 40 seconds, applies Lv. 4 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 13 seconds.', 'After the first 40 seconds, deals 2.6x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 86% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 14 seconds.', 'For the first 40 seconds, heals 460 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 14 seconds.', 'After the first 40 seconds, applies Lv. 4 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 14 seconds.', 'After the first 40 seconds, deals 2.9x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 88% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 15 seconds.', 'For the first 40 seconds, heals 480 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 15 seconds.', 'After the first 40 seconds, applies Lv. 5 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 15 seconds.', 'After the first 40 seconds, deals 3.2x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 90% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 16 seconds.', 'For the first 40 seconds, heals 500 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 16 seconds.', 'After the first 40 seconds, applies Lv. 5 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 16 seconds.', 'After the first 40 seconds, deals 3.5x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 92% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 17 seconds.', 'For the first 40 seconds, heals 520 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 17 seconds.', 'After the first 40 seconds, applies Lv. 6 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 17 seconds.', 'After the first 40 seconds, deals 3.8x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 94% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 18 seconds.', 'For the first 40 seconds, heals 540 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 18 seconds.', 'After the first 40 seconds, applies Lv. 6 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 18 seconds.', 'After the first 40 seconds, deals 4.1x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 96% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 19 seconds.', 'For the first 40 seconds, heals 560 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 19 seconds.', 'After the first 40 seconds, applies Lv. 7 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 19 seconds.', 'After the first 40 seconds, deals 4.4x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['For the first 40 seconds, provoke enemies to self for 20 seconds.', 'For the first 40 seconds, 100% chance to evade Fixed Damage, Percentage Damage and Damage Ignoring DEF to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 20 seconds.', 'For the first 40 seconds, heals 600 fixed HP every 3 seconds to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 20 seconds.', 'After the first 40 seconds, applies Lv. 8 ATK and SPD up buff to Cerebral/Free Spirit [Straw Hat Pirates], [Vegapunk], [Bonney Pirates] and [Paramythia-type] crew members for 20 seconds.', 'After the first 40 seconds, deals 5x ATK in damage to [Navy] and [World Government] enemies.']
+                ]
+            }
+        }
+    },
+    4488: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4489: {
+        festCost: 55,
+        festStats: {
+            def: 209,
+            spd: 168,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Medium Range Heal</i>', 'Normal Attack', '<i>Level 2 Medium Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from Slasher enemies.', '30% damage reduction from Free Spirit enemies.'],
+            llbbase: ['100% chance to resist Special Bind.', '40% damage reduction from Slasher enemies.', '40% damage reduction from Free Spirit enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 1 HP and Guard up buff to all crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 ATK up buff to Cerebral and Striker crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.'],
+                ['Applies Lv. 2 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 2 HP and Guard up buff to all crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 ATK up buff to Cerebral and Striker crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.'],
+                ['Applies Lv. 3 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 3 HP and Guard up buff to all crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 ATK up buff to Cerebral and Striker crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.'],
+                ['Applies Lv. 4 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 4 HP and Guard up buff to all crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 ATK up buff to Cerebral and Striker crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.'],
+                ['Applies Lv. 5 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 5 HP and Guard up buff to all crew members.', 'The first 4 times this character lands a heal, applies Lv. 2 ATK up buff to Cerebral and Striker crew members.', 'The first 4 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.']
+            ],
+            llbbase: [
+                ['Applies Lv. 2 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 2 HP and Guard up buff to all crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 ATK up buff to Cerebral and Striker crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.', 'When there is 8 or more Cerebral and Striker crew members, reduces 10% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 3 HP and Guard up buff to all crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 ATK up buff to Cerebral and Striker crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.', 'When there is 8 or more Cerebral and Striker crew members, reduces 15% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 4 HP and Guard up buff to all crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 ATK up buff to Cerebral and Striker crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.', 'When there is 8 or more Cerebral and Striker crew members, reduces 20% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 5 HP and Guard up buff to all crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 ATK up buff to Cerebral and Striker crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.', 'When there is 8 or more Cerebral and Striker crew members, reduces 25% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 SPD up buff to Cerebral and Striker crew members.', 'Applies Lv. 6 HP and Guard up buff to all crew members.', 'The first 6 times this character lands a heal, applies Lv. 2 ATK up buff to Cerebral and Striker crew members.', 'The first 6 times this character lands a heal, applies Lv. 1 DEF up buff to Cerebral and Striker crew members.', 'When there is 8 or more Cerebral and Striker crew members, reduces 30% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Applies Lv. 1 ATK and SPD up buff to Cerebral and Striker crew members for 11 seconds.', 'Applies Lv. 1 Special CT up buff to Cerebral and Striker crew members for 11 seconds.', 'Heals 1.5x RCV of HP to all crew members.', 'Applies Lv. 1 DEF up buff to all crew members for 11 seconds.'],
+                    ['Applies Lv. 1 ATK and SPD up buff to Cerebral and Striker crew members for 12 seconds.', 'Applies Lv. 1 Special CT up buff to Cerebral and Striker crew members for 12 seconds.', 'Heals 1.7x RCV of HP to all crew members.', 'Applies Lv. 1 DEF up buff to all crew members for 12 seconds.'],
+                    ['Applies Lv. 1 ATK and SPD up buff to Cerebral and Striker crew members for 13 seconds.', 'Applies Lv. 1 Special CT up buff to Cerebral and Striker crew members for 13 seconds.', 'Heals 1.9x RCV of HP to all crew members.', 'Applies Lv. 1 DEF up buff to all crew members for 13 seconds.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to Cerebral and Striker crew members for 14 seconds.', 'Applies Lv. 1 Special CT up buff to Cerebral and Striker crew members for 14 seconds.', 'Heals 2.1x RCV of HP to all crew members.', 'Applies Lv. 2 DEF up buff to all crew members for 14 seconds.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to Cerebral and Striker crew members for 15 seconds.', 'Applies Lv. 1 Special CT up buff to Cerebral and Striker crew members for 15 seconds.', 'Heals 2.3x RCV of HP to all crew members.', 'Applies Lv. 2 DEF up buff to all crew members for 15 seconds.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to Cerebral and Striker crew members for 16 seconds.', 'Applies Lv. 2 Special CT up buff to Cerebral and Striker crew members for 16 seconds.', 'Heals 2.5x RCV of HP to all crew members.', 'Applies Lv. 2 DEF up buff to all crew members for 16 seconds.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to Cerebral and Striker crew members for 17 seconds.', 'Applies Lv. 2 Special CT up buff to Cerebral and Striker crew members for 17 seconds.', 'Heals 2.7x RCV of HP to all crew members.', 'Applies Lv. 3 DEF up buff to all crew members for 17 seconds.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to Cerebral and Striker crew members for 18 seconds.', 'Applies Lv. 2 Special CT up buff to Cerebral and Striker crew members for 18 seconds.', 'Heals 2.9x RCV of HP to all crew members.', 'Applies Lv. 3 DEF up buff to all crew members for 18 seconds.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to Cerebral and Striker crew members for 19 seconds.', 'Applies Lv. 2 Special CT up buff to Cerebral and Striker crew members for 19 seconds.', 'Heals 3.1x RCV of HP to all crew members.', 'Applies Lv. 3 DEF up buff to all crew members for 19 seconds.'],
+                    ['Applies Lv. 5 ATK and SPD up buff to Cerebral and Striker crew members for 20 seconds.', 'Applies Lv. 3 Special CT up buff to Cerebral and Striker crew members for 20 seconds.', 'Heals 3.5x RCV of HP to all crew members.', 'Applies Lv. 4 DEF up buff to all crew members for 20 seconds.']
+                ]
+            },
+            llbbase: {
+                cooldown: 35,
+                descriptions: [
+                    ['Applies Lv. 3 ATK and SPD up buff to Cerebral and Striker crew members for 16 seconds.', 'Applies Lv. 1 Special CT up buff to Cerebral and Striker crew members for 16 seconds.', 'Heals 2x RCV of HP to all crew members.', 'Applies Lv. 1 DEF up buff to all crew members for 16 seconds.', 'During Assault Rumble, applies Lv. 1 Shield up buff to Cerebral and Striker crew members for 11 seconds.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to Cerebral and Striker crew members for 17 seconds.', 'Applies Lv. 1 Special CT up buff to Cerebral and Striker crew members for 17 seconds.', 'Heals 2.2x RCV of HP to all crew members.', 'Applies Lv. 1 DEF up buff to all crew members for 17 seconds.', 'During Assault Rumble, applies Lv. 1 Shield up buff to Cerebral and Striker crew members for 12 seconds.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to Cerebral and Striker crew members for 18 seconds.', 'Applies Lv. 1 Special CT up buff to Cerebral and Striker crew members for 18 seconds.', 'Heals 2.4x RCV of HP to all crew members.', 'Applies Lv. 1 DEF up buff to all crew members for 18 seconds.', 'During Assault Rumble, applies Lv. 1 Shield up buff to Cerebral and Striker crew members for 13 seconds.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to Cerebral and Striker crew members for 19 seconds.', 'Applies Lv. 2 Special CT up buff to Cerebral and Striker crew members for 19 seconds.', 'Heals 2.6x RCV of HP to all crew members.', 'Applies Lv. 2 DEF up buff to all crew members for 19 seconds.', 'During Assault Rumble, applies Lv. 2 Shield up buff to Cerebral and Striker crew members for 14 seconds.'],
+                    ['Applies Lv. 5 ATK and SPD up buff to Cerebral and Striker crew members for 20 seconds.', 'Applies Lv. 2 Special CT up buff to Cerebral and Striker crew members for 20 seconds.', 'Heals 2.8x RCV of HP to all crew members.', 'Applies Lv. 2 DEF up buff to all crew members for 20 seconds.', 'During Assault Rumble, applies Lv. 2 Shield up buff to Cerebral and Striker crew members for 15 seconds.'],
+                    ['Applies Lv. 5 ATK and SPD up buff to Cerebral and Striker crew members for 21 seconds.', 'Applies Lv. 3 Special CT up buff to Cerebral and Striker crew members for 21 seconds.', 'Heals 3x RCV of HP to all crew members.', 'Applies Lv. 3 DEF up buff to all crew members for 21 seconds.', 'During Assault Rumble, applies Lv. 3 Shield up buff to Cerebral and Striker crew members for 16 seconds.'],
+                    ['Applies Lv. 6 ATK and SPD up buff to Cerebral and Striker crew members for 22 seconds.', 'Applies Lv. 3 Special CT up buff to Cerebral and Striker crew members for 22 seconds.', 'Heals 3.2x RCV of HP to all crew members.', 'Applies Lv. 3 DEF up buff to all crew members for 22 seconds.', 'During Assault Rumble, applies Lv. 3 Shield up buff to Cerebral and Striker crew members for 17 seconds.'],
+                    ['Applies Lv. 6 ATK and SPD up buff to Cerebral and Striker crew members for 23 seconds.', 'Applies Lv. 4 Special CT up buff to Cerebral and Striker crew members for 23 seconds.', 'Heals 3.4x RCV of HP to all crew members.', 'Applies Lv. 4 DEF up buff to all crew members for 23 seconds.', 'During Assault Rumble, applies Lv. 4 Shield up buff to Cerebral and Striker crew members for 18 seconds.'],
+                    ['Applies Lv. 7 ATK and SPD up buff to Cerebral and Striker crew members for 24 seconds.', 'Applies Lv. 4 Special CT up buff to Cerebral and Striker crew members for 24 seconds.', 'Heals 3.6x RCV of HP to all crew members.', 'Applies Lv. 4 DEF up buff to all crew members for 24 seconds.', 'During Assault Rumble, applies Lv. 4 Shield up buff to Cerebral and Striker crew members for 19 seconds.'],
+                    ['Applies Lv. 8 ATK and SPD up buff to Cerebral and Striker crew members for 25 seconds.', 'Applies Lv. 5 Special CT up buff to Cerebral and Striker crew members for 25 seconds.', 'Heals 4x RCV of HP to all crew members.', 'Applies Lv. 5 DEF up buff to all crew members for 25 seconds.', 'During Assault Rumble, applies Lv. 5 Shield up buff to Cerebral and Striker crew members for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
     4986: {
         festCost: 55,
         festStats: {
