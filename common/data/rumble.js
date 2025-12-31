@@ -92914,16 +92914,16 @@ window.rumble = {
             base: {
                 cooldown: 25,
                 descriptions: [
-                    ['Applies Lv. 1 SPD and ATK up buff to self for 11 seconds.', 'Reduces 25% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 1 SPD and ATK up buff to self for 12 seconds.', 'Reduces 25% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 1 SPD and ATK up buff to self for 13 seconds.', 'Reduces 26% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 2 SPD and ATK up buff to self for 14 seconds.', 'Reduces 26% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 2 SPD and ATK up buff to self for 15 seconds.', 'Reduces 27% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 3 SPD and ATK up buff to self for 16 seconds.', 'Reduces 27% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 3 SPD and ATK up buff to self for 17 seconds.', 'Reduces 28% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 3 SPD and ATK up buff to self for 18 seconds.', 'Reduces 28% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 4 SPD and ATK up buff to self for 19 seconds.', 'Reduces 29% of Special CT to all crew members, excluding self.'],
-                    ['Applies Lv. 5 SPD and ATK up buff to self for 20 seconds.', 'Reduces 30% of Special CT to all crew members, excluding self.']
+                    ['Applies Lv. 1 SPD and ATK up buff to all crew members for 11 seconds.', 'Reduces 25% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 1 SPD and ATK up buff to all crew members for 12 seconds.', 'Reduces 25% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 1 SPD and ATK up buff to all crew members for 13 seconds.', 'Reduces 26% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 2 SPD and ATK up buff to all crew members for 14 seconds.', 'Reduces 26% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 2 SPD and ATK up buff to all crew members for 15 seconds.', 'Reduces 27% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 3 SPD and ATK up buff to all crew members for 16 seconds.', 'Reduces 27% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 3 SPD and ATK up buff to all crew members for 17 seconds.', 'Reduces 28% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 3 SPD and ATK up buff to all crew members for 18 seconds.', 'Reduces 28% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 4 SPD and ATK up buff to all crew members for 19 seconds.', 'Reduces 29% of Special CT to 1 crew member, excluding self, with the lowest Special CT.'],
+                    ['Applies Lv. 5 SPD and ATK up buff to all crew members for 20 seconds.', 'Reduces 30% of Special CT to 1 crew member, excluding self, with the lowest Special CT.']
                 ]
             }
         }
@@ -113411,6 +113411,394 @@ window.rumble = {
                     ['Deals 750 fixed damage to all enemies.'],
                     ['Deals 875 fixed damage to all enemies.'],
                     ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4490: {
+        festCost: 55,
+        festStats: {
+            def: 128,
+            spd: 215,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '100% chance to resist Confusion.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 HP, RCV and SPD up buff to [INT] and Free Spirit crew members.', 'Applies Lv. 1 ATK up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Applies Lv. 1 Special CT up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Reduces 5% of Special CT to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members upon appearance.', 'When there are 50 seconds or less remaining, removes 10% of Special CT to all enemies upon appearance.'],
+                ['Applies Lv. 4 HP, RCV and SPD up buff to [INT] and Free Spirit crew members.', 'Applies Lv. 2 ATK up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Applies Lv. 1 Special CT up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Reduces 6% of Special CT to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members upon appearance.', 'When there are 50 seconds or less remaining, removes 15% of Special CT to all enemies upon appearance.'],
+                ['Applies Lv. 5 HP, RCV and SPD up buff to [INT] and Free Spirit crew members.', 'Applies Lv. 3 ATK up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Applies Lv. 2 Special CT up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Reduces 7% of Special CT to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members upon appearance.', 'When there are 50 seconds or less remaining, removes 20% of Special CT to all enemies upon appearance.'],
+                ['Applies Lv. 6 HP, RCV and SPD up buff to [INT] and Free Spirit crew members.', 'Applies Lv. 4 ATK up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Applies Lv. 2 Special CT up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Reduces 8% of Special CT to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members upon appearance.', 'When there are 50 seconds or less remaining, removes 25% of Special CT to all enemies upon appearance.'],
+                ['Applies Lv. 7 HP, RCV and SPD up buff to [INT] and Free Spirit crew members.', 'Applies Lv. 5 ATK up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Applies Lv. 3 Special CT up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'Reduces 10% of Special CT to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members upon appearance.', 'When there are 50 seconds or less remaining, removes 30% of Special CT to all enemies upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 27,
+                descriptions: [
+                    ['Applies Lv. 1 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 11 seconds.', 'Removes 21% of Special CT to 3 enemies with the highest Special CT.', '82% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 11,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 3.2x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 1 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 12 seconds.', 'Removes 22% of Special CT to 3 enemies with the highest Special CT.', '84% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 12,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 3.4x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 13 seconds.', 'Removes 23% of Special CT to 3 enemies with the highest Special CT.', '86% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 13,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 3.6x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 14 seconds.', 'Removes 24% of Special CT to 3 enemies with the highest Special CT.', '88% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 14,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 3.8x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 15 seconds.', 'Removes 25% of Special CT to 3 enemies with the highest Special CT.', '90% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 15,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 4x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 16 seconds.', 'Removes 26% of Special CT to 3 enemies with the highest Special CT.', '92% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 16,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 4.2x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 17 seconds.', 'Removes 27% of Special CT to 3 enemies with the highest Special CT.', '94% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 17,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 4.4x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 18 seconds.', 'Removes 28% of Special CT to 3 enemies with the highest Special CT.', '96% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 18,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 4.6x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 5 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 19 seconds.', 'Removes 29% of Special CT to 3 enemies with the highest Special CT.', '98% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 19,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 4.8x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 5 DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members for 20 seconds.', 'Removes 30% of Special CT to 3 enemies with the highest Special CT.', '100% chance to inflict Forced Out to [Five Elders] enemies for 10 seconds.', 'Deals 20,000 fixed spread damage to all enemies in a large, radial range.', 'Deals 5x ATK in damage to all enemies in a large, radial range.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and RCV up buff to [PSY] and [INT] crew members.', 'Applies Lv. 1 Special CT up buff to [PSY] and [INT] crew members.', 'Applies Lv. 2 HP and SPD up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 1 DEF up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 2 HP and DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'When there is 4 or more [Navy] and [World Government] enemies, inflicts Lv. 1 Special CT down debuff to all enemies.'],
+                ['Applies Lv. 3 ATK and RCV up buff to [PSY] and [INT] crew members.', 'Applies Lv. 1 Special CT up buff to [PSY] and [INT] crew members.', 'Applies Lv. 3 HP and SPD up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 2 DEF up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 3 HP and DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'When there is 4 or more [Navy] and [World Government] enemies, inflicts Lv. 2 Special CT down debuff to all enemies.'],
+                ['Applies Lv. 4 ATK and RCV up buff to [PSY] and [INT] crew members.', 'Applies Lv. 2 Special CT up buff to [PSY] and [INT] crew members.', 'Applies Lv. 4 HP and SPD up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 3 DEF up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 4 HP and DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'When there is 4 or more [Navy] and [World Government] enemies, inflicts Lv. 3 Special CT down debuff to all enemies.'],
+                ['Applies Lv. 5 ATK and RCV up buff to [PSY] and [INT] crew members.', 'Applies Lv. 2 Special CT up buff to [PSY] and [INT] crew members.', 'Applies Lv. 5 HP and SPD up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 3 DEF up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 5 HP and DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'When there is 4 or more [Navy] and [World Government] enemies, inflicts Lv. 4 Special CT down debuff to all enemies.'],
+                ['Applies Lv. 6 ATK and RCV up buff to [PSY] and [INT] crew members.', 'Applies Lv. 3 Special CT up buff to [PSY] and [INT] crew members.', 'Applies Lv. 6 HP and SPD up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 4 DEF up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 6 HP and DEF up buff to [Straw Hat Pirates], [Vegapunk], [Revolutionary Army], [Paramythia-type] and Emet crew members.', 'When there is 4 or more [Navy] and [World Government] enemies, inflicts Lv. 5 Special CT down debuff to all enemies.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After dealing damage 16 times",
+                descriptions: [
+                    ['Removes 22% of Special CT to all enemies.', "Deals 1.2x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 22% of Special CT to [PSY], [INT], Free Spirit and Cerebral crew members.'],
+                    ['Removes 24% of Special CT to all enemies.', "Deals 1.3x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 24% of Special CT to [PSY], [INT], Free Spirit and Cerebral crew members.'],
+                    ['Removes 26% of Special CT to all enemies.', "Deals 1.4x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 26% of Special CT to [PSY], [INT], Free Spirit and Cerebral crew members.'],
+                    ['Removes 28% of Special CT to all enemies.', "Deals 1.5x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 28% of Special CT to [PSY], [INT], Free Spirit and Cerebral crew members.'],
+                    ['Removes 30% of Special CT to all enemies.', "Deals 1.6x Leader's base ATK in damage ignoring DEF to all enemies.", 'Reduces 30% of Special CT to [PSY], [INT], Free Spirit and Cerebral crew members.']
+                ]
+            }
+        }
+    },
+    4491: {
+        festCost: 55,
+        festStats: {
+            def: 155,
+            spd: 179,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Forced Out.', '100% chance to resist Special Bind.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 HP, RCV and SPD up buff to [STR], Driven and [Five Elders] crew members.', 'Applies Lv. 1 ATK up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'Applies Lv. 1 DEF up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'The first 2 times this character receives Half Stats, applies Lv. 2 ATK up buff to self.', 'The first 2 times this character receives Half Stats, inflicts Lv. 1 DEF down debuff to all enemies.'],
+                ['Applies Lv. 4 HP, RCV and SPD up buff to [STR], Driven and [Five Elders] crew members.', 'Applies Lv. 2 ATK up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'Applies Lv. 1 DEF up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'The first 2 times this character receives Half Stats, applies Lv. 3 ATK up buff to self.', 'The first 2 times this character receives Half Stats, inflicts Lv. 2 DEF down debuff to all enemies.'],
+                ['Applies Lv. 5 HP, RCV and SPD up buff to [STR], Driven and [Five Elders] crew members.', 'Applies Lv. 3 ATK up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'Applies Lv. 2 DEF up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'The first 2 times this character receives Half Stats, applies Lv. 4 ATK up buff to self.', 'The first 2 times this character receives Half Stats, inflicts Lv. 3 DEF down debuff to all enemies.'],
+                ['Applies Lv. 6 HP, RCV and SPD up buff to [STR], Driven and [Five Elders] crew members.', 'Applies Lv. 4 ATK up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'Applies Lv. 2 DEF up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'The first 2 times this character receives Half Stats, applies Lv. 5 ATK up buff to self.', 'The first 2 times this character receives Half Stats, inflicts Lv. 4 DEF down debuff to all enemies.'],
+                ['Applies Lv. 7 HP, RCV and SPD up buff to [STR], Driven and [Five Elders] crew members.', 'Applies Lv. 5 ATK up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'Applies Lv. 3 DEF up buff to [Navy], [World Government] and [Zoan-type] crew members.', 'The first 2 times this character receives Half Stats, applies Lv. 6 ATK up buff to self.', 'The first 2 times this character receives Half Stats, inflicts Lv. 4 DEF down debuff to all enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Applies Lv. 1 DEF up buff to [STR] and Driven crew members for 11 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 6 seconds.', '82% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 3x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 6x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 1 DEF up buff to [STR] and Driven crew members for 12 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 7 seconds.', '84% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 4x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 7x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 DEF up buff to [STR] and Driven crew members for 13 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 8 seconds.', '86% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 5x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 8x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 DEF up buff to [STR] and Driven crew members for 14 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 9 seconds.', '88% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 6x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 9x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 DEF up buff to [STR] and Driven crew members for 15 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 10 seconds.', '90% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 7x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 10x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 DEF up buff to [STR] and Driven crew members for 16 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 11 seconds.', '92% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 8x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 11x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 DEF up buff to [STR] and Driven crew members for 17 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 12 seconds.', '94% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 9x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 12x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 4 DEF up buff to [STR] and Driven crew members for 18 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 13 seconds.', '96% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 10x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 13x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 5 DEF up buff to [STR] and Driven crew members for 19 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 14 seconds.', '98% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 11x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 14x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 6 DEF up buff to [STR] and Driven crew members for 20 seconds.', 'Reduce Half Stats to [STR] and Driven crew members for 15 seconds.', '100% chance to grant Haste to 2 [Navy], [World Government] and [Zoan-type] crew members, excluding self.', 'Deals 12x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 15x ATK in spread damage to all enemies in a large, radial range.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 SPD and RCV up buff to [STR] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] crew members.', 'Applies Lv. 2 HP and ATK up buff to Driven and Cerebral crew members.', 'Applies Lv. 1 DEF up buff to Driven and Cerebral crew members.', 'When there are 50 seconds or less remaining, inflicts Lv. 1 DEF down debuff to all enemies.'],
+                ['Applies Lv. 3 SPD and RCV up buff to [STR] crew members.', 'Applies Lv. 1 Special CT up buff to [STR] crew members.', 'Applies Lv. 3 HP and ATK up buff to Driven and Cerebral crew members.', 'Applies Lv. 2 DEF up buff to Driven and Cerebral crew members.', 'When there are 50 seconds or less remaining, inflicts Lv. 2 DEF down debuff to all enemies.'],
+                ['Applies Lv. 4 SPD and RCV up buff to [STR] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] crew members.', 'Applies Lv. 4 HP and ATK up buff to Driven and Cerebral crew members.', 'Applies Lv. 3 DEF up buff to Driven and Cerebral crew members.', 'When there are 50 seconds or less remaining, inflicts Lv. 3 DEF down debuff to all enemies.'],
+                ['Applies Lv. 5 SPD and RCV up buff to [STR] crew members.', 'Applies Lv. 2 Special CT up buff to [STR] crew members.', 'Applies Lv. 5 HP and ATK up buff to Driven and Cerebral crew members.', 'Applies Lv. 3 DEF up buff to Driven and Cerebral crew members.', 'When there are 50 seconds or less remaining, inflicts Lv. 4 DEF down debuff to all enemies.'],
+                ['Applies Lv. 6 SPD and RCV up buff to [STR] crew members.', 'Applies Lv. 3 Special CT up buff to [STR] crew members.', 'Applies Lv. 6 HP and ATK up buff to Driven and Cerebral crew members.', 'Applies Lv. 4 DEF up buff to Driven and Cerebral crew members.', 'When there are 50 seconds or less remaining, inflicts Lv. 5 DEF down debuff to all enemies.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 3,
+                condition: "After receiving 12 hits",
+                descriptions: [
+                    ['Reduce Half Stats to [STR], Driven and Cerebral crew members for 11 seconds.', '100% chance to inflict Half Stats to Powerhouse and Free Spirit enemies for 11 seconds.', "Deals 2x Leader's base ATK in damage to all enemies.", "Deals 12x Leader's base ATK in spread damage to all enemies."],
+                    ['Reduce Half Stats to [STR], Driven and Cerebral crew members for 12 seconds.', '100% chance to inflict Half Stats to Powerhouse and Free Spirit enemies for 12 seconds.', "Deals 2.5x Leader's base ATK in damage to all enemies.", "Deals 14x Leader's base ATK in spread damage to all enemies."],
+                    ['Reduce Half Stats to [STR], Driven and Cerebral crew members for 13 seconds.', '100% chance to inflict Half Stats to Powerhouse and Free Spirit enemies for 13 seconds.', "Deals 3x Leader's base ATK in damage to all enemies.", "Deals 16x Leader's base ATK in spread damage to all enemies."],
+                    ['Reduce Half Stats to [STR], Driven and Cerebral crew members for 14 seconds.', '100% chance to inflict Half Stats to Powerhouse and Free Spirit enemies for 14 seconds.', "Deals 3.5x Leader's base ATK in damage to all enemies.", "Deals 18x Leader's base ATK in spread damage to all enemies."],
+                    ['Reduce Half Stats to [STR], Driven and Cerebral crew members for 15 seconds.', '100% chance to inflict Half Stats to Powerhouse and Free Spirit enemies for 15 seconds.', "Deals 4x Leader's base ATK in damage to all enemies.", "Deals 20x Leader's base ATK in spread damage to all enemies."]
+                ]
+            }
+        }
+    },
+    4492: {
+        festCost: 55,
+        festStats: {
+            def: 174,
+            spd: 142,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '100% chance to resist Confusion.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 ATK, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Jewelry Bonney is on your crew, reduces 25% of Special CT to self upon appearance.', 'The first 12 times this character takes damage, heals 0.6x RCV of HP to [INT] and Free Spirit crew members.'],
+                ['Applies Lv. 4 ATK, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Jewelry Bonney is on your crew, reduces 30% of Special CT to self upon appearance.', 'The first 12 times this character takes damage, heals 0.7x RCV of HP to [INT] and Free Spirit crew members.'],
+                ['Applies Lv. 5 ATK, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Jewelry Bonney is on your crew, reduces 35% of Special CT to self upon appearance.', 'The first 12 times this character takes damage, heals 0.8x RCV of HP to [INT] and Free Spirit crew members.'],
+                ['Applies Lv. 6 ATK, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Jewelry Bonney is on your crew, reduces 40% of Special CT to self upon appearance.', 'The first 12 times this character takes damage, heals 0.9x RCV of HP to [INT] and Free Spirit crew members.'],
+                ['Applies Lv. 7 ATK, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Jewelry Bonney is on your crew, reduces 50% of Special CT to self upon appearance.', 'The first 12 times this character takes damage, heals 1x RCV of HP to [INT] and Free Spirit crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 40,
+                descriptions: [
+                    ['Applies Lv. 1 ATK and DEF up buff to [INT] and Free Spirit crew members for 21 seconds.', '73% chance to inflict Half Stats to Driven enemies for 11 seconds.', 'Deals 2.1x ATK in damage to all enemies in a large, radial range.', 'Reduces 21% of Special CT to Jewelry Bonney crew member.', '73% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 21 seconds.', 'When Jewelry Bonney is on your crew, grant 2.1x Counter to self for 21 seconds.'],
+                    ['Applies Lv. 1 ATK and DEF up buff to [INT] and Free Spirit crew members for 22 seconds.', '76% chance to inflict Half Stats to Driven enemies for 12 seconds.', 'Deals 2.2x ATK in damage to all enemies in a large, radial range.', 'Reduces 22% of Special CT to Jewelry Bonney crew member.', '76% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 22 seconds.', 'When Jewelry Bonney is on your crew, grant 2.2x Counter to self for 22 seconds.'],
+                    ['Applies Lv. 2 ATK and DEF up buff to [INT] and Free Spirit crew members for 23 seconds.', '79% chance to inflict Half Stats to Driven enemies for 13 seconds.', 'Deals 2.3x ATK in damage to all enemies in a large, radial range.', 'Reduces 23% of Special CT to Jewelry Bonney crew member.', '79% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 23 seconds.', 'When Jewelry Bonney is on your crew, grant 2.3x Counter to self for 23 seconds.'],
+                    ['Applies Lv. 2 ATK and DEF up buff to [INT] and Free Spirit crew members for 24 seconds.', '82% chance to inflict Half Stats to Driven enemies for 14 seconds.', 'Deals 2.4x ATK in damage to all enemies in a large, radial range.', 'Reduces 24% of Special CT to Jewelry Bonney crew member.', '82% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 24 seconds.', 'When Jewelry Bonney is on your crew, grant 2.4x Counter to self for 24 seconds.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [INT] and Free Spirit crew members for 25 seconds.', '85% chance to inflict Half Stats to Driven enemies for 15 seconds.', 'Deals 2.5x ATK in damage to all enemies in a large, radial range.', 'Reduces 25% of Special CT to Jewelry Bonney crew member.', '85% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 25 seconds.', 'When Jewelry Bonney is on your crew, grant 2.5x Counter to self for 25 seconds.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [INT] and Free Spirit crew members for 26 seconds.', '88% chance to inflict Half Stats to Driven enemies for 16 seconds.', 'Deals 2.6x ATK in damage to all enemies in a large, radial range.', 'Reduces 26% of Special CT to Jewelry Bonney crew member.', '88% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 26 seconds.', 'When Jewelry Bonney is on your crew, grant 2.6x Counter to self for 26 seconds.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [INT] and Free Spirit crew members for 27 seconds.', '91% chance to inflict Half Stats to Driven enemies for 17 seconds.', 'Deals 2.7x ATK in damage to all enemies in a large, radial range.', 'Reduces 27% of Special CT to Jewelry Bonney crew member.', '91% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 27 seconds.', 'When Jewelry Bonney is on your crew, grant 2.7x Counter to self for 27 seconds.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [INT] and Free Spirit crew members for 28 seconds.', '94% chance to inflict Half Stats to Driven enemies for 18 seconds.', 'Deals 2.8x ATK in damage to all enemies in a large, radial range.', 'Reduces 28% of Special CT to Jewelry Bonney crew member.', '94% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 28 seconds.', 'When Jewelry Bonney is on your crew, grant 2.8x Counter to self for 28 seconds.'],
+                    ['Applies Lv. 5 ATK and DEF up buff to [INT] and Free Spirit crew members for 29 seconds.', '97% chance to inflict Half Stats to Driven enemies for 19 seconds.', 'Deals 2.9x ATK in damage to all enemies in a large, radial range.', 'Reduces 29% of Special CT to Jewelry Bonney crew member.', '97% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 29 seconds.', 'When Jewelry Bonney is on your crew, grant 2.9x Counter to self for 29 seconds.'],
+                    ['Applies Lv. 6 ATK and DEF up buff to [INT] and Free Spirit crew members for 30 seconds.', '100% chance to inflict Half Stats to Driven enemies for 20 seconds.', 'Deals 3x ATK in damage to all enemies in a large, radial range.', 'Reduces 30% of Special CT to Jewelry Bonney crew member.', '100% chance to grant Haste to Jewelry Bonney crew member.', 'When Jewelry Bonney is on your crew, provoke enemies to self for 30 seconds.', 'When Jewelry Bonney is on your crew, grant 3x Counter to self for 30 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 1 DEF up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 2 ATK and RCV up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 1 Special CT up buff to Free Spirit and Cerebral crew members.', 'Revive to 30% HP after death to Free Spirit and Cerebral crew members 1 time.'],
+                ['Applies Lv. 3 HP and SPD up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 2 DEF up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 3 ATK and RCV up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 1 Special CT up buff to Free Spirit and Cerebral crew members.', 'Revive to 35% HP after death to Free Spirit and Cerebral crew members 1 time.'],
+                ['Applies Lv. 4 HP and SPD up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 3 DEF up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 4 ATK and RCV up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 2 Special CT up buff to Free Spirit and Cerebral crew members.', 'Revive to 40% HP after death to Free Spirit and Cerebral crew members 1 time.'],
+                ['Applies Lv. 5 HP and SPD up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 3 DEF up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 5 ATK and RCV up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 2 Special CT up buff to Free Spirit and Cerebral crew members.', 'Revive to 45% HP after death to Free Spirit and Cerebral crew members 1 time.'],
+                ['Applies Lv. 6 HP and SPD up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 4 DEF up buff to [STR], [PSY] and [INT] crew members.', 'Applies Lv. 6 ATK and RCV up buff to Free Spirit and Cerebral crew members.', 'Applies Lv. 3 Special CT up buff to Free Spirit and Cerebral crew members.', 'Revive to 50% HP after death to Free Spirit and Cerebral crew members 1 time.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 3,
+                condition: "After receiving 30,000 damage",
+                descriptions: [
+                    ['100% chance to evade Forced Out to [STR], [PSY], [INT], Free Spirit and Cerebral crew members for 16 seconds.', 'Heals 480 fixed HP every 3 seconds to all crew members for 26 seconds.', 'Deals 4,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Forced Out to [STR], [PSY], [INT], Free Spirit and Cerebral crew members for 17 seconds.', 'Heals 560 fixed HP every 3 seconds to all crew members for 27 seconds.', 'Deals 4,500 fixed damage to all enemies.'],
+                    ['100% chance to evade Forced Out to [STR], [PSY], [INT], Free Spirit and Cerebral crew members for 18 seconds.', 'Heals 640 fixed HP every 3 seconds to all crew members for 28 seconds.', 'Deals 5,000 fixed damage to all enemies.'],
+                    ['100% chance to evade Forced Out to [STR], [PSY], [INT], Free Spirit and Cerebral crew members for 19 seconds.', 'Heals 720 fixed HP every 3 seconds to all crew members for 29 seconds.', 'Deals 5,500 fixed damage to all enemies.'],
+                    ['100% chance to evade Forced Out to [STR], [PSY], [INT], Free Spirit and Cerebral crew members for 20 seconds.', 'Heals 800 fixed HP every 3 seconds to all crew members for 30 seconds.', 'Deals 6,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4493: {
+        festCost: 55,
+        festStats: {
+            def: 174,
+            spd: 158,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 2 ATK and SPD up buff to Free Spirit crew members.'],
+                ['Applies Lv. 3 HP, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 3 ATK and SPD up buff to Free Spirit crew members.'],
+                ['Applies Lv. 4 HP, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 4 ATK and SPD up buff to Free Spirit crew members.'],
+                ['Applies Lv. 5 HP, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 5 ATK and SPD up buff to Free Spirit crew members.'],
+                ['Applies Lv. 6 HP, RCV and DEF up buff to [INT] and Free Spirit crew members.', 'When Monkey D. Luffy is on your crew, applies Lv. 6 ATK and SPD up buff to Free Spirit crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 29,
+                descriptions: [
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 1 ATK up buff to self for 11 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 1 DEF down debuff to [Five Elders] enemies for 11 seconds.', 'When Monkey D. Luffy is on your crew, deals 11x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 330 fixed HP every 3 seconds to self for 11 seconds.', 'During Assault Rumble, applies Lv. 1 DEF up buff to self for 11 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 1 ATK up buff to self for 12 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 1 DEF down debuff to [Five Elders] enemies for 12 seconds.', 'When Monkey D. Luffy is on your crew, deals 12x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 360 fixed HP every 3 seconds to self for 12 seconds.', 'During Assault Rumble, applies Lv. 1 DEF up buff to self for 12 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 2 ATK up buff to self for 13 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 2 DEF down debuff to [Five Elders] enemies for 13 seconds.', 'When Monkey D. Luffy is on your crew, deals 13x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 390 fixed HP every 3 seconds to self for 13 seconds.', 'During Assault Rumble, applies Lv. 2 DEF up buff to self for 13 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 2 ATK up buff to self for 14 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 2 DEF down debuff to [Five Elders] enemies for 14 seconds.', 'When Monkey D. Luffy is on your crew, deals 14x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 420 fixed HP every 3 seconds to self for 14 seconds.', 'During Assault Rumble, applies Lv. 2 DEF up buff to self for 14 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 3 ATK up buff to self for 15 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 3 DEF down debuff to [Five Elders] enemies for 15 seconds.', 'When Monkey D. Luffy is on your crew, deals 15x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 450 fixed HP every 3 seconds to self for 15 seconds.', 'During Assault Rumble, applies Lv. 3 DEF up buff to self for 15 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 3 ATK up buff to self for 16 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 3 DEF down debuff to [Five Elders] enemies for 16 seconds.', 'When Monkey D. Luffy is on your crew, deals 16x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 480 fixed HP every 3 seconds to self for 16 seconds.', 'During Assault Rumble, applies Lv. 3 DEF up buff to self for 16 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 4 ATK up buff to self for 17 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 4 DEF down debuff to [Five Elders] enemies for 17 seconds.', 'When Monkey D. Luffy is on your crew, deals 17x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 510 fixed HP every 3 seconds to self for 17 seconds.', 'During Assault Rumble, applies Lv. 4 DEF up buff to self for 17 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 4 ATK up buff to self for 18 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 4 DEF down debuff to [Five Elders] enemies for 18 seconds.', 'When Monkey D. Luffy is on your crew, deals 18x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 540 fixed HP every 3 seconds to self for 18 seconds.', 'During Assault Rumble, applies Lv. 4 DEF up buff to self for 18 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 5 ATK up buff to self for 19 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 5 DEF down debuff to [Five Elders] enemies for 19 seconds.', 'When Monkey D. Luffy is on your crew, deals 19x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 570 fixed HP every 3 seconds to self for 19 seconds.', 'During Assault Rumble, applies Lv. 5 DEF up buff to self for 19 seconds.'],
+                    ['When Monkey D. Luffy is on your crew, applies Lv. 6 ATK up buff to self for 20 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 6 DEF down debuff to [Five Elders] enemies for 20 seconds.', 'When Monkey D. Luffy is on your crew, deals 20x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 600 fixed HP every 3 seconds to self for 20 seconds.', 'During Assault Rumble, applies Lv. 6 DEF up buff to self for 20 seconds.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After enemies use 3 Rumble Specials",
+                description: ['When Monkey D. Luffy is on your crew, applies Lv. 8 ATK up buff to [INT] and Free Spirit crew members for 25 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 7 DEF down debuff to [Five Elders] enemies for 25 seconds.', 'When Monkey D. Luffy is on your crew, deals 25x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 700 fixed HP every 3 seconds to [INT] and Free Spirit crew members for 25 seconds.', 'During Assault Rumble, applies Lv. 7 DEF up buff to [INT] and Free Spirit crew members for 25 seconds.']
+            },
+            llbbase: {
+                condition: "After enemies use 2 Rumble Specials",
+                description: ['When Monkey D. Luffy is on your crew, applies Lv. 10 ATK up buff to [INT] and Free Spirit crew members for 30 seconds.', 'When Monkey D. Luffy is on your crew, inflicts Lv. 8 DEF down debuff to [Five Elders] enemies for 30 seconds.', 'When Monkey D. Luffy is on your crew, deals 30x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, heals 800 fixed HP every 3 seconds to [INT] and Free Spirit crew members for 30 seconds.', 'During Assault Rumble, applies Lv. 8 DEF up buff to [INT] and Free Spirit crew members for 30 seconds.']
+            }
+        }
+    },
+    4494: {
+        festCost: 20,
+        festStats: {
+            def: 311,
+            spd: 118,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '20% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP up buff to [INT] crew members.', 'Applies Lv. 1 DEF up buff to [INT] crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 3 ATK down debuff to [PSY] enemies.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 3 HP up buff to [INT] crew members.', 'Applies Lv. 1 DEF up buff to [INT] crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 4 ATK down debuff to [PSY] enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 4 HP up buff to [INT] crew members.', 'Applies Lv. 2 DEF up buff to [INT] crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 5 ATK down debuff to [PSY] enemies.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 5 HP up buff to [INT] crew members.', 'Applies Lv. 2 DEF up buff to [INT] crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 6 ATK down debuff to [PSY] enemies.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 6 HP up buff to [INT] crew members.', 'Applies Lv. 3 DEF up buff to [INT] crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 7 ATK down debuff to [PSY] enemies.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Applies Lv. 1 Shield up buff to [INT] crew members for 11 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.1x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 4 ATK up buff to [INT] crew members for 11 seconds.', 'During Assault Rumble, reduces 11% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 4x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 1 Shield up buff to [INT] crew members for 12 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.2x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 4 ATK up buff to [INT] crew members for 12 seconds.', 'During Assault Rumble, reduces 12% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 4.4x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 1 Shield up buff to [INT] crew members for 13 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.3x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 4 ATK up buff to [INT] crew members for 13 seconds.', 'During Assault Rumble, reduces 13% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 4.8x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 2 Shield up buff to [INT] crew members for 14 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.4x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 5 ATK up buff to [INT] crew members for 14 seconds.', 'During Assault Rumble, reduces 14% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 5.2x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 2 Shield up buff to [INT] crew members for 15 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.5x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 5 ATK up buff to [INT] crew members for 15 seconds.', 'During Assault Rumble, reduces 15% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 5.6x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 3 Shield up buff to [INT] crew members for 16 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.6x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 6 ATK up buff to [INT] crew members for 16 seconds.', 'During Assault Rumble, reduces 16% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 6x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 3 Shield up buff to [INT] crew members for 17 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.7x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 6 ATK up buff to [INT] crew members for 17 seconds.', 'During Assault Rumble, reduces 17% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 6.4x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 3 Shield up buff to [INT] crew members for 18 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.8x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 6 ATK up buff to [INT] crew members for 18 seconds.', 'During Assault Rumble, reduces 18% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 6.8x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 4 Shield up buff to [INT] crew members for 19 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.9x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 7 ATK up buff to [INT] crew members for 19 seconds.', 'During Assault Rumble, reduces 19% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 7.2x ATK in spread damage to 3 [PSY] enemies.'],
+                    ['Applies Lv. 5 Shield up buff to [INT] crew members for 20 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 2x ATK in damage to 3 enemies.', 'When Broggy is on your crew, applies Lv. 8 ATK up buff to [INT] crew members for 20 seconds.', 'During Assault Rumble, reduces 20% of Special CT to [INT] crew members, excluding self.', 'During Assault Rumble, deals 8x ATK in spread damage to 3 [PSY] enemies.']
+                ]
+            }
+        }
+    },
+    4495: {
+        festCost: 20,
+        festStats: {
+            def: 311,
+            spd: 118,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '20% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and SPD up buff to Free Spirit crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 1 DEF down debuff to Driven enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK and SPD up buff to Free Spirit crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 2 DEF down debuff to Driven enemies.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK and SPD up buff to Free Spirit crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 3 DEF down debuff to Driven enemies.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK and SPD up buff to Free Spirit crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 4 DEF down debuff to Driven enemies.', 'During Assault Rumble, applies Lv. 9 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 6 ATK and SPD up buff to Free Spirit crew members.', 'When there is 4 or more [Egghead Arc] crew members, inflicts Lv. 4 DEF down debuff to Driven enemies.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Grant 2.1x Counter to Free Spirit crew members for 11 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.1x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 1 DEF up buff to Free Spirit crew members for 11 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to 3 Driven enemies for 11 seconds.', 'During Assault Rumble, deals 4x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 2.2x Counter to Free Spirit crew members for 12 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.2x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 1 DEF up buff to Free Spirit crew members for 12 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to 3 Driven enemies for 12 seconds.', 'During Assault Rumble, deals 4.4x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 2.3x Counter to Free Spirit crew members for 13 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.3x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 2 DEF up buff to Free Spirit crew members for 13 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to 3 Driven enemies for 13 seconds.', 'During Assault Rumble, deals 4.8x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 2.4x Counter to Free Spirit crew members for 14 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.4x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 2 DEF up buff to Free Spirit crew members for 14 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to 3 Driven enemies for 14 seconds.', 'During Assault Rumble, deals 5.2x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 2.5x Counter to Free Spirit crew members for 15 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.5x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 3 DEF up buff to Free Spirit crew members for 15 seconds.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to 3 Driven enemies for 15 seconds.', 'During Assault Rumble, deals 5.6x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 2.6x Counter to Free Spirit crew members for 16 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.6x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 3 DEF up buff to Free Spirit crew members for 16 seconds.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to 3 Driven enemies for 16 seconds.', 'During Assault Rumble, deals 6x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 2.7x Counter to Free Spirit crew members for 17 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.7x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 4 DEF up buff to Free Spirit crew members for 17 seconds.', 'During Assault Rumble, inflicts Lv. 4 DEF down debuff to 3 Driven enemies for 17 seconds.', 'During Assault Rumble, deals 6.4x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 2.8x Counter to Free Spirit crew members for 18 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.8x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 4 DEF up buff to Free Spirit crew members for 18 seconds.', 'During Assault Rumble, inflicts Lv. 4 DEF down debuff to 3 Driven enemies for 18 seconds.', 'During Assault Rumble, deals 6.8x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 2.9x Counter to Free Spirit crew members for 19 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 1.9x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 5 DEF up buff to Free Spirit crew members for 19 seconds.', 'During Assault Rumble, inflicts Lv. 5 DEF down debuff to 3 Driven enemies for 19 seconds.', 'During Assault Rumble, deals 7.2x ATK in spread damage to 3 Driven enemies.'],
+                    ['Grant 3x Counter to Free Spirit crew members for 20 seconds.', 'When there is 1 or more [Straw Hat Pirates] crew members, deals 2x ATK in damage to 3 enemies.', 'When Dorry is on your crew, applies Lv. 6 DEF up buff to Free Spirit crew members for 20 seconds.', 'During Assault Rumble, inflicts Lv. 5 DEF down debuff to 3 Driven enemies for 20 seconds.', 'During Assault Rumble, deals 8x ATK in spread damage to 3 Driven enemies.']
+                ]
+            }
+        }
+    },
+    4496: {
+        festCost: 20,
+        festStats: {
+            def: 138,
+            spd: 151,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['60% chance to resist Action Bind.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP and ATK up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 1 DEF down debuff to Free Spirit enemies.'],
+                ['Applies Lv. 2 HP and ATK up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 1 DEF down debuff to Free Spirit enemies.'],
+                ['Applies Lv. 3 HP and ATK up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 1 DEF down debuff to Free Spirit enemies.'],
+                ['Applies Lv. 4 HP and ATK up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 1 DEF down debuff to Free Spirit enemies.'],
+                ['Applies Lv. 5 HP and ATK up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 2 DEF down debuff to Free Spirit enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 11 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 11 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 82% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 12 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 12 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 84% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 13 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 13 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 86% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 14 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 14 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 88% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 15 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 90% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 16 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 16 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 92% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 17 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 17 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 94% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 18 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 18 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 96% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 19 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 19 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 98% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 20 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 20 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 100% chance to inflict Forced Out to 1 Free Spirit enemy for 5 seconds.']
+                ]
+            }
+        }
+    },
+    4498: {
+        festCost: 20,
+        festStats: {
+            def: 199,
+            spd: 175,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Confusion.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, SPD and DEF up buff to [STR] and Driven crew members.', 'The first 5 times this character receives Half Stats, reduces 11% of Special CT to [STR] and Driven crew members, excluding self.', 'Reduces 2% of Special CT to [Straw Hat Pirates], [Vegapunk], [Paramythia-type] and [Zoan-type] crew members upon appearance.'],
+                ['Applies Lv. 3 HP, SPD and DEF up buff to [STR] and Driven crew members.', 'The first 5 times this character receives Half Stats, reduces 12% of Special CT to [STR] and Driven crew members, excluding self.', 'Reduces 4% of Special CT to [Straw Hat Pirates], [Vegapunk], [Paramythia-type] and [Zoan-type] crew members upon appearance.'],
+                ['Applies Lv. 4 HP, SPD and DEF up buff to [STR] and Driven crew members.', 'The first 5 times this character receives Half Stats, reduces 13% of Special CT to [STR] and Driven crew members, excluding self.', 'Reduces 6% of Special CT to [Straw Hat Pirates], [Vegapunk], [Paramythia-type] and [Zoan-type] crew members upon appearance.'],
+                ['Applies Lv. 5 HP, SPD and DEF up buff to [STR] and Driven crew members.', 'The first 5 times this character receives Half Stats, reduces 14% of Special CT to [STR] and Driven crew members, excluding self.', 'Reduces 8% of Special CT to [Straw Hat Pirates], [Vegapunk], [Paramythia-type] and [Zoan-type] crew members upon appearance.'],
+                ['Applies Lv. 6 HP, SPD and DEF up buff to [STR] and Driven crew members.', 'The first 5 times this character receives Half Stats, reduces 15% of Special CT to [STR] and Driven crew members, excluding self.', 'Reduces 10% of Special CT to [Straw Hat Pirates], [Vegapunk], [Paramythia-type] and [Zoan-type] crew members upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 1 ATK, RCV and SPD up buff to [STR] and Driven crew members for 11 seconds.', 'Applies Lv. 2 DEF up buff to [STR] and Driven crew members for 11 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 2 ATK, RCV and SPD up buff to [STR] crew members for 11 seconds.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 11 seconds.', 'Deals 1x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 1 ATK, RCV and SPD up buff to [STR] and Driven crew members for 12 seconds.', 'Applies Lv. 2 DEF up buff to [STR] and Driven crew members for 12 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 2 ATK, RCV and SPD up buff to [STR] crew members for 12 seconds.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 12 seconds.', 'Deals 1.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 2 ATK, RCV and SPD up buff to [STR] and Driven crew members for 13 seconds.', 'Applies Lv. 2 DEF up buff to [STR] and Driven crew members for 13 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 2 ATK, RCV and SPD up buff to [STR] crew members for 13 seconds.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 13 seconds.', 'Deals 2x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 2 ATK, RCV and SPD up buff to [STR] and Driven crew members for 14 seconds.', 'Applies Lv. 2 DEF up buff to [STR] and Driven crew members for 14 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 2 ATK, RCV and SPD up buff to [STR] crew members for 14 seconds.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 14 seconds.', 'Deals 2.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 3 ATK, RCV and SPD up buff to [STR] and Driven crew members for 15 seconds.', 'Applies Lv. 2 DEF up buff to [STR] and Driven crew members for 15 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 2 ATK, RCV and SPD up buff to [STR] crew members for 15 seconds.', 'Applies Lv. 1 DEF up buff to [STR] crew members for 15 seconds.', 'Deals 3x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 3 ATK, RCV and SPD up buff to [STR] and Driven crew members for 16 seconds.', 'Applies Lv. 3 DEF up buff to [STR] and Driven crew members for 16 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 3 ATK, RCV and SPD up buff to [STR] crew members for 16 seconds.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 16 seconds.', 'Deals 3.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 4 ATK, RCV and SPD up buff to [STR] and Driven crew members for 17 seconds.', 'Applies Lv. 3 DEF up buff to [STR] and Driven crew members for 17 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 3 ATK, RCV and SPD up buff to [STR] crew members for 17 seconds.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 17 seconds.', 'Deals 4x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 4 ATK, RCV and SPD up buff to [STR] and Driven crew members for 18 seconds.', 'Applies Lv. 3 DEF up buff to [STR] and Driven crew members for 18 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 3 ATK, RCV and SPD up buff to [STR] crew members for 18 seconds.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 18 seconds.', 'Deals 4.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 5 ATK, RCV and SPD up buff to [STR] and Driven crew members for 19 seconds.', 'Applies Lv. 3 DEF up buff to [STR] and Driven crew members for 19 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 3 ATK, RCV and SPD up buff to [STR] crew members for 19 seconds.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 19 seconds.', 'Deals 5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['100% chance to inflict Half Stats to [STR] and Driven crew members for 5 seconds.', 'Applies Lv. 6 ATK, RCV and SPD up buff to [STR] and Driven crew members for 20 seconds.', 'Applies Lv. 4 DEF up buff to [STR] and Driven crew members for 20 seconds.', 'When there is 5 or more Driven crew members, reduce Half Stats to self for 5 seconds.', 'Applies Lv. 4 ATK, RCV and SPD up buff to [STR] crew members for 20 seconds.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 20 seconds.', 'Deals 6x ATK in damage to 1 enemy with the lowest DEF.']
                 ]
             }
         }
