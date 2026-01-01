@@ -178870,22 +178870,23 @@ window.details = {
         }
     },
     4498: {//Stussy
-        captain: "Adds 1 turn to all enemies for each battle (after preemptive actions), boosts Driven and Cerebral characters' ATK by 4.25x, HP by 1.3x, makes their [STR][RCV][TND][BOMB][S. BOMB] slots have matching slot effects, reduces character's Special Reverse by 10 turns, and heals crew by 6,000 HP at end of turn [Applies following effect based on number of applicable Character Tags on crew] If 2 or more [Scientist] [Seraphim] characters are on the crew, boosts crew's ATK by a further 1.2x, and if 2 or more [CP0] [World Government] characters are on the crew, boosts crew's ATK by a further 1.2x",
-        special: "Reduces crew's Special charge time by 2 turns and VS Effect gauge by 6. If crew has Bleed, Poison, progressive Poison, or slot multiplier change effect when Special is launched, boosts Driven and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.8 (GOOD +0.3; GREAT +0.5; PERFECT +0.8) for 2 turns (boosts Driven and Cerebral characters' chain multiplier growth rate of normal attacks up to +0.6 (GOOD +0.2; GREAT +0.4; PERFECT +0.6) for 2 turns otherwise), then after that, reduces crew's Bleed duration by 10 turns. If 2 or more [Scientist] [Seraphim] characters and 2 or more [CP0] [World Government] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [S. BOMB], and changes the ATK multiplier of [BOMB][S. BOMB][RCV][TND] slots to 3.5x when slots match (normally 2x when matching, 1.5x for [S. BOMB] slots), 0.5x when unfavorable, 1.0x otherwise for 3 turns. If 3 or more [Scientist] [Seraphim] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [BOMB], and changes the ATK multiplier of [BOMB][S. BOMB] slots to 3.5x when slots match (normally 2x when matching, 1.5x for [S. BOMB] slots), 0.5x when unfavorable, 1.0x otherwise for 2 turns. If 3 or more [CP0] [World Government] characters are on the crew, changes crew's slots (including [BLOCK] slots) to [RCV], and changes the ATK multiplier of [RCV][TND] slots to 3.5x when slots match (normally 2x when matching), 0.5x when unfavorable, 1.0x otherwise for 2 turns",
+        captain: "At the beginning of each stage, increases the Attack Timer of all enemies by 1 turn. Boosts ATK of Driven and Cerebral characters by 4.25x-6.12x, depending of if crew meets tag conditions, boosts HP of Driven and Cerebral characters by 1.3x, makes [STR], [RCV], [TND], [BOMB] and [SUPERBOMB] orbs beneficial for Driven and Cerebral characters, recovers 6,000 HP at the end of each turn, and restores Special Cooldown of this character by 10 turns when it is rewinded. If your crew has 2+ [Scientist] or [Seraphim] characters, boosts ATK of all characters by a further 1.2x. If your crew has 2+ [CP0] or [World Government] characters, boosts ATK of all characters a further 1.2x.",
+        special: "Reduces Special Cooldown of all characters by 2 turns, reduces VS Gauge of all characters by 6, and reduces Bleed duration by 10 turns. If your crew is inflicted with Bleed, Poison or Toxic or your crew has Orb Multiplier Override buff when the special is activated, increases Chain Tap Timing Bonus of Driven and Cerebral characters to +0.3x-0.8x for 2 turns depending on Tap Timing; increases Chain Tap Timing Bonus of Driven and Cerebral characters to +0.2x-0.6x for 2 turns depending on Tap Timing otherwise. If your crew has 2+ [Scientist] or [Seraphim] characters and 2+ [CP0] or [World Government] characters, changes all orbs, including [BLOCK] orbs, into [SUPERBOMB] orbs, and increases Orb Effects of beneficial [RCV], [TND], [BOMB] and [SUPERBOMB] orbs to 3.5x for 3 turns. If your crew has 3+ [Scientist] or [Seraphim] characters, changes all orbs, including [BLOCK] orbs, into [BOMB] orbs, and increases Orb Effects of beneficial [BOMB] and [SUPERBOMB] orbs to 3.5x for 2 turns. If your crew has 3+ [CP0] or [World Government] characters, changes all orbs, including [BLOCK] orbs, into [RCV] orbs, and increases Orb Effects of beneficial [RCV] and [TND] orbs to 3.5x for 2 turns.",
+        specialNotes: "<br><b>GOOD:</b> +0.3, <b>GREAT:</b> +0.5, <b>PERFECT:</b> +0.8<br><b>GOOD:</b> +0.2, <b>GREAT:</b> +0.4, <b>PERFECT:</b> +0.6",
         specialName: "Last Promise to Live",
         sailor: {
-            base: "Boosts Driven and Cerebral characters' base stats by 60",
-            level1: "Reduces character's Special Reverse by 3 turns"
+            base: "Boosts base ATK, HP and RCV of Driven and Cerebral characters by 60.",
+            level1: "Restores Special Cooldown of this character by 3 turns when it is rewinded."
         },
         support: [
             {
                 Characters: "[STR] characters",
                 description: [
-                    "Adds 5% of character's base RCV to supported character's base RCV",
-                    "Adds 10% of character's base RCV to supported character's base RCV",
-                    "Adds 15% of character's base RCV to supported character's base RCV",
-                    "Adds 20% of character's base RCV to supported character's base RCV",
-                    "Adds 25% of character's base RCV to supported character's base RCV"
+                    "Adds 5% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 10% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 15% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 20% of this character's base RCV to the supported character's base RCV.",
+                    "Adds 25% of this character's base RCV to the supported character's base RCV."
                 ]
             }
         ],
