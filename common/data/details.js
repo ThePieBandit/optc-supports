@@ -85092,7 +85092,7 @@ window.details = {
     3134: {//Kaido VS BigMom
         captain: {
             character1: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [STR], [DEX] and [INT] characters by 5x, their HP by 1.3x, deals 20% of enemies' current HP in damage to all enemies at the end of each turn, boosts chances of getting [TND] orbs and makes [TND] orbs beneficial for all characters.",
-            character2: "Boosts ATK of [STR], [PSY] and [INT] characters by 5x, their HP by 1.5x, boosts chances of getting [RCV] orbs, makes [RCV] and [SEMLA] orbs beneficial for all characters and PERFECTs will consume [RCV] and [SEMLA] orbs.",
+            character2: "Boosts ATK of [STR], [PSY] and [INT] characters by 5x, their HP by 1.5x, boosts chances of getting [RCV] orbs, makes [RCV] and [SEMLA] orbs beneficial for all characters and makes PERFECTs consume [RCV] and [SEMLA] orbs.",
         },
         special: {
             character1: "Deals 20% of enemies' current HP in True damage to all enemies, changes [BLOCK] and [RCV] orbs into [TND] orbs, boosts ATK of [STR], [DEX] and [INT] characters by 2.25x for 1 turn. If during that turn you score 3 PERFECT hits, boosts Orb Effects of [STR], [DEX] and [INT] characters by 2.5x for 1 turn.",
@@ -85112,7 +85112,7 @@ window.details = {
     3135: {//Kaido VS Big Mom
         captain: {
             character1: "Reduces Special Cooldown of all characters by 2 turns at the start of the fight, boosts ATK of [STR], [DEX] and [INT] characters by 5x, their HP by 1.3x, deals 20% of enemies' current HP in damage to all enemies at the end of each turn, boosts chances of getting [TND] orbs and makes [TND] orbs beneficial for all characters.",
-            character2: "Boosts ATK of [STR], [PSY] and [INT] characters by 5x, their HP by 1.5x, boosts chances of getting [RCV] orbs, makes [RCV] and [SEMLA] orbs beneficial for all characters and PERFECTs will consume [RCV] and [SEMLA] orbs.",
+            character2: "Boosts ATK of [STR], [PSY] and [INT] characters by 5x, their HP by 1.5x, boosts chances of getting [RCV] orbs, makes [RCV] and [SEMLA] orbs beneficial for all characters and makes PERFECTs consume [RCV] and [SEMLA] orbs.",
         },
         special: {
             character1: "Deals 20% of enemies' current HP in True damage to all enemies, changes [BLOCK] and [RCV] orbs into [TND] orbs, boosts ATK of [STR], [DEX] and [INT] characters by 2.25x for 1 turn. If during that turn you score 3 PERFECT hits, boosts Orb Effects of [STR], [DEX] and [INT] characters by 2.5x for 1 turn.",
@@ -93435,7 +93435,7 @@ window.details = {
         specialName: "Don't you Talk or Make that Face Again",
     },
     3289: {//Nami?
-        captain: "Boosts ATK of Fighter and Free Spirit characters by 2x, their HP by 1.2x, makes [RCV] orbs beneficial for Fighter and Free Spirit characters and PERFECTs will consume [RCV] orbs. If this character becomes your captain in the middle of an island, boosts ATK of Fighter and Free Spirit characters by 4x instead",
+        captain: "Boosts ATK of Fighter and Free Spirit characters by 2x, their HP by 1.2x, makes [RCV] orbs beneficial for Fighter and Free Spirit characters and makes PERFECTs consume [RCV] orbs. If this character becomes your captain in the middle of an island, boosts ATK of Fighter and Free Spirit characters by 4x instead",
         special: "Reduces crew's current HP by 70%, changes all orbs into [RCV] orbs, reduces Special Bind duration by 5 turns, reduces enemies' Resilience duration by 5 turns, adds 0.7x to Chain multiplier for 1 turn. If this character is a Crewmate when the special is activated, swaps this unit with your captain for 2 turns.",
         specialName: "Long-Awaited of Physical Beauty",
         sailor: {
@@ -95816,13 +95816,13 @@ window.details = {
         ]
     },
     3333: {//Luffy
-        captain: "Boosts ATK of [QCK], Fighter and Free Spirit characters by 5x, their HP by 1.3x, boosts chances of getting [RCV] orbs, makes [RCV] orbs beneficial for all characters and PERFECTs will consume [RCV] orbs.",
+        captain: "Boosts ATK of [QCK], Fighter and Free Spirit characters by 5x, their HP by 1.3x, boosts chances of getting [RCV] orbs, makes [RCV] orbs beneficial for all characters and makes PERFECTs consume [RCV] orbs.",
         special: "Deals 300x character's ATK in Typeless damage to all enemies and boosts ATK of [QCK], Free Spirit and Fighter characters by 2.75x for 1 turn. Boosts base ATK of this character by 0-1,000 for 1 turn, depending on how many [RCV] orbs used in normal attacks.",
         specialNotes: "Base ATK boost is equal to 100 x [RCV] orbs consumed up to a maximum of 1000.",
         specialName: "King Kong Gun - Hold Down",
     },
     3334: {//Luffy
-        captain: "Boosts ATK of [QCK], Fighter and Free Spirit characters by 5x, their HP by 1.3x, boosts chances of getting [RCV] orbs, makes [RCV] orbs beneficial for all characters and PERFECTs will consume [RCV] orbs.",
+        captain: "Boosts ATK of [QCK], Fighter and Free Spirit characters by 5x, their HP by 1.3x, boosts chances of getting [RCV] orbs, makes [RCV] orbs beneficial for all characters and makes PERFECTs consume [RCV] orbs.",
         special: "Deals 300x character's ATK in Typeless damage to all enemies and boosts ATK of [QCK], Free Spirit and Fighter characters by 2.75x for 1 turn. Boosts base ATK of this character by 0-1,000 for 1 turn, depending on how many [RCV] orbs used in normal attacks.",
         specialNotes: "Base ATK boost is equal to 100 x [RCV] orbs consumed up to a maximum of 1000.",
         superSpecial: "Reduces Special Cooldown of [QCK], Free Spirit and Fighter characters by 1 turn, adds 1.0x to Chain multiplier for 1 turn and transforms [QCK] characters into Super [QCK] characters.",
@@ -104254,7 +104254,7 @@ window.details = {
         ]
     },
     3456: {//Bonney
-        captain: "Boosts ATK of Fighter and Free Spirit characters by 3x, boosts HP of [QCK] characters by 1.2x and PERFECTs will consume [RCV] orbs.",
+        captain: "Boosts ATK of Fighter and Free Spirit characters by 3x, boosts HP of [QCK] characters by 1.2x and makes PERFECTs consume [RCV] orbs.",
         special: "Reduces the defense of all enemies by 100% for 1 turn, reduces Bind and Despair duration by 5 turns and recovers 4,000 HP at the end of the turn for 5 turns. If your crew is inflicted with Bind when the special is activated, boosts ATK of Free Spirit and Fighter characters by 2.25x for 1 turn, by 1.75x otherwise.",
         specialName: "All-You-Can-Eat Halloween Dinner",
         sailor: {
