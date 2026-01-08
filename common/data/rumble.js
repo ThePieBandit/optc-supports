@@ -113764,6 +113764,45 @@ window.rumble = {
             }
         }
     },
+    4497: {
+        festCost: 20,
+        festStats: {
+            def: 163,
+            spd: 156,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Action Bind.', '20% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP, ATK and SPD up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 2 DEF down debuff to Free Spirit enemies.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 HP, ATK and SPD up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 2 DEF down debuff to Free Spirit enemies.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 HP, ATK and SPD up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 2 DEF down debuff to Free Spirit enemies.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 4 HP, ATK and SPD up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 2 DEF down debuff to Free Spirit enemies.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 5 HP, ATK and SPD up buff to [STR] and Cerebral crew members.', 'When there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 3 DEF down debuff to Free Spirit enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 11 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 11 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 82% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 2 ATK up buff to [Navy] and [World Government] crew members for 11 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 11 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 12 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 12 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 84% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 2 ATK up buff to [Navy] and [World Government] crew members for 12 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 12 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 13 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 13 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 86% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 2 ATK up buff to [Navy] and [World Government] crew members for 13 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 13 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 14 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 14 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 88% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 3 ATK up buff to [Navy] and [World Government] crew members for 14 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 14 seconds.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 15 seconds.', 'Inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 15 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 90% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 3 ATK up buff to [Navy] and [World Government] crew members for 15 seconds.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to Free Spirit enemies for 15 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 16 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 16 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 92% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 4 ATK up buff to [Navy] and [World Government] crew members for 16 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 16 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 17 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 17 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 94% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 4 ATK up buff to [Navy] and [World Government] crew members for 17 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 17 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 18 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 18 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 96% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 4 ATK up buff to [Navy] and [World Government] crew members for 18 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 18 seconds.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 19 seconds.', 'Inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 19 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 98% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 5 ATK up buff to [Navy] and [World Government] crew members for 19 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit enemies for 19 seconds.'],
+                    ['Inflicts Lv. 3 DEF down debuff to all enemies in a large, radial range for 20 seconds.', 'Inflicts Lv. 3 DEF down debuff to Free Spirit enemies for 20 seconds.', 'When there is 5 or more [Navy] and [World Government] crew members, 100% chance to inflict Forced Out to 1 Free Spirit enemy for 10 seconds.', 'During Assault Rumble, applies Lv. 6 ATK up buff to [Navy] and [World Government] crew members for 20 seconds.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to Free Spirit enemies for 20 seconds.']
+                ]
+            }
+        }
+    },
     4498: {
         festCost: 20,
         festStats: {
@@ -113802,6 +113841,65 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4499: {
+        festCost: 55,
+        festStats: {
+            def: 128,
+            spd: 149,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and RCV up buff to [STR] and Cerebral crew members.', 'Applies Lv. 1 DEF up buff to [STR] and Cerebral crew members.', 'The first 8 times crew members are defeated, heals 1x RCV of HP to [STR] and Cerebral crew members.', 'The first 5 times this character receives Half Stats, removes 12% of Special CT to all enemies.'],
+                ['Applies Lv. 3 ATK and RCV up buff to [STR] and Cerebral crew members.', 'Applies Lv. 1 DEF up buff to [STR] and Cerebral crew members.', 'The first 8 times crew members are defeated, heals 1.5x RCV of HP to [STR] and Cerebral crew members.', 'The first 5 times this character receives Half Stats, removes 14% of Special CT to all enemies.'],
+                ['Applies Lv. 4 ATK and RCV up buff to [STR] and Cerebral crew members.', 'Applies Lv. 2 DEF up buff to [STR] and Cerebral crew members.', 'The first 8 times crew members are defeated, heals 2x RCV of HP to [STR] and Cerebral crew members.', 'The first 5 times this character receives Half Stats, removes 16% of Special CT to all enemies.'],
+                ['Applies Lv. 5 ATK and RCV up buff to [STR] and Cerebral crew members.', 'Applies Lv. 2 DEF up buff to [STR] and Cerebral crew members.', 'The first 8 times crew members are defeated, heals 2.5x RCV of HP to [STR] and Cerebral crew members.', 'The first 5 times this character receives Half Stats, removes 18% of Special CT to all enemies.'],
+                ['Applies Lv. 6 ATK and RCV up buff to [STR] and Cerebral crew members.', 'Applies Lv. 3 DEF up buff to [STR] and Cerebral crew members.', 'The first 8 times crew members are defeated, heals 3x RCV of HP to [STR] and Cerebral crew members.', 'The first 5 times this character receives Half Stats, removes 20% of Special CT to all enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 11 seconds.', 'If this character has Half Stats, reduces 12% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 330 fixed HP every 3 seconds to all crew members for 11 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 12% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 12 seconds.', 'If this character has Half Stats, reduces 14% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 360 fixed HP every 3 seconds to all crew members for 12 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 14% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 2 Shield up buff to all crew members in a large, radial range for 13 seconds.', 'If this character has Half Stats, reduces 16% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 390 fixed HP every 3 seconds to all crew members for 13 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 16% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 2 Shield up buff to all crew members in a large, radial range for 14 seconds.', 'If this character has Half Stats, reduces 18% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 420 fixed HP every 3 seconds to all crew members for 14 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 18% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 3 Shield up buff to all crew members in a large, radial range for 15 seconds.', 'If this character has Half Stats, reduces 20% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 450 fixed HP every 3 seconds to all crew members for 15 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 20% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 3 Shield up buff to all crew members in a large, radial range for 16 seconds.', 'If this character has Half Stats, reduces 22% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 480 fixed HP every 3 seconds to all crew members for 16 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 22% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 4 Shield up buff to all crew members in a large, radial range for 17 seconds.', 'If this character has Half Stats, reduces 24% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 510 fixed HP every 3 seconds to all crew members for 17 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 24% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 4 Shield up buff to all crew members in a large, radial range for 18 seconds.', 'If this character has Half Stats, reduces 26% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 540 fixed HP every 3 seconds to all crew members for 18 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 26% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 5 Shield up buff to all crew members in a large, radial range for 19 seconds.', 'If this character has Half Stats, reduces 28% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 570 fixed HP every 3 seconds to all crew members for 19 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 28% of HP to [STR] and Cerebral crew members.'],
+                    ['Applies Lv. 5 Shield up buff to all crew members in a large, radial range for 20 seconds.', 'If this character has Half Stats, reduces 30% of Special CT to [STR] and Cerebral crew members.', 'When there is 5 or more [Egghead Arc] crew members, heals 600 fixed HP every 3 seconds to all crew members for 20 seconds.', 'When there is 5 or more [Egghead Arc] crew members, heals 30% of HP to [STR] and Cerebral crew members.']
+                ]
+            }
+        }
+    },
+    4500: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4501: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     4986: {
         festCost: 55,
