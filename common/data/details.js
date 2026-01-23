@@ -155373,11 +155373,11 @@ window.details = {
 			{
 				Characters: "Izo, Dogstorm, Cat Viper, Raizo, Kozuki Hiyori (Komurasaki), Okiku, Otama, Ashura Doji (Shutenmaru), Kozuki Sukiyaki (Tenguyama Hitetsu), Kozuki Oden, Kawamatsu, Shinobu, Yamato, Toki",
 				description: [
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and boosts Base ATK of all characters by 100 for 1 turn.",
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and boosts Base ATK of all characters by 150 for 1 turn.",
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and boosts Base ATK of all characters by 200 for 1 turn.",
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and boosts Base ATK of all characters by 250 for 1 turn.",
-					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, changes orbs of adjacent characters into [WANO] orbs, and boosts Base ATK of all characters by 250 for 1 turn."
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and increases boost effects of Base ATK Boost buffs by +100.",
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and increases boost effects of Base ATK Boost buffs by +150.",
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and increases boost effects of Base ATK Boost buffs by +200.",
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, and increases boost effects of Base ATK Boost buffs by +250.",
+					"Once per adventure, when the supported character uses their special, reduces crew's current HP by 50%, changes orbs of adjacent characters into [WANO] orbs, and increases boost effects of Base ATK Boost buffs by +250."
 				]
 			}
 		],
