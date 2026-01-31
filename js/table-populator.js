@@ -171,8 +171,8 @@ function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, c
         try {
             const unit = source[i];
             let supported = unit.support.Characters;
-            Array.from(supported.matchAll(/\[([A-Z 0-9-]+)\]/gi)).forEach(match => supported = supported.replace(match[0],'<span class="badge text-monospace badge-pill ' + match[1] + '">' + match[1] + '</span>'));
-            const newRowContent = $(
+https://github.com/2Shankz/optc-db.github.io.git            Array.from(supported.matchAll(/\[([A-Z 0-9-]+)\]/gi)).forEach(match => supported = supported.replace(match[0],'<span class="badge text-monospace badge-pill ' + match[1] + '">' + match[1] + '</span>'));
+            var newRowContent = $(
             `<tr>
                 <td class="text-nowrap"><a target="_blank" href="http://2shankz.github.io/optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
                 <td><span class="badge text-monospace ${unit.type}">${unit.type}</span> ${unit.name}</td>
@@ -268,12 +268,13 @@ for (const sm in supportMatchers) {
 
 window.Utils.parseUnits(false);
 
-for (var i = 0; i < window.units.length; i++){
-    const details = window.details[i+1];
-    if (!details || !Array.isArray(details.support) || !details.support.length || window.units[i].incomplete){
+for (var id of Object.keys(window.units)) {
+
+    const details = window.details[id];
+    var unit = window.units[id];
+    if (!details || !Array.isArray(details.support) || !details.support.length || unit.incomplete){
         continue;
     }
-    var unit = window.units[i];
     var lvl5support = details.support[0].description[4];
     var matched = false;
     if (lvl5support.match(atkRegex) && !lvl5support.match(/Additional/)){
@@ -318,8 +319,8 @@ for (var i = 0; i < window.units.length; i++){
       }
     }
 
-    unit.support = window.details[i+1].support[0];
-    unit.id = i+1;
+    unit.support = window.details[id].support[0];
+    unit.id = id;
 }
 
 atkSupportUnits.sort( (a,b) => b.atkBoostLimit - a.atkBoostLimit);

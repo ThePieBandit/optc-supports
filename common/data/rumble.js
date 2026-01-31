@@ -114277,6 +114277,123 @@ window.rumble = {
             }
         }
     },
+    4512: {
+        festCost: 20,
+        festStats: {
+            def: 209,
+            spd: 137,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Confusion.', '30% damage reduction from [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, ATK and DEF up buff to [PSY], Fighter and [Navy] crew members.', 'Applies Lv. 1 ATK and RCV up buff to [SWORD] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 Blow Away up buff to self.', 'When there is 4 or more [Navy] crew members, reduces 10% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 HP, ATK and DEF up buff to [PSY], Fighter and [Navy] crew members.', 'Applies Lv. 2 ATK and RCV up buff to [SWORD] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 Blow Away up buff to self.', 'When there is 4 or more [Navy] crew members, reduces 15% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 HP, ATK and DEF up buff to [PSY], Fighter and [Navy] crew members.', 'Applies Lv. 3 ATK and RCV up buff to [SWORD] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 Blow Away up buff to self.', 'When there is 4 or more [Navy] crew members, reduces 20% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 HP, ATK and DEF up buff to [PSY], Fighter and [Navy] crew members.', 'Applies Lv. 4 ATK and RCV up buff to [SWORD] crew members.', 'The first 5 times this character lands a hit, applies Lv. 1 Blow Away up buff to self.', 'When there is 4 or more [Navy] crew members, reduces 25% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 HP, ATK and DEF up buff to [PSY], Fighter and [Navy] crew members.', 'Applies Lv. 4 ATK and RCV up buff to [SWORD] crew members.', 'The first 5 times this character lands a hit, applies Lv. 2 Blow Away up buff to self.', 'When there is 4 or more [Navy] crew members, reduces 30% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 26,
+                descriptions: [
+                    ['Applies Lv. 2 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 2 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 80% chance to evade Stats Down to all crew members for 11 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 11% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '73% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 2 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 82% chance to evade Stats Down to all crew members for 12 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 12% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '76% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 2 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 84% chance to evade Stats Down to all crew members for 13 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 13% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '79% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 2 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 86% chance to evade Stats Down to all crew members for 14 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 14% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '82% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 2 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 88% chance to evade Stats Down to all crew members for 15 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 15% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '85% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 4 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 3 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 90% chance to evade Stats Down to all crew members for 16 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 16% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '88% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 5 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 3 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 92% chance to evade Stats Down to all crew members for 17 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 17% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '91% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 5 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 3 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 94% chance to evade Stats Down to all crew members for 18 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 18% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '94% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 6 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 3 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 96% chance to evade Stats Down to all crew members for 19 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 19% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '97% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.'],
+                    ['Applies Lv. 6 ATK and SPD up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'Applies Lv. 4 DEF up buff to [PSY], Fighter and [Navy] crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 100% chance to evade Stats Down to all crew members for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, reduces 20% of Special CT to [PSY], Fighter and [Navy] crew members, excluding self.', '100% chance to grant Haste to 3 [Navy] crew members with the highest Special CT.']
+                ]
+            }
+        }
+    },
+    4513: {
+        festCost: 20,
+        festStats: {
+            def: 148,
+            spd: 141,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['60% chance to resist Action Bind.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 1 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 2 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 1 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 3 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 2 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 4 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 2 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 5 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 3 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['42% chance to inflict Paralysis to all enemies in a large, radial range for 6 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 1 ATK down debuff to all enemies for 11 seconds.', '21% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 6 seconds.'],
+                    ['44% chance to inflict Paralysis to all enemies in a large, radial range for 7 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 1 ATK down debuff to all enemies for 12 seconds.', '22% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 6 seconds.'],
+                    ['46% chance to inflict Paralysis to all enemies in a large, radial range for 8 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 2 ATK down debuff to all enemies for 13 seconds.', '23% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 7 seconds.'],
+                    ['48% chance to inflict Paralysis to all enemies in a large, radial range for 9 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 2 ATK down debuff to all enemies for 14 seconds.', '24% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 7 seconds.'],
+                    ['50% chance to inflict Paralysis to all enemies in a large, radial range for 10 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 3 ATK down debuff to all enemies for 15 seconds.', '25% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 8 seconds.'],
+                    ['52% chance to inflict Paralysis to all enemies in a large, radial range for 11 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 3 ATK down debuff to all enemies for 16 seconds.', '26% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 8 seconds.'],
+                    ['54% chance to inflict Paralysis to all enemies in a large, radial range for 12 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 4 ATK down debuff to all enemies for 17 seconds.', '27% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 9 seconds.'],
+                    ['56% chance to inflict Paralysis to all enemies in a large, radial range for 13 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 4 ATK down debuff to all enemies for 18 seconds.', '28% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 9 seconds.'],
+                    ['58% chance to inflict Paralysis to all enemies in a large, radial range for 14 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 5 ATK down debuff to all enemies for 19 seconds.', '29% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 10 seconds.'],
+                    ['60% chance to inflict Paralysis to all enemies in a large, radial range for 15 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 5 ATK down debuff to all enemies for 20 seconds.', '30% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 10 seconds.']
+                ]
+            }
+        }
+    },
+    4514: {
+        festCost: 20,
+        festStats: {
+            def: 173,
+            spd: 146,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Action Bind.', '20% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 1 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 3 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 2 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 4 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 3 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 5 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 4 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.'],
+                ['Applies Lv. 6 HP, ATK and SPD up buff to Cerebral and Free Spirit crew members.', 'Applies Lv. 5 DEF up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to [Straw Hat Pirates] and [Land of Wano Arc] crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['62% chance to inflict Paralysis to all enemies in a large, radial range for 11 seconds.', '82% chance to inflict Half ATK to 2 enemies with the highest ATK for 6 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 3 ATK down debuff to all enemies for 11 seconds.', '32% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 11 seconds.', 'During Assault Rumble, removes 12% of Special CT to Free Spirit and Driven enemies.'],
+                    ['64% chance to inflict Paralysis to all enemies in a large, radial range for 12 seconds.', '84% chance to inflict Half ATK to 2 enemies with the highest ATK for 7 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 3 ATK down debuff to all enemies for 12 seconds.', '34% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 11 seconds.', 'During Assault Rumble, removes 14% of Special CT to Free Spirit and Driven enemies.'],
+                    ['66% chance to inflict Paralysis to all enemies in a large, radial range for 13 seconds.', '86% chance to inflict Half ATK to 2 enemies with the highest ATK for 8 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 4 ATK down debuff to all enemies for 13 seconds.', '36% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 12 seconds.', 'During Assault Rumble, removes 16% of Special CT to Free Spirit and Driven enemies.'],
+                    ['68% chance to inflict Paralysis to all enemies in a large, radial range for 14 seconds.', '88% chance to inflict Half ATK to 2 enemies with the highest ATK for 9 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 4 ATK down debuff to all enemies for 14 seconds.', '38% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 12 seconds.', 'During Assault Rumble, removes 18% of Special CT to Free Spirit and Driven enemies.'],
+                    ['70% chance to inflict Paralysis to all enemies in a large, radial range for 15 seconds.', '90% chance to inflict Half ATK to 2 enemies with the highest ATK for 10 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 5 ATK down debuff to all enemies for 15 seconds.', '40% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 13 seconds.', 'During Assault Rumble, removes 20% of Special CT to Free Spirit and Driven enemies.'],
+                    ['72% chance to inflict Paralysis to all enemies in a large, radial range for 16 seconds.', '92% chance to inflict Half ATK to 2 enemies with the highest ATK for 11 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 5 ATK down debuff to all enemies for 16 seconds.', '42% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 13 seconds.', 'During Assault Rumble, removes 22% of Special CT to Free Spirit and Driven enemies.'],
+                    ['74% chance to inflict Paralysis to all enemies in a large, radial range for 17 seconds.', '94% chance to inflict Half ATK to 2 enemies with the highest ATK for 12 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 6 ATK down debuff to all enemies for 17 seconds.', '44% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 14 seconds.', 'During Assault Rumble, removes 24% of Special CT to Free Spirit and Driven enemies.'],
+                    ['76% chance to inflict Paralysis to all enemies in a large, radial range for 18 seconds.', '96% chance to inflict Half ATK to 2 enemies with the highest ATK for 13 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 6 ATK down debuff to all enemies for 18 seconds.', '46% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 14 seconds.', 'During Assault Rumble, removes 26% of Special CT to Free Spirit and Driven enemies.'],
+                    ['78% chance to inflict Paralysis to all enemies in a large, radial range for 19 seconds.', '98% chance to inflict Half ATK to 2 enemies with the highest ATK for 14 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 7 ATK down debuff to all enemies for 19 seconds.', '48% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 15 seconds.', 'During Assault Rumble, removes 28% of Special CT to Free Spirit and Driven enemies.'],
+                    ['80% chance to inflict Paralysis to all enemies in a large, radial range for 20 seconds.', '100% chance to inflict Half ATK to 2 enemies with the highest ATK for 15 seconds.', 'When there is 6 or more Cerebral and Free Spirit crew members, inflicts Lv. 7 ATK down debuff to all enemies for 20 seconds.', '50% chance to evade Damage Ignoring DEF to [Straw Hat Pirates] and [Land of Wano Arc] crew members for 15 seconds.', 'During Assault Rumble, removes 30% of Special CT to Free Spirit and Driven enemies.']
+                ]
+            }
+        }
+    },
     4986: {
         festCost: 55,
         festStats: {

@@ -67,11 +67,11 @@ body.dark .sortable:hover {
 }
 
 body:not(.dark) .badge-pill {
-    background: #888888;
+    background: #8888AA;
 }
 
 body.dark .badge-pill {
-    background: #888888;
+    background: #8888AA;
 }
 
 body.dark .tags-look .tagify__dropdown__item {

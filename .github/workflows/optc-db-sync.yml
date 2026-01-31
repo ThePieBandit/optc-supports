@@ -17,7 +17,6 @@ jobs:
         DETAILS_FILE: common/data/details.js
         MATCHERS_FILE: common/data/matchers.js
         UTILS_FILE: common/js/utils.js
-        UNIT_UTILS_FILE: common/js/unitUtils.js
         FESTIVAL_FILE: common/data/festival.js
         RUMBLE_FILE: common/data/rumble.js
         ALIASES_FILE: common/data/aliases.js
