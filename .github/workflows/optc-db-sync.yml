@@ -43,12 +43,13 @@ jobs:
           cp -v optc-db/$ALIASES_FILE optc-supports/$ALIASES_FILE
           cp -v optc-db/$TAGS_FILE optc-supports/$TAGS_FILE
           cp -v optc-db/$UTILS_FILE optc-supports/$UTILS_FILE
-          cp -v optc-db/$UNIT_UTILS_FILE optc-supports/$UNIT_UTILS_FILE
+# cp -v optc-db/$UNIT_UTILS_FILE optc-supports/$UNIT_UTILS_FILE
       - name: Add Files and Commit
         run: |
           cd optc-supports
           git config --global user.email "61213359+ThePieBandit@users.noreply.github.com"
           git config --global user.name "ThePieBandit"
-          git add $UNITS_FILE $DETAILS_FILE $MATCHERS_FILE $FESTIVAL_FILE $RUMBLE_FILE $ALIASES_FILE $TAGS_FILE $UTILS_FILE $UNIT_UTILS_FILE
+          git add $UNITS_FILE $DETAILS_FILE $MATCHERS_FILE $FESTIVAL_FILE $RUMBLE_FILE $ALIASES_FILE $TAGS_FILE $UTILS_FILE
+# $UNIT_UTILS_FILE
           git diff-index --quiet HEAD || git commit -m "Automatic publish syncing the latest from OPTC-DB"
           git push

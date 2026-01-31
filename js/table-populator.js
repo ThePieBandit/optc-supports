@@ -171,10 +171,10 @@ function writeStatTable(elementId, source, maxBoost, limitBoost, limitExBoost, c
         try {
             const unit = source[i];
             let supported = unit.support.Characters;
-            Array.from(supported.matchAll(/\[([A-Z]+)\]/gi)).forEach(match => supported = supported.replace(match[0],'<span class="badge text-monospace badge-pill ' + match[1] + '">' + match[1] + '</span>'));
+            Array.from(supported.matchAll(/\[([A-Z 0-9-]+)\]/gi)).forEach(match => supported = supported.replace(match[0],'<span class="badge text-monospace badge-pill ' + match[1] + '">' + match[1] + '</span>'));
             const newRowContent = $(
             `<tr>
-                <td class="text-nowrap"><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
+                <td class="text-nowrap"><a target="_blank" href="http://2shankz.github.io/optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
                 <td><span class="badge text-monospace ${unit.type}">${unit.type}</span> ${unit.name}</td>
                 <td class="text-nowrap">${unit[maxBoost]} (${Math.round(unit[maxBoost] + (100 * ccMultiplier) * unit.lvl5percentage)})</td>
                 <td class="text-nowrap">${unit[limitBoost]} (${Math.round(unit[limitBoost] + (100 * ccMultiplier) * unit.lvl5percentage)})</td>
@@ -195,12 +195,12 @@ function writeOtherTable(elementId, source) {
         try {
             const unit = source[i];
             let lvl5description = unit.support.description[4];
-            Array.from(lvl5description.matchAll(/\[([A-Z]+)\]/gi)).forEach(match => lvl5description = lvl5description.replace(match[0],'<span class="badge text-monospace badge-pill ' + match[1] + '">' + match[1] + '</span>'));
+            Array.from(lvl5description.matchAll(/\[([A-Z0-9 -]+)\]/gi)).forEach(match => lvl5description = lvl5description.replace(match[0],'<span class="badge text-monospace badge-pill ' + match[1] + '">' + match[1] + '</span>'));
             let supported = unit.support.Characters;
-            Array.from(supported.matchAll(/\[([A-Z]+)\]/gi)).forEach(match => supported = supported.replace(match[0],'<span class="badge text-monospace badge-pill ' + match[1] + '">' + match[1] + '</span>'));
+            Array.from(supported.matchAll(/\[([A-Z0-9 -]+)\]/gi)).forEach(match => supported = supported.replace(match[0],'<span class="badge text-monospace badge-pill ' + match[1] + '">' + match[1] + '</span>'));
             const newRowContent = $(
             `<tr>
-                <td class="text-nowrap"><a target="_blank" href="http://optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
+                <td class="text-nowrap"><a target="_blank" href="http://2shankz.github.io/optc-db.github.io/characters/#/view/${unit.id}">${unit.id}</a></td>
                 <td><span class="badge text-monospace ${unit.type}">${unit.type}</span> ${unit.name}</td>
                 <td>${lvl5description}</td>
                 <td class="">${supported}</td>

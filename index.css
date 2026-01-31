@@ -1,17 +1,17 @@
 
-.STR   { background: salmon; }
-.QCK   { background: lightskyblue; }
-.DEX   { background: lightgreen; }
-.PSY   { background: gold; }
-.INT   { background: orchid; }
-.RCV   { background: darkgoldenrod; }
-.TND   { background: peru; }
+.STR   { background: salmon !important; }
+.QCK   { background: lightskyblue !important; }
+.DEX   { background: lightgreen !important; }
+.PSY   { background: gold !important; }
+.INT   { background: orchid !important; }
+.RCV   { background: darkgoldenrod !important; }
+.TND   { background: peru !important; }
 .BLOCK { background: darkslateblue; color: #fff !important; }
 .BOMB  { background: maroon; color: #fff !important; }
-.WANO  { background: firebrick; }
-.SEMLA  { background: saddlebrown; }
-.RAINBOW { background: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6); }
-.G     { background: orange; }
+.WANO  { background: firebrick !important; }
+.SEMLA  { background: saddlebrown !important; }
+.RAINBOW { background: linear-gradient(90deg,#fa8072,#ffd700,#90ee90,#87cefa, #da70d6) !important; }
+.G     { background: orange !important; }
 .EMPTY { background: #777; color: #fff !important; }
 
 body.dark {
@@ -64,6 +64,14 @@ body.dark .nav-link.active {
 
 body.dark .sortable:hover {
     background-color: #17191b;
+}
+
+body:not(.dark) .badge-pill {
+    background: #888888;
+}
+
+body.dark .badge-pill {
+    background: #888888;
 }
 
 body.dark .tags-look .tagify__dropdown__item {
