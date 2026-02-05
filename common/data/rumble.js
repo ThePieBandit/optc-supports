@@ -114277,6 +114277,45 @@ window.rumble = {
             }
         }
     },
+    4511: {
+        festCost: 20,
+        festStats: {
+            def: 121,
+            spd: 172,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Medium Range Heal</i>', 'Normal Attack', '<i>Level 2 Medium Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Special Bind.', '20% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 HP and RCV up buff to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 1 ATK and SPD up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members.', 'The first 6 times this character takes damage, heals 1x RCV of HP to Cerebral, Fighter and Sanji crew members.', 'For the first 30 seconds, applies Lv. 1 DEF up buff to self.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 HP and RCV up buff to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 2 ATK and SPD up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members.', 'The first 6 times this character takes damage, heals 1.1x RCV of HP to Cerebral, Fighter and Sanji crew members.', 'For the first 30 seconds, applies Lv. 1 DEF up buff to self.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 HP and RCV up buff to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 3 ATK and SPD up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members.', 'The first 6 times this character takes damage, heals 1.2x RCV of HP to Cerebral, Fighter and Sanji crew members.', 'For the first 30 seconds, applies Lv. 2 DEF up buff to self.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 4 HP and RCV up buff to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 4 ATK and SPD up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members.', 'The first 6 times this character takes damage, heals 1.3x RCV of HP to Cerebral, Fighter and Sanji crew members.', 'For the first 30 seconds, applies Lv. 2 DEF up buff to self.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 5 HP and RCV up buff to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 5 ATK and SPD up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members.', 'The first 6 times this character takes damage, heals 1.5x RCV of HP to Cerebral, Fighter and Sanji crew members.', 'For the first 30 seconds, applies Lv. 3 DEF up buff to self.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 6% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 2 ATK up buff to Sanji crew member for 11 seconds.', 'Applies Lv. 1 SPD up buff to Sanji crew member for 11 seconds.', 'Reduces 11% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 2 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 11 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 11 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 7% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 2 ATK up buff to Sanji crew member for 12 seconds.', 'Applies Lv. 1 SPD up buff to Sanji crew member for 12 seconds.', 'Reduces 12% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 2 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 12 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 12 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 8% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 2 ATK up buff to Sanji crew member for 13 seconds.', 'Applies Lv. 2 SPD up buff to Sanji crew member for 13 seconds.', 'Reduces 13% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 2 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 13 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 13 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 9% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 3 ATK up buff to Sanji crew member for 14 seconds.', 'Applies Lv. 2 SPD up buff to Sanji crew member for 14 seconds.', 'Reduces 14% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 3 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 14 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 14 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 10% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 3 ATK up buff to Sanji crew member for 15 seconds.', 'Applies Lv. 3 SPD up buff to Sanji crew member for 15 seconds.', 'Reduces 15% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 3 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 15 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 15 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 11% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 3 ATK up buff to Sanji crew member for 16 seconds.', 'Applies Lv. 3 SPD up buff to Sanji crew member for 16 seconds.', 'Reduces 16% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 4 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 16 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 16 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 12% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 4 ATK up buff to Sanji crew member for 17 seconds.', 'Applies Lv. 4 SPD up buff to Sanji crew member for 17 seconds.', 'Reduces 17% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 4 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 17 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 17 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 13% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 4 ATK up buff to Sanji crew member for 18 seconds.', 'Applies Lv. 4 SPD up buff to Sanji crew member for 18 seconds.', 'Reduces 18% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 4 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 18 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 18 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 14% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 4 ATK up buff to Sanji crew member for 19 seconds.', 'Applies Lv. 5 SPD up buff to Sanji crew member for 19 seconds.', 'Reduces 19% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 5 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 19 seconds.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to Free Spirit and Shooter enemies for 19 seconds.'],
+                    ['Heals 2x RCV of HP to all crew members in a large, radial range.', 'Heals 15% of HP to Cerebral, Fighter and Sanji crew members.', 'Applies Lv. 5 ATK up buff to Sanji crew member for 20 seconds.', 'Applies Lv. 5 SPD up buff to Sanji crew member for 20 seconds.', 'Reduces 20% of Special CT to Sanji crew member.', 'During Assault Rumble, applies Lv. 6 ATK up buff to [Straw Hat Pirates], [Royalty] and [Zoan-type] crew members for 20 seconds.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to Free Spirit and Shooter enemies for 20 seconds.']
+                ]
+            }
+        }
+    },
     4512: {
         festCost: 20,
         festStats: {
@@ -114393,6 +114432,65 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4515: {
+        festCost: 55,
+        festStats: {
+            def: 153,
+            spd: 160,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and ATK up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 1 DEF up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Reduces 6% of Special CT to [Straw Hat Pirates], [Royalty] and [Dressrosa Arc] crew members upon appearance.'],
+                ['Applies Lv. 3 HP and ATK up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 1 DEF up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Reduces 7% of Special CT to [Straw Hat Pirates], [Royalty] and [Dressrosa Arc] crew members upon appearance.'],
+                ['Applies Lv. 4 HP and ATK up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 2 DEF up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Reduces 8% of Special CT to [Straw Hat Pirates], [Royalty] and [Dressrosa Arc] crew members upon appearance.'],
+                ['Applies Lv. 5 HP and ATK up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 2 DEF up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Reduces 9% of Special CT to [Straw Hat Pirates], [Royalty] and [Dressrosa Arc] crew members upon appearance.'],
+                ['Applies Lv. 6 HP and ATK up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 3 DEF up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Reduces 10% of Special CT to [Straw Hat Pirates], [Royalty] and [Dressrosa Arc] crew members upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 20,
+                descriptions: [
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 11 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 11% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 1% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 12 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 12% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 2% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 4 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 13 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 13% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 3% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 4 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 14 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 14% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 4% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 5 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 15% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 5% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 5 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 16 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 16% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 6% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 6 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 17 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 17% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 7% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 6 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 18 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 18% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 8% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 7 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 19 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 19% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 9% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.'],
+                    ['Applies Lv. 7 ATK, SPD and DEF up buff to [QCK] and Free Spirit crew members for 20 seconds.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 20% of Special CT to [QCK] and Free Spirit crew members, excluding self.', 'When there is 4 or more [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, reduces 10% of Special CT to [Straw Hat Pirates], [Dressrosa Arc] and [Royalty] crew members, excluding self.']
+                ]
+            }
+        }
+    },
+    4516: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4517: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     4986: {
         festCost: 55,
