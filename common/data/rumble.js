@@ -102637,11 +102637,11 @@ window.rumble = {
                 uses: 2,
                 condition: "After 6 crew members are defeated",
                 descriptions: [
-                    ['Deals 6,000 fixed damage to all enemies.', 'Deals 4,000 fixed damage to Driven and Shooter  enemies.'],
-                    ['Deals 6,500 fixed damage to all enemies.', 'Deals 4,500 fixed damage to Driven and Shooter  enemies.'],
-                    ['Deals 7,000 fixed damage to all enemies.', 'Deals 5,000 fixed damage to Driven and Shooter  enemies.'],
-                    ['Deals 7,500 fixed damage to all enemies.', 'Deals 5,500 fixed damage to Driven and Shooter  enemies.'],
-                    ['Deals 8,000 fixed damage to all enemies.', 'Deals 6,000 fixed damage to Driven and Shooter  enemies.']
+                    ['Deals 6,000 fixed damage to all enemies.', 'Deals 4,000 fixed damage to Driven and Shooter enemies.'],
+                    ['Deals 6,500 fixed damage to all enemies.', 'Deals 4,500 fixed damage to Driven and Shooter enemies.'],
+                    ['Deals 7,000 fixed damage to all enemies.', 'Deals 5,000 fixed damage to Driven and Shooter enemies.'],
+                    ['Deals 7,500 fixed damage to all enemies.', 'Deals 5,500 fixed damage to Driven and Shooter enemies.'],
+                    ['Deals 8,000 fixed damage to all enemies.', 'Deals 6,000 fixed damage to Driven and Shooter enemies.']
                 ]
             }
         }
@@ -102698,11 +102698,11 @@ window.rumble = {
                 uses: 2,
                 condition: "After 6 crew members are defeated",
                 descriptions: [
-                    ['Deals 6,000 fixed damage to all enemies.', 'Deals 4,000 fixed damage to Driven and Shooter  enemies.'],
-                    ['Deals 6,500 fixed damage to all enemies.', 'Deals 4,500 fixed damage to Driven and Shooter  enemies.'],
-                    ['Deals 7,000 fixed damage to all enemies.', 'Deals 5,000 fixed damage to Driven and Shooter  enemies.'],
-                    ['Deals 7,500 fixed damage to all enemies.', 'Deals 5,500 fixed damage to Driven and Shooter  enemies.'],
-                    ['Deals 8,000 fixed damage to all enemies.', 'Deals 6,000 fixed damage to Driven and Shooter  enemies.']
+                    ['Deals 6,000 fixed damage to all enemies.', 'Deals 4,000 fixed damage to Driven and Shooter enemies.'],
+                    ['Deals 6,500 fixed damage to all enemies.', 'Deals 4,500 fixed damage to Driven and Shooter enemies.'],
+                    ['Deals 7,000 fixed damage to all enemies.', 'Deals 5,000 fixed damage to Driven and Shooter enemies.'],
+                    ['Deals 7,500 fixed damage to all enemies.', 'Deals 5,500 fixed damage to Driven and Shooter enemies.'],
+                    ['Deals 8,000 fixed damage to all enemies.', 'Deals 6,000 fixed damage to Driven and Shooter enemies.']
                 ]
             }
         }
@@ -102913,16 +102913,16 @@ window.rumble = {
             base: {
                 cooldown: 30,
                 descriptions: [
-                    ['Inflicts Lv. 2 ATK and DEF down debuff to all enemies in a large, radial range for 21 seconds.', 'Deals 1.3x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 3 ATK and SPD down debuff to 3 enemies with the highest Special CT for 21 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 1 DEF down debuff to 3 enemies with the highest Special CT for 21 seconds.'],
-                    ['Inflicts Lv. 2 ATK and DEF down debuff to all enemies in a large, radial range for 22 seconds.', 'Deals 1.4x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 3 ATK and SPD down debuff to 3 enemies with the highest Special CT for 22 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 1 DEF down debuff to 3 enemies with the highest Special CT for 22 seconds.'],
-                    ['Inflicts Lv. 2 ATK and DEF down debuff to all enemies in a large, radial range for 23 seconds.', 'Deals 1.5x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 3 ATK and SPD down debuff to 3 enemies with the highest Special CT for 23 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 1 DEF down debuff to 3 enemies with the highest Special CT for 23 seconds.'],
-                    ['Inflicts Lv. 3 ATK and DEF down debuff to all enemies in a large, radial range for 24 seconds.', 'Deals 1.6x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 4 ATK and SPD down debuff to 3 enemies with the highest Special CT for 24 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 2 DEF down debuff to 3 enemies with the highest Special CT for 24 seconds.'],
-                    ['Inflicts Lv. 3 ATK and DEF down debuff to all enemies in a large, radial range for 25 seconds.', 'Deals 1.7x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 4 ATK and SPD down debuff to 3 enemies with the highest Special CT for 25 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 2 DEF down debuff to 3 enemies with the highest Special CT for 25 seconds.'],
-                    ['Inflicts Lv. 4 ATK and DEF down debuff to all enemies in a large, radial range for 26 seconds.', 'Deals 1.8x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 5 ATK and SPD down debuff to 3 enemies with the highest Special CT for 26 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest Special CT for 26 seconds.'],
-                    ['Inflicts Lv. 4 ATK and DEF down debuff to all enemies in a large, radial range for 27 seconds.', 'Deals 1.9x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 5 ATK and SPD down debuff to 3 enemies with the highest Special CT for 27 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest Special CT for 27 seconds.'],
-                    ['Inflicts Lv. 4 ATK and DEF down debuff to all enemies in a large, radial range for 28 seconds.', 'Deals 2x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 5 ATK and SPD down debuff to 3 enemies with the highest Special CT for 28 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest Special CT for 28 seconds.'],
-                    ['Inflicts Lv. 5 ATK and DEF down debuff to all enemies in a large, radial range for 29 seconds.', 'Deals 2.1x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 6 ATK and SPD down debuff to 3 enemies with the highest Special CT for 29 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 4 DEF down debuff to 3 enemies with the highest Special CT for 29 seconds.'],
-                    ['Inflicts Lv. 6 ATK and DEF down debuff to all enemies in a large, radial range for 30 seconds.', 'Deals 2.2x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 7 ATK and SPD down debuff to 3 enemies with the highest Special CT for 30 seconds.', 'When there is 5 or More Free Spirit and Shooter  crew members, inflicts Lv. 5 DEF down debuff to 3 enemies with the highest Special CT for 30 seconds.']
+                    ['Inflicts Lv. 2 ATK and DEF down debuff to all enemies in a large, radial range for 21 seconds.', 'Deals 1.3x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 3 ATK and SPD down debuff to 3 enemies with the highest Special CT for 21 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 1 DEF down debuff to 3 enemies with the highest Special CT for 21 seconds.'],
+                    ['Inflicts Lv. 2 ATK and DEF down debuff to all enemies in a large, radial range for 22 seconds.', 'Deals 1.4x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 3 ATK and SPD down debuff to 3 enemies with the highest Special CT for 22 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 1 DEF down debuff to 3 enemies with the highest Special CT for 22 seconds.'],
+                    ['Inflicts Lv. 2 ATK and DEF down debuff to all enemies in a large, radial range for 23 seconds.', 'Deals 1.5x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 3 ATK and SPD down debuff to 3 enemies with the highest Special CT for 23 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 1 DEF down debuff to 3 enemies with the highest Special CT for 23 seconds.'],
+                    ['Inflicts Lv. 3 ATK and DEF down debuff to all enemies in a large, radial range for 24 seconds.', 'Deals 1.6x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 4 ATK and SPD down debuff to 3 enemies with the highest Special CT for 24 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 2 DEF down debuff to 3 enemies with the highest Special CT for 24 seconds.'],
+                    ['Inflicts Lv. 3 ATK and DEF down debuff to all enemies in a large, radial range for 25 seconds.', 'Deals 1.7x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 4 ATK and SPD down debuff to 3 enemies with the highest Special CT for 25 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 2 DEF down debuff to 3 enemies with the highest Special CT for 25 seconds.'],
+                    ['Inflicts Lv. 4 ATK and DEF down debuff to all enemies in a large, radial range for 26 seconds.', 'Deals 1.8x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 5 ATK and SPD down debuff to 3 enemies with the highest Special CT for 26 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest Special CT for 26 seconds.'],
+                    ['Inflicts Lv. 4 ATK and DEF down debuff to all enemies in a large, radial range for 27 seconds.', 'Deals 1.9x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 5 ATK and SPD down debuff to 3 enemies with the highest Special CT for 27 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest Special CT for 27 seconds.'],
+                    ['Inflicts Lv. 4 ATK and DEF down debuff to all enemies in a large, radial range for 28 seconds.', 'Deals 2x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 5 ATK and SPD down debuff to 3 enemies with the highest Special CT for 28 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest Special CT for 28 seconds.'],
+                    ['Inflicts Lv. 5 ATK and DEF down debuff to all enemies in a large, radial range for 29 seconds.', 'Deals 2.1x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 6 ATK and SPD down debuff to 3 enemies with the highest Special CT for 29 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 4 DEF down debuff to 3 enemies with the highest Special CT for 29 seconds.'],
+                    ['Inflicts Lv. 6 ATK and DEF down debuff to all enemies in a large, radial range for 30 seconds.', 'Deals 2.2x ATK in damage to all enemies in a large, radial range.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 7 ATK and SPD down debuff to 3 enemies with the highest Special CT for 30 seconds.', 'When there is 5 or More Free Spirit and Shooter crew members, inflicts Lv. 5 DEF down debuff to 3 enemies with the highest Special CT for 30 seconds.']
                 ]
             }
         }
@@ -114621,6 +114621,270 @@ window.rumble = {
                     ['Deals 750 fixed damage to all enemies.'],
                     ['Deals 875 fixed damage to all enemies.'],
                     ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
+    4521: {
+        festCost: 55,
+        festStats: {
+            def: 180,
+            spd: 185,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Confusion.', '30% damage reduction from Shooter enemies.', '30% damage reduction from Cerebral enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 1 DEF up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 1 Guard up buff to Fighter, Powerhouse and [Navy] crew members.', 'When there is 6 or more Fighter and Powerhouse crew members or when there is 5 or more [Navy] crew members, on death launches rumble special 1 time.', 'Reduces 12% of Special CT to [SWORD] crew members, excluding self, upon appearance.'],
+                ['Applies Lv. 3 HP and SPD up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 1 DEF up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 2 Guard up buff to Fighter, Powerhouse and [Navy] crew members.', 'When there is 6 or more Fighter and Powerhouse crew members or when there is 5 or more [Navy] crew members, on death launches rumble special 1 time.', 'Reduces 14% of Special CT to [SWORD] crew members, excluding self, upon appearance.'],
+                ['Applies Lv. 4 HP and SPD up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 2 DEF up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 3 Guard up buff to Fighter, Powerhouse and [Navy] crew members.', 'When there is 6 or more Fighter and Powerhouse crew members or when there is 5 or more [Navy] crew members, on death launches rumble special 1 time.', 'Reduces 16% of Special CT to [SWORD] crew members, excluding self, upon appearance.'],
+                ['Applies Lv. 5 HP and SPD up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 2 DEF up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 4 Guard up buff to Fighter, Powerhouse and [Navy] crew members.', 'When there is 6 or more Fighter and Powerhouse crew members or when there is 5 or more [Navy] crew members, on death launches rumble special 1 time.', 'Reduces 18% of Special CT to [SWORD] crew members, excluding self, upon appearance.'],
+                ['Applies Lv. 6 HP and SPD up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 4 DEF up buff to Fighter, Powerhouse and [Navy] crew members.', 'Applies Lv. 5 Guard up buff to Fighter, Powerhouse and [Navy] crew members.', 'When there is 6 or more Fighter and Powerhouse crew members or when there is 5 or more [Navy] crew members, on death launches rumble special 1 time.', 'Reduces 20% of Special CT to [SWORD] crew members, excluding self, upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 31,
+                descriptions: [
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 2 ATK and DEF up buff to self for 11 seconds.', 'When there is 2 or more [SWORD] crew members, 73% chance to cleanse ATK down debuffs to all crew members.', 'Deals 10,500 fixed spread damage to all enemies in a large, sideways range.', 'Deals 10.5x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 2 ATK and DEF up buff to self for 12 seconds.', 'When there is 2 or more [SWORD] crew members, 76% chance to cleanse ATK down debuffs to all crew members.', 'Deals 11,000 fixed spread damage to all enemies in a large, sideways range.', 'Deals 11x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 3 ATK and DEF up buff to self for 13 seconds.', 'When there is 2 or more [SWORD] crew members, 79% chance to cleanse ATK down debuffs to all crew members.', 'Deals 11,500 fixed spread damage to all enemies in a large, sideways range.', 'Deals 11.5x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 3 ATK and DEF up buff to self for 14 seconds.', 'When there is 2 or more [SWORD] crew members, 82% chance to cleanse ATK down debuffs to all crew members.', 'Deals 12,000 fixed spread damage to all enemies in a large, sideways range.', 'Deals 12x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 4 ATK and DEF up buff to self for 15 seconds.', 'When there is 2 or more [SWORD] crew members, 85% chance to cleanse ATK down debuffs to all crew members.', 'Deals 12,500 fixed spread damage to all enemies in a large, sideways range.', 'Deals 12.5x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 4 ATK and DEF up buff to self for 16 seconds.', 'When there is 2 or more [SWORD] crew members, 88% chance to cleanse ATK down debuffs to all crew members.', 'Deals 13,000 fixed spread damage to all enemies in a large, sideways range.', 'Deals 13x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 5 ATK and DEF up buff to self for 17 seconds.', 'When there is 2 or more [SWORD] crew members, 91% chance to cleanse ATK down debuffs to all crew members.', 'Deals 13,500 fixed spread damage to all enemies in a large, sideways range.', 'Deals 13.5x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 5 ATK and DEF up buff to self for 18 seconds.', 'When there is 2 or more [SWORD] crew members, 94% chance to cleanse ATK down debuffs to all crew members.', 'Deals 14,000 fixed spread damage to all enemies in a large, sideways range.', 'Deals 14x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 6 ATK and DEF up buff to self for 19 seconds.', 'When there is 2 or more [SWORD] crew members, 97% chance to cleanse ATK down debuffs to all crew members.', 'Deals 14,500 fixed spread damage to all enemies in a large, sideways range.', 'Deals 14.5x ATK in spread damage to all enemies in a large, radial range.'],
+                    ['When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, applies Lv. 6 ATK and DEF up buff to self for 20 seconds.', 'When there is 2 or more [SWORD] crew members, 100% chance to cleanse ATK down debuffs to all crew members.', 'Deals 15,000 fixed spread damage to all enemies in a large, sideways range.', 'Deals 15x ATK in spread damage to all enemies in a large, radial range.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives crew members' Rumble Specials 4 times",
+                description: ['Applies Lv. 7 ATK and DEF up buff to Fighter, Powerhouse and [Navy] crew members for 30 seconds.', 'When there is 2 or more [SWORD] crew members, 100% chance to cleanse ATK down debuffs to all crew members.', 'Deals 20,000 fixed spread damage to all enemies in a large, sideways range.', 'Deals 20x ATK in spread damage to all enemies in a large, radial range.', '50% chance to evade Special CT Delay to [Navy] and [SWORD] crew members for 20 seconds.']
+            },
+            llbbase: {
+                condition: "After this character receives crew members' Rumble Specials 3 times",
+                description: ['Applies Lv. 8 ATK and DEF up buff to Fighter, Powerhouse and [Navy] crew members for 40 seconds.', 'When there is 2 or more [SWORD] crew members, 100% chance to cleanse ATK down debuffs to all crew members.', 'Deals 25,000 fixed spread damage to all enemies in a large, sideways range.', 'Deals 25x ATK in spread damage to all enemies in a large, radial range.', '100% chance to evade Special CT Delay to [Navy] and [SWORD] crew members for 30 seconds.']
+            }
+        }
+    },
+    4522: {
+        festCost: 55,
+        festStats: {
+            def: 237,
+            spd: 166,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Half Stats.', '30% damage reduction from Striker enemies.', '30% damage reduction from Powerhouse enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 DEF up buff to Driven and [Blackbeard Pirates] crew members.', 'Inflicts Lv. 3 HP down debuff to all enemies.', 'When there is 5 or more Driven crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 4 ATK up buff to self.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 3 DEF down debuff to all enemies.'],
+                ['Applies Lv. 3 DEF up buff to Driven and [Blackbeard Pirates] crew members.', 'Inflicts Lv. 4 HP down debuff to all enemies.', 'When there is 5 or more Driven crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 5 ATK up buff to self.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 4 DEF down debuff to all enemies.'],
+                ['Applies Lv. 4 DEF up buff to Driven and [Blackbeard Pirates] crew members.', 'Inflicts Lv. 5 HP down debuff to all enemies.', 'When there is 5 or more Driven crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 6 ATK up buff to self.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 5 DEF down debuff to all enemies.'],
+                ['Applies Lv. 5 DEF up buff to Driven and [Blackbeard Pirates] crew members.', 'Inflicts Lv. 6 HP down debuff to all enemies.', 'When there is 5 or more Driven crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 7 ATK up buff to self.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 6 DEF down debuff to all enemies.'],
+                ['Applies Lv. 6 DEF up buff to Driven and [Blackbeard Pirates] crew members.', 'Inflicts Lv. 7 HP down debuff to all enemies.', 'When there is 5 or more Driven crew members, inflicts Lv. 3 Special CT down debuff to all enemies.', 'When there is 4 or more [Blackbeard Pirates] crew members, applies Lv. 8 ATK up buff to self.', 'When there is 4 or more [Blackbeard Pirates] crew members, inflicts Lv. 7 DEF down debuff to all enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['73% chance to inflict RCV Bind to 3 enemies for 11 seconds.', 'Inflicts Lv. 4 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 11 seconds.', '73% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '11% Special CT Delay to all enemies with Shield.', 'Deals 3,300 fixed damage to all enemies with Shield.', 'Deals 3.2x ATK in spread damage to all enemies with Confusion.', 'Deals 2.1x ATK in damage to all enemies in a large, radial range.'],
+                    ['76% chance to inflict RCV Bind to 3 enemies for 12 seconds.', 'Inflicts Lv. 4 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 12 seconds.', '76% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '12% Special CT Delay to all enemies with Shield.', 'Deals 3,600 fixed damage to all enemies with Shield.', 'Deals 3.4x ATK in spread damage to all enemies with Confusion.', 'Deals 2.2x ATK in damage to all enemies in a large, radial range.'],
+                    ['79% chance to inflict RCV Bind to 3 enemies for 13 seconds.', 'Inflicts Lv. 5 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 13 seconds.', '79% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '13% Special CT Delay to all enemies with Shield.', 'Deals 3,900 fixed damage to all enemies with Shield.', 'Deals 3.6x ATK in spread damage to all enemies with Confusion.', 'Deals 2.3x ATK in damage to all enemies in a large, radial range.'],
+                    ['82% chance to inflict RCV Bind to 3 enemies for 14 seconds.', 'Inflicts Lv. 5 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 14 seconds.', '82% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '14% Special CT Delay to all enemies with Shield.', 'Deals 4,200 fixed damage to all enemies with Shield.', 'Deals 3.8x ATK in spread damage to all enemies with Confusion.', 'Deals 2.4x ATK in damage to all enemies in a large, radial range.'],
+                    ['85% chance to inflict RCV Bind to 3 enemies for 15 seconds.', 'Inflicts Lv. 6 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 15 seconds.', '85% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '15% Special CT Delay to all enemies with Shield.', 'Deals 4,500 fixed damage to all enemies with Shield.', 'Deals 4x ATK in spread damage to all enemies with Confusion.', 'Deals 2.5x ATK in damage to all enemies in a large, radial range.'],
+                    ['88% chance to inflict RCV Bind to 3 enemies for 16 seconds.', 'Inflicts Lv. 6 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 16 seconds.', '88% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '16% Special CT Delay to all enemies with Shield.', 'Deals 4,800 fixed damage to all enemies with Shield.', 'Deals 4.2x ATK in spread damage to all enemies with Confusion.', 'Deals 2.6x ATK in damage to all enemies in a large, radial range.'],
+                    ['91% chance to inflict RCV Bind to 3 enemies for 17 seconds.', 'Inflicts Lv. 7 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 17 seconds.', '91% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '17% Special CT Delay to all enemies with Shield.', 'Deals 5,100 fixed damage to all enemies with Shield.', 'Deals 4.4x ATK in spread damage to all enemies with Confusion.', 'Deals 2.7x ATK in damage to all enemies in a large, radial range.'],
+                    ['94% chance to inflict RCV Bind to 3 enemies for 18 seconds.', 'Inflicts Lv. 7 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 18 seconds.', '94% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '18% Special CT Delay to all enemies with Shield.', 'Deals 5,400 fixed damage to all enemies with Shield.', 'Deals 4.6x ATK in spread damage to all enemies with Confusion.', 'Deals 2.8x ATK in damage to all enemies in a large, radial range.'],
+                    ['97% chance to inflict RCV Bind to 3 enemies for 19 seconds.', 'Inflicts Lv. 8 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 19 seconds.', '97% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '19% Special CT Delay to all enemies with Shield.', 'Deals 5,700 fixed damage to all enemies with Shield.', 'Deals 4.8x ATK in spread damage to all enemies with Confusion.', 'Deals 2.9x ATK in damage to all enemies in a large, radial range.'],
+                    ['100% chance to inflict RCV Bind to 3 enemies for 20 seconds.', 'Inflicts Lv. 8 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 20 seconds.', '100% chance to inflict Action Bind to all enemies with Special Bind for 10 seconds.', '20% Special CT Delay to all enemies with Shield.', 'Deals 6,000 fixed damage to all enemies with Shield.', 'Deals 5x ATK in spread damage to all enemies with Confusion.', 'Deals 3x ATK in damage to all enemies in a large, radial range.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives damage 5 times",
+                description: ['100% chance to inflict RCV Bind to 4 enemies for 25 seconds.', 'Inflicts Lv. 9 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 25 seconds.', '100% chance to inflict Paralysis to all enemies with RCV Bind for 25 seconds.', '100% chance to inflict Action Bind to all enemies with Special Bind for 15 seconds.', '30% Special CT Delay to all enemies with Shield.', 'Deals 6,000 fixed damage to all enemies with Shield.', 'Deals 6x ATK in spread damage to all enemies with Confusion.', 'Deals 3.5x ATK in damage to all enemies in a large, radial range.']
+            },
+            llbbase: {
+                condition: "After this character receives damage 3 times",
+                description: ['100% chance to inflict RCV Bind to all enemies for 30 seconds.', 'Inflicts Lv. 10 ATK, SPD and DEF down debuff to all enemies with RCV Bind for 30 seconds.', '100% chance to inflict Paralysis to all enemies with RCV Bind for 30 seconds.', '100% chance to inflict Action Bind to all enemies with Special Bind for 20 seconds.', '40% Special CT Delay to all enemies with Shield.', 'Deals 6,000 fixed damage to all enemies with Shield.', 'Deals 7x ATK in spread damage to all enemies with Confusion.', 'Deals 4x ATK in damage to all enemies in a large, radial range.', 'Deals 10x ATK in spread damage to all enemies with Paralysis.']
+            }
+        }
+    },
+    4523: {
+        festCost: 55,
+        festStats: {
+            def: 146,
+            spd: 149,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Confusion.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 HP up buff to [DEX], Fighter and [Navy] crew members.', 'Inflicts Lv. 1 HP down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 1 DEF down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'When there is 3 or more [SWORD] crew members, 22% Special CT Delay to all enemies upon appearance.'],
+                ['Applies Lv. 4 HP up buff to [DEX], Fighter and [Navy] crew members.', 'Inflicts Lv. 2 HP down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 2 DEF down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'When there is 3 or more [SWORD] crew members, 24% Special CT Delay to all enemies upon appearance.'],
+                ['Applies Lv. 5 HP up buff to [DEX], Fighter and [Navy] crew members.', 'Inflicts Lv. 3 HP down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 3 DEF down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'When there is 3 or more [SWORD] crew members, 26% Special CT Delay to all enemies upon appearance.'],
+                ['Applies Lv. 6 HP up buff to [DEX], Fighter and [Navy] crew members.', 'Inflicts Lv. 4 HP down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 4 DEF down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'When there is 3 or more [SWORD] crew members, 28% Special CT Delay to all enemies upon appearance.'],
+                ['Applies Lv. 7 HP up buff to [DEX], Fighter and [Navy] crew members.', 'Inflicts Lv. 5 HP down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 4 DEF down debuff to all enemies.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'When there is 3 or more [SWORD] crew members, 30% Special CT Delay to all enemies upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Applies Lv. 2 ATK up buff to [Navy] crew members for 11 seconds.', '73% chance to inflict Half ATK to 2 enemies with the highest ATK for 11 seconds.', '73% chance to inflict Half DEF to 2 enemies with the highest DEF for 11 seconds.', '73% chance to inflict Half SPD to 2 enemies with the highest SPD for 11 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 53% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 21% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 1,000 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 2 ATK up buff to [Navy] crew members for 12 seconds.', '76% chance to inflict Half ATK to 2 enemies with the highest ATK for 12 seconds.', '76% chance to inflict Half DEF to 2 enemies with the highest DEF for 12 seconds.', '76% chance to inflict Half SPD to 2 enemies with the highest SPD for 12 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 56% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 22% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 1,200 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 3 ATK up buff to [Navy] crew members for 13 seconds.', '79% chance to inflict Half ATK to 2 enemies with the highest ATK for 13 seconds.', '79% chance to inflict Half DEF to 2 enemies with the highest DEF for 13 seconds.', '79% chance to inflict Half SPD to 2 enemies with the highest SPD for 13 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 59% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 23% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 1,400 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 3 ATK up buff to [Navy] crew members for 14 seconds.', '82% chance to inflict Half ATK to 2 enemies with the highest ATK for 14 seconds.', '82% chance to inflict Half DEF to 2 enemies with the highest DEF for 14 seconds.', '82% chance to inflict Half SPD to 2 enemies with the highest SPD for 14 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 62% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 24% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 1,600 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 4 ATK up buff to [Navy] crew members for 15 seconds.', '85% chance to inflict Half ATK to 2 enemies with the highest ATK for 15 seconds.', '85% chance to inflict Half DEF to 2 enemies with the highest DEF for 15 seconds.', '85% chance to inflict Half SPD to 2 enemies with the highest SPD for 15 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 65% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 25% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 1,800 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 4 ATK up buff to [Navy] crew members for 16 seconds.', '88% chance to inflict Half ATK to 2 enemies with the highest ATK for 16 seconds.', '88% chance to inflict Half DEF to 2 enemies with the highest DEF for 16 seconds.', '88% chance to inflict Half SPD to 2 enemies with the highest SPD for 16 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 68% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 26% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 2,000 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 5 ATK up buff to [Navy] crew members for 17 seconds.', '91% chance to inflict Half ATK to 2 enemies with the highest ATK for 17 seconds.', '91% chance to inflict Half DEF to 2 enemies with the highest DEF for 17 seconds.', '91% chance to inflict Half SPD to 2 enemies with the highest SPD for 17 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 71% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 27% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 2,200 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 5 ATK up buff to [Navy] crew members for 18 seconds.', '94% chance to inflict Half ATK to 2 enemies with the highest ATK for 18 seconds.', '94% chance to inflict Half DEF to 2 enemies with the highest DEF for 18 seconds.', '94% chance to inflict Half SPD to 2 enemies with the highest SPD for 18 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 74% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 28% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 2,400 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 6 ATK up buff to [Navy] crew members for 19 seconds.', '97% chance to inflict Half ATK to 2 enemies with the highest ATK for 19 seconds.', '97% chance to inflict Half DEF to 2 enemies with the highest DEF for 19 seconds.', '97% chance to inflict Half SPD to 2 enemies with the highest SPD for 19 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 77% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 29% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 2,600 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 6 ATK up buff to [Navy] crew members for 20 seconds.', '100% chance to inflict Half ATK to 2 enemies with the highest ATK for 20 seconds.', '100% chance to inflict Half DEF to 2 enemies with the highest DEF for 20 seconds.', '100% chance to inflict Half SPD to 2 enemies with the highest SPD for 20 seconds.', 'When there is 5 or more Fighter crew members or when there is 5 or more [Navy] crew members, 80% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 30% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 3,000 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives crew members' Rumble Specials 3 times",
+                description: ['Applies Lv. 8 ATK up buff to [DEX], Fighter and [Navy] crew members for 25 seconds.', '100% chance to inflict Half ATK to 3 enemies with the highest ATK for 25 seconds.', '100% chance to inflict Half DEF to 3 enemies with the highest DEF for 25 seconds.', '100% chance to inflict Half SPD to 3 enemies with the highest SPD for 25 seconds.', '100% chance to inflict Confusion to Shooter enemies for 10 seconds.', 'During Assault Rumble, reduces 40% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 4,000 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.']
+            },
+            llbbase: {
+                condition: "After this character receives crew members' Rumble Specials 2 times",
+                description: ['Applies Lv. 10 ATK up buff to all crew members for 30 seconds.', '100% chance to inflict Half ATK to 3 enemies with the highest ATK for 30 seconds.', '100% chance to inflict Half DEF to 3 enemies with the highest DEF for 30 seconds.', '100% chance to inflict Half SPD to 3 enemies with the highest SPD for 30 seconds.', '100% chance to inflict Confusion to Shooter enemies for 15 seconds.', 'During Assault Rumble, reduces 50% of Special CT to self.', 'When there is 3 or more [SWORD] crew members, deals 5,000 fixed damage to all enemies.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.']
+            }
+        }
+    },
+    4524: {
+        festCost: 20,
+        festStats: {
+            def: 225,
+            spd: 125,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '20% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP up buff to [DEX], Fighter and [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 ATK up buff to [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 DEF up buff to [Navy] crew members.', 'Heals 22% of HP to [Navy] crew members upon appearance.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 3 HP up buff to [DEX], Fighter and [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 ATK up buff to [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 DEF up buff to [Navy] crew members.', 'Heals 24% of HP to [Navy] crew members upon appearance.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 4 HP up buff to [DEX], Fighter and [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 ATK up buff to [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 DEF up buff to [Navy] crew members.', 'Heals 26% of HP to [Navy] crew members upon appearance.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 5 HP up buff to [DEX], Fighter and [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 ATK up buff to [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 DEF up buff to [Navy] crew members.', 'Heals 28% of HP to [Navy] crew members upon appearance.', 'During Assault Rumble, applies Lv. 9 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 6 HP up buff to [DEX], Fighter and [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 2 ATK up buff to [Navy] crew members.', 'The first 5 times this character takes damage, applies Lv. 1 DEF up buff to [Navy] crew members.', 'Heals 30% of HP to [Navy] crew members upon appearance.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 31,
+                descriptions: [
+                    ['Applies Lv. 1 DEF up buff to [DEX] and Fighter crew members for 11 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] crew members for 11 seconds.', 'Grant 1x Counter to [Navy] crew members for 11 seconds.', 'Provoke enemies to self for 11 seconds.', 'Deals 2.6x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 11% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 11 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 1 DEF up buff to [DEX] and Fighter crew members for 12 seconds.', 'Applies Lv. 1 Shield up buff to [Navy] crew members for 12 seconds.', 'Grant 1.2x Counter to [Navy] crew members for 12 seconds.', 'Provoke enemies to self for 12 seconds.', 'Deals 2.7x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 12% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 12 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 2 DEF up buff to [DEX] and Fighter crew members for 13 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] crew members for 13 seconds.', 'Grant 1.4x Counter to [Navy] crew members for 13 seconds.', 'Provoke enemies to self for 13 seconds.', 'Deals 2.8x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 13% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 13 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 2 DEF up buff to [DEX] and Fighter crew members for 14 seconds.', 'Applies Lv. 2 Shield up buff to [Navy] crew members for 14 seconds.', 'Grant 1.6x Counter to [Navy] crew members for 14 seconds.', 'Provoke enemies to self for 14 seconds.', 'Deals 2.9x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 14% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 14 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 3 DEF up buff to [DEX] and Fighter crew members for 15 seconds.', 'Applies Lv. 3 Shield up buff to [Navy] crew members for 15 seconds.', 'Grant 1.8x Counter to [Navy] crew members for 15 seconds.', 'Provoke enemies to self for 15 seconds.', 'Deals 3x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 15% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 15 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 3 DEF up buff to [DEX] and Fighter crew members for 16 seconds.', 'Applies Lv. 3 Shield up buff to [Navy] crew members for 16 seconds.', 'Grant 2x Counter to [Navy] crew members for 16 seconds.', 'Provoke enemies to self for 16 seconds.', 'Deals 3.1x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 16% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 16 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 4 DEF up buff to [DEX] and Fighter crew members for 17 seconds.', 'Applies Lv. 4 Shield up buff to [Navy] crew members for 17 seconds.', 'Grant 2.2x Counter to [Navy] crew members for 17 seconds.', 'Provoke enemies to self for 17 seconds.', 'Deals 3.2x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 17% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 17 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 4 DEF up buff to [DEX] and Fighter crew members for 18 seconds.', 'Applies Lv. 4 Shield up buff to [Navy] crew members for 18 seconds.', 'Grant 2.4x Counter to [Navy] crew members for 18 seconds.', 'Provoke enemies to self for 18 seconds.', 'Deals 3.3x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 18% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 18 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 5 DEF up buff to [DEX] and Fighter crew members for 19 seconds.', 'Applies Lv. 5 Shield up buff to [Navy] crew members for 19 seconds.', 'Grant 2.6x Counter to [Navy] crew members for 19 seconds.', 'Provoke enemies to self for 19 seconds.', 'Deals 3.4x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 19% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 19 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.'],
+                    ['Applies Lv. 5 DEF up buff to [DEX] and Fighter crew members for 20 seconds.', 'Applies Lv. 5 Shield up buff to [Navy] crew members for 20 seconds.', 'Grant 3x Counter to [Navy] crew members for 20 seconds.', 'Provoke enemies to self for 20 seconds.', 'Deals 3.5x ATK in damage to 3 enemies.', 'During Assault Rumble, reduces 20% of Special CT to [SWORD] crew members.', 'During Assault Rumble, reduce Special Bind to DBF-Style crew members for 20 seconds.', 'When there is 3 or more [SWORD] crew members, switches self with 1st sub character.']
+                ]
+            }
+        }
+    },
+    4525: {
+        festCost: 20,
+        festStats: {
+            def: 130,
+            spd: 177,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '20% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 DEF up buff to [DEX], Fighter and [Navy] crew members.', 'Applies Lv. 16 ATK up buff to self.', 'The first 20 times this character lands a hit, inflicts Lv. 1 ATK down debuff to self.', 'When there is 5 or more [Navy] crew members, reduces 12% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 3 DEF up buff to [DEX], Fighter and [Navy] crew members.', 'Applies Lv. 17 ATK up buff to self.', 'The first 20 times this character lands a hit, inflicts Lv. 1 ATK down debuff to self.', 'When there is 5 or more [Navy] crew members, reduces 14% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 7 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.'],
+                ['Applies Lv. 4 DEF up buff to [DEX], Fighter and [Navy] crew members.', 'Applies Lv. 18 ATK up buff to self.', 'The first 20 times this character lands a hit, inflicts Lv. 1 ATK down debuff to self.', 'When there is 5 or more [Navy] crew members, reduces 16% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 8 HP up buff to self.', 'During Assault Rumble, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 5 DEF up buff to [DEX], Fighter and [Navy] crew members.', 'Applies Lv. 19 ATK up buff to self.', 'The first 20 times this character lands a hit, inflicts Lv. 1 ATK down debuff to self.', 'When there is 5 or more [Navy] crew members, reduces 18% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 9 HP up buff to self.', 'During Assault Rumble, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 6 DEF up buff to [DEX], Fighter and [Navy] crew members.', 'Applies Lv. 20 ATK up buff to self.', 'The first 20 times this character lands a hit, inflicts Lv. 1 ATK down debuff to self.', 'When there is 5 or more [Navy] crew members, reduces 20% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 10 HP up buff to self.', 'During Assault Rumble, applies Lv. 6 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Deals 3.1x ATK in damage to 3 enemies.', 'Applies Lv. 4 ATK up buff to [Navy Vice Admiral] crew members for 11 seconds.', 'Deals 7.5x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 21% of Special CT to self.', 'During Assault Rumble, heals 21% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 11 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 3.2x ATK in damage to 3 enemies.', 'Applies Lv. 4 ATK up buff to [Navy Vice Admiral] crew members for 12 seconds.', 'Deals 8x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 22% of Special CT to self.', 'During Assault Rumble, heals 22% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 12 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 3.3x ATK in damage to 3 enemies.', 'Applies Lv. 5 ATK up buff to [Navy Vice Admiral] crew members for 13 seconds.', 'Deals 8.5x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 23% of Special CT to self.', 'During Assault Rumble, heals 23% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 13 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 3.4x ATK in damage to 3 enemies.', 'Applies Lv. 5 ATK up buff to [Navy Vice Admiral] crew members for 14 seconds.', 'Deals 9x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 24% of Special CT to self.', 'During Assault Rumble, heals 24% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 14 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 3.5x ATK in damage to 3 enemies.', 'Applies Lv. 6 ATK up buff to [Navy Vice Admiral] crew members for 15 seconds.', 'Deals 9.5x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 25% of Special CT to self.', 'During Assault Rumble, heals 25% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 15 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 3.6x ATK in damage to 3 enemies.', 'Applies Lv. 6 ATK up buff to [Navy Vice Admiral] crew members for 16 seconds.', 'Deals 10x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 26% of Special CT to self.', 'During Assault Rumble, heals 26% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 16 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 3.7x ATK in damage to 3 enemies.', 'Applies Lv. 7 ATK up buff to [Navy Vice Admiral] crew members for 17 seconds.', 'Deals 10.5x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 27% of Special CT to self.', 'During Assault Rumble, heals 27% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 17 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 3.8x ATK in damage to 3 enemies.', 'Applies Lv. 7 ATK up buff to [Navy Vice Admiral] crew members for 18 seconds.', 'Deals 11x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 28% of Special CT to self.', 'During Assault Rumble, heals 28% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 18 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 3.9x ATK in damage to 3 enemies.', 'Applies Lv. 8 ATK up buff to [Navy Vice Admiral] crew members for 19 seconds.', 'Deals 11.5x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 29% of Special CT to self.', 'During Assault Rumble, heals 29% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 19 seconds.', 'During Assault Rumble, switches self with 1st sub character.'],
+                    ['Deals 4x ATK in damage to 3 enemies.', 'Applies Lv. 8 ATK up buff to [Navy Vice Admiral] crew members for 20 seconds.', 'Deals 12x ATK in spread damage to [QCK] enemies.', 'When there is 5 or more [Navy] crew members, reduces 30% of Special CT to self.', 'During Assault Rumble, heals 30% of HP to self.', 'During Assault Rumble, reduce Action Bind to DBF-Style crew members for 20 seconds.', 'During Assault Rumble, switches self with 1st sub character.']
+                ]
+            }
+        }
+    },
+    4526: {
+        festCost: 20,
+        festStats: {
+            def: 125,
+            spd: 178,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['60% chance to resist Special Bind.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 12% of Special CT to self upon appearance.'],
+                ['Applies Lv. 2 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 14% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 16% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 18% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 20% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 6 seconds.', 'Deals 1.05x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 32% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 7 seconds.', 'Deals 1.1x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 34% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 8 seconds.', 'Deals 1.15x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 36% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 9 seconds.', 'Deals 1.2x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 38% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 10 seconds.', 'Deals 1.25x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 40% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 11 seconds.', 'Deals 1.3x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 42% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 12 seconds.', 'Deals 1.35x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 44% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 13 seconds.', 'Deals 1.4x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 46% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 14 seconds.', 'Deals 1.45x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 48% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 15 seconds.', 'Deals 1.5x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 50% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.']
                 ]
             }
         }

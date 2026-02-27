@@ -10793,7 +10793,7 @@
 
 			{
 				name: "Healer: Percentage",
-				targets: ["rumbleSpecial"],
+				targets: ["rumbleAbility", "rumbleSpecial"],
 				regex:
 					/Heals ([.\d]+)% of HP to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: in a ([\w]+, [\w]+) range)?/i,
 				submatchers: [
@@ -11447,6 +11447,39 @@
 						description: "Classes:",
 					},
 					...createClassesSubmatchers([2]),
+				],
+			},
+
+			{
+				name: "Sub Switch",
+				targets: ["rumbleSpecial"],
+				regex:
+					/Switches (self) with (1st|2nd|3rd) sub character./i,
+				submatchers: [
+					{
+						type: "option",
+						description: "1st",
+						regex: /1st/i,
+						radioGroup: "sub",
+						groups: [2],
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "2nd",
+						regex: /2nd/i,
+						radioGroup: "sub",
+						groups: [2],
+						cssClasses: ["min-width-3"],
+					},
+					{
+						type: "option",
+						description: "3rd",
+						regex: /3rd/i,
+						radioGroup: "sub",
+						groups: [2],
+						cssClasses: ["min-width-3"],
+					},
 				],
 			},
 		],
