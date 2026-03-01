@@ -114889,7 +114889,7 @@ window.rumble = {
             }
         }
     },
-    4986: {
+    5013: {
         festCost: 55,
         festStats: {
             def: 162,
@@ -114928,7 +114928,7 @@ window.rumble = {
             }
         }
     },
-    4987: {
+    5014: {
         festCost: 55,
         festStats: {
             def: 162,
@@ -114967,7 +114967,7 @@ window.rumble = {
             }
         }
     },
-    4988: {
+    5029: {
         festCost: 15,
         festStats: {
             def: 50,
@@ -114977,7 +114977,7 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
-    4989: {
+    5030: {
         festCost: 30,
         festStats: {
             def: 50,
@@ -114987,7 +114987,7 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
-    4990: {
+    5031: {
         festCost: 15,
         festStats: {
             def: 50,
@@ -114997,7 +114997,7 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
-    4991: {
+    5032: {
         festCost: 30,
         festStats: {
             def: 50,
@@ -115007,7 +115007,7 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
-    4992: {
+    5046: {
         festCost: 13,
         festStats: {
             def: 50,
@@ -115017,7 +115017,7 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
-    4993: {
+    5047: {
         festCost: 20,
         festStats: {
             def: 50,
@@ -115027,7 +115027,7 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
-    4994: {
+    5054: {
         festCost: 25,
         festStats: {
             def: 50,
@@ -115037,7 +115037,7 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
-    4995: {
+    5055: {
         festCost: 40,
         festStats: {
             def: 50,
@@ -115047,7 +115047,7 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
-    4996: {
+    5056: {
         festCost: 1,
         festStats: {
             def: 50,
