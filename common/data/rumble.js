@@ -100315,6 +100315,16 @@ window.rumble = {
             }
         }
     },
+    4194: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "BAL"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4195: {
         festCost: 30,
         festStats: {
@@ -100349,11 +100359,11 @@ window.rumble = {
         },
         festAbility: {
             base: [
-                ['Applies Lv. 2 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 1 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 10% HP after death to Free Spirit all crew members 1 time.'],
-                ['Applies Lv. 3 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 1 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 20% HP after death to Free Spirit all crew members 1 time.'],
-                ['Applies Lv. 4 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 1 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 30% HP after death to Free Spirit all crew members 1 time.'],
-                ['Applies Lv. 5 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 1 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 40% HP after death to Free Spirit all crew members 1 time.'],
-                ['Applies Lv. 6 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 2 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 50% HP after death to Free Spirit all crew members 1 time.']
+                ['Applies Lv. 2 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 1 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 10% HP after death to Free Spirit crew members 1 time.'],
+                ['Applies Lv. 3 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 1 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 20% HP after death to Free Spirit crew members 1 time.'],
+                ['Applies Lv. 4 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 1 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 30% HP after death to Free Spirit crew members 1 time.'],
+                ['Applies Lv. 5 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 1 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 40% HP after death to Free Spirit crew members 1 time.'],
+                ['Applies Lv. 6 HP, SPD and Critical Hit up buff to Free Spirit and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Critical Hit, applies Lv. 2 ATK up buff to [Straw Hat Pirates] and [Paramythia-type] crew members.', 'Revive to 50% HP after death to Free Spirit crew members 1 time.']
             ]
         },
         festSpecial: {
@@ -114875,6 +114885,45 @@ window.rumble = {
                     ['Applies Lv. 2 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 13 seconds.', 'Deals 1.4x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 46% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
                     ['Applies Lv. 2 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 14 seconds.', 'Deals 1.45x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 48% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.'],
                     ['Applies Lv. 3 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 15 seconds.', 'Deals 1.5x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 50% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.']
+                ]
+            }
+        }
+    },
+    4528: {
+        festCost: 20,
+        festStats: {
+            def: 286,
+            spd: 118,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, RCV and DEF up buff to Powerhouse, Fighter and [Navy] crew members.', 'The first 5 times this character lands a hit, reduces 6% of Special CT to Powerhouse and Fighter crew members.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, revive to 30% HP after death to [SWORD] crew members 1 time.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, heals 22% of HP to Powerhouse and Fighter crew members upon appearance.'],
+                ['Applies Lv. 3 HP, RCV and DEF up buff to Powerhouse, Fighter and [Navy] crew members.', 'The first 5 times this character lands a hit, reduces 7% of Special CT to Powerhouse and Fighter crew members.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, revive to 35% HP after death to [SWORD] crew members 1 time.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, heals 24% of HP to Powerhouse and Fighter crew members upon appearance.'],
+                ['Applies Lv. 4 HP, RCV and DEF up buff to Powerhouse, Fighter and [Navy] crew members.', 'The first 5 times this character lands a hit, reduces 8% of Special CT to Powerhouse and Fighter crew members.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, revive to 40% HP after death to [SWORD] crew members 1 time.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, heals 26% of HP to Powerhouse and Fighter crew members upon appearance.'],
+                ['Applies Lv. 5 HP, RCV and DEF up buff to Powerhouse, Fighter and [Navy] crew members.', 'The first 5 times this character lands a hit, reduces 9% of Special CT to Powerhouse and Fighter crew members.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, revive to 45% HP after death to [SWORD] crew members 1 time.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, heals 28% of HP to Powerhouse and Fighter crew members upon appearance.'],
+                ['Applies Lv. 6 HP, RCV and DEF up buff to Powerhouse, Fighter and [Navy] crew members.', 'The first 5 times this character lands a hit, reduces 10% of Special CT to Powerhouse and Fighter crew members.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, revive to 50% HP after death to [SWORD] crew members 1 time.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, heals 30% of HP to Powerhouse and Fighter crew members upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 29,
+                descriptions: [
+                    ['73% chance to evade Action Bind to [Navy] crew members for 11 seconds.', '73% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 11 seconds.', '73% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 11 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 8.4x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['76% chance to evade Action Bind to [Navy] crew members for 12 seconds.', '76% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 12 seconds.', '76% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 12 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 8.8x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['79% chance to evade Action Bind to [Navy] crew members for 13 seconds.', '79% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 13 seconds.', '79% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 13 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 9.2x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['82% chance to evade Action Bind to [Navy] crew members for 14 seconds.', '82% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 14 seconds.', '82% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 14 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 9.6x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['85% chance to evade Action Bind to [Navy] crew members for 15 seconds.', '85% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 15 seconds.', '85% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 15 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 10x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['88% chance to evade Action Bind to [Navy] crew members for 16 seconds.', '88% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 16 seconds.', '88% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 16 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 10.4x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['91% chance to evade Action Bind to [Navy] crew members for 17 seconds.', '91% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 17 seconds.', '91% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 17 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 10.8x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['94% chance to evade Action Bind to [Navy] crew members for 18 seconds.', '94% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 18 seconds.', '94% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 18 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 11.2x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['97% chance to evade Action Bind to [Navy] crew members for 19 seconds.', '97% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 19 seconds.', '97% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 19 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 11.6x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.'],
+                    ['100% chance to evade Action Bind to [Navy] crew members for 20 seconds.', '100% chance to evade Fixed Damage to Powerhouse and Fighter crew members for 20 seconds.', '100% chance to evade Damage Ignoring DEF to all crew members with Stats Down Evasion for 20 seconds.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, deals 12x ATK in spread damage to all enemies in a medium, radial range.', 'When there is 6 or more Powerhouse and Fighter crew members or when there is 5 or more [Navy] crew members, switches self with 1st sub character.']
                 ]
             }
         }
