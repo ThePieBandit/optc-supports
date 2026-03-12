@@ -114889,6 +114889,45 @@ window.rumble = {
             }
         }
     },
+    4527: {
+        festCost: 20,
+        festStats: {
+            def: 150,
+            spd: 183,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Special Bind.', '20% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'Applies Lv. 1 Special CT up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 22% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'Applies Lv. 1 Special CT up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 24% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'Applies Lv. 1 Special CT up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 26% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'Applies Lv. 1 Special CT up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 28% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK and SPD up buff to [INT], Driven and [Blackbeard Pirates] crew members.', 'Applies Lv. 2 Special CT up buff to [Blackbeard Pirates] crew members.', 'When there is 4 or more [Blackbeard Pirates] crew members, reduces 30% of Special CT to self upon appearance.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 11 seconds.', 'Deals 1.08x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 73% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 1.6x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 12 seconds.', 'Deals 1.16x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 76% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 1.7x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 13 seconds.', 'Deals 1.24x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 79% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 1.8x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 14 seconds.', 'Deals 1.32x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 82% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 1.9x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 15 seconds.', 'Deals 1.4x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 85% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 2x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 16 seconds.', 'Deals 1.48x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 88% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 2.1x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 17 seconds.', 'Deals 1.56x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 91% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 18 seconds.', 'Deals 1.64x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 94% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 2.3x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 4 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 19 seconds.', 'Deals 1.72x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 97% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 2.4x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.'],
+                    ['Applies Lv. 5 ATK up buff to [INT], Driven and [Blackbeard Pirates] crew members for 20 seconds.', 'Deals 1.8x ATK in damage ignoring DEF to 1 enemy with the highest DEF.', 'When there is 4 or more [Blackbeard Pirates] crew members, 100% chance to inflict Action Bind to 1 enemy with the highest DEF for 10 seconds.', 'During Assault Rumble, deals 2.5x ATK in damage ignoring DEF to 1 Fighter and Powerhouse enemy.']
+                ]
+            }
+        }
+    },
     4528: {
         festCost: 20,
         festStats: {
@@ -114927,6 +114966,126 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4529: {
+        character1: {
+            festCost: 55,
+            festStats: {
+                def: 178,
+                spd: 152,
+                style: "DEF"
+            },
+            festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+            festAttackTarget: "Nearby Enemies.",
+            festResistance: {
+                base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.']
+            },
+            festAbility: {
+                base: [
+                    ['Applies Lv. 2 HP, DEF and SPD up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 ATK up buff to [Straw Hat Pirates] crew members.', 'When St. Ethanbaron V. Nusjuro is on the enemy team, applies Lv. 1 HP and DEF up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, reduces 60% of Special CT to self upon appearance.', 'The first 10 times this character takes damage, reduces 1% of Special CT to self.', 'The first 5 times this character takes damage, reduces 5% of Special CT to self.', 'The first 5 times this character lands a hit, reduces 1% of Special CT to self.', 'The first 3 times this character lands a hit, reduces 5% of Special CT to self.'],
+                    ['Applies Lv. 3 HP, DEF and SPD up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members.', 'Applies Lv. 3 ATK up buff to [Straw Hat Pirates] crew members.', 'When St. Ethanbaron V. Nusjuro is on the enemy team, applies Lv. 1 HP and DEF up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, reduces 70% of Special CT to self upon appearance.', 'The first 10 times this character takes damage, reduces 2% of Special CT to self.', 'The first 5 times this character takes damage, reduces 5% of Special CT to self.', 'The first 5 times this character lands a hit, reduces 2% of Special CT to self.', 'The first 3 times this character lands a hit, reduces 5% of Special CT to self.'],
+                    ['Applies Lv. 4 HP, DEF and SPD up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members.', 'Applies Lv. 4 ATK up buff to [Straw Hat Pirates] crew members.', 'When St. Ethanbaron V. Nusjuro is on the enemy team, applies Lv. 2 HP and DEF up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, reduces 80% of Special CT to self upon appearance.', 'The first 10 times this character takes damage, reduces 3% of Special CT to self.', 'The first 5 times this character takes damage, reduces 5% of Special CT to self.', 'The first 5 times this character lands a hit, reduces 3% of Special CT to self.', 'The first 3 times this character lands a hit, reduces 5% of Special CT to self.'],
+                    ['Applies Lv. 5 HP, DEF and SPD up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members.', 'Applies Lv. 5 ATK up buff to [Straw Hat Pirates] crew members.', 'When St. Ethanbaron V. Nusjuro is on the enemy team, applies Lv. 2 HP and DEF up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, reduces 90% of Special CT to self upon appearance.', 'The first 10 times this character takes damage, reduces 4% of Special CT to self.', 'The first 5 times this character takes damage, reduces 5% of Special CT to self.', 'The first 5 times this character lands a hit, reduces 4% of Special CT to self.', 'The first 3 times this character lands a hit, reduces 5% of Special CT to self.'],
+                    ['Applies Lv. 6 HP, DEF and SPD up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members.', 'Applies Lv. 6 ATK up buff to [Straw Hat Pirates] crew members.', 'When St. Ethanbaron V. Nusjuro is on the enemy team, applies Lv. 4 HP and DEF up buff to [Straw Hat Pirates] crew members.', 'When there is 4 or more [Straw Hat Pirates] crew members, reduces 100% of Special CT to self upon appearance.', 'The first 10 times this character takes damage, reduces 5% of Special CT to self.', 'The first 5 times this character takes damage, reduces 5% of Special CT to self.', 'The first 5 times this character lands a hit, reduces 5% of Special CT to self.', 'The first 3 times this character lands a hit, reduces 5% of Special CT to self.']
+                ]
+            },
+            festSpecial: {
+                base: {
+                    cooldown: 35,
+                    descriptions: [
+                        ['Applies Lv. 3 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 16 seconds.', 'Deals 2.6x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 16 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.1x Counter to self for 16 seconds.', 'Applies Lv. 3 ATK and SPD up buff to all crew members with Counter for 55 seconds.', 'Applies Lv. 2 DEF up buff to all crew members with Counter for 55 seconds.', 'Heals 330 fixed HP every 3 seconds to all crew members with Counter for 11 seconds.'],
+                        ['Applies Lv. 3 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 17 seconds.', 'Deals 2.7x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 17 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.2x Counter to self for 17 seconds.', 'Applies Lv. 3 ATK and SPD up buff to all crew members with Counter for 60 seconds.', 'Applies Lv. 2 DEF up buff to all crew members with Counter for 60 seconds.', 'Heals 360 fixed HP every 3 seconds to all crew members with Counter for 12 seconds.'],
+                        ['Applies Lv. 3 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 18 seconds.', 'Deals 2.8x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 18 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.3x Counter to self for 18 seconds.', 'Applies Lv. 3 ATK and SPD up buff to all crew members with Counter for 65 seconds.', 'Applies Lv. 2 DEF up buff to all crew members with Counter for 65 seconds.', 'Heals 390 fixed HP every 3 seconds to all crew members with Counter for 13 seconds.'],
+                        ['Applies Lv. 3 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 19 seconds.', 'Deals 2.9x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 19 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.4x Counter to self for 19 seconds.', 'Applies Lv. 3 ATK and SPD up buff to all crew members with Counter for 70 seconds.', 'Applies Lv. 2 DEF up buff to all crew members with Counter for 70 seconds.', 'Heals 420 fixed HP every 3 seconds to all crew members with Counter for 14 seconds.'],
+                        ['Applies Lv. 3 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 20 seconds.', 'Deals 3x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 20 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.5x Counter to self for 20 seconds.', 'Applies Lv. 3 ATK and SPD up buff to all crew members with Counter for 75 seconds.', 'Applies Lv. 2 DEF up buff to all crew members with Counter for 75 seconds.', 'Heals 450 fixed HP every 3 seconds to all crew members with Counter for 15 seconds.'],
+                        ['Applies Lv. 4 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 21 seconds.', 'Deals 3.1x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 21 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.6x Counter to self for 21 seconds.', 'Applies Lv. 4 ATK and SPD up buff to all crew members with Counter for 80 seconds.', 'Applies Lv. 3 DEF up buff to all crew members with Counter for 80 seconds.', 'Heals 480 fixed HP every 3 seconds to all crew members with Counter for 16 seconds.'],
+                        ['Applies Lv. 4 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 22 seconds.', 'Deals 3.2x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 22 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.7x Counter to self for 22 seconds.', 'Applies Lv. 4 ATK and SPD up buff to all crew members with Counter for 85 seconds.', 'Applies Lv. 3 DEF up buff to all crew members with Counter for 85 seconds.', 'Heals 510 fixed HP every 3 seconds to all crew members with Counter for 17 seconds.'],
+                        ['Applies Lv. 4 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 23 seconds.', 'Deals 3.3x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 23 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.8x Counter to self for 23 seconds.', 'Applies Lv. 4 ATK and SPD up buff to all crew members with Counter for 90 seconds.', 'Applies Lv. 3 DEF up buff to all crew members with Counter for 90 seconds.', 'Heals 540 fixed HP every 3 seconds to all crew members with Counter for 18 seconds.'],
+                        ['Applies Lv. 4 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 24 seconds.', 'Deals 3.4x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 24 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 3.9x Counter to self for 24 seconds.', 'Applies Lv. 4 ATK and SPD up buff to all crew members with Counter for 95 seconds.', 'Applies Lv. 3 DEF up buff to all crew members with Counter for 95 seconds.', 'Heals 570 fixed HP every 3 seconds to all crew members with Counter for 19 seconds.'],
+                        ['Applies Lv. 5 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 25 seconds.', 'Deals 3.5x ATK in damage to 3 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 25 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 4x Counter to self for 25 seconds.', 'Applies Lv. 5 ATK and SPD up buff to all crew members with Counter for 100 seconds.', 'Applies Lv. 4 DEF up buff to all crew members with Counter for 100 seconds.', 'Heals 600 fixed HP every 3 seconds to all crew members with Counter for 20 seconds.']
+                    ]
+                }
+            },
+            festSuperSpecial: {
+                base: {
+                    condition: "After this character receives damage 5 times",
+                    description: ['Applies Lv. 7 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 30 seconds.', 'Deals 4x ATK in damage to 4 enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 30 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 4.5x Counter to self for 30 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, reduces 15% of Special CT to self.', 'Grant 2x Counter to [DEX], Free Spirit and [Straw Hat Pirates] crew members, excluding self, for 30 seconds.', 'Applies Lv. 6 ATK, SPD and RCV up buff to all crew members with Counter for 100 seconds.', 'Applies Lv. 5 DEF up buff to all crew members with Counter for 100 seconds.', 'Heals 700 fixed HP every 3 seconds to all crew members with Counter for 25 seconds.']
+                },
+                llbbase: {
+                    condition: "After this character receives damage 3 times",
+                    description: ['Applies Lv. 10 Shield up buff to [DEX], Free Spirit and [Straw Hat Pirates] crew members for 40 seconds.', 'Deals 5x ATK in damage to all enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, provoke enemies to self for 40 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, grant 5x Counter to self for 40 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, reduces 30% of Special CT to self.', 'Grant 2.5x Counter to [DEX], Free Spirit and [Straw Hat Pirates] crew members, excluding self, for 40 seconds.', 'Applies Lv. 7 ATK, SPD and RCV up buff to all crew members with Counter for 100 seconds.', 'Applies Lv. 6 DEF up buff to all crew members with Counter for 100 seconds.', 'Heals 800 fixed HP every 3 seconds to all crew members with Counter for 30 seconds.']
+                }
+            }
+        },
+        character2: {
+            festCost: 55,
+            festStats: {
+                def: 160,
+                spd: 173,
+                style: "ATK"
+            },
+            festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+            festAttackTarget: "Nearby Enemies.",
+            festResistance: {
+                base: ['100% chance to resist Forced Out.', '30% damage reduction from [DEX] enemies.']
+            },
+            festAbility: {
+                base: [
+                    ['Applies Lv. 2 ATK, SPD and RCV up buff to [STR], Slasher and [Five Elders] crew members.', 'When Roronoa Zoro is on the enemy team, applies Lv. 4 SPD up buff to self.', 'When Roronoa Zoro is on the enemy team, applies Lv. 1 Special CT up buff to self.', 'When HP is above 80%, applies Lv. 4 ATK up buff to self.', 'The first 20 times this character takes damage, heals 6% of HP to self.', 'The first 10 times this character lands a hit, heals 6% of HP to self.'],
+                    ['Applies Lv. 3 ATK, SPD and RCV up buff to [STR], Slasher and [Five Elders] crew members.', 'When Roronoa Zoro is on the enemy team, applies Lv. 5 SPD up buff to self.', 'When Roronoa Zoro is on the enemy team, applies Lv. 2 Special CT up buff to self.', 'When HP is above 80%, applies Lv. 5 ATK up buff to self.', 'The first 20 times this character takes damage, heals 7% of HP to self.', 'The first 10 times this character lands a hit, heals 7% of HP to self.'],
+                    ['Applies Lv. 4 ATK, SPD and RCV up buff to [STR], Slasher and [Five Elders] crew members.', 'When Roronoa Zoro is on the enemy team, applies Lv. 6 SPD up buff to self.', 'When Roronoa Zoro is on the enemy team, applies Lv. 3 Special CT up buff to self.', 'When HP is above 80%, applies Lv. 6 ATK up buff to self.', 'The first 20 times this character takes damage, heals 8% of HP to self.', 'The first 10 times this character lands a hit, heals 8% of HP to self.'],
+                    ['Applies Lv. 5 ATK, SPD and RCV up buff to [STR], Slasher and [Five Elders] crew members.', 'When Roronoa Zoro is on the enemy team, applies Lv. 7 SPD up buff to self.', 'When Roronoa Zoro is on the enemy team, applies Lv. 4 Special CT up buff to self.', 'When HP is above 80%, applies Lv. 7 ATK up buff to self.', 'The first 20 times this character takes damage, heals 9% of HP to self.', 'The first 10 times this character lands a hit, heals 9% of HP to self.'],
+                    ['Applies Lv. 6 ATK, SPD and RCV up buff to [STR], Slasher and [Five Elders] crew members.', 'When Roronoa Zoro is on the enemy team, applies Lv. 8 SPD up buff to self.', 'When Roronoa Zoro is on the enemy team, applies Lv. 5 Special CT up buff to self.', 'When HP is above 80%, applies Lv. 8 ATK up buff to self.', 'The first 20 times this character takes damage, heals 10% of HP to self.', 'The first 10 times this character lands a hit, heals 10% of HP to self.']
+                ]
+            },
+            festSpecial: {
+                base: {
+                    cooldown: 32,
+                    descriptions: [
+                        ['23% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 73% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 11 seconds.', 'Heals 11% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 73% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.1x ATK in damage to 3 enemies.'],
+                        ['26% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 76% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 12 seconds.', 'Heals 12% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 76% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.2x ATK in damage to 3 enemies.'],
+                        ['29% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 79% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 13 seconds.', 'Heals 13% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 79% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.3x ATK in damage to 3 enemies.'],
+                        ['32% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 82% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 14 seconds.', 'Heals 14% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 82% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.4x ATK in damage to 3 enemies.'],
+                        ['35% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 85% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 15 seconds.', 'Heals 15% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 85% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.5x ATK in damage to 3 enemies.'],
+                        ['38% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 88% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 16 seconds.', 'Heals 16% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 88% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.6x ATK in damage to 3 enemies.'],
+                        ['41% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 91% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 17 seconds.', 'Heals 17% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 91% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.7x ATK in damage to 3 enemies.'],
+                        ['44% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 94% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 18 seconds.', 'Heals 18% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 94% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.8x ATK in damage to 3 enemies.'],
+                        ['47% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 97% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 4 DEF down debuff to 3 enemies with the highest DEF for 19 seconds.', 'Heals 19% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 97% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 3.9x ATK in damage to 3 enemies.'],
+                        ['50% HP cut to 2 enemies with the highest HP.', 'When HP is above 80%, 100% chance to inflict Forced Out to 2 enemies with the highest HP for 10 seconds.', 'When HP is above 50%, inflicts Lv. 5 DEF down debuff to 3 enemies with the highest DEF for 20 seconds.', 'Heals 20% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 100% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 4x ATK in damage to 3 enemies.']
+                    ]
+                }
+            },
+            festSuperSpecial: {
+                base: {
+                    condition: "After this character is healed 15 times",
+                    description: ['50% HP cut to 3 enemies with the highest HP.', 'When HP is above 80%, 100% chance to inflict Forced Out to 2 enemies with the highest HP for 12 seconds.', 'When HP is above 50%, inflicts Lv. 6 DEF down debuff to 3 enemies with the highest DEF for 25 seconds.', 'Heals 30% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 100% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 4.5x ATK in damage to 3 enemies.', 'Deals 15x ATK in spread damage to all enemies.']
+                },
+                llbbase: {
+                    condition: "After this character is healed 10 times",
+                    description: ['50% HP cut to all enemies.', 'When HP is above 80%, 100% chance to inflict Forced Out to 2 enemies with the highest HP for 15 seconds.', 'When HP is above 50%, inflicts Lv. 7 DEF down debuff to 3 enemies with the highest DEF for 30 seconds.', 'Heals 50% of HP to self.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, 100% chance to cleanse ATK down debuffs to all crew members.', 'When there is 5 or more [Navy], [World Government] and [Zoan-type] crew members, deals 5x ATK in damage to 3 enemies.', 'Deals 20x ATK in spread damage to all enemies.']
+                }
+            }
+        }
+    },
+    4530: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4531: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     5013: {
         festCost: 55,
