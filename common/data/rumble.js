@@ -115087,6 +115087,149 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    4532: {
+        festCost: 55,
+        festStats: {
+            def: 142,
+            spd: 152,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and SPD up buff to [QCK] and [Blackbeard Pirates] crew members.', 'Applies Lv. 2 Critical Hit up buff to [QCK] and [Blackbeard Pirates] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, applies Lv. 2 DEF up buff to [Blackbeard Pirates], [Paramythia-type] and [Mythical Zoan-type] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, inflicts Lv. 2 ATK down debuff to all enemies.', 'When Marshall D. Teach (Blackbeard) is on your crew, reduces 22% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 ATK and SPD up buff to [QCK] and [Blackbeard Pirates] crew members.', 'Applies Lv. 2 Critical Hit up buff to [QCK] and [Blackbeard Pirates] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, applies Lv. 2 DEF up buff to [Blackbeard Pirates], [Paramythia-type] and [Mythical Zoan-type] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, inflicts Lv. 2 ATK down debuff to all enemies.', 'When Marshall D. Teach (Blackbeard) is on your crew, reduces 24% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK and SPD up buff to [QCK] and [Blackbeard Pirates] crew members.', 'Applies Lv. 3 Critical Hit up buff to [QCK] and [Blackbeard Pirates] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, applies Lv. 3 DEF up buff to [Blackbeard Pirates], [Paramythia-type] and [Mythical Zoan-type] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, inflicts Lv. 3 ATK down debuff to all enemies.', 'When Marshall D. Teach (Blackbeard) is on your crew, reduces 26% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK and SPD up buff to [QCK] and [Blackbeard Pirates] crew members.', 'Applies Lv. 3 Critical Hit up buff to [QCK] and [Blackbeard Pirates] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, applies Lv. 3 DEF up buff to [Blackbeard Pirates], [Paramythia-type] and [Mythical Zoan-type] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, inflicts Lv. 3 ATK down debuff to all enemies.', 'When Marshall D. Teach (Blackbeard) is on your crew, reduces 28% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 ATK and SPD up buff to [QCK] and [Blackbeard Pirates] crew members.', 'Applies Lv. 4 Critical Hit up buff to [QCK] and [Blackbeard Pirates] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, applies Lv. 4 DEF up buff to [Blackbeard Pirates], [Paramythia-type] and [Mythical Zoan-type] crew members.', 'When Marshall D. Teach (Blackbeard) is on your crew, inflicts Lv. 4 ATK down debuff to all enemies.', 'When Marshall D. Teach (Blackbeard) is on your crew, reduces 30% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['73% chance to inflict RCV Bind to 3 enemies for 5 seconds.', '62% chance to inflict Half Stats to 3 enemies for 6 seconds.', '52% chance to inflict Lv. 3 Damage Over Time to 3 enemies for 11 seconds.', '41% chance to inflict Special Bind to 3 enemies for 11 seconds.', '21% chance to inflict Action Bind to 3 enemies for 11 seconds.', 'Deals 3.2x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 21% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 21% of HP to Driven crew members.'],
+                    ['76% chance to inflict RCV Bind to 3 enemies for 6 seconds.', '64% chance to inflict Half Stats to 3 enemies for 7 seconds.', '54% chance to inflict Lv. 3 Damage Over Time to 3 enemies for 12 seconds.', '42% chance to inflict Special Bind to 3 enemies for 12 seconds.', '22% chance to inflict Action Bind to 3 enemies for 12 seconds.', 'Deals 3.4x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 22% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 22% of HP to Driven crew members.'],
+                    ['79% chance to inflict RCV Bind to 3 enemies for 6 seconds.', '66% chance to inflict Half Stats to 3 enemies for 8 seconds.', '56% chance to inflict Lv. 3 Damage Over Time to 3 enemies for 13 seconds.', '43% chance to inflict Special Bind to 3 enemies for 13 seconds.', '23% chance to inflict Action Bind to 3 enemies for 13 seconds.', 'Deals 3.6x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 23% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 23% of HP to Driven crew members.'],
+                    ['82% chance to inflict RCV Bind to 3 enemies for 7 seconds.', '68% chance to inflict Half Stats to 3 enemies for 9 seconds.', '58% chance to inflict Lv. 3 Damage Over Time to 3 enemies for 14 seconds.', '44% chance to inflict Special Bind to 3 enemies for 14 seconds.', '24% chance to inflict Action Bind to 3 enemies for 14 seconds.', 'Deals 3.8x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 24% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 24% of HP to Driven crew members.'],
+                    ['85% chance to inflict RCV Bind to 3 enemies for 7 seconds.', '70% chance to inflict Half Stats to 3 enemies for 10 seconds.', '60% chance to inflict Lv. 4 Damage Over Time to 3 enemies for 15 seconds.', '45% chance to inflict Special Bind to 3 enemies for 15 seconds.', '25% chance to inflict Action Bind to 3 enemies for 15 seconds.', 'Deals 4x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 25% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 25% of HP to Driven crew members.'],
+                    ['88% chance to inflict RCV Bind to 3 enemies for 8 seconds.', '72% chance to inflict Half Stats to 3 enemies for 11 seconds.', '62% chance to inflict Lv. 4 Damage Over Time to 3 enemies for 16 seconds.', '46% chance to inflict Special Bind to 3 enemies for 16 seconds.', '26% chance to inflict Action Bind to 3 enemies for 16 seconds.', 'Deals 4.2x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 26% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 26% of HP to Driven crew members.'],
+                    ['91% chance to inflict RCV Bind to 3 enemies for 8 seconds.', '74% chance to inflict Half Stats to 3 enemies for 12 seconds.', '64% chance to inflict Lv. 4 Damage Over Time to 3 enemies for 17 seconds.', '47% chance to inflict Special Bind to 3 enemies for 17 seconds.', '27% chance to inflict Action Bind to 3 enemies for 17 seconds.', 'Deals 4.4x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 27% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 27% of HP to Driven crew members.'],
+                    ['94% chance to inflict RCV Bind to 3 enemies for 9 seconds.', '76% chance to inflict Half Stats to 3 enemies for 13 seconds.', '66% chance to inflict Lv. 4 Damage Over Time to 3 enemies for 18 seconds.', '48% chance to inflict Special Bind to 3 enemies for 18 seconds.', '28% chance to inflict Action Bind to 3 enemies for 18 seconds.', 'Deals 4.6x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 28% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 28% of HP to Driven crew members.'],
+                    ['97% chance to inflict RCV Bind to 3 enemies for 9 seconds.', '78% chance to inflict Half Stats to 3 enemies for 14 seconds.', '68% chance to inflict Lv. 4 Damage Over Time to 3 enemies for 19 seconds.', '49% chance to inflict Special Bind to 3 enemies for 19 seconds.', '29% chance to inflict Action Bind to 3 enemies for 19 seconds.', 'Deals 4.8x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 29% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 29% of HP to Driven crew members.'],
+                    ['100% chance to inflict RCV Bind to 3 enemies for 10 seconds.', '80% chance to inflict Half Stats to 3 enemies for 15 seconds.', '70% chance to inflict Lv. 5 Damage Over Time to 3 enemies for 20 seconds.', '50% chance to inflict Special Bind to 3 enemies for 20 seconds.', '30% chance to inflict Action Bind to 3 enemies for 20 seconds.', 'Deals 5x ATK in spread damage to all enemies in a medium, radial range 3 times.', 'When there is 4 or more [Blackbeard Pirates] crew members, 30% Special CT Delay to 2 enemies with the highest Special CT.', 'When there is 4 or more [Blackbeard Pirates] crew members, heals 30% of HP to Driven crew members.']
+                ]
+            }
+        }
+    },
+    4533: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4534: {
+        festCost: 1,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4535: {
+        festCost: 55,
+        festStats: {
+            def: 233,
+            spd: 184,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Enemies with the highest ATK.",
+        festResistance: {
+            base: ['100% chance to resist Paralysis.', '30% damage reduction from [STR] enemies.'],
+            llbbase: ['100% chance to resist Paralysis.', '40% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 2 Accuracy down debuff to all enemies.', 'Inflicts Lv. 1 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 1 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 4 Special CT up buff to self.'],
+                ['Applies Lv. 2 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 3 Accuracy down debuff to all enemies.', 'Inflicts Lv. 2 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 1 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 5 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 4 Accuracy down debuff to all enemies.', 'Inflicts Lv. 3 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 1 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 6 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 5 Accuracy down debuff to all enemies.', 'Inflicts Lv. 4 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 1 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 7 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 6 Accuracy down debuff to all enemies.', 'Inflicts Lv. 5 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 2 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 8 Special CT up buff to self.']
+            ],
+            llbbase: [
+                ['Applies Lv. 3 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 6 Accuracy down debuff to all enemies.', 'Inflicts Lv. 3 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 1 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 6 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 7 Accuracy down debuff to all enemies.', 'Inflicts Lv. 4 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 1 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 7 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 8 Accuracy down debuff to all enemies.', 'Inflicts Lv. 5 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 2 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 8 Special CT up buff to self.'],
+                ['Applies Lv. 6 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 9 Accuracy down debuff to all enemies.', 'Inflicts Lv. 6 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 2 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 9 Special CT up buff to self.'],
+                ['Applies Lv. 7 ATK and HP up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'Inflicts Lv. 10 Accuracy down debuff to all enemies.', 'Inflicts Lv. 7 SPD down debuff to all enemies.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 4 DEF up buff to [QCK], [Navy Vice Admiral] and [SWORD] crew members.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, applies Lv. 10 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 42,
+                descriptions: [
+                    ['Deals 2.2x ATK in damage to all enemies in a large, forward range.', '82% chance to inflict Paralysis to 3 enemies for 6 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 2 ATK and DEF down debuff to all enemies with Paralysis for 6 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 11% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 2.4x ATK in damage to all enemies in a large, forward range.', '84% chance to inflict Paralysis to 3 enemies for 7 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 2 ATK and DEF down debuff to all enemies with Paralysis for 7 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 12% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 2.6x ATK in damage to all enemies in a large, forward range.', '86% chance to inflict Paralysis to 3 enemies for 8 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 3 ATK and DEF down debuff to all enemies with Paralysis for 8 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 13% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 2.8x ATK in damage to all enemies in a large, forward range.', '88% chance to inflict Paralysis to 3 enemies for 9 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 3 ATK and DEF down debuff to all enemies with Paralysis for 9 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 14% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 3x ATK in damage to all enemies in a large, forward range.', '90% chance to inflict Paralysis to 3 enemies for 10 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 4 ATK and DEF down debuff to all enemies with Paralysis for 10 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 15% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 3.2x ATK in damage to all enemies in a large, forward range.', '92% chance to inflict Paralysis to 3 enemies for 11 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 4 ATK and DEF down debuff to all enemies with Paralysis for 11 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 16% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 3.4x ATK in damage to all enemies in a large, forward range.', '94% chance to inflict Paralysis to 3 enemies for 12 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 4 ATK and DEF down debuff to all enemies with Paralysis for 12 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 17% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 3.6x ATK in damage to all enemies in a large, forward range.', '96% chance to inflict Paralysis to 3 enemies for 13 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 5 ATK and DEF down debuff to all enemies with Paralysis for 13 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 18% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 3.8x ATK in damage to all enemies in a large, forward range.', '98% chance to inflict Paralysis to 3 enemies for 14 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 5 ATK and DEF down debuff to all enemies with Paralysis for 14 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 19% Special CT Delay to all enemies with Paralysis.'],
+                    ['Deals 4x ATK in damage to all enemies in a large, forward range.', '100% chance to inflict Paralysis to 3 enemies for 15 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 6 ATK and DEF down debuff to all enemies with Paralysis for 15 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 20% Special CT Delay to all enemies with Paralysis.']
+                ]
+            },
+            llbbase: {
+                cooldown: 42,
+                descriptions: [
+                    ['Deals 3.2x ATK in damage to all enemies in a large, forward range.', '82% chance to inflict Paralysis to 3 enemies for 11 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 3 ATK and DEF down debuff to all enemies with Paralysis for 11 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 21% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to [STR] enemies for 11 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage to all enemies.'],
+                    ['Deals 3.4x ATK in damage to all enemies in a large, forward range.', '84% chance to inflict Paralysis to 3 enemies for 12 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 4 ATK and DEF down debuff to all enemies with Paralysis for 12 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 22% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to [STR] enemies for 12 seconds.', 'During Assault Rumble, deals 2.4x ATK in damage to all enemies.'],
+                    ['Deals 3.6x ATK in damage to all enemies in a large, forward range.', '86% chance to inflict Paralysis to 3 enemies for 13 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 4 ATK and DEF down debuff to all enemies with Paralysis for 13 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 23% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to [STR] enemies for 13 seconds.', 'During Assault Rumble, deals 2.6x ATK in damage to all enemies.'],
+                    ['Deals 3.8x ATK in damage to all enemies in a large, forward range.', '88% chance to inflict Paralysis to 3 enemies for 14 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 5 ATK and DEF down debuff to all enemies with Paralysis for 14 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 24% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to [STR] enemies for 14 seconds.', 'During Assault Rumble, deals 2.8x ATK in damage to all enemies.'],
+                    ['Deals 4x ATK in damage to all enemies in a large, forward range.', '90% chance to inflict Paralysis to 3 enemies for 15 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 5 ATK and DEF down debuff to all enemies with Paralysis for 15 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 25% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to [STR] enemies for 15 seconds.', 'During Assault Rumble, deals 3x ATK in damage to all enemies.'],
+                    ['Deals 4.2x ATK in damage to all enemies in a large, forward range.', '92% chance to inflict Paralysis to 3 enemies for 16 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 6 ATK and DEF down debuff to all enemies with Paralysis for 16 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 26% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to [STR] enemies for 16 seconds.', 'During Assault Rumble, deals 3.2x ATK in damage to all enemies.'],
+                    ['Deals 4.4x ATK in damage to all enemies in a large, forward range.', '94% chance to inflict Paralysis to 3 enemies for 17 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 6 ATK and DEF down debuff to all enemies with Paralysis for 17 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 27% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to [STR] enemies for 17 seconds.', 'During Assault Rumble, deals 3.4x ATK in damage to all enemies.'],
+                    ['Deals 4.6x ATK in damage to all enemies in a large, forward range.', '96% chance to inflict Paralysis to 3 enemies for 18 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 7 ATK and DEF down debuff to all enemies with Paralysis for 18 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 28% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to [STR] enemies for 18 seconds.', 'During Assault Rumble, deals 3.6x ATK in damage to all enemies.'],
+                    ['Deals 4.8x ATK in damage to all enemies in a large, forward range.', '98% chance to inflict Paralysis to 3 enemies for 19 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 7 ATK and DEF down debuff to all enemies with Paralysis for 19 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 29% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 3 DEF down debuff to [STR] enemies for 19 seconds.', 'During Assault Rumble, deals 3.8x ATK in damage to all enemies.'],
+                    ['Deals 5x ATK in damage to all enemies in a large, forward range.', '100% chance to inflict Paralysis to 3 enemies for 20 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, inflicts Lv. 8 ATK and DEF down debuff to all enemies with Paralysis for 20 seconds.', 'When there is 4 or more [SWORD], [Navy Vice Admiral] and [Logia-type] crew members, 30% Special CT Delay to all enemies with Paralysis.', 'During Assault Rumble, inflicts Lv. 4 DEF down debuff to [STR] enemies for 20 seconds.', 'During Assault Rumble, deals 4x ATK in damage to all enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
     5013: {
         festCost: 55,
         festStats: {
