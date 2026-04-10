@@ -115445,6 +115445,45 @@ window.rumble = {
             }
         }
     },
+    4541: {
+        festCost: 20,
+        festStats: {
+            def: 155,
+            spd: 162,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist RCV Bind.', '20% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 DEF up buff to [DEX], Free Spirit, [Navy], [World Government] and [Zoan-type] crew members.', 'When there are 50 seconds or less remaining, applies Lv. 4 ATK, SPD and Critical Hit up buff to self.', '16% Special CT Delay to 2 enemies with the highest Special CT upon appearance.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 DEF up buff to [DEX], Free Spirit, [Navy], [World Government] and [Zoan-type] crew members.', 'When there are 50 seconds or less remaining, applies Lv. 5 ATK, SPD and Critical Hit up buff to self.', '17% Special CT Delay to 2 enemies with the highest Special CT upon appearance.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 DEF up buff to [DEX], Free Spirit, [Navy], [World Government] and [Zoan-type] crew members.', 'When there are 50 seconds or less remaining, applies Lv. 6 ATK, SPD and Critical Hit up buff to self.', '18% Special CT Delay to 2 enemies with the highest Special CT upon appearance.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 4 DEF up buff to [DEX], Free Spirit, [Navy], [World Government] and [Zoan-type] crew members.', 'When there are 50 seconds or less remaining, applies Lv. 7 ATK, SPD and Critical Hit up buff to self.', '19% Special CT Delay to 2 enemies with the highest Special CT upon appearance.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 5 DEF up buff to [DEX], Free Spirit, [Navy], [World Government] and [Zoan-type] crew members.', 'When there are 50 seconds or less remaining, applies Lv. 8 ATK, SPD and Critical Hit up buff to self.', '20% Special CT Delay to 2 enemies with the highest Special CT upon appearance.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Applies Lv. 1 DEF up buff to self for 11 seconds.', 'Deals 10.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 320 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 10 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 5 ATK up buff to self for 21 seconds.', 'During Assault Rumble, deals 3.1x ATK in damage to all enemies.'],
+                    ['Applies Lv. 1 DEF up buff to self for 12 seconds.', 'Deals 11x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 340 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 11 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 6 ATK up buff to self for 22 seconds.', 'During Assault Rumble, deals 3.2x ATK in damage to all enemies.'],
+                    ['Applies Lv. 1 DEF up buff to self for 13 seconds.', 'Deals 11.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 360 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 11 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 6 ATK up buff to self for 23 seconds.', 'During Assault Rumble, deals 3.3x ATK in damage to all enemies.'],
+                    ['Applies Lv. 2 DEF up buff to self for 14 seconds.', 'Deals 12x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 380 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 12 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 7 ATK up buff to self for 24 seconds.', 'During Assault Rumble, deals 3.4x ATK in damage to all enemies.'],
+                    ['Applies Lv. 2 DEF up buff to self for 15 seconds.', 'Deals 12.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 400 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 12 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 7 ATK up buff to self for 25 seconds.', 'During Assault Rumble, deals 3.5x ATK in damage to all enemies.'],
+                    ['Applies Lv. 3 DEF up buff to self for 16 seconds.', 'Deals 13x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 420 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 13 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 8 ATK up buff to self for 26 seconds.', 'During Assault Rumble, deals 3.6x ATK in damage to all enemies.'],
+                    ['Applies Lv. 3 DEF up buff to self for 17 seconds.', 'Deals 13.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 440 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 13 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 8 ATK up buff to self for 27 seconds.', 'During Assault Rumble, deals 3.7x ATK in damage to all enemies.'],
+                    ['Applies Lv. 3 DEF up buff to self for 18 seconds.', 'Deals 14x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 460 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 14 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 9 ATK up buff to self for 28 seconds.', 'During Assault Rumble, deals 3.8x ATK in damage to all enemies.'],
+                    ['Applies Lv. 4 DEF up buff to self for 19 seconds.', 'Deals 14.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 480 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 14 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 9 ATK up buff to self for 29 seconds.', 'During Assault Rumble, deals 3.9x ATK in damage to all enemies.'],
+                    ['Applies Lv. 5 DEF up buff to self for 20 seconds.', 'Deals 15x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 500 fixed HP every 3 seconds to [Navy], [World Government] and [Zoan-type] crew members for 15 seconds.', 'When there are 50 seconds or less remaining, applies Lv. 10 ATK up buff to self for 30 seconds.', 'During Assault Rumble, deals 4x ATK in damage to all enemies.']
+                ]
+            }
+        }
+    },
     4543: {
         festCost: 20,
         festStats: {
@@ -115522,6 +115561,65 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4544: {
+        festCost: 55,
+        festStats: {
+            def: 154,
+            spd: 155,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and SPD up buff to Cerebral, [Navy] and [World Government] crew members.', 'The first 2 times this character receives Action Bind, inflicts Lv. 2 ATK, RCV and SPD down debuff to all enemies.', 'The first 1 times enemies are defeated, inflicts Lv. 5 ATK and DEF down debuff to self.', 'When there is 1 or more [Vegapunk] enemies, applies Lv. 6 Special CT up buff to self.', 'When there is 1 or more [Vegapunk] enemies, reduces 10% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 ATK and SPD up buff to Cerebral, [Navy] and [World Government] crew members.', 'The first 2 times this character receives Action Bind, inflicts Lv. 2 ATK, RCV and SPD down debuff to all enemies.', 'The first 1 times enemies are defeated, inflicts Lv. 5 ATK and DEF down debuff to self.', 'When there is 1 or more [Vegapunk] enemies, applies Lv. 7 Special CT up buff to self.', 'When there is 1 or more [Vegapunk] enemies, reduces 15% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK and SPD up buff to Cerebral, [Navy] and [World Government] crew members.', 'The first 2 times this character receives Action Bind, inflicts Lv. 3 ATK, RCV and SPD down debuff to all enemies.', 'The first 1 times enemies are defeated, inflicts Lv. 5 ATK and DEF down debuff to self.', 'When there is 1 or more [Vegapunk] enemies, applies Lv. 8 Special CT up buff to self.', 'When there is 1 or more [Vegapunk] enemies, reduces 20% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK and SPD up buff to Cerebral, [Navy] and [World Government] crew members.', 'The first 2 times this character receives Action Bind, inflicts Lv. 3 ATK, RCV and SPD down debuff to all enemies.', 'The first 1 times enemies are defeated, inflicts Lv. 5 ATK and DEF down debuff to self.', 'When there is 1 or more [Vegapunk] enemies, applies Lv. 9 Special CT up buff to self.', 'When there is 1 or more [Vegapunk] enemies, reduces 25% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 ATK and SPD up buff to Cerebral, [Navy] and [World Government] crew members.', 'The first 2 times this character receives Action Bind, inflicts Lv. 4 ATK, RCV and SPD down debuff to all enemies.', 'The first 1 times enemies are defeated, inflicts Lv. 5 ATK and DEF down debuff to self.', 'When there is 1 or more [Vegapunk] enemies, applies Lv. 10 Special CT up buff to self.', 'When there is 1 or more [Vegapunk] enemies, reduces 30% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 23,
+                descriptions: [
+                    ['Deals 4.1x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '32% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 1 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 21 seconds.'],
+                    ['Deals 4.2x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '34% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 1 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 22 seconds.'],
+                    ['Deals 4.3x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '36% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 1 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 23 seconds.'],
+                    ['Deals 4.4x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '38% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 2 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 24 seconds.'],
+                    ['Deals 4.5x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '40% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 2 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 25 seconds.'],
+                    ['Deals 4.6x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '42% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 3 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 26 seconds.'],
+                    ['Deals 4.7x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '44% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 3 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 27 seconds.'],
+                    ['Deals 4.8x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '46% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 3 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 28 seconds.'],
+                    ['Deals 4.9x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '48% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 4 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 29 seconds.'],
+                    ['Deals 5x ATK in damage ignoring DEF to 1 [Vegapunk] enemy.', 'When there is 1 or more [Vegapunk] enemies, 100% chance to inflict Action Bind to self for 10 seconds.', '50% Special CT Delay to 1 enemy with the highest Special CT.', 'When there is 6 or more Cerebral crew members or when there is 5 or more [Navy] and [World Government] crew members, inflicts Lv. 5 ATK, SPD and DEF down debuff to all enemies in a large, radial range for 30 seconds.']
+                ]
+            }
+        }
+    },
+    4545: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4546: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     5014: {
         festCost: 55,
