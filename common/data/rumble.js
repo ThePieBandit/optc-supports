@@ -29043,16 +29043,16 @@ window.rumble = {
             base: {
                 cooldown: 25,
                 descriptions: [
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.']
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.']
                 ]
             }
         },
@@ -29104,16 +29104,16 @@ window.rumble = {
             base: {
                 cooldown: 25,
                 descriptions: [
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.'],
-                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.']
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.'],
+                    ['18% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.']
                 ]
             }
         },
@@ -36440,31 +36440,31 @@ window.rumble = {
             base: {
                 cooldown: 25,
                 descriptions: [
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.'],
-                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.']
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 15 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.'],
+                    ['21% HP cut to all enemies in a medium, forward range.', 'Applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.']
                 ]
             },
             llbbase: {
                 cooldown: 25,
                 descriptions: [
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 19 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 5 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 19 seconds.'],
-                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 5 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.']
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 10 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 11 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 12 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 13 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 14 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 16 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 17 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 4 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 18 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 19 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 5 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 19 seconds.'],
+                    ['22% HP cut to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 5 DEF up buff to Fighter, Slasher, Striker and Shooter crew members for 20 seconds.']
                 ]
             }
         },
@@ -45573,16 +45573,16 @@ window.rumble = {
             base: {
                 cooldown: 35,
                 descriptions: [
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 15% chance to inflict Action Bind to all enemies in a large, forward range for 10 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 25% chance to inflict Action Bind to all enemies in a large, forward range for 10 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 15% chance to inflict Action Bind to all enemies in a large, forward range for 11 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 25% chance to inflict Action Bind to all enemies in a large, forward range for 11 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 16% chance to inflict Action Bind to all enemies in a large, forward range for 12 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 26% chance to inflict Action Bind to all enemies in a large, forward range for 12 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 16% chance to inflict Action Bind to all enemies in a large, forward range for 13 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 26% chance to inflict Action Bind to all enemies in a large, forward range for 13 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 17% chance to inflict Action Bind to all enemies in a large, forward range for 14 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 27% chance to inflict Action Bind to all enemies in a large, forward range for 14 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 17% chance to inflict Action Bind to all enemies in a large, forward range for 15 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 27% chance to inflict Action Bind to all enemies in a large, forward range for 15 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 18% chance to inflict Action Bind to all enemies in a large, forward range for 16 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 28% chance to inflict Action Bind to all enemies in a large, forward range for 16 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 18% chance to inflict Action Bind to all enemies in a large, forward range for 17 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 28% chance to inflict Action Bind to all enemies in a large, forward range for 17 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 19% chance to inflict Action Bind to all enemies in a large, forward range for 18 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 29% chance to inflict Action Bind to all enemies in a large, forward range for 18 seconds.'],
-                    ['10% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 20% chance to inflict Action Bind to all enemies in a large, forward range for 19 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 30% chance to inflict Action Bind to all enemies in a large, forward range for 19 seconds.']
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 15% chance to inflict Action Bind to all enemies in a large, forward range for 10 seconds.', 'When there is 5 or more enemies than your crew remaining, 25% chance to inflict Action Bind to all enemies in a large, forward range for 10 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 15% chance to inflict Action Bind to all enemies in a large, forward range for 11 seconds.', 'When there is 5 or more enemies than your crew remaining, 25% chance to inflict Action Bind to all enemies in a large, forward range for 11 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 16% chance to inflict Action Bind to all enemies in a large, forward range for 12 seconds.', 'When there is 5 or more enemies than your crew remaining, 26% chance to inflict Action Bind to all enemies in a large, forward range for 12 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 16% chance to inflict Action Bind to all enemies in a large, forward range for 13 seconds.', 'When there is 5 or more enemies than your crew remaining, 26% chance to inflict Action Bind to all enemies in a large, forward range for 13 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 17% chance to inflict Action Bind to all enemies in a large, forward range for 14 seconds.', 'When there is 5 or more enemies than your crew remaining, 27% chance to inflict Action Bind to all enemies in a large, forward range for 14 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 17% chance to inflict Action Bind to all enemies in a large, forward range for 15 seconds.', 'When there is 5 or more enemies than your crew remaining, 27% chance to inflict Action Bind to all enemies in a large, forward range for 15 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 18% chance to inflict Action Bind to all enemies in a large, forward range for 16 seconds.', 'When there is 5 or more enemies than your crew remaining, 28% chance to inflict Action Bind to all enemies in a large, forward range for 16 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 18% chance to inflict Action Bind to all enemies in a large, forward range for 17 seconds.', 'When there is 5 or more enemies than your crew remaining, 28% chance to inflict Action Bind to all enemies in a large, forward range for 17 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 19% chance to inflict Action Bind to all enemies in a large, forward range for 18 seconds.', 'When there is 5 or more enemies than your crew remaining, 29% chance to inflict Action Bind to all enemies in a large, forward range for 18 seconds.'],
+                    ['10% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 20% chance to inflict Action Bind to all enemies in a large, forward range for 19 seconds.', 'When there is 5 or more enemies than your crew remaining, 30% chance to inflict Action Bind to all enemies in a large, forward range for 19 seconds.']
                 ]
             }
         }
@@ -45609,16 +45609,16 @@ window.rumble = {
             base: {
                 cooldown: 35,
                 descriptions: [
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 15% chance to inflict Action Bind to all enemies in a large, forward range for 10 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 25% chance to inflict Action Bind to all enemies in a large, forward range for 10 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 15% chance to inflict Action Bind to all enemies in a large, forward range for 11 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 25% chance to inflict Action Bind to all enemies in a large, forward range for 11 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 16% chance to inflict Action Bind to all enemies in a large, forward range for 12 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 26% chance to inflict Action Bind to all enemies in a large, forward range for 12 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 16% chance to inflict Action Bind to all enemies in a large, forward range for 13 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 26% chance to inflict Action Bind to all enemies in a large, forward range for 13 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 17% chance to inflict Action Bind to all enemies in a large, forward range for 14 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 27% chance to inflict Action Bind to all enemies in a large, forward range for 14 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 17% chance to inflict Action Bind to all enemies in a large, forward range for 15 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 27% chance to inflict Action Bind to all enemies in a large, forward range for 15 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 18% chance to inflict Action Bind to all enemies in a large, forward range for 16 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 28% chance to inflict Action Bind to all enemies in a large, forward range for 16 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 18% chance to inflict Action Bind to all enemies in a large, forward range for 17 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 28% chance to inflict Action Bind to all enemies in a large, forward range for 17 seconds.'],
-                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 19% chance to inflict Action Bind to all enemies in a large, forward range for 18 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 29% chance to inflict Action Bind to all enemies in a large, forward range for 18 seconds.'],
-                    ['10% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies enemies than your crew remaining, 20% chance to inflict Action Bind to all enemies in a large, forward range for 19 seconds.', 'When there is 5 or more enemies enemies than your crew remaining, 30% chance to inflict Action Bind to all enemies in a large, forward range for 19 seconds.']
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 15% chance to inflict Action Bind to all enemies in a large, forward range for 10 seconds.', 'When there is 5 or more enemies than your crew remaining, 25% chance to inflict Action Bind to all enemies in a large, forward range for 10 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 15% chance to inflict Action Bind to all enemies in a large, forward range for 11 seconds.', 'When there is 5 or more enemies than your crew remaining, 25% chance to inflict Action Bind to all enemies in a large, forward range for 11 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 16% chance to inflict Action Bind to all enemies in a large, forward range for 12 seconds.', 'When there is 5 or more enemies than your crew remaining, 26% chance to inflict Action Bind to all enemies in a large, forward range for 12 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 16% chance to inflict Action Bind to all enemies in a large, forward range for 13 seconds.', 'When there is 5 or more enemies than your crew remaining, 26% chance to inflict Action Bind to all enemies in a large, forward range for 13 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 17% chance to inflict Action Bind to all enemies in a large, forward range for 14 seconds.', 'When there is 5 or more enemies than your crew remaining, 27% chance to inflict Action Bind to all enemies in a large, forward range for 14 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 17% chance to inflict Action Bind to all enemies in a large, forward range for 15 seconds.', 'When there is 5 or more enemies than your crew remaining, 27% chance to inflict Action Bind to all enemies in a large, forward range for 15 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 18% chance to inflict Action Bind to all enemies in a large, forward range for 16 seconds.', 'When there is 5 or more enemies than your crew remaining, 28% chance to inflict Action Bind to all enemies in a large, forward range for 16 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 18% chance to inflict Action Bind to all enemies in a large, forward range for 17 seconds.', 'When there is 5 or more enemies than your crew remaining, 28% chance to inflict Action Bind to all enemies in a large, forward range for 17 seconds.'],
+                    ['9% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 19% chance to inflict Action Bind to all enemies in a large, forward range for 18 seconds.', 'When there is 5 or more enemies than your crew remaining, 29% chance to inflict Action Bind to all enemies in a large, forward range for 18 seconds.'],
+                    ['10% HP cut to all enemies in a large, forward range.', 'When there is 2 or more enemies than your crew remaining, 20% chance to inflict Action Bind to all enemies in a large, forward range for 19 seconds.', 'When there is 5 or more enemies than your crew remaining, 30% chance to inflict Action Bind to all enemies in a large, forward range for 19 seconds.']
                 ]
             }
         }
@@ -51540,27 +51540,27 @@ window.rumble = {
         },
         festAbility: {
             base: [
-                ['Applies Lv. 1 HP up buff to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 ATK up buff to self.'],
-                ['Applies Lv. 2 HP up buff to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 ATK up buff to self.'],
-                ['Applies Lv. 3 HP up buff to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 ATK up buff to self.'],
-                ['Applies Lv. 4 HP up buff to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 ATK up buff to self.'],
-                ['Applies Lv. 5 HP up buff to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 3 ATK up buff to self.']
+                ['Applies Lv. 1 HP up buff to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 ATK up buff to self.'],
+                ['Applies Lv. 2 HP up buff to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 ATK up buff to self.'],
+                ['Applies Lv. 3 HP up buff to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 ATK up buff to self.'],
+                ['Applies Lv. 4 HP up buff to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 ATK up buff to self.'],
+                ['Applies Lv. 5 HP up buff to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 3 ATK up buff to self.']
             ]
         },
         festSpecial: {
             base: {
                 cooldown: 27,
                 descriptions: [
-                    ['Applies Lv. 1 DEF up buff to all crew members for 10 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 10 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to all crew members for 11 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 11 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to all crew members for 12 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 12 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to all crew members for 13 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 13 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to all crew members for 14 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 14 seconds.'],
-                    ['Applies Lv. 1 DEF up buff to all crew members for 15 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 15 seconds.'],
-                    ['Applies Lv. 2 DEF up buff to all crew members for 16 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 16 seconds.'],
-                    ['Applies Lv. 2 DEF up buff to all crew members for 17 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 17 seconds.'],
-                    ['Applies Lv. 2 DEF up buff to all crew members for 18 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 18 seconds.'],
-                    ['Applies Lv. 3 DEF up buff to all crew members for 20 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies enemies than your crew remaining, applies Lv. 2 DEF up buff to all crew members for 20 seconds.']
+                    ['Applies Lv. 1 DEF up buff to all crew members for 10 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 10 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to all crew members for 11 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 11 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to all crew members for 12 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 12 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to all crew members for 13 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 13 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to all crew members for 14 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 14 seconds.'],
+                    ['Applies Lv. 1 DEF up buff to all crew members for 15 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 15 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to all crew members for 16 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 16 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to all crew members for 17 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 17 seconds.'],
+                    ['Applies Lv. 2 DEF up buff to all crew members for 18 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 1 DEF up buff to all crew members for 18 seconds.'],
+                    ['Applies Lv. 3 DEF up buff to all crew members for 20 seconds.', 'Heals 0.35x RCV of HP to all crew members.', 'When there is 3 or more enemies than your crew remaining, applies Lv. 2 DEF up buff to all crew members for 20 seconds.']
                 ]
             }
         }
@@ -51685,27 +51685,27 @@ window.rumble = {
         festAttackTarget: "Nearby Enemies.",
         festAbility: {
             base: [
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 1 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.'],
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 2 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.'],
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 3 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.'],
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 4 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.'],
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 5 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.']
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 1 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.'],
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 2 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.'],
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 3 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.'],
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 4 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.'],
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 5 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 4 ATK up buff to self.']
             ]
         },
         festSpecial: {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    ['15% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 500 fixed damage to all enemies in a large, sideways range.'],
-                    ['15% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 525 fixed damage to all enemies in a large, sideways range.'],
-                    ['16% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 550 fixed damage to all enemies in a large, sideways range.'],
-                    ['16% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 575 fixed damage to all enemies in a large, sideways range.'],
-                    ['17% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 600 fixed damage to all enemies in a large, sideways range.'],
-                    ['17% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 625 fixed damage to all enemies in a large, sideways range.'],
-                    ['18% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 650 fixed damage to all enemies in a large, sideways range.'],
-                    ['18% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 675 fixed damage to all enemies in a large, sideways range.'],
-                    ['19% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 700 fixed damage to all enemies in a large, sideways range.'],
-                    ['21% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 900 fixed damage to all enemies in a large, sideways range.']
+                    ['15% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 500 fixed damage to all enemies in a large, sideways range.'],
+                    ['15% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 525 fixed damage to all enemies in a large, sideways range.'],
+                    ['16% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 550 fixed damage to all enemies in a large, sideways range.'],
+                    ['16% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 575 fixed damage to all enemies in a large, sideways range.'],
+                    ['17% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 600 fixed damage to all enemies in a large, sideways range.'],
+                    ['17% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 625 fixed damage to all enemies in a large, sideways range.'],
+                    ['18% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 1 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 650 fixed damage to all enemies in a large, sideways range.'],
+                    ['18% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 675 fixed damage to all enemies in a large, sideways range.'],
+                    ['19% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 700 fixed damage to all enemies in a large, sideways range.'],
+                    ['21% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 900 fixed damage to all enemies in a large, sideways range.']
                 ]
             }
         }
@@ -51721,27 +51721,27 @@ window.rumble = {
         festAttackTarget: "Nearby Enemies.",
         festAbility: {
             base: [
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 2 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.'],
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 3 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.'],
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 4 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.'],
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 5 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.'],
-                ['When there is 2 or more enemies enemies than your crew remaining, applies Lv. 6 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.']
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 2 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.'],
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 3 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.'],
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 4 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.'],
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 5 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.'],
+                ['When there is 2 or more enemies than your crew remaining, applies Lv. 6 ATK up buff to [STR] and [INT] crew members.', 'The first 3 times this character lands a Blow Away, applies Lv. 6 ATK up buff to self.']
             ]
         },
         festSpecial: {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    ['20% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 600 fixed damage to all enemies in a large, sideways range.'],
-                    ['20% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 625 fixed damage to all enemies in a large, sideways range.'],
-                    ['21% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 650 fixed damage to all enemies in a large, sideways range.'],
-                    ['21% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 675 fixed damage to all enemies in a large, sideways range.'],
-                    ['22% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 700 fixed damage to all enemies in a large, sideways range.'],
-                    ['22% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 725 fixed damage to all enemies in a large, sideways range.'],
-                    ['23% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 750 fixed damage to all enemies in a large, sideways range.'],
-                    ['23% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 775 fixed damage to all enemies in a large, sideways range.'],
-                    ['24% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 800 fixed damage to all enemies in a large, sideways range.'],
-                    ['25% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 4 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies enemies than your crew remaining, deals 900 fixed damage to all enemies in a large, sideways range.']
+                    ['20% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 600 fixed damage to all enemies in a large, sideways range.'],
+                    ['20% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 625 fixed damage to all enemies in a large, sideways range.'],
+                    ['21% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 650 fixed damage to all enemies in a large, sideways range.'],
+                    ['21% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 675 fixed damage to all enemies in a large, sideways range.'],
+                    ['22% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 2 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 700 fixed damage to all enemies in a large, sideways range.'],
+                    ['22% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 725 fixed damage to all enemies in a large, sideways range.'],
+                    ['23% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 750 fixed damage to all enemies in a large, sideways range.'],
+                    ['23% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 775 fixed damage to all enemies in a large, sideways range.'],
+                    ['24% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 3 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 800 fixed damage to all enemies in a large, sideways range.'],
+                    ['25% HP cut to all enemies in a large, sideways range.', 'Applies Lv. 4 Blow Away up buff to [STR] and [INT] crew members for 15 seconds.', 'When there is 2 or more enemies than your crew remaining, deals 900 fixed damage to all enemies in a large, sideways range.']
                 ]
             }
         }
@@ -81524,16 +81524,16 @@ window.rumble = {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    ['Deals 500 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 500 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 600 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 550 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 700 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 600 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 800 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 650 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 900 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 700 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,000 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 750 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,100 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 800 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,200 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 850 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,300 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 900 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,500 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 1,000 fixed damage to all enemies in a large, sideways range.']
+                    ['Deals 500 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 500 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 600 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 550 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 700 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 600 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 800 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 650 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 900 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 700 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,000 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 750 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,100 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 800 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,200 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 850 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,300 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 900 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,500 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 1,000 fixed damage to all enemies in a large, sideways range.']
                 ]
             }
         }
@@ -81563,16 +81563,16 @@ window.rumble = {
             base: {
                 cooldown: 32,
                 descriptions: [
-                    ['Deals 1,200 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 500 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,300 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 600 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,400 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 700 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,500 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 800 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,600 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 900 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,700 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 1,000 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,800 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 1,100 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 1,900 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 1,200 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 2,000 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 1,300 fixed damage to all enemies in a large, sideways range.'],
-                    ['Deals 2,200 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members crew members than the enemy team remaining, deals 1,500 fixed damage to all enemies in a large, sideways range.']
+                    ['Deals 1,200 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 500 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,300 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 600 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,400 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 700 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,500 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 800 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,600 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 900 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,700 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 1,000 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,800 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 1,100 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 1,900 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 1,200 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 2,000 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 1,300 fixed damage to all enemies in a large, sideways range.'],
+                    ['Deals 2,200 fixed damage to 3 enemies.', 'Heals 10% of HP to [PSY] crew members.', 'When there is 1 or more crew members than the enemy team remaining, deals 1,500 fixed damage to all enemies in a large, sideways range.']
                 ]
             }
         }
@@ -115523,45 +115523,6 @@ window.rumble = {
             }
         }
     },
-    5013: {
-        festCost: 55,
-        festStats: {
-            def: 162,
-            spd: 187,
-            style: "ATK"
-        },
-        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
-        festAttackTarget: "Nearby Enemies.",
-        festResistance: {
-            base: ['100% chance to resist Paralysis.']
-        },
-        festAbility: {
-            base: [
-                ['For the first 50 seconds, applies Lv. 1 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 1 Special CT up buff to self.'],
-                ['For the first 50 seconds, applies Lv. 2 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 1 Special CT up buff to self.'],
-                ['For the first 50 seconds, applies Lv. 3 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 1 Special CT up buff to self.'],
-                ['For the first 50 seconds, applies Lv. 4 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 1 Special CT up buff to self.'],
-                ['For the first 50 seconds, applies Lv. 5 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 2 Special CT up buff to self.']
-            ]
-        },
-        festSpecial: {
-            base: {
-                cooldown: 31,
-                descriptions: [
-                    ['50% chance to inflict Paralysis to 3 enemies for 16 seconds.', 'Deals 1.5x ATK in damage to 3 enemies.'],
-                    ['53% chance to inflict Paralysis to 3 enemies for 17 seconds.', 'Deals 1.6x ATK in damage to 3 enemies.'],
-                    ['56% chance to inflict Paralysis to 3 enemies for 18 seconds.', 'Deals 1.7x ATK in damage to 3 enemies.'],
-                    ['59% chance to inflict Paralysis to 3 enemies for 19 seconds.', 'Deals 1.8x ATK in damage to 3 enemies.'],
-                    ['62% chance to inflict Paralysis to 3 enemies for 20 seconds.', 'Deals 1.9x ATK in damage to 3 enemies.'],
-                    ['65% chance to inflict Paralysis to 3 enemies for 21 seconds.', 'Deals 2x ATK in damage to 3 enemies.'],
-                    ['68% chance to inflict Paralysis to 3 enemies for 22 seconds.', 'Deals 2.1x ATK in damage to 3 enemies.'],
-                    ['71% chance to inflict Paralysis to 3 enemies for 23 seconds.', 'Deals 2.2x ATK in damage to 3 enemies.'],
-                    ['74% chance to inflict Paralysis to 3 enemies for 24 seconds.', 'Deals 2.3x ATK in damage to 3 enemies.'],
-                    ['80% chance to inflict Paralysis to 3 enemies for 25 seconds.', 'Deals 2.5x ATK in damage to 3 enemies.']
-                ]
-            }
-        }
-    },
     4544: {
         festCost: 55,
         festStats: {
@@ -115620,6 +115581,196 @@ window.rumble = {
         },
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
+    },
+    4547: {
+        festCost: 55,
+        festStats: {
+            def: 142,
+            spd: 168,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP up buff to [Straw Hat Pirates], [Red-Haired Pirates] and [Four Emperors] crew members.', 'When there is 1 or more crew members than the enemy team remaining, applies Lv. 4 Special CT up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is 1 or more enemies than your crew remaining, applies Lv. 4 DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is exactly the same number of enemies remaining as crew members, applies Lv. 1 Special CT and DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When Shanks is on your crew, reduces 30% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 HP up buff to [Straw Hat Pirates], [Red-Haired Pirates] and [Four Emperors] crew members.', 'When there is 1 or more crew members than the enemy team remaining, applies Lv. 5 Special CT up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is 1 or more enemies than your crew remaining, applies Lv. 5 DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is exactly the same number of enemies remaining as crew members, applies Lv. 1 Special CT and DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When Shanks is on your crew, reduces 35% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 HP up buff to [Straw Hat Pirates], [Red-Haired Pirates] and [Four Emperors] crew members.', 'When there is 1 or more crew members than the enemy team remaining, applies Lv. 6 Special CT up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is 1 or more enemies than your crew remaining, applies Lv. 6 DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is exactly the same number of enemies remaining as crew members, applies Lv. 1 Special CT and DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When Shanks is on your crew, reduces 40% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 HP up buff to [Straw Hat Pirates], [Red-Haired Pirates] and [Four Emperors] crew members.', 'When there is 1 or more crew members than the enemy team remaining, applies Lv. 7 Special CT up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is 1 or more enemies than your crew remaining, applies Lv. 7 DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is exactly the same number of enemies remaining as crew members, applies Lv. 2 Special CT and DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When Shanks is on your crew, reduces 45% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 HP up buff to [Straw Hat Pirates], [Red-Haired Pirates] and [Four Emperors] crew members.', 'When there is 1 or more crew members than the enemy team remaining, applies Lv. 8 Special CT up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is 1 or more enemies than your crew remaining, applies Lv. 8 DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When there is exactly the same number of enemies remaining as crew members, applies Lv. 3 Special CT and DEF up buff to [STR], Cerebral and [Four Emperors] crew members.', 'When Shanks is on your crew, reduces 50% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 50,
+                descriptions: [
+                    ['52% chance to inflict Paralysis to all enemies for 11 seconds.', 'Inflicts Lv. 1 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 21 seconds.', 'Deals 6x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '80% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 41% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['54% chance to inflict Paralysis to all enemies for 12 seconds.', 'Inflicts Lv. 1 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 22 seconds.', 'Deals 7x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '82% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 42% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['56% chance to inflict Paralysis to all enemies for 13 seconds.', 'Inflicts Lv. 2 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 23 seconds.', 'Deals 8x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '84% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 43% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['58% chance to inflict Paralysis to all enemies for 14 seconds.', 'Inflicts Lv. 2 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 24 seconds.', 'Deals 9x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '86% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 44% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['60% chance to inflict Paralysis to all enemies for 15 seconds.', 'Inflicts Lv. 3 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 25 seconds.', 'Deals 10x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '88% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 45% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['62% chance to inflict Paralysis to all enemies for 16 seconds.', 'Inflicts Lv. 3 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 26 seconds.', 'Deals 11x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '90% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 46% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['64% chance to inflict Paralysis to all enemies for 17 seconds.', 'Inflicts Lv. 4 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 27 seconds.', 'Deals 12x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '92% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 47% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['66% chance to inflict Paralysis to all enemies for 18 seconds.', 'Inflicts Lv. 4 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 28 seconds.', 'Deals 13x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '94% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 48% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['68% chance to inflict Paralysis to all enemies for 19 seconds.', 'Inflicts Lv. 5 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 29 seconds.', 'Deals 14x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '96% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 49% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.'],
+                    ['70% chance to inflict Paralysis to all enemies for 20 seconds.', 'Inflicts Lv. 6 ATK, RCV, SPD and DEF down debuff to all enemies with Paralysis for 30 seconds.', 'Deals 15x ATK in spread damage to all enemies with Paralysis in a large, radial range.', '100% Special CT Delay to 1 enemy with Paralysis and the highest Special CT.', 'When Shanks is on your crew, reduces 50% of Special CT to self.', 'When Shanks is on your crew, switches self with 1st sub character.']
+                ]
+            }
+        }
+    },
+    4548: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4549: {
+        festCost: 55,
+        festStats: {
+            def: 180,
+            spd: 183,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '100% chance to resist Half Stats.', '30% damage reduction from [DEX] enemies.'],
+            llbbase: ['100% chance to resist Action Bind.', '100% chance to resist Half Stats.', '40% damage reduction from [DEX] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 10% of HP to self.'],
+                ['Applies Lv. 4 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 12% of HP to self.'],
+                ['Applies Lv. 5 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 2 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 14% of HP to self.'],
+                ['Applies Lv. 6 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 2 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 16% of HP to self.'],
+                ['Applies Lv. 7 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 3 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 20% of HP to self.']
+            ],
+            llbbase: [
+                ['Applies Lv. 4 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'Applies Lv. 5 SPD up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 20% of HP to self.', 'The first 1 times enemies are defeated, reduces 30% of Special CT to self.'],
+                ['Applies Lv. 5 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'Applies Lv. 6 SPD up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 22% of HP to self.', 'The first 1 times enemies are defeated, reduces 35% of Special CT to self.'],
+                ['Applies Lv. 6 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'Applies Lv. 7 SPD up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 2 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 24% of HP to self.', 'The first 1 times enemies are defeated, reduces 40% of Special CT to self.'],
+                ['Applies Lv. 7 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'Applies Lv. 8 SPD up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 2 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 26% of HP to self.', 'The first 1 times enemies are defeated, reduces 45% of Special CT to self.'],
+                ['Applies Lv. 8 ATK, HP and RCV up buff to [STR] and Striker crew members.', 'Applies Lv. 9 SPD up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 3 Special CT up buff to all crew members.', 'The first 3 times enemies are defeated, heals 30% of HP to self.', 'The first 1 times enemies are defeated, reduces 50% of Special CT to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 32,
+                descriptions: [
+                    ['Inflicts Lv. 2 ATK down debuff to all enemies in a large, forward range for 6 seconds.', 'Applies Lv. 1 ATK up buff to self for 6 seconds.', 'Deals 1x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 6 seconds.'],
+                    ['Inflicts Lv. 2 ATK down debuff to all enemies in a large, forward range for 7 seconds.', 'Applies Lv. 1 ATK up buff to self for 7 seconds.', 'Deals 1.07x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 7 seconds.'],
+                    ['Inflicts Lv. 3 ATK down debuff to all enemies in a large, forward range for 8 seconds.', 'Applies Lv. 1 ATK up buff to self for 8 seconds.', 'Deals 1.14x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 8 seconds.'],
+                    ['Inflicts Lv. 3 ATK down debuff to all enemies in a large, forward range for 9 seconds.', 'Applies Lv. 1 ATK up buff to self for 9 seconds.', 'Deals 1.21x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 9 seconds.'],
+                    ['Inflicts Lv. 4 ATK down debuff to all enemies in a large, forward range for 10 seconds.', 'Applies Lv. 2 ATK up buff to self for 10 seconds.', 'Deals 1.28x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to [STR] crew members for 10 seconds.'],
+                    ['Inflicts Lv. 4 ATK down debuff to all enemies in a large, forward range for 11 seconds.', 'Applies Lv. 2 ATK up buff to self for 11 seconds.', 'Deals 1.35x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to [STR] crew members for 11 seconds.'],
+                    ['Inflicts Lv. 4 ATK down debuff to all enemies in a large, forward range for 12 seconds.', 'Applies Lv. 2 ATK up buff to self for 12 seconds.', 'Deals 1.42x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to [STR] crew members for 12 seconds.'],
+                    ['Inflicts Lv. 5 ATK down debuff to all enemies in a large, forward range for 13 seconds.', 'Applies Lv. 3 ATK up buff to self for 13 seconds.', 'Deals 1.49x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to [STR] crew members for 13 seconds.'],
+                    ['Inflicts Lv. 5 ATK down debuff to all enemies in a large, forward range for 14 seconds.', 'Applies Lv. 3 ATK up buff to self for 14 seconds.', 'Deals 1.56x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 6 DEF up buff to [STR] crew members for 14 seconds.'],
+                    ['Inflicts Lv. 6 ATK down debuff to all enemies in a large, forward range for 15 seconds.', 'Applies Lv. 4 ATK up buff to self for 15 seconds.', 'Deals 1.7x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 6 DEF up buff to [STR] crew members for 15 seconds.']
+                ]
+            },
+            llbbase: {
+                cooldown: 32,
+                descriptions: [
+                    ['Inflicts Lv. 5 ATK down debuff to all enemies in a large, forward range for 11 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a large, forward range for 11 seconds.', 'Applies Lv. 2 ATK up buff to self for 11 seconds.', 'Deals 1.1x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 2 DEF up buff to [STR] crew members for 11 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 2 ATK up buff to all crew members for 11 seconds.', 'During Assault Rumble, deals 1x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 6 ATK down debuff to all enemies in a large, forward range for 12 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies in a large, forward range for 12 seconds.', 'Applies Lv. 2 ATK up buff to self for 12 seconds.', 'Deals 1.2x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 12 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 2 ATK up buff to all crew members for 12 seconds.', 'During Assault Rumble, deals 1.3x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 6 ATK down debuff to all enemies in a large, forward range for 13 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies in a large, forward range for 13 seconds.', 'Applies Lv. 3 ATK up buff to self for 13 seconds.', 'Deals 1.3x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 3 DEF up buff to [STR] crew members for 13 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 3 ATK up buff to all crew members for 13 seconds.', 'During Assault Rumble, deals 1.6x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, forward range for 14 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies in a large, forward range for 14 seconds.', 'Applies Lv. 3 ATK up buff to self for 14 seconds.', 'Deals 1.4x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to [STR] crew members for 14 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 3 ATK up buff to all crew members for 14 seconds.', 'During Assault Rumble, deals 1.9x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 7 ATK down debuff to all enemies in a large, forward range for 15 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies in a large, forward range for 15 seconds.', 'Applies Lv. 4 ATK up buff to self for 15 seconds.', 'Deals 1.5x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 4 DEF up buff to [STR] crew members for 15 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 4 ATK up buff to all crew members for 15 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 8 ATK down debuff to all enemies in a large, forward range for 16 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies in a large, forward range for 16 seconds.', 'Applies Lv. 4 ATK up buff to self for 16 seconds.', 'Deals 1.6x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to [STR] crew members for 16 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 4 ATK up buff to all crew members for 16 seconds.', 'During Assault Rumble, deals 2.5x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 8 ATK down debuff to all enemies in a large, forward range for 17 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies in a large, forward range for 17 seconds.', 'Applies Lv. 4 ATK up buff to self for 17 seconds.', 'Deals 1.7x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 5 DEF up buff to [STR] crew members for 17 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 4 ATK up buff to all crew members for 17 seconds.', 'During Assault Rumble, deals 2.8x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 9 ATK down debuff to all enemies in a large, forward range for 18 seconds.', 'Inflicts Lv. 5 DEF down debuff to all enemies in a large, forward range for 18 seconds.', 'Applies Lv. 5 ATK up buff to self for 18 seconds.', 'Deals 1.8x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 6 DEF up buff to [STR] crew members for 18 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 5 ATK up buff to all crew members for 18 seconds.', 'During Assault Rumble, deals 3.1x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 9 ATK down debuff to all enemies in a large, forward range for 19 seconds.', 'Inflicts Lv. 5 DEF down debuff to all enemies in a large, forward range for 19 seconds.', 'Applies Lv. 5 ATK up buff to self for 19 seconds.', 'Deals 1.9x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 6 DEF up buff to [STR] crew members for 19 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 5 ATK up buff to all crew members for 19 seconds.', 'During Assault Rumble, deals 3.4x ATK in damage to [Red-Haired Pirates] enemies.'],
+                    ['Inflicts Lv. 10 ATK down debuff to all enemies in a large, forward range for 20 seconds.', 'Inflicts Lv. 6 DEF down debuff to all enemies in a large, forward range for 20 seconds.', 'Applies Lv. 6 ATK up buff to self for 20 seconds.', 'Deals 2x ATK in damage ignoring DEF to all enemies in a large, forward range.', 'Applies Lv. 7 DEF up buff to [STR] crew members for 20 seconds.', 'When there is 4 or more [Kid Pirates], [Land of Wano Arc], [Egghead Arc] and [Worst Generation] crew members, applies Lv. 6 ATK up buff to all crew members for 20 seconds.', 'During Assault Rumble, deals 4x ATK in damage to [Red-Haired Pirates] enemies.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 1 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 1 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 1 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 1 DEF up buff to Striker and Driven crew members.'],
+                ['Applies Lv. 3 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 1 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 2 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 4 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 2 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 1 DEF up buff to Striker and Driven crew members.'],
+                ['Applies Lv. 4 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 2 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 5 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 2 DEF up buff to Striker and Driven crew members.'],
+                ['Applies Lv. 5 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 2 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 4 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 6 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 2 DEF up buff to Striker and Driven crew members.'],
+                ['Applies Lv. 6 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 5 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 7 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 4 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 3 DEF up buff to Striker and Driven crew members.']
+            ],
+            llbbase: [
+                ['Applies Lv. 3 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 1 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 1 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 6 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 1 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 1 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 2 Special CT up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 4 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 2 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 2 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 7 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 2 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 2 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 3 Special CT up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 5 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 8 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 3 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 4 Special CT up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 6 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 3 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 4 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 9 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 4 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 3 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 5 Special CT up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.'],
+                ['Applies Lv. 7 ATK, SPD and HP up buff to [STR] and [DEX] crew members.', 'Applies Lv. 4 DEF up buff to [STR] and [DEX] crew members.', 'Applies Lv. 5 Critical Hit up buff to [STR] and [DEX] crew members.', 'Applies Lv. 10 Guard up buff to [STR] and [DEX] crew members.', 'Applies Lv. 5 ATK and SPD up buff to Striker and Driven crew members.', 'Applies Lv. 4 DEF up buff to Striker and Driven crew members.', 'Applies Lv. 6 Special CT up buff to [Kid Pirates], [Worst Generation] and [Paramythia-type] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After guarding 5 times",
+                descriptions: [
+                    ["Deals 1.7x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 1 ATK and DEF up buff to [STR], [DEX], Striker and Driven crew members for 26 seconds.'],
+                    ["Deals 1.9x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 2 ATK and DEF up buff to [STR], [DEX], Striker and Driven crew members for 27 seconds.'],
+                    ["Deals 2.1x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 3 ATK and DEF up buff to [STR], [DEX], Striker and Driven crew members for 28 seconds.'],
+                    ["Deals 2.3x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 4 ATK and DEF up buff to [STR], [DEX], Striker and Driven crew members for 29 seconds.'],
+                    ["Deals 2.5x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 5 ATK and DEF up buff to [STR], [DEX], Striker and Driven crew members for 30 seconds.']
+                ]
+            },
+            llbbase: {
+                uses: 2,
+                condition: "After guarding 5 times",
+                descriptions: [
+                    ["Deals 2.2x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 2 ATK, SPD and DEF up buff to [STR], [DEX], Striker and Driven crew members for 26 seconds.'],
+                    ["Deals 2.4x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 3 ATK, SPD and DEF up buff to [STR], [DEX], Striker and Driven crew members for 27 seconds.'],
+                    ["Deals 2.6x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 4 ATK, SPD and DEF up buff to [STR], [DEX], Striker and Driven crew members for 28 seconds.'],
+                    ["Deals 2.8x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 5 ATK, SPD and DEF up buff to [STR], [DEX], Striker and Driven crew members for 29 seconds.'],
+                    ["Deals 3x Leader's base ATK in damage ignoring DEF to 3 enemies.", 'Applies Lv. 6 ATK, SPD and DEF up buff to [STR], [DEX], Striker and Driven crew members for 30 seconds.']
+                ]
+            }
+        }
+    },
+    5013: {
+        festCost: 55,
+        festStats: {
+            def: 162,
+            spd: 187,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Paralysis.']
+        },
+        festAbility: {
+            base: [
+                ['For the first 50 seconds, applies Lv. 1 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 1 Special CT up buff to self.'],
+                ['For the first 50 seconds, applies Lv. 2 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 1 Special CT up buff to self.'],
+                ['For the first 50 seconds, applies Lv. 3 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 1 Special CT up buff to self.'],
+                ['For the first 50 seconds, applies Lv. 4 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 1 Special CT up buff to self.'],
+                ['For the first 50 seconds, applies Lv. 5 SPD and ATK up buff to all crew members.', 'When there are 50 seconds or less remaining, applies Lv. 2 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 31,
+                descriptions: [
+                    ['50% chance to inflict Paralysis to 3 enemies for 16 seconds.', 'Deals 1.5x ATK in damage to 3 enemies.'],
+                    ['53% chance to inflict Paralysis to 3 enemies for 17 seconds.', 'Deals 1.6x ATK in damage to 3 enemies.'],
+                    ['56% chance to inflict Paralysis to 3 enemies for 18 seconds.', 'Deals 1.7x ATK in damage to 3 enemies.'],
+                    ['59% chance to inflict Paralysis to 3 enemies for 19 seconds.', 'Deals 1.8x ATK in damage to 3 enemies.'],
+                    ['62% chance to inflict Paralysis to 3 enemies for 20 seconds.', 'Deals 1.9x ATK in damage to 3 enemies.'],
+                    ['65% chance to inflict Paralysis to 3 enemies for 21 seconds.', 'Deals 2x ATK in damage to 3 enemies.'],
+                    ['68% chance to inflict Paralysis to 3 enemies for 22 seconds.', 'Deals 2.1x ATK in damage to 3 enemies.'],
+                    ['71% chance to inflict Paralysis to 3 enemies for 23 seconds.', 'Deals 2.2x ATK in damage to 3 enemies.'],
+                    ['74% chance to inflict Paralysis to 3 enemies for 24 seconds.', 'Deals 2.3x ATK in damage to 3 enemies.'],
+                    ['80% chance to inflict Paralysis to 3 enemies for 25 seconds.', 'Deals 2.5x ATK in damage to 3 enemies.']
+                ]
+            }
+        }
     },
     5014: {
         festCost: 55,
