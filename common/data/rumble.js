@@ -115948,6 +115948,45 @@ window.rumble = {
             }
         }
     },
+    4556: {
+        festCost: 20,
+        festStats: {
+            def: 161,
+            spd: 167,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, SPD and DEF up buff to [DEX] and Free Spirit crew members.', 'When Monkey D. Luffy, Sabo or Yamato is on your crew, applies Lv. 4 Guard and Shield up buff to self.', 'The first 5 times this character lands a Guard, reduces 12% of Special CT to self.'],
+                ['Applies Lv. 3 HP, SPD and DEF up buff to [DEX] and Free Spirit crew members.', 'When Monkey D. Luffy, Sabo or Yamato is on your crew, applies Lv. 5 Guard and Shield up buff to self.', 'The first 5 times this character lands a Guard, reduces 14% of Special CT to self.'],
+                ['Applies Lv. 4 HP, SPD and DEF up buff to [DEX] and Free Spirit crew members.', 'When Monkey D. Luffy, Sabo or Yamato is on your crew, applies Lv. 6 Guard and Shield up buff to self.', 'The first 5 times this character lands a Guard, reduces 16% of Special CT to self.'],
+                ['Applies Lv. 5 HP, SPD and DEF up buff to [DEX] and Free Spirit crew members.', 'When Monkey D. Luffy, Sabo or Yamato is on your crew, applies Lv. 7 Guard and Shield up buff to self.', 'The first 5 times this character lands a Guard, reduces 18% of Special CT to self.'],
+                ['Applies Lv. 6 HP, SPD and DEF up buff to [DEX] and Free Spirit crew members.', 'When Monkey D. Luffy, Sabo or Yamato is on your crew, applies Lv. 8 Guard and Shield up buff to self.', 'The first 5 times this character lands a Guard, reduces 20% of Special CT to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 26,
+                descriptions: [
+                    ['10% HP cut to all enemies in a large, forward range.', '82% chance to inflict Forced Out to 1 DEF-Style enemy for 6 seconds.', '82% chance to inflict Forced Out to 1 DBF-Style enemy for 6 seconds.', '82% chance to inflict Forced Out to 1 RCV-Style enemy for 6 seconds.', '82% chance to evade Action Bind to [DEX] and Free Spirit crew members for 6 seconds.', 'Reduces 20% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '73% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['11% HP cut to all enemies in a large, forward range.', '84% chance to inflict Forced Out to 1 DEF-Style enemy for 6 seconds.', '84% chance to inflict Forced Out to 1 DBF-Style enemy for 6 seconds.', '84% chance to inflict Forced Out to 1 RCV-Style enemy for 6 seconds.', '84% chance to evade Action Bind to [DEX] and Free Spirit crew members for 7 seconds.', 'Reduces 21% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '76% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['12% HP cut to all enemies in a large, forward range.', '86% chance to inflict Forced Out to 1 DEF-Style enemy for 7 seconds.', '86% chance to inflict Forced Out to 1 DBF-Style enemy for 7 seconds.', '86% chance to inflict Forced Out to 1 RCV-Style enemy for 7 seconds.', '86% chance to evade Action Bind to [DEX] and Free Spirit crew members for 8 seconds.', 'Reduces 22% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '79% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['13% HP cut to all enemies in a large, forward range.', '88% chance to inflict Forced Out to 1 DEF-Style enemy for 7 seconds.', '88% chance to inflict Forced Out to 1 DBF-Style enemy for 7 seconds.', '88% chance to inflict Forced Out to 1 RCV-Style enemy for 7 seconds.', '88% chance to evade Action Bind to [DEX] and Free Spirit crew members for 9 seconds.', 'Reduces 23% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '82% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['14% HP cut to all enemies in a large, forward range.', '90% chance to inflict Forced Out to 1 DEF-Style enemy for 8 seconds.', '90% chance to inflict Forced Out to 1 DBF-Style enemy for 8 seconds.', '90% chance to inflict Forced Out to 1 RCV-Style enemy for 8 seconds.', '90% chance to evade Action Bind to [DEX] and Free Spirit crew members for 10 seconds.', 'Reduces 24% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '85% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['15% HP cut to all enemies in a large, forward range.', '92% chance to inflict Forced Out to 1 DEF-Style enemy for 8 seconds.', '92% chance to inflict Forced Out to 1 DBF-Style enemy for 8 seconds.', '92% chance to inflict Forced Out to 1 RCV-Style enemy for 8 seconds.', '92% chance to evade Action Bind to [DEX] and Free Spirit crew members for 11 seconds.', 'Reduces 25% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '88% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['16% HP cut to all enemies in a large, forward range.', '94% chance to inflict Forced Out to 1 DEF-Style enemy for 9 seconds.', '94% chance to inflict Forced Out to 1 DBF-Style enemy for 9 seconds.', '94% chance to inflict Forced Out to 1 RCV-Style enemy for 9 seconds.', '94% chance to evade Action Bind to [DEX] and Free Spirit crew members for 12 seconds.', 'Reduces 26% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '91% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['17% HP cut to all enemies in a large, forward range.', '96% chance to inflict Forced Out to 1 DEF-Style enemy for 9 seconds.', '96% chance to inflict Forced Out to 1 DBF-Style enemy for 9 seconds.', '96% chance to inflict Forced Out to 1 RCV-Style enemy for 9 seconds.', '96% chance to evade Action Bind to [DEX] and Free Spirit crew members for 13 seconds.', 'Reduces 27% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '94% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['18% HP cut to all enemies in a large, forward range.', '98% chance to inflict Forced Out to 1 DEF-Style enemy for 10 seconds.', '98% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.', '98% chance to inflict Forced Out to 1 RCV-Style enemy for 10 seconds.', '98% chance to evade Action Bind to [DEX] and Free Spirit crew members for 14 seconds.', 'Reduces 28% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '97% chance to inflict Action Bind to all enemies for 5 seconds.'],
+                    ['20% HP cut to all enemies in a large, forward range.', '100% chance to inflict Forced Out to 1 DEF-Style enemy for 10 seconds.', '100% chance to inflict Forced Out to 1 DBF-Style enemy for 10 seconds.', '100% chance to inflict Forced Out to 1 RCV-Style enemy for 10 seconds.', '100% chance to evade Action Bind to [DEX] and Free Spirit crew members for 15 seconds.', 'Reduces 30% of Special CT to Monkey D. Luffy, Sabo and Yamato crew members.', '100% chance to inflict Action Bind to all enemies for 5 seconds.']
+                ]
+            }
+        }
+    },
     5013: {
         festCost: 55,
         festStats: {
