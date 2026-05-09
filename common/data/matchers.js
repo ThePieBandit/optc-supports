@@ -3561,7 +3561,7 @@
 						description: "Turns:",
 						groups: [2, 3, 4, 5],
 					},
-					...createUniversalSubmatcher([1]),
+					...createUniversalSubmatcher([1], "Crew"),
 					{
 						type: "separator",
 						description: "Affected types:",
@@ -3729,7 +3729,7 @@
 			},
 			{
 				name: "Enemy Damage Reduction to ATK",
-				targets: ["special"],
+				targets: ["special", "superSpecial"],
 				regex:
 					/boosts Enemy Damage Reduction to ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x-([?.\d]+)x, proportional to the strength of enemies' Percent Damage Reduction buff, for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
@@ -3924,6 +3924,13 @@
 						type: "option",
 						description: "EOT Healing",
 						regex: /End of Turn Healing/i,
+						groups: [1],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "option",
+						description: "STND Expansion",
+						regex: /STND Expansion/i,
 						groups: [1],
 						cssClasses: ["min-width-6"],
 					},
@@ -5827,19 +5834,19 @@
 				name: "STND Expansion",
 				targets: ["captain", "special", "superSpecial", "support"],
 				regex:
-					/allows crew to perform Super Tandem with ([^".]+?)orbs(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
+					/allows (?=((?:[^c."]+|c(?!har))*))\1characters? to perform Super Tandem with ([^".]+?)orbs(?:, ([^,]+),)? for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
 				submatchers: [
 					{
 						type: "number",
 						description: "Turns:",
-						groups: [3, 4],
+						groups: [4, 5],
 					},
 					{
 						type: "option",
 						description: "Buff Clear Immune",
 						regex: /preventing buff clears/,
 						radioGroup: "targets",
-						groups: [2],
+						groups: [3],
 						cssClasses: ["min-width-6"],
 					},
 					{
@@ -5860,8 +5867,23 @@
 							"RAINBOW",
 							"WANO",
 						],
-						[1]
+						[2]
 					),
+					{
+						type: "separator",
+						description: "Affected characters:",
+					},
+					...createUniversalSubmatcher([1]),
+					{
+						type: "separator",
+						description: "Affected types:",
+					},
+					...createTypesSubmatchers([1]),
+					{
+						type: "separator",
+						description: "Affected classes:",
+					},
+					...createClassesSubmatchers([1]),
 				],
 			},
 			{
@@ -6033,6 +6055,11 @@
 							"TND",
 							"BOMB",
 							"EMPTY",
+							"Super STR",
+							"Super DEX",
+							"Super QCK",
+							"Super PSY",
+							"Super INT",
 							"SUPERBOMB",
 							"RAINBOW",
 							"SEMLA",
