@@ -115948,6 +115948,45 @@ window.rumble = {
             }
         }
     },
+    4555: {
+        festCost: 20,
+        festStats: {
+            def: 156,
+            spd: 145,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Special Bind.', '20% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and SPD up buff to [INT], Free Spirit and [Scientist] crew members.', 'Inflicts Lv. 3 ATK down debuff to [Navy] and [World Government] enemies.', 'When there is 3 or more [Scientist] crew members, on death launches rumble special 1 time.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to [Navy] and [World Government] enemies.'],
+                ['Applies Lv. 2 ATK and SPD up buff to [INT], Free Spirit and [Scientist] crew members.', 'Inflicts Lv. 4 ATK down debuff to [Navy] and [World Government] enemies.', 'When there is 3 or more [Scientist] crew members, on death launches rumble special 1 time.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, inflicts Lv. 1 DEF down debuff to [Navy] and [World Government] enemies.'],
+                ['Applies Lv. 3 ATK and SPD up buff to [INT], Free Spirit and [Scientist] crew members.', 'Inflicts Lv. 5 ATK down debuff to [Navy] and [World Government] enemies.', 'When there is 3 or more [Scientist] crew members, on death launches rumble special 1 time.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to [Navy] and [World Government] enemies.'],
+                ['Applies Lv. 4 ATK and SPD up buff to [INT], Free Spirit and [Scientist] crew members.', 'Inflicts Lv. 6 ATK down debuff to [Navy] and [World Government] enemies.', 'When there is 3 or more [Scientist] crew members, on death launches rumble special 1 time.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, inflicts Lv. 2 DEF down debuff to [Navy] and [World Government] enemies.'],
+                ['Applies Lv. 5 ATK and SPD up buff to [INT], Free Spirit and [Scientist] crew members.', 'Inflicts Lv. 7 ATK down debuff to [Navy] and [World Government] enemies.', 'When there is 3 or more [Scientist] crew members, on death launches rumble special 1 time.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, inflicts Lv. 4 DEF down debuff to [Navy] and [World Government] enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 29,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 11 seconds.', 'Inflicts Lv. 1 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 11 seconds.', 'When HP is below 1%, inflicts Lv. 1 DEF down debuff to [Navy] and [World Government] enemies for 73 seconds.', '62% chance to inflict Confusion to 2 [World Government] enemies for 5 seconds.', 'Deals 1.15x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.1x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 12 seconds.', 'Inflicts Lv. 1 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 12 seconds.', 'When HP is below 1%, inflicts Lv. 1 DEF down debuff to [Navy] and [World Government] enemies for 76 seconds.', '64% chance to inflict Confusion to 2 [World Government] enemies for 6 seconds.', 'Deals 1.2x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.2x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 1 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 13 seconds.', 'Inflicts Lv. 1 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 13 seconds.', 'When HP is below 1%, inflicts Lv. 1 DEF down debuff to [Navy] and [World Government] enemies for 79 seconds.', '66% chance to inflict Confusion to 2 [World Government] enemies for 6 seconds.', 'Deals 1.25x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.3x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 14 seconds.', 'Inflicts Lv. 2 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 14 seconds.', 'When HP is below 1%, inflicts Lv. 2 DEF down debuff to [Navy] and [World Government] enemies for 82 seconds.', '68% chance to inflict Confusion to 2 [World Government] enemies for 7 seconds.', 'Deals 1.3x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.4x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 2 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 15 seconds.', 'Inflicts Lv. 2 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 15 seconds.', 'When HP is below 1%, inflicts Lv. 2 DEF down debuff to [Navy] and [World Government] enemies for 85 seconds.', '70% chance to inflict Confusion to 2 [World Government] enemies for 7 seconds.', 'Deals 1.35x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.5x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 16 seconds.', 'Inflicts Lv. 3 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 16 seconds.', 'When HP is below 1%, inflicts Lv. 3 DEF down debuff to [Navy] and [World Government] enemies for 88 seconds.', '72% chance to inflict Confusion to 2 [World Government] enemies for 8 seconds.', 'Deals 1.4x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.6x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 17 seconds.', 'Inflicts Lv. 3 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 17 seconds.', 'When HP is below 1%, inflicts Lv. 3 DEF down debuff to [Navy] and [World Government] enemies for 91 seconds.', '74% chance to inflict Confusion to 2 [World Government] enemies for 8 seconds.', 'Deals 1.45x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.7x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 3 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 18 seconds.', 'Inflicts Lv. 3 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 18 seconds.', 'When HP is below 1%, inflicts Lv. 3 DEF down debuff to [Navy] and [World Government] enemies for 94 seconds.', '76% chance to inflict Confusion to 2 [World Government] enemies for 9 seconds.', 'Deals 1.5x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.8x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 4 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 19 seconds.', 'Inflicts Lv. 4 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 19 seconds.', 'When HP is below 1%, inflicts Lv. 4 DEF down debuff to [Navy] and [World Government] enemies for 97 seconds.', '78% chance to inflict Confusion to 2 [World Government] enemies for 9 seconds.', 'Deals 1.55x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 3.9x ATK in damage to [Navy] and [World Government] enemies.'],
+                    ['Applies Lv. 5 ATK up buff to [INT], Free Spirit and [Scientist] crew members for 20 seconds.', 'Inflicts Lv. 5 Special CT and SPD down debuff to [Navy] and [World Government] enemies for 20 seconds.', 'When HP is below 1%, inflicts Lv. 5 DEF down debuff to [Navy] and [World Government] enemies for 100 seconds.', '80% chance to inflict Confusion to 2 [World Government] enemies for 10 seconds.', 'Deals 1.6x ATK in damage ignoring DEF to [World Government] enemies.', 'During Assault Rumble, deals 4x ATK in damage to [Navy] and [World Government] enemies.']
+                ]
+            }
+        }
+    },
     4556: {
         festCost: 20,
         festStats: {
