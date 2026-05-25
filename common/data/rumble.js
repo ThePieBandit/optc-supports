@@ -116907,6 +116907,198 @@ window.rumble = {
             }
         }
     },
+    4576: {
+        festCost: 55,
+        festStats: {
+            def: 142,
+            spd: 199,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from Slasher enemies.', '30% damage reduction from Cerebral enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, RCV and DEF up buff to Powerhouse, Striker and [World Government] crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 1 DEF down debuff to all enemies.'],
+                ['Applies Lv. 3 HP, RCV and DEF up buff to Powerhouse, Striker and [World Government] crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 2 DEF down debuff to all enemies.'],
+                ['Applies Lv. 4 HP, RCV and DEF up buff to Powerhouse, Striker and [World Government] crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, applies Lv. 1 Special CT up buff to all crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 3 DEF down debuff to all enemies.'],
+                ['Applies Lv. 5 HP, RCV and DEF up buff to Powerhouse, Striker and [World Government] crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, applies Lv. 2 Special CT up buff to all crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 4 DEF down debuff to all enemies.'],
+                ['Applies Lv. 6 HP, RCV and DEF up buff to Powerhouse, Striker and [World Government] crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, applies Lv. 3 Special CT up buff to all crew members.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 5 DEF down debuff to all enemies.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['Applies Lv. 1 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 73 seconds.', 'Applies Lv. 1 DEF up buff to Powerhouse, Striker and [World Government] crew members for 73 seconds.', 'Deals 1,600 fixed damage to Cerebral and Slasher enemies.', 'Deals 1,600 fixed damage to all enemies with RCV Bind.', 'Deals 6x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 5% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 1 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 76 seconds.', 'Applies Lv. 1 DEF up buff to Powerhouse, Striker and [World Government] crew members for 76 seconds.', 'Deals 1,700 fixed damage to Cerebral and Slasher enemies.', 'Deals 1,700 fixed damage to all enemies with RCV Bind.', 'Deals 7x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 5% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 1 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 79 seconds.', 'Applies Lv. 1 DEF up buff to Powerhouse, Striker and [World Government] crew members for 79 seconds.', 'Deals 1,800 fixed damage to Cerebral and Slasher enemies.', 'Deals 1,800 fixed damage to all enemies with RCV Bind.', 'Deals 8x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 6% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 2 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 82 seconds.', 'Applies Lv. 1 DEF up buff to Powerhouse, Striker and [World Government] crew members for 82 seconds.', 'Deals 1,900 fixed damage to Cerebral and Slasher enemies.', 'Deals 1,900 fixed damage to all enemies with RCV Bind.', 'Deals 9x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 6% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 2 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 85 seconds.', 'Applies Lv. 1 DEF up buff to Powerhouse, Striker and [World Government] crew members for 85 seconds.', 'Deals 2,000 fixed damage to Cerebral and Slasher enemies.', 'Deals 2,000 fixed damage to all enemies with RCV Bind.', 'Deals 10x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 7% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 2 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 88 seconds.', 'Applies Lv. 2 DEF up buff to Powerhouse, Striker and [World Government] crew members for 88 seconds.', 'Deals 2,100 fixed damage to Cerebral and Slasher enemies.', 'Deals 2,100 fixed damage to all enemies with RCV Bind.', 'Deals 11x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 7% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 3 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 91 seconds.', 'Applies Lv. 2 DEF up buff to Powerhouse, Striker and [World Government] crew members for 91 seconds.', 'Deals 2,200 fixed damage to Cerebral and Slasher enemies.', 'Deals 2,200 fixed damage to all enemies with RCV Bind.', 'Deals 12x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 8% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 3 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 94 seconds.', 'Applies Lv. 2 DEF up buff to Powerhouse, Striker and [World Government] crew members for 94 seconds.', 'Deals 2,300 fixed damage to Cerebral and Slasher enemies.', 'Deals 2,300 fixed damage to all enemies with RCV Bind.', 'Deals 13x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 8% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 3 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 97 seconds.', 'Applies Lv. 2 DEF up buff to Powerhouse, Striker and [World Government] crew members for 97 seconds.', 'Deals 2,400 fixed damage to Cerebral and Slasher enemies.', 'Deals 2,400 fixed damage to all enemies with RCV Bind.', 'Deals 14x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 9% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.'],
+                    ['Applies Lv. 4 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 100 seconds.', 'Applies Lv. 3 DEF up buff to Powerhouse, Striker and [World Government] crew members for 100 seconds.', 'Deals 2,500 fixed damage to Cerebral and Slasher enemies.', 'Deals 2,500 fixed damage to all enemies with RCV Bind.', 'Deals 15x ATK in spread damage to all enemies in a large, radial range.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 10% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character is healed 10 times",
+                description: ['Applies Lv. 5 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 100 seconds.', 'Applies Lv. 4 DEF up buff to Powerhouse, Striker and [World Government] crew members for 100 seconds.', 'Deals 4,000 fixed damage to all enemies.', 'Deals 20x ATK in spread damage to all enemies in a large, radial range.', 'When there is more enemies remaining than crew members, deals 4x ATK in damage to all enemies.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 20% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.']
+            },
+            llbbase: {
+                condition: "After this character is healed 6 times",
+                description: ['Applies Lv. 6 ATK, SPD and RCV up buff to Powerhouse, Striker and [World Government] crew members for 100 seconds.', 'Applies Lv. 5 DEF up buff to Powerhouse, Striker and [World Government] crew members for 100 seconds.', 'Deals 5,000 fixed damage to all enemies.', 'Deals 25x ATK in spread damage to all enemies in a large, radial range.', 'When there is more enemies remaining than crew members, deals 5x ATK in damage to all enemies.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, reduces 30% of Special CT to Powerhouse, Striker and [World Government] crew members, excluding self.']
+            }
+        }
+    },
+    4577: {
+        festCost: 55,
+        festStats: {
+            def: 193,
+            spd: 175,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Medium Range Heal</i>', 'Normal Attack', '<i>Level 2 Medium Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist RCV Bind.', '30% damage reduction from Slasher enemies.', '30% damage reduction from Cerebral enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Inflicts Lv. 3 SPD, DEF and ATK down debuff to Cerebral and Slasher enemies.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'The first 10 times this character takes damage, heals 0.6x RCV of HP to Powerhouse, Striker and [World Government] all crew members.'],
+                ['Inflicts Lv. 4 SPD, DEF and ATK down debuff to Cerebral and Slasher enemies.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'The first 10 times this character takes damage, heals 0.7x RCV of HP to Powerhouse, Striker and [World Government] all crew members.'],
+                ['Inflicts Lv. 5 SPD, DEF and ATK down debuff to Cerebral and Slasher enemies.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 1 Special CT down debuff to all enemies.', 'The first 10 times this character takes damage, heals 0.8x RCV of HP to Powerhouse, Striker and [World Government] all crew members.'],
+                ['Inflicts Lv. 6 SPD, DEF and ATK down debuff to Cerebral and Slasher enemies.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 2 Special CT down debuff to all enemies.', 'The first 10 times this character takes damage, heals 0.9x RCV of HP to Powerhouse, Striker and [World Government] all crew members.'],
+                ['Inflicts Lv. 7 SPD, DEF and ATK down debuff to Cerebral and Slasher enemies.', 'When there is 6 or more Powerhouse and Striker crew members or when there is 5 or more [World Government] crew members, inflicts Lv. 3 Special CT down debuff to all enemies.', 'The first 10 times this character takes damage, heals 1x RCV of HP to Powerhouse, Striker and [World Government] all crew members.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 29,
+                descriptions: [
+                    ['73% chance to inflict RCV Bind to 3 enemies with the lowest HP for 11 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the lowest HP for 11 seconds.', 'Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 11 seconds.', 'Heals 150 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 11 seconds.', '32% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 11 seconds.'],
+                    ['76% chance to inflict RCV Bind to 3 enemies with the lowest HP for 12 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the lowest HP for 12 seconds.', 'Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 12 seconds.', 'Heals 200 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 12 seconds.', '34% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 11 seconds.'],
+                    ['79% chance to inflict RCV Bind to 3 enemies with the lowest HP for 13 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the lowest HP for 13 seconds.', 'Applies Lv. 1 Shield up buff to all crew members in a large, radial range for 13 seconds.', 'Heals 250 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 13 seconds.', '36% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 12 seconds.'],
+                    ['82% chance to inflict RCV Bind to 3 enemies with the lowest HP for 14 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the lowest HP for 14 seconds.', 'Applies Lv. 2 Shield up buff to all crew members in a large, radial range for 14 seconds.', 'Heals 300 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 14 seconds.', '38% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 12 seconds.'],
+                    ['85% chance to inflict RCV Bind to 3 enemies with the lowest HP for 15 seconds.', 'Inflicts Lv. 1 Damage Over Time to 3 enemies with the lowest HP for 15 seconds.', 'Applies Lv. 2 Shield up buff to all crew members in a large, radial range for 15 seconds.', 'Heals 350 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 15 seconds.', '40% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 13 seconds.'],
+                    ['88% chance to inflict RCV Bind to 3 enemies with the lowest HP for 16 seconds.', 'Inflicts Lv. 2 Damage Over Time to 3 enemies with the lowest HP for 16 seconds.', 'Applies Lv. 3 Shield up buff to all crew members in a large, radial range for 16 seconds.', 'Heals 400 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 16 seconds.', '42% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 13 seconds.'],
+                    ['91% chance to inflict RCV Bind to 3 enemies with the lowest HP for 17 seconds.', 'Inflicts Lv. 2 Damage Over Time to 3 enemies with the lowest HP for 17 seconds.', 'Applies Lv. 3 Shield up buff to all crew members in a large, radial range for 17 seconds.', 'Heals 450 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 17 seconds.', '44% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 14 seconds.'],
+                    ['94% chance to inflict RCV Bind to 3 enemies with the lowest HP for 18 seconds.', 'Inflicts Lv. 2 Damage Over Time to 3 enemies with the lowest HP for 18 seconds.', 'Applies Lv. 4 Shield up buff to all crew members in a large, radial range for 18 seconds.', 'Heals 500 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 18 seconds.', '46% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 14 seconds.'],
+                    ['97% chance to inflict RCV Bind to 3 enemies with the lowest HP for 19 seconds.', 'Inflicts Lv. 2 Damage Over Time to 3 enemies with the lowest HP for 19 seconds.', 'Applies Lv. 4 Shield up buff to all crew members in a large, radial range for 19 seconds.', 'Heals 550 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 19 seconds.', '48% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 15 seconds.'],
+                    ['100% chance to inflict RCV Bind to 3 enemies with the lowest HP for 20 seconds.', 'Inflicts Lv. 3 Damage Over Time to 3 enemies with the lowest HP for 20 seconds.', 'Applies Lv. 5 Shield up buff to all crew members in a large, radial range for 20 seconds.', 'Heals 600 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 20 seconds.', '50% chance to evade Damage Ignoring DEF to Powerhouse, Striker and [World Government] crew members for 15 seconds.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "After this character receives damage 6 times",
+                description: ['100% chance to inflict RCV Bind to 4 enemies with the lowest HP for 25 seconds.', 'Inflicts Lv. 7 Damage Over Time to 4 enemies with the lowest HP for 25 seconds.', 'Applies Lv. 7 Shield up buff to all crew members in a large, radial range for 25 seconds.', 'Heals 700 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 25 seconds.', '50% chance to evade Damage Ignoring DEF and Fixed Damage to Powerhouse, Striker and [World Government] crew members for 20 seconds.']
+            },
+            llbbase: {
+                condition: "After this character receives damage 6 times",
+                description: ['100% chance to inflict RCV Bind to all enemies for 30 seconds.', 'Inflicts Lv. 10 Damage Over Time to all enemies for 30 seconds.', 'Applies Lv. 10 Shield up buff to all crew members in a large, radial range for 30 seconds.', 'Heals 800 fixed HP every 3 seconds to Powerhouse, Striker and [World Government] crew members for 30 seconds.', '100% chance to evade Damage Ignoring DEF and Fixed Damage to Powerhouse, Striker and [World Government] crew members for 20 seconds.', 'Heals 100% of HP to self.']
+            }
+        }
+    },
+    4578: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4579: {
+        festCost: 20,
+        festStats: {
+            def: 231,
+            spd: 174,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Medium Range Heal</i>', 'Normal Attack', '<i>Level 2 Medium Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '100% chance to resist Forced Out.', '30% damage reduction from [INT] enemies.', '1.3x damage boost to [INT] enemies.'],
+            llbbase: ['100% chance to resist Special Bind.', '100% chance to resist Forced Out.', '40% damage reduction from [INT] enemies.', '1.4x damage boost to [INT] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'For the first 50 seconds, inflicts Lv. 1 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 2 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 40% HP after death to self 1 time.'],
+                ['Applies Lv. 3 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'For the first 50 seconds, inflicts Lv. 2 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 3 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 42% HP after death to self 1 time.'],
+                ['Applies Lv. 4 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'For the first 50 seconds, inflicts Lv. 3 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 4 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 44% HP after death to self 1 time.'],
+                ['Applies Lv. 5 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'For the first 50 seconds, inflicts Lv. 4 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 5 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 46% HP after death to self 1 time.'],
+                ['Applies Lv. 6 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'For the first 50 seconds, inflicts Lv. 5 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 6 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 50% HP after death to self 1 time.']
+            ],
+            llbbase: [
+                ['Applies Lv. 3 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'Inflicts Lv. 1 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 3 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 80% HP after death to self 1 time.'],
+                ['Applies Lv. 4 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'Inflicts Lv. 2 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 4 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 82% HP after death to self 1 time.'],
+                ['Applies Lv. 5 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'Inflicts Lv. 3 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 5 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 84% HP after death to self 1 time.'],
+                ['Applies Lv. 6 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'Inflicts Lv. 4 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 6 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 86% HP after death to self 1 time.'],
+                ['Applies Lv. 7 DEF, SPD and RCV up buff to [PSY], Striker and [Skypiea Arc] crew members.', 'Inflicts Lv. 5 Special CT down debuff to Slasher enemies.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, applies Lv. 7 ATK up buff to all crew members.', 'When there is 5 or more Striker crew members or when there is 5 or more [Skypiea Arc] crew members, revive to 100% HP after death to self 1 time.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 17,
+                descriptions: [
+                    ['Deals 1.6x ATK in damage to all enemies.', 'Applies Lv. 1 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 11 seconds.', '35% chance to inflict Paralysis to all enemies for 5 seconds.'],
+                    ['Deals 1.7x ATK in damage to all enemies.', 'Applies Lv. 1 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 12 seconds.', '40% chance to inflict Paralysis to all enemies for 6 seconds.'],
+                    ['Deals 1.8x ATK in damage to all enemies.', 'Applies Lv. 2 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 13 seconds.', '45% chance to inflict Paralysis to all enemies for 6 seconds.'],
+                    ['Deals 1.9x ATK in damage to all enemies.', 'Applies Lv. 2 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 14 seconds.', '50% chance to inflict Paralysis to all enemies for 7 seconds.'],
+                    ['Deals 2x ATK in damage to all enemies.', 'Applies Lv. 3 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 15 seconds.', '55% chance to inflict Paralysis to all enemies for 7 seconds.'],
+                    ['Deals 2.1x ATK in damage to all enemies.', 'Applies Lv. 3 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 16 seconds.', '60% chance to inflict Paralysis to all enemies for 8 seconds.'],
+                    ['Deals 2.2x ATK in damage to all enemies.', 'Applies Lv. 4 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 17 seconds.', '65% chance to inflict Paralysis to all enemies for 8 seconds.'],
+                    ['Deals 2.3x ATK in damage to all enemies.', 'Applies Lv. 4 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 18 seconds.', '70% chance to inflict Paralysis to all enemies for 9 seconds.'],
+                    ['Deals 2.4x ATK in damage to all enemies.', 'Applies Lv. 5 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 19 seconds.', '75% chance to inflict Paralysis to all enemies for 9 seconds.'],
+                    ['Deals 2.5x ATK in damage to all enemies.', 'Applies Lv. 5 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 20 seconds.', '80% chance to inflict Paralysis to all enemies for 10 seconds.']
+                ]
+            },
+            llbbase: {
+                cooldown: 17,
+                descriptions: [
+                    ['Deals 2.6x ATK in damage to all enemies.', 'Applies Lv. 2 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 11 seconds.', '55% chance to inflict Paralysis to all enemies for 10 seconds.', 'During Assault Rumble, applies Lv. 2 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 11 seconds.'],
+                    ['Deals 2.7x ATK in damage to all enemies.', 'Applies Lv. 2 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 12 seconds.', '60% chance to inflict Paralysis to all enemies for 11 seconds.', 'During Assault Rumble, applies Lv. 2 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 12 seconds.'],
+                    ['Deals 2.8x ATK in damage to all enemies.', 'Applies Lv. 3 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 13 seconds.', '65% chance to inflict Paralysis to all enemies for 11 seconds.', 'During Assault Rumble, applies Lv. 3 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 13 seconds.'],
+                    ['Deals 2.9x ATK in damage to all enemies.', 'Applies Lv. 3 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 14 seconds.', '70% chance to inflict Paralysis to all enemies for 12 seconds.', 'During Assault Rumble, applies Lv. 3 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 14 seconds.'],
+                    ['Deals 3x ATK in damage to all enemies.', 'Applies Lv. 4 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 15 seconds.', '75% chance to inflict Paralysis to all enemies for 12 seconds.', 'During Assault Rumble, applies Lv. 4 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 15 seconds.'],
+                    ['Deals 3.1x ATK in damage to all enemies.', 'Applies Lv. 4 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 16 seconds.', '80% chance to inflict Paralysis to all enemies for 13 seconds.', 'During Assault Rumble, applies Lv. 4 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 16 seconds.'],
+                    ['Deals 3.2x ATK in damage to all enemies.', 'Applies Lv. 5 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 17 seconds.', '85% chance to inflict Paralysis to all enemies for 13 seconds.', 'During Assault Rumble, applies Lv. 5 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 17 seconds.'],
+                    ['Deals 3.3x ATK in damage to all enemies.', 'Applies Lv. 5 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 18 seconds.', '90% chance to inflict Paralysis to all enemies for 14 seconds.', 'During Assault Rumble, applies Lv. 5 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 18 seconds.'],
+                    ['Deals 3.4x ATK in damage to all enemies.', 'Applies Lv. 6 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 19 seconds.', '95% chance to inflict Paralysis to all enemies for 14 seconds.', 'During Assault Rumble, applies Lv. 6 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 19 seconds.'],
+                    ['Deals 3.5x ATK in damage to all enemies.', 'Applies Lv. 6 DEF and SPD up buff to [PSY], Striker and [Skypiea Arc] crew members for 20 seconds.', '100% chance to inflict Paralysis to all enemies for 15 seconds.', 'During Assault Rumble, applies Lv. 6 ATK and Critical Hit up buff to [PSY], Striker and [Skypiea Arc] crew members for 20 seconds.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
     5013: {
         festCost: 55,
         festStats: {
