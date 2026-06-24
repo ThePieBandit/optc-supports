@@ -117099,6 +117099,45 @@ window.rumble = {
             }
         }
     },
+    4589: {
+        festCost: 20,
+        festStats: {
+            def: 177,
+            spd: 142,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Confusion.', '20% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and RCV up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 DEF up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, inflicts Lv. 1 Special CT down debuff to ATK-Style enemies.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 2 ATK and RCV up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 DEF up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, inflicts Lv. 2 Special CT down debuff to ATK-Style enemies.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 1 Special CT up buff to self.'],
+                ['Applies Lv. 3 ATK and RCV up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 DEF up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, inflicts Lv. 3 Special CT down debuff to ATK-Style enemies.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 4 ATK and RCV up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 DEF up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, inflicts Lv. 4 Special CT down debuff to ATK-Style enemies.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 5 ATK and RCV up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'Applies Lv. 3 DEF up buff to [INT], Striker, [Giant] and [Straw Hat Pirates] crew members.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, inflicts Lv. 5 Special CT down debuff to ATK-Style enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 18,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to [INT] and Striker crew members for 6 seconds.', 'Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest DEF for 6 seconds.', 'Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 6 seconds.', 'Heals 110 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 11 seconds.', 'During Assault Rumble, deals 3,000 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 1 ATK down debuff to 3 enemies for 6 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 1 ATK up buff to [INT] and Striker crew members for 7 seconds.', 'Inflicts Lv. 1 ATK down debuff to 3 enemies with the highest DEF for 7 seconds.', 'Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 7 seconds.', 'Heals 120 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 12 seconds.', 'During Assault Rumble, deals 3,200 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 1 ATK down debuff to 3 enemies for 7 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 ATK up buff to [INT] and Striker crew members for 8 seconds.', 'Inflicts Lv. 2 ATK down debuff to 3 enemies with the highest DEF for 8 seconds.', 'Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 8 seconds.', 'Heals 130 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 13 seconds.', 'During Assault Rumble, deals 3,400 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 2 ATK down debuff to 3 enemies for 8 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 ATK up buff to [INT] and Striker crew members for 9 seconds.', 'Inflicts Lv. 2 ATK down debuff to 3 enemies with the highest DEF for 9 seconds.', 'Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 9 seconds.', 'Heals 140 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 14 seconds.', 'During Assault Rumble, deals 3,600 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 2 ATK down debuff to 3 enemies for 9 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 ATK up buff to [INT] and Striker crew members for 10 seconds.', 'Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest DEF for 10 seconds.', 'Inflicts Lv. 1 DEF down debuff to 3 enemies with the highest DEF for 10 seconds.', 'Heals 150 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 15 seconds.', 'During Assault Rumble, deals 3,800 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 3 ATK down debuff to 3 enemies for 10 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 ATK up buff to [INT] and Striker crew members for 11 seconds.', 'Inflicts Lv. 3 ATK down debuff to 3 enemies with the highest DEF for 11 seconds.', 'Inflicts Lv. 2 DEF down debuff to 3 enemies with the highest DEF for 11 seconds.', 'Heals 160 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 16 seconds.', 'During Assault Rumble, deals 4,000 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 3 ATK down debuff to 3 enemies for 11 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 4 ATK up buff to [INT] and Striker crew members for 12 seconds.', 'Inflicts Lv. 4 ATK down debuff to 3 enemies with the highest DEF for 12 seconds.', 'Inflicts Lv. 2 DEF down debuff to 3 enemies with the highest DEF for 12 seconds.', 'Heals 170 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 17 seconds.', 'During Assault Rumble, deals 4,200 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 4 ATK down debuff to 3 enemies for 12 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 4 ATK up buff to [INT] and Striker crew members for 13 seconds.', 'Inflicts Lv. 4 ATK down debuff to 3 enemies with the highest DEF for 13 seconds.', 'Inflicts Lv. 2 DEF down debuff to 3 enemies with the highest DEF for 13 seconds.', 'Heals 180 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 18 seconds.', 'During Assault Rumble, deals 4,400 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 4 ATK down debuff to 3 enemies for 13 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 5 ATK up buff to [INT] and Striker crew members for 14 seconds.', 'Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest DEF for 14 seconds.', 'Inflicts Lv. 2 DEF down debuff to 3 enemies with the highest DEF for 14 seconds.', 'Heals 190 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 19 seconds.', 'During Assault Rumble, deals 4,600 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 5 ATK down debuff to 3 enemies for 14 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 5 ATK up buff to [INT] and Striker crew members for 15 seconds.', 'Inflicts Lv. 5 ATK down debuff to 3 enemies with the highest DEF for 15 seconds.', 'Inflicts Lv. 3 DEF down debuff to 3 enemies with the highest DEF for 15 seconds.', 'Heals 200 fixed HP every 3 seconds to Striker, [Giant] and [Straw Hat Pirates] crew members for 20 seconds.', 'During Assault Rumble, deals 5,000 fixed damage to 3 enemies.', 'During Assault Rumble, inflicts Lv. 5 ATK down debuff to 3 enemies for 15 seconds.', 'When there is 5 or more [Elbaph Arc] and [Giant] crew members, switches self with 2nd sub character.']
+                ]
+            }
+        }
+    },
     4590: {
         festCost: 20,
         festStats: {
@@ -117134,6 +117173,198 @@ window.rumble = {
                     ['80% chance to inflict Paralysis to all enemies in a large, radial range for 18 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 90% chance to inflict Half Stats to all enemies with Paralysis for 18 seconds.', 'When there are 60 seconds or less remaining, reduces 17% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'When there are 60 seconds or less remaining, 85% chance to grant Haste to 1 DBF-Style crew member, excluding self.', 'Applies Lv. 5 ATK and SPD up buff to Striker, Cerebral and [Straw Hat Pirates] crew members for 18 seconds.', 'Switches self with 1st sub character.'],
                     ['85% chance to inflict Paralysis to all enemies in a large, radial range for 19 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 95% chance to inflict Half Stats to all enemies with Paralysis for 19 seconds.', 'When there are 60 seconds or less remaining, reduces 18% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'When there are 60 seconds or less remaining, 90% chance to grant Haste to 1 DBF-Style crew member, excluding self.', 'Applies Lv. 6 ATK and SPD up buff to Striker, Cerebral and [Straw Hat Pirates] crew members for 19 seconds.', 'Switches self with 1st sub character.'],
                     ['90% chance to inflict Paralysis to all enemies in a large, radial range for 20 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 100% chance to inflict Half Stats to all enemies with Paralysis for 20 seconds.', 'When there are 60 seconds or less remaining, reduces 20% of Special CT to [Straw Hat Pirates] crew members, excluding self.', 'When there are 60 seconds or less remaining, 100% chance to grant Haste to 1 DBF-Style crew member, excluding self.', 'Applies Lv. 6 ATK and SPD up buff to Striker, Cerebral and [Straw Hat Pirates] crew members for 20 seconds.', 'Switches self with 1st sub character.']
+                ]
+            }
+        }
+    },
+    4591: {
+        festCost: 55,
+        festStats: {
+            def: 172,
+            spd: 160,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [PSY] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP, ATK and SPD up buff to [INT], Striker and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 2 DEF up buff to [Giant] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, reduces 22% of Special CT to self upon appearance.', 'Applies Lv. 1 DEF up buff to self.'],
+                ['Applies Lv. 3 HP, ATK and SPD up buff to [INT], Striker and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 3 DEF up buff to [Giant] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, reduces 24% of Special CT to self upon appearance.', 'Applies Lv. 1 DEF up buff to self.'],
+                ['Applies Lv. 4 HP, ATK and SPD up buff to [INT], Striker and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 4 DEF up buff to [Giant] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, reduces 26% of Special CT to self upon appearance.', 'Applies Lv. 2 DEF up buff to self.'],
+                ['Applies Lv. 5 HP, ATK and SPD up buff to [INT], Striker and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 5 DEF up buff to [Giant] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, reduces 28% of Special CT to self upon appearance.', 'Applies Lv. 2 DEF up buff to self.'],
+                ['Applies Lv. 6 HP, ATK and SPD up buff to [INT], Striker and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 6 DEF up buff to [Giant] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, reduces 30% of Special CT to self upon appearance.', 'Applies Lv. 3 DEF up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 35,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to self for 5 seconds.', 'Applies Lv. 1 ATK up buff to [INT] and Striker crew members for 6 seconds.', 'Deals 16x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 73% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 6 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 1 ATK up buff to self for 5 seconds.', 'Applies Lv. 1 ATK up buff to [INT] and Striker crew members for 7 seconds.', 'Deals 17x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 76% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 7 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 1 ATK up buff to self for 5 seconds.', 'Applies Lv. 2 ATK up buff to [INT] and Striker crew members for 8 seconds.', 'Deals 18x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 79% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 8 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 1 ATK up buff to self for 5 seconds.', 'Applies Lv. 2 ATK up buff to [INT] and Striker crew members for 9 seconds.', 'Deals 19x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 82% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 9 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 ATK up buff to self for 5 seconds.', 'Applies Lv. 3 ATK up buff to [INT] and Striker crew members for 10 seconds.', 'Deals 20x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 85% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 10 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 ATK up buff to self for 5 seconds.', 'Applies Lv. 3 ATK up buff to [INT] and Striker crew members for 11 seconds.', 'Deals 21x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 88% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 11 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 2 ATK up buff to self for 5 seconds.', 'Applies Lv. 4 ATK up buff to [INT] and Striker crew members for 12 seconds.', 'Deals 22x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 91% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 12 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 ATK up buff to self for 5 seconds.', 'Applies Lv. 4 ATK up buff to [INT] and Striker crew members for 13 seconds.', 'Deals 23x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 94% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 13 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 3 ATK up buff to self for 5 seconds.', 'Applies Lv. 5 ATK up buff to [INT] and Striker crew members for 14 seconds.', 'Deals 24x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 97% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 14 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.'],
+                    ['Applies Lv. 4 ATK up buff to self for 5 seconds.', 'Applies Lv. 6 ATK up buff to [INT] and Striker crew members for 15 seconds.', 'Deals 25x ATK in spread damage to all enemies in a medium, radial range.', 'Inflicts Lv. 10 ATK and SPD down debuff to self for 100 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 100% chance to evade Special CT Delay to [Straw Hat Pirates] and [Giant] crew members for 15 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, switches self with 2nd sub character.']
+                ]
+            }
+        }
+    },
+    4592: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4593: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4594: {
+        festCost: 55,
+        festStats: {
+            def: 184,
+            spd: 183,
+            style: "RCV"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Medium Range Heal</i>', 'Normal Attack', '<i>Level 2 Medium Range Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Forced Out.', '30% damage reduction from Slasher enemies.', '30% damage reduction from Free Spirit enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and SPD up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 DEF up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 2 RCV up buff to [Straw Hat Pirates] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, heals 1.2x RCV of HP to [Straw Hat Pirates] crew members upon appearance.'],
+                ['Applies Lv. 3 ATK and SPD up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 DEF up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 3 RCV up buff to [Straw Hat Pirates] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, heals 1.4x RCV of HP to [Straw Hat Pirates] crew members upon appearance.'],
+                ['Applies Lv. 4 ATK and SPD up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 DEF up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 4 RCV up buff to [Straw Hat Pirates] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, heals 1.6x RCV of HP to [Straw Hat Pirates] crew members upon appearance.'],
+                ['Applies Lv. 5 ATK and SPD up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 DEF up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 5 RCV up buff to [Straw Hat Pirates] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, heals 1.8x RCV of HP to [Straw Hat Pirates] crew members upon appearance.'],
+                ['Applies Lv. 6 ATK and SPD up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'Applies Lv. 3 DEF up buff to Striker, Cerebral and [Straw Hat Pirates] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 6 RCV up buff to [Straw Hat Pirates] crew members.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, heals 2x RCV of HP to [Straw Hat Pirates] crew members upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 33,
+                descriptions: [
+                    ['Heals 520 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 11 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 73% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 11 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 11 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 1 DEF up buff to 1 crew member, excluding self, with the highest DEF for 11 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 1 Guard up buff to 1 crew member, excluding self, with the highest DEF for 11 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 1.2x Counter to 1 crew member, excluding self, with the highest DEF for 11 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 540 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 12 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 76% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 12 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 12 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 1 DEF up buff to 1 crew member, excluding self, with the highest DEF for 12 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 1 Guard up buff to 1 crew member, excluding self, with the highest DEF for 12 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 1.4x Counter to 1 crew member, excluding self, with the highest DEF for 12 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 560 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 13 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 79% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 13 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 13 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 1 DEF up buff to 1 crew member, excluding self, with the highest DEF for 13 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 2 Guard up buff to 1 crew member, excluding self, with the highest DEF for 13 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 1.6x Counter to 1 crew member, excluding self, with the highest DEF for 13 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 580 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 14 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 82% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 14 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 14 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 1 DEF up buff to 1 crew member, excluding self, with the highest DEF for 14 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 2 Guard up buff to 1 crew member, excluding self, with the highest DEF for 14 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 1.8x Counter to 1 crew member, excluding self, with the highest DEF for 14 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 600 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 15 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 85% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 15 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 15 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 1 DEF up buff to 1 crew member, excluding self, with the highest DEF for 15 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 3 Guard up buff to 1 crew member, excluding self, with the highest DEF for 15 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 2x Counter to 1 crew member, excluding self, with the highest DEF for 15 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 620 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 16 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 88% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 16 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 16 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 2 DEF up buff to 1 crew member, excluding self, with the highest DEF for 16 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 3 Guard up buff to 1 crew member, excluding self, with the highest DEF for 16 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 2.2x Counter to 1 crew member, excluding self, with the highest DEF for 16 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 640 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 17 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 91% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 17 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 17 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 2 DEF up buff to 1 crew member, excluding self, with the highest DEF for 17 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 4 Guard up buff to 1 crew member, excluding self, with the highest DEF for 17 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 2.4x Counter to 1 crew member, excluding self, with the highest DEF for 17 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 660 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 18 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 94% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 18 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 18 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 2 DEF up buff to 1 crew member, excluding self, with the highest DEF for 18 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 4 Guard up buff to 1 crew member, excluding self, with the highest DEF for 18 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 2.6x Counter to 1 crew member, excluding self, with the highest DEF for 18 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 680 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 19 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 97% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 19 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 19 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 2 DEF up buff to 1 crew member, excluding self, with the highest DEF for 19 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 5 Guard up buff to 1 crew member, excluding self, with the highest DEF for 19 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 2.8x Counter to 1 crew member, excluding self, with the highest DEF for 19 seconds.', 'Switches self with 2nd sub character.'],
+                    ['Heals 700 fixed HP every 3 seconds to Striker, Cerebral and [Straw Hat Pirates] crew members for 20 seconds.', 'When there is 4 or more [Elbaph Arc] crew members, 100% chance to evade RCV Bind and Damage Over Time to [Straw Hat Pirates] crew members for 20 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, provoke enemies to 1 crew member, excluding self, with the highest DEF for 20 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 3 DEF up buff to 1 crew member, excluding self, with the highest DEF for 20 seconds.', 'When there is 6 or more [Straw Hat Pirates] and [Giant] crew members, applies Lv. 6 Guard up buff to 1 crew member, excluding self, with the highest DEF for 20 seconds.', 'When there is 8 or more [Straw Hat Pirates] and [Giant] crew members, grant 3x Counter to 1 crew member, excluding self, with the highest DEF for 20 seconds.', 'Switches self with 2nd sub character.']
+                ]
+            }
+        }
+    },
+    4595: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4596: {
+        festCost: 55,
+        festStats: {
+            def: 233,
+            spd: 173,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>', 'Normal Attack'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['Heals 300 HP every 5 seconds.', '30% damage reduction from [STR] enemies.'],
+            llbbase: ['Heals 400 HP every 5 seconds.', '40% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 6 times this character takes damage, heals 0.2x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 2% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 6 times this character takes damage, heals 0.4x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 4% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 6 times this character takes damage, heals 0.6x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 6% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 6 times this character takes damage, heals 0.8x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 8% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 6 times this character takes damage, heals 1x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 10% of Special CT to self upon appearance.']
+            ],
+            llbbase: [
+                ['Applies Lv. 2 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 8 times this character takes damage, heals 0.4x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 10% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 8 times this character takes damage, heals 0.6x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 12% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 8 times this character takes damage, heals 0.8x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 14% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 8 times this character takes damage, heals 1x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 16% of Special CT to self upon appearance.'],
+                ['Applies Lv. 7 ATK, SPD and RCV up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'The first 8 times this character takes damage, heals 1.2x RCV of HP to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 20% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 23,
+                descriptions: [
+                    ['Applies Lv. 1 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 11 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 10% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '70% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 1 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 12 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 11% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '73% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 2 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 13 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 12% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '76% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 2 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 14 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 13% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '79% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 15 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 14% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '82% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 16 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 15% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '85% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 4 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 17 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 16% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '88% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 4 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 18 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 17% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '91% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 5 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 19 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 18% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '94% chance to grant Haste to 2 crew members with the highest ATK.'],
+                    ['Applies Lv. 6 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 20 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 20% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '100% chance to grant Haste to 2 crew members with the highest ATK.']
+                ]
+            },
+            llbbase: {
+                cooldown: 23,
+                descriptions: [
+                    ['Applies Lv. 2 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 11 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 20% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '70% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 1x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 2 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 12 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 21% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '73% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 1.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 13 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 22% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '76% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 2x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 3 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 14 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 23% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '79% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 2.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 4 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 15 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 24% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '82% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 3x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 4 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 16 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 25% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '85% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 3.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 5 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 17 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 26% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '88% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 4x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 5 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 18 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 27% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '91% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 4.5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 6 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 19 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 28% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '94% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 5x ATK in damage to 1 enemy with the lowest DEF.'],
+                    ['Applies Lv. 7 ATK, SPD and DEF up buff to [QCK], Powerhouse and [Animal Kingdom Pirates] crew members for 20 seconds.', 'When there is 3 or more [Animal Kingdom Pirates] crew members, reduces 30% of Special CT to [Animal Kingdom Pirates] crew members, excluding self.', '100% chance to grant Haste to 3 crew members with the highest ATK.', 'During Assault Rumble, deals 6x ATK in damage to 1 enemy with the lowest DEF.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
                 ]
             }
         }
