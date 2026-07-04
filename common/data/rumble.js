@@ -117858,6 +117858,45 @@ window.rumble = {
             }
         }
     },
+    4607: {
+        festCost: 20,
+        festStats: {
+            def: 286,
+            spd: 118,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '100% chance to resist Action Bind.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and DEF up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'Applies Lv. 1 Guard and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Blow Away, 20% Special CT Delay to [QCK] and Cerebral enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 SPD up buff to self.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 1 Shield up buff to self.'],
+                ['Applies Lv. 3 HP and DEF up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'Applies Lv. 2 Guard and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Blow Away, 22% Special CT Delay to [QCK] and Cerebral enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 SPD up buff to self.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 2 Shield up buff to self.'],
+                ['Applies Lv. 4 HP and DEF up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'Applies Lv. 3 Guard and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Blow Away, 24% Special CT Delay to [QCK] and Cerebral enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 4 SPD up buff to self.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 3 Shield up buff to self.'],
+                ['Applies Lv. 5 HP and DEF up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'Applies Lv. 4 Guard and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Blow Away, 26% Special CT Delay to [QCK] and Cerebral enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 5 SPD up buff to self.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 4 Shield up buff to self.'],
+                ['Applies Lv. 6 HP and DEF up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'Applies Lv. 5 Guard and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members.', 'The first 3 times this character lands a Blow Away, 30% Special CT Delay to [QCK] and Cerebral enemies.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 6 SPD up buff to self.', 'When there is 4 or more [Straw Hat Pirates] crew members, applies Lv. 5 Shield up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 24,
+                descriptions: [
+                    ['Applies Lv. 1 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 11 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 32% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 11 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 55% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 11 seconds.'],
+                    ['Applies Lv. 1 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 12 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 34% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 12 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 60% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 12 seconds.'],
+                    ['Applies Lv. 2 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 13 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 36% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 13 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 65% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 13 seconds.'],
+                    ['Applies Lv. 2 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 14 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 38% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 14 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 70% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 14 seconds.'],
+                    ['Applies Lv. 3 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 15 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 40% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 15 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 75% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 15 seconds.'],
+                    ['Applies Lv. 3 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 16 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 42% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 16 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 80% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 16 seconds.'],
+                    ['Applies Lv. 4 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 17 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 44% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 17 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 85% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 17 seconds.'],
+                    ['Applies Lv. 4 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 18 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 46% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 18 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 90% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 18 seconds.'],
+                    ['Applies Lv. 5 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 19 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 48% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 19 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 95% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 19 seconds.'],
+                    ['Applies Lv. 5 SPD and Blow Away up buff to [DEX], Fighter and [Straw Hat Pirates] crew members for 20 seconds.', 'When there is 4 or less [STR] enemies, grants Damage Reflect, reduces damage taken by 50% and reflects 0.3x of the damage reduced, to [DEX] and [Straw Hat Pirates] crew members for 20 seconds.', 'When there is 4 or more [Straw Hat Pirates] crew members, 100% chance to evade Stats Down to Fighter and [Straw Hat Pirates] crew members for 20 seconds.']
+                ]
+            }
+        }
+    },
     5013: {
         festCost: 55,
         festStats: {
