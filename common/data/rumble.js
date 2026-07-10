@@ -117858,6 +117858,45 @@ window.rumble = {
             }
         }
     },
+    4602: {
+        festCost: 20,
+        festStats: {
+            def: 141,
+            spd: 180,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Special Bind.', '20% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK and SPD up buff to [QCK] and [Navy] crew members.', 'Applies Lv. 1 DEF up buff to [QCK] and [Navy] crew members.', 'When there is 3 or more [Navy] crew members, inflicts Lv. 3 ATK down debuff to [STR] enemies.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, reduces 20% of Special CT to self upon appearance.'],
+                ['Applies Lv. 2 ATK and SPD up buff to [QCK] and [Navy] crew members.', 'Applies Lv. 1 DEF up buff to [QCK] and [Navy] crew members.', 'When there is 3 or more [Navy] crew members, inflicts Lv. 4 ATK down debuff to [STR] enemies.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, reduces 22% of Special CT to self upon appearance.'],
+                ['Applies Lv. 3 ATK and SPD up buff to [QCK] and [Navy] crew members.', 'Applies Lv. 2 DEF up buff to [QCK] and [Navy] crew members.', 'When there is 3 or more [Navy] crew members, inflicts Lv. 5 ATK down debuff to [STR] enemies.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, reduces 24% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK and SPD up buff to [QCK] and [Navy] crew members.', 'Applies Lv. 2 DEF up buff to [QCK] and [Navy] crew members.', 'When there is 3 or more [Navy] crew members, inflicts Lv. 6 ATK down debuff to [STR] enemies.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, reduces 26% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK and SPD up buff to [QCK] and [Navy] crew members.', 'Applies Lv. 3 DEF up buff to [QCK] and [Navy] crew members.', 'When there is 3 or more [Navy] crew members, inflicts Lv. 7 ATK down debuff to [STR] enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, reduces 30% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 30,
+                descriptions: [
+                    ['When there is 3 or more [STR] enemies, applies Lv. 5 ATK up buff to self for 3 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 2 DEF up buff to all crew members for 11 seconds.', 'Deals 1,000 fixed damage to [STR] enemies.', 'Deals 10x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 1x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 10% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 5 ATK up buff to self for 3 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 2 DEF up buff to all crew members for 12 seconds.', 'Deals 1,200 fixed damage to [STR] enemies.', 'Deals 10.5x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 1.2x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 10% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 6 ATK up buff to self for 3 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 2 DEF up buff to all crew members for 13 seconds.', 'Deals 1,400 fixed damage to [STR] enemies.', 'Deals 11x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 1.4x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 11% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 6 ATK up buff to self for 3 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 2 DEF up buff to all crew members for 14 seconds.', 'Deals 1,600 fixed damage to [STR] enemies.', 'Deals 11.5x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 1.6x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 11% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 7 ATK up buff to self for 4 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 2 DEF up buff to all crew members for 15 seconds.', 'Deals 1,800 fixed damage to [STR] enemies.', 'Deals 12x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 1.8x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 12% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 7 ATK up buff to self for 4 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 3 DEF up buff to all crew members for 16 seconds.', 'Deals 2,000 fixed damage to [STR] enemies.', 'Deals 12.5x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 2x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 12% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 8 ATK up buff to self for 4 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 3 DEF up buff to all crew members for 17 seconds.', 'Deals 2,200 fixed damage to [STR] enemies.', 'Deals 13x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 2.2x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 13% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 8 ATK up buff to self for 4 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 3 DEF up buff to all crew members for 18 seconds.', 'Deals 2,400 fixed damage to [STR] enemies.', 'Deals 13.5x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 2.4x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 13% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 9 ATK up buff to self for 4 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 3 DEF up buff to all crew members for 19 seconds.', 'Deals 2,600 fixed damage to [STR] enemies.', 'Deals 14x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 2.6x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 14% of Special CT to [Navy] crew members, excluding self.'],
+                    ['When there is 3 or more [STR] enemies, applies Lv. 10 ATK up buff to self for 5 seconds.', 'When there is 3 or more [Navy] crew members, applies Lv. 4 DEF up buff to all crew members for 20 seconds.', 'Deals 3,000 fixed damage to [STR] enemies.', 'Deals 15x ATK in spread damage to all enemies in a large, radial range.', 'During Assault Rumble, deals 3x ATK in damage to [STR] enemies.', 'During Assault Rumble, reduces 15% of Special CT to [Navy] crew members, excluding self.']
+                ]
+            }
+        }
+    },
     4607: {
         festCost: 20,
         festStats: {
@@ -117896,6 +117935,65 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4608: {
+        festCost: 55,
+        festStats: {
+            def: 116,
+            spd: 195,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Action Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and SPD up buff to [QCK], Free Spirit and [Blackbeard Pirates] crew members.', 'The first 3 times this character receives Paralysis, 12% Special CT Delay to 3 enemies with the highest Special CT.', 'When there are 90 seconds or less remaining, 22% Special CT Delay to [STR] and Driven enemies upon appearance.'],
+                ['Applies Lv. 3 ATK and SPD up buff to [QCK], Free Spirit and [Blackbeard Pirates] crew members.', 'The first 3 times this character receives Paralysis, 14% Special CT Delay to 3 enemies with the highest Special CT.', 'When there are 90 seconds or less remaining, 24% Special CT Delay to [STR] and Driven enemies upon appearance.'],
+                ['Applies Lv. 4 ATK and SPD up buff to [QCK], Free Spirit and [Blackbeard Pirates] crew members.', 'The first 3 times this character receives Paralysis, 16% Special CT Delay to 3 enemies with the highest Special CT.', 'When there are 90 seconds or less remaining, 26% Special CT Delay to [STR] and Driven enemies upon appearance.'],
+                ['Applies Lv. 5 ATK and SPD up buff to [QCK], Free Spirit and [Blackbeard Pirates] crew members.', 'The first 3 times this character receives Paralysis, 18% Special CT Delay to 3 enemies with the highest Special CT.', 'When there are 90 seconds or less remaining, 28% Special CT Delay to [STR] and Driven enemies upon appearance.'],
+                ['Applies Lv. 6 ATK and SPD up buff to [QCK], Free Spirit and [Blackbeard Pirates] crew members.', 'The first 3 times this character receives Paralysis, 20% Special CT Delay to 3 enemies with the highest Special CT.', 'When there are 90 seconds or less remaining, 30% Special CT Delay to [STR] and Driven enemies upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 17,
+                descriptions: [
+                    ['Inflicts Lv. 1 ATK, DEF and SPD down debuff to 3 enemies for 11 seconds.', '73% chance to inflict Confusion to [STR] and Driven enemies for 6 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies with Confusion Evasion for 6 seconds.', '73% chance to inflict RCV Bind to all enemies with Interval Healing for 6 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 1 ATK, DEF and SPD down debuff to 3 enemies for 12 seconds.', '76% chance to inflict Confusion to [STR] and Driven enemies for 6 seconds.', 'Inflicts Lv. 2 Special CT down debuff to all enemies with Confusion Evasion for 6 seconds.', '76% chance to inflict RCV Bind to all enemies with Interval Healing for 7 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 2 ATK, DEF and SPD down debuff to 3 enemies for 13 seconds.', '79% chance to inflict Confusion to [STR] and Driven enemies for 7 seconds.', 'Inflicts Lv. 3 Special CT down debuff to all enemies with Confusion Evasion for 7 seconds.', '79% chance to inflict RCV Bind to all enemies with Interval Healing for 8 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 2 ATK, DEF and SPD down debuff to 3 enemies for 14 seconds.', '82% chance to inflict Confusion to [STR] and Driven enemies for 7 seconds.', 'Inflicts Lv. 3 Special CT down debuff to all enemies with Confusion Evasion for 7 seconds.', '82% chance to inflict RCV Bind to all enemies with Interval Healing for 9 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 3 ATK, DEF and SPD down debuff to 3 enemies for 15 seconds.', '85% chance to inflict Confusion to [STR] and Driven enemies for 8 seconds.', 'Inflicts Lv. 4 Special CT down debuff to all enemies with Confusion Evasion for 8 seconds.', '85% chance to inflict RCV Bind to all enemies with Interval Healing for 10 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 3 ATK, DEF and SPD down debuff to 3 enemies for 16 seconds.', '88% chance to inflict Confusion to [STR] and Driven enemies for 8 seconds.', 'Inflicts Lv. 4 Special CT down debuff to all enemies with Confusion Evasion for 8 seconds.', '88% chance to inflict RCV Bind to all enemies with Interval Healing for 11 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 4 ATK, DEF and SPD down debuff to 3 enemies for 17 seconds.', '91% chance to inflict Confusion to [STR] and Driven enemies for 9 seconds.', 'Inflicts Lv. 5 Special CT down debuff to all enemies with Confusion Evasion for 9 seconds.', '91% chance to inflict RCV Bind to all enemies with Interval Healing for 12 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 4 ATK, DEF and SPD down debuff to 3 enemies for 18 seconds.', '94% chance to inflict Confusion to [STR] and Driven enemies for 9 seconds.', 'Inflicts Lv. 5 Special CT down debuff to all enemies with Confusion Evasion for 9 seconds.', '94% chance to inflict RCV Bind to all enemies with Interval Healing for 13 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 5 ATK, DEF and SPD down debuff to 3 enemies for 19 seconds.', '97% chance to inflict Confusion to [STR] and Driven enemies for 10 seconds.', 'Inflicts Lv. 6 Special CT down debuff to all enemies with Confusion Evasion for 10 seconds.', '97% chance to inflict RCV Bind to all enemies with Interval Healing for 14 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.'],
+                    ['Inflicts Lv. 6 ATK, DEF and SPD down debuff to 3 enemies for 20 seconds.', '100% chance to inflict Confusion to [STR] and Driven enemies for 10 seconds.', 'Inflicts Lv. 7 Special CT down debuff to all enemies with Confusion Evasion for 10 seconds.', '100% chance to inflict RCV Bind to all enemies with Interval Healing for 15 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, 100% chance to inflict Paralysis to [Blackbeard Pirates] crew members for 5 seconds.', 'When there is 3 or more [Blackbeard Pirates] crew members, switches self with 1st sub character.']
+                ]
+            }
+        }
+    },
+    4609: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4610: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     5013: {
         festCost: 55,
