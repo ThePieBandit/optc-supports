@@ -117897,6 +117897,26 @@ window.rumble = {
             }
         }
     },
+    4605: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4606: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     4607: {
         festCost: 20,
         festStats: {
