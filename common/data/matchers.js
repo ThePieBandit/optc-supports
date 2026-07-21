@@ -604,6 +604,13 @@
 					},
 				],
 			},
+			{
+				name: "Does Not Activate Special",
+				targets: ["support"],
+				regex:
+					/Does not activate supported character's Special./i,
+			}
+
 		],
 
 		Damage: [
@@ -3785,6 +3792,71 @@
 					...createClassesSubmatchers([1]),
 				],
 			},
+
+			{
+				name: "Tap Timing ATK",
+				targets: ["special", "superSpecial", "support"],
+				regex:
+					/Boosts Tap Timing ATK of (?=((?:[^c."]+|c(?!har))*))\1characters? by ([?.\d]+)x(?:-([?.\d]+)x)?, following a chain of ([?.\d]+)(?:-([?.\d]+))? (?=((?:[^a."]+|a(?!ttacks))*))\6attacks?, for ([?\d]+\+?)(?:-([?\d]+))? turns?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Multiplier:",
+						groups: [2, 3],
+					},
+					{
+						type: "number",
+						description: "Turns:",
+						groups: [7, 8],
+					},
+					{
+						type: "number",
+						description: "Taps:",
+						groups: [4, 5],
+					},
+					{
+						type: "separator",
+						description: "Timing:",
+					},
+					{
+						type: "option",
+						description: "GOOD",
+						regex: /GOOD/i,
+						groups: [6],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "GREAT",
+						regex: /GREAT/i,
+						groups: [6],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "option",
+						description: "PERFECT",
+						regex: /PERFECT/i,
+						groups: [6],
+						cssClasses: ["min-width-4"],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					...createUniversalSubmatcher([1]),
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([1]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([1]),
+				],
+			},
+
 		],
 		"Modify Buff": [
 			{
@@ -6043,6 +6115,14 @@
 						type: "separator",
 						description: "To orbs:", // To orbs won't have "Any", since simply not selecting any "To" orb does the same thing
 					},
+					{
+						type: "option",
+						description: "Super",
+						regex: /Super \[(?:STR|DEX|QCK|PSY|INT)\]/,
+						radioGroup: "targets",
+						groups: [4],
+						cssClasses: ["min-width-12"],
+					},
 					...createOrbsSubmatchers(
 						[
 							"STR",
@@ -6055,11 +6135,6 @@
 							"TND",
 							"BOMB",
 							"EMPTY",
-							"Super STR",
-							"Super DEX",
-							"Super QCK",
-							"Super PSY",
-							"Super INT",
 							"SUPERBOMB",
 							"RAINBOW",
 							"SEMLA",
@@ -11730,6 +11805,56 @@
 				],
 			},
 
+			{
+				name: "Damage Reflect",
+				targets: ["gpSpecial"],
+				regex:
+					/Grants Damage Reflect, reduces damage taken by ([.\d]+)% and reflects ([.\d]+)x of the damage reduced, to (\d)?(?=((?:[^c]+|c(?!rew))*))\4crew members?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?(?: for (\d+) seconds)?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Percentage:",
+						groups: [1],
+					},
+					{
+						type: "number",
+						description: "Amount:",
+						groups: [2],
+					},
+					{
+						type: "number",
+						description: "Duration:",
+						groups: [6],
+					},
+					{
+						type: "separator",
+						description: "Targeting:",
+					},
+					{
+						type: "number",
+						description: "Count:",
+						groups: [3],
+					},
+					{
+						type: "option",
+						description: "Universal",
+						regex: /all/i,
+						groups: [4],
+						cssClasses: ["min-width-6"],
+					},
+					{
+						type: "separator",
+						description: "Types:",
+					},
+					...createTypesSubmatchers([4]),
+					{
+						type: "separator",
+						description: "Classes:",
+					},
+					...createClassesSubmatchers([4]),
+				],
+			},
+
 		],
 
 		"Hinderances": [
@@ -14350,6 +14475,12 @@
 				name: "Has Support Ability",
 				targets: ["support"],
 				regex: /\S/i,
+			},
+
+			{
+				name: "Has Auto+ Ability",
+				targets: ["support"],
+				regex: /AUTO\+/i,
 			},
 
 			/* * * * * Limit Break * * * * */
