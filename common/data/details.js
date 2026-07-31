@@ -189721,6 +189721,117 @@ window.details = {
             ]
         }
     },
+    4622: {//Jarul
+        captain: "Boosts Free Spirit and Powerhouse characters' ATK by 5.25x, boosts crew's HP by 1.75x, crew cannot be blown away by attack, reduces character's Special charge time by 5 turns at start of crew's next turn after receiving damage, and makes crew's [RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If a [Giant] [Giant Pirate Crew] [Royalty] crewmate uses a Special, reduces character's Special charge time by 5 turns (up to 6 times per quest)",
+        special: "Reduces all enemies' Threshold Damage Reduction duration by 6 turns, reduces crew's Burn duration by 6 turns, boosts the chain multiplier by +1.7 for 3 turns, and boosts the ATK of the next final tap performed by a [QCK] character by 50%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>. If 3 or more [Giant] [Giant Pirate Crew] [Royalty] characters are on the crew, reduces crew's Special Bind/Bind duration by 7 turns. If field has \"Territory: [QCK]\", \"Territory: Free Spirit class\", or \"Territory: Crew\" when Special is launched, boosts crew's base ATK by +1500 for 3 turns",
+        specialName: "Helm That Saved His Life",
+        sailor: {
+            base: "Reduces character's Special Bind duration by 7 turns",
+            level1: "Character cannot be blow away by attack"
+        },
+        support: [
+            {
+                Characters: "[QCK] Free Spirit characters",
+                description: [
+                    "Adds 6% of character's base HP to supported character's base HP",
+                    "Adds 8% of character's base HP to supported character's base HP",
+                    "Adds 10% of character's base HP to supported character's base HP",
+                    "Adds 12% of character's base HP to supported character's base HP",
+                    "Adds 15% of character's base HP to supported character's base HP"
+                ]
+            }
+        ],
+        limit: [
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Acquire Potential 1: Enrage/Increase Damage Taken",
+            "Boosts base HP by 20",
+            "Boosts base RCV by 10",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 10",
+            "Boosts base HP by 30",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 40",
+            "Boosts base ATK by 20",
+            "Acquire Potential 2: Critical Hit",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 50",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 20",
+            "Boosts base HP by 60",
+            "Boosts base ATK by 30",
+            "Boosts base RCV by 30",
+            "Boosts base HP by 70",
+            "Acquire Sailor Ability 2: Character cannot be blow away by attack",
+            "Boosts base HP by 80",
+            "Boosts base ATK by 30",
+            "Boosts base HP by 100",
+            "Boosts base ATK by 30",
+            "Acquire Potential 3: Super Tandem Boost",
+            "LOCKED WITH KEY",
+            "Boosts base HP by 100",
+            "Boosts base RCV by 20",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Boosts base RCV by 30",
+            "Boosts base ATK by 100",
+            "Boosts base HP by 200",
+            "Reduce base Special Cooldown by 1 turn",
+            "Boosts base RCV by 50"
+        ],
+        potential: [
+            {
+                Name: "Enrage/Increase Damage Taken",
+                description: [
+                    "Boosts base ATK by 75 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 100 the turn after taking damage and reduces Increase Damage Taken duration by 1 turn",
+                    "Boosts base ATK by 150 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 225 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns",
+                    "Boosts base ATK by 300 the turn after taking damage and reduces Increase Damage Taken duration by 2 turns"
+                ]
+            },
+            {
+                Name: "Critical Hit",
+                description: [
+                    "If you hit a PERFECT with this character, there is a 40% chance to deal 4% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 50% chance to deal 5% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 60% chance to deal 6% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 70% chance to deal 8% of this character's attack in extra damage",
+                    "If you hit a PERFECT with this character, there is a 80% chance to deal 10% of this character's attack in extra damage"
+                ]
+            },
+            {
+                Name: "Super Tandem Boost",
+                description: [
+                    "Obtain Super Tandem Boost Lv.1",
+                    "Obtain Super Tandem Boost Lv.2",
+                    "Obtain Super Tandem Boost Lv.3",
+                    "Obtain Super Tandem Boost Lv.4",
+                    "Obtain Super Tandem Boost Lv.5"
+                ]
+            }
+        ],
+        superTandemBoost: {
+            characterCondition: [
+                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem"
+            ],
+            description: [
+                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 1 for 1 turn",
+                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 2 for 1 turn",
+                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 3 for 1 turn",
+                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 4 for 1 turn",
+                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 5 for 1 turn"
+            ]
+        }
+    },
     5013: {//Kung Fu Luffy
         captain: "Boosts ATK of all characters by 3.5x after the 2nd PERFECTs in a row, by 4x after the 5th PERFECTs in a row and boosts HP of all characters by 1.5x",
         special: "Deals 120x character's ATK in Typeless damage to all enemies, changes orbs of adjacent characters into Matching Orbs, boosts ATK of all characters by 1.75x for 2 turns, reduces any damage received above 5,656 HP by 97% for 2 turns and makes PERFECTs easier to hit for 2 turns",

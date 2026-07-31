@@ -118596,6 +118596,45 @@ window.rumble = {
             }
         }
     },
+    4622: {
+        festCost: 20,
+        festStats: {
+            def: 281,
+            spd: 108,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 2 Self Heal</i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '100% chance to resist RCV Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and DEF up buff to [QCK], Free Spirit and [Giant] crew members.', 'When there is 2 or more [Giant] crew members, applies Lv. 4 HP up buff to self.', 'The first 7 times this character takes damage, heals 2% of HP to [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 60% of Special CT to 1 [Giant] crew member with the highest ATK upon appearance.'],
+                ['Applies Lv. 3 HP and DEF up buff to [QCK], Free Spirit and [Giant] crew members.', 'When there is 2 or more [Giant] crew members, applies Lv. 6 HP up buff to self.', 'The first 7 times this character takes damage, heals 4% of HP to [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 70% of Special CT to 1 [Giant] crew member with the highest ATK upon appearance.'],
+                ['Applies Lv. 4 HP and DEF up buff to [QCK], Free Spirit and [Giant] crew members.', 'When there is 2 or more [Giant] crew members, applies Lv. 8 HP up buff to self.', 'The first 7 times this character takes damage, heals 6% of HP to [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 80% of Special CT to 1 [Giant] crew member with the highest ATK upon appearance.'],
+                ['Applies Lv. 5 HP and DEF up buff to [QCK], Free Spirit and [Giant] crew members.', 'When there is 2 or more [Giant] crew members, applies Lv. 10 HP up buff to self.', 'The first 7 times this character takes damage, heals 8% of HP to [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 90% of Special CT to 1 [Giant] crew member with the highest ATK upon appearance.'],
+                ['Applies Lv. 6 HP and DEF up buff to [QCK], Free Spirit and [Giant] crew members.', 'When there is 2 or more [Giant] crew members, applies Lv. 12 HP up buff to self.', 'The first 7 times this character takes damage, heals 10% of HP to [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 100% of Special CT to 1 [Giant] crew member with the highest ATK upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 26,
+                descriptions: [
+                    ['Applies Lv. 1 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 11 seconds.', '73% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 11 seconds.', 'When there is 2 or more [Giant] crew members, deals 3x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 1 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 12 seconds.', '76% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 12 seconds.', 'When there is 2 or more [Giant] crew members, deals 4x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 1 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 13 seconds.', '79% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 13 seconds.', 'When there is 2 or more [Giant] crew members, deals 5x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 2 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 14 seconds.', '82% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 14 seconds.', 'When there is 2 or more [Giant] crew members, deals 6x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 2 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 15 seconds.', '85% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 15 seconds.', 'When there is 2 or more [Giant] crew members, deals 7x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 3 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 16 seconds.', '88% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 16 seconds.', 'When there is 2 or more [Giant] crew members, deals 8x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 3 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 17 seconds.', '91% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 17 seconds.', 'When there is 2 or more [Giant] crew members, deals 9x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 3 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 18 seconds.', '94% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 18 seconds.', 'When there is 2 or more [Giant] crew members, deals 10x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 4 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 19 seconds.', '97% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 19 seconds.', 'When there is 2 or more [Giant] crew members, deals 11x ATK in spread damage to all enemies in a medium, radial range.'],
+                    ['Applies Lv. 5 Shield up buff to [QCK], Free Spirit and [Giant] crew members for 20 seconds.', '100% chance to evade Damage Ignoring DEF and Paralysis to [QCK] crew members for 20 seconds.', 'When there is 2 or more [Giant] crew members, deals 12x ATK in spread damage to all enemies in a medium, radial range.']
+                ]
+            }
+        }
+    },
     5013: {
         festCost: 55,
         festStats: {
