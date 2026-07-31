@@ -189722,22 +189722,22 @@ window.details = {
         }
     },
     4622: {//Jarul
-        captain: "Boosts Free Spirit and Powerhouse characters' ATK by 5.25x, boosts crew's HP by 1.75x, crew cannot be blown away by attack, reduces character's Special charge time by 5 turns at start of crew's next turn after receiving damage, and makes crew's [RCV][TND] slots have matching slot effects [Applies following effect based on number of applicable Character Tags on crew] If a [Giant] [Giant Pirate Crew] [Royalty] crewmate uses a Special, reduces character's Special charge time by 5 turns (up to 6 times per quest)",
-        special: "Reduces all enemies' Threshold Damage Reduction duration by 6 turns, reduces crew's Burn duration by 6 turns, boosts the chain multiplier by +1.7 for 3 turns, and boosts the ATK of the next final tap performed by a [QCK] character by 50%<hidden> (similar effects can stack, up to 200%; the effect will be spent during the final tap when attacking with all available characters regardless of the type/class requirement of the effect)</hidden>. If 3 or more [Giant] [Giant Pirate Crew] [Royalty] characters are on the crew, reduces crew's Special Bind/Bind duration by 7 turns. If field has \"Territory: [QCK]\", \"Territory: Free Spirit class\", or \"Territory: Crew\" when Special is launched, boosts crew's base ATK by +1500 for 3 turns",
+        captain: "Boosts ATK of Free Spirit and Powerhouse characters by 5.25x, boosts HP of all characters by 1.75x, makes [RCV] and [TND] orbs beneficial for all characters, makes crew immune to Blow Away, and reduces Special Cooldown of this character by 5 turns after each turn you take damage. Up to 6 times per adventure, when a [Giant], [Giant Pirate Crew] or [Royalty] character uses a special as crewmate, reduces Special Cooldown of this character by 5 turns.",
+        special: "Reduces enemies' Threshold Damage Reduction duration by 6 turns, reduces Burn duration by 6 turns, adds 1.7x to chain multiplier for 3 turns, and boosts Final Tap ATK of [QCK] characters by 50%. If your crew has 3+ [Giant], [Giant Pirate Crew] or [Royalty] characters, reduces Special Bind and Bind duration by 7 turns. If field has Territory: [QCK], Free Spirit or Crew when the special is activated, boosts Base ATK of all characters by 1,500 for 3 turns.",
         specialName: "Helm That Saved His Life",
         sailor: {
-            base: "Reduces character's Special Bind duration by 7 turns",
-            level1: "Character cannot be blow away by attack"
+            base: "Reduces Special Bind duration by 7 turns on this character.",
+            level1: "This character cannot be Blown Away."
         },
         support: [
             {
                 Characters: "[QCK] Free Spirit characters",
                 description: [
-                    "Adds 6% of character's base HP to supported character's base HP",
-                    "Adds 8% of character's base HP to supported character's base HP",
-                    "Adds 10% of character's base HP to supported character's base HP",
-                    "Adds 12% of character's base HP to supported character's base HP",
-                    "Adds 15% of character's base HP to supported character's base HP"
+                    "Adds 6% of this character's base HP to the supported character's base HP.",
+                    "Adds 8% of this character's base HP to the supported character's base HP.",
+                    "Adds 10% of this character's base HP to the supported character's base HP.",
+                    "Adds 12% of this character's base HP to the supported character's base HP.",
+                    "Adds 15% of this character's base HP to the supported character's base HP."
                 ]
             }
         ],
@@ -189817,18 +189817,18 @@ window.details = {
         ],
         superTandemBoost: {
             characterCondition: [
-                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem",
-                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem",
-                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem",
-                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem",
-                "When an [Elbaph Arc] [Giant] [Giant Pirate Crew] [Royalty] character performs Super Tandem"
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem",
+                "When an [Elbaph Arc], [Giant], [Giant Pirate Crew] or [Royalty] character performs Super Tandem"
             ],
             description: [
-                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 1 for 1 turn",
-                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 2 for 1 turn",
-                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 3 for 1 turn",
-                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 4 for 1 turn",
-                "Raises Boost Level of [Giant] [Giant Pirate Crew] [Royalty] characters by 5 for 1 turn"
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 1 for 1 turn.",
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 2 for 1 turn.",
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 3 for 1 turn.",
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 4 for 1 turn.",
+                "Raises Boost Level of [Giant], [Giant Pirate Crew] and [Royalty] characters by 5 for 1 turn."
             ]
         }
     },
