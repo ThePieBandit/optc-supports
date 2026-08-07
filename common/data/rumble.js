@@ -118518,6 +118518,45 @@ window.rumble = {
             }
         }
     },
+    4619: {
+        festCost: 20,
+        festStats: {
+            def: 148,
+            spd: 181,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack', '<i>Level 2 Self Heal</i>', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['80% chance to resist Paralysis.', '20% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 DEF up buff to [DEX], Striker and [Giant] crew members.', 'Inflicts Lv. 3 HP and ATK down debuff to [QCK] enemies.', 'When Scopper Gaban is on your crew, inflicts Lv. 2 Special CT down debuff to [QCK] enemies.', 'During Assault Rumble, applies Lv. 2 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 2 DEF up buff to [DEX], Striker and [Giant] crew members.', 'Inflicts Lv. 3 HP and ATK down debuff to [QCK] enemies.', 'When Scopper Gaban is on your crew, inflicts Lv. 2 Special CT down debuff to [QCK] enemies.', 'During Assault Rumble, applies Lv. 3 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 2 DEF up buff to [DEX], Striker and [Giant] crew members.', 'Inflicts Lv. 3 HP and ATK down debuff to [QCK] enemies.', 'When Scopper Gaban is on your crew, inflicts Lv. 2 Special CT down debuff to [QCK] enemies.', 'During Assault Rumble, applies Lv. 4 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 2 DEF up buff to [DEX], Striker and [Giant] crew members.', 'Inflicts Lv. 4 HP and ATK down debuff to [QCK] enemies.', 'When Scopper Gaban is on your crew, inflicts Lv. 2 Special CT down debuff to [QCK] enemies.', 'During Assault Rumble, applies Lv. 5 HP up buff to self.', 'During Assault Rumble, applies Lv. 2 Special CT up buff to self.'],
+                ['Applies Lv. 3 DEF up buff to [DEX], Striker and [Giant] crew members.', 'Inflicts Lv. 5 HP and ATK down debuff to [QCK] enemies.', 'When Scopper Gaban is on your crew, inflicts Lv. 3 Special CT down debuff to [QCK] enemies.', 'During Assault Rumble, applies Lv. 6 HP up buff to self.', 'During Assault Rumble, applies Lv. 3 Special CT up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 28,
+                descriptions: [
+                    ['Deals 5,100 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 3 DEF down debuff to 1 [QCK] enemy with the highest DEF for 6 seconds.', 'When Shanks is on your crew, 32% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 60% chance to inflict Half Stats to 1 [QCK] enemy for 6 seconds.', 'During Assault Rumble, deals 1x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 5,200 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 4 DEF down debuff to 1 [QCK] enemy with the highest DEF for 7 seconds.', 'When Shanks is on your crew, 34% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 64% chance to inflict Half Stats to 1 [QCK] enemy for 7 seconds.', 'During Assault Rumble, deals 1.4x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 5,300 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 4 DEF down debuff to 1 [QCK] enemy with the highest DEF for 8 seconds.', 'When Shanks is on your crew, 36% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 68% chance to inflict Half Stats to 1 [QCK] enemy for 8 seconds.', 'During Assault Rumble, deals 1.8x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 5,400 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 5 DEF down debuff to 1 [QCK] enemy with the highest DEF for 9 seconds.', 'When Shanks is on your crew, 38% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 72% chance to inflict Half Stats to 1 [QCK] enemy for 9 seconds.', 'During Assault Rumble, deals 2.2x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 5,500 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 5 DEF down debuff to 1 [QCK] enemy with the highest DEF for 10 seconds.', 'When Shanks is on your crew, 40% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 76% chance to inflict Half Stats to 1 [QCK] enemy for 10 seconds.', 'During Assault Rumble, deals 2.6x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 5,600 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 6 DEF down debuff to 1 [QCK] enemy with the highest DEF for 11 seconds.', 'When Shanks is on your crew, 42% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 80% chance to inflict Half Stats to 1 [QCK] enemy for 11 seconds.', 'During Assault Rumble, deals 3x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 5,700 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 6 DEF down debuff to 1 [QCK] enemy with the highest DEF for 12 seconds.', 'When Shanks is on your crew, 44% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 84% chance to inflict Half Stats to 1 [QCK] enemy for 12 seconds.', 'During Assault Rumble, deals 3.4x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 5,800 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 7 DEF down debuff to 1 [QCK] enemy with the highest DEF for 13 seconds.', 'When Shanks is on your crew, 46% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 88% chance to inflict Half Stats to 1 [QCK] enemy for 13 seconds.', 'During Assault Rumble, deals 3.8x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 5,900 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 7 DEF down debuff to 1 [QCK] enemy with the highest DEF for 14 seconds.', 'When Shanks is on your crew, 48% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 92% chance to inflict Half Stats to 1 [QCK] enemy for 14 seconds.', 'During Assault Rumble, deals 4.2x ATK in damage to 1 [QCK] enemy.'],
+                    ['Deals 6,000 fixed damage to 1 enemy with the highest DEF.', 'When Scopper Gaban is on your crew, inflicts Lv. 8 DEF down debuff to 1 [QCK] enemy with the highest DEF for 15 seconds.', 'When Shanks is on your crew, 50% Special CT Delay to 1 [QCK] enemy with the highest Special CT.', 'During Assault Rumble, 100% chance to inflict Half Stats to 1 [QCK] enemy for 15 seconds.', 'During Assault Rumble, deals 5x ATK in damage to 1 [QCK] enemy.']
+                ]
+            }
+        }
+    },
     4620: {
         festCost: 20,
         festStats: {
@@ -118634,6 +118673,65 @@ window.rumble = {
                 ]
             }
         }
+    },
+    4623: {
+        festCost: 55,
+        festStats: {
+            def: 275,
+            spd: 111,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['50% damage reduction from Damage Ignoring DEF.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to [DEX], Fighter and [Giant] crew members.', 'When HP is below 50%, applies Lv. 3 ATK up buff to self.', 'When HP is below 20%, applies Lv. 3 DEF up buff to self.', 'When HP is below 20%, reduces 80% of Special CT to self upon appearance.', 'When there is 5 or more [QCK] enemies, reduces 22% of Special CT to self upon appearance.', 'When Monkey D. Luffy is on your crew, revive to 20% HP after death to self 1 time.'],
+                ['Applies Lv. 3 HP and SPD up buff to [DEX], Fighter and [Giant] crew members.', 'When HP is below 50%, applies Lv. 4 ATK up buff to self.', 'When HP is below 20%, applies Lv. 4 DEF up buff to self.', 'When HP is below 20%, reduces 85% of Special CT to self upon appearance.', 'When there is 5 or more [QCK] enemies, reduces 24% of Special CT to self upon appearance.', 'When Monkey D. Luffy is on your crew, revive to 20% HP after death to self 1 time.'],
+                ['Applies Lv. 4 HP and SPD up buff to [DEX], Fighter and [Giant] crew members.', 'When HP is below 50%, applies Lv. 5 ATK up buff to self.', 'When HP is below 20%, applies Lv. 5 DEF up buff to self.', 'When HP is below 20%, reduces 90% of Special CT to self upon appearance.', 'When there is 5 or more [QCK] enemies, reduces 26% of Special CT to self upon appearance.', 'When Monkey D. Luffy is on your crew, revive to 20% HP after death to self 1 time.'],
+                ['Applies Lv. 5 HP and SPD up buff to [DEX], Fighter and [Giant] crew members.', 'When HP is below 50%, applies Lv. 6 ATK up buff to self.', 'When HP is below 20%, applies Lv. 6 DEF up buff to self.', 'When HP is below 20%, reduces 95% of Special CT to self upon appearance.', 'When there is 5 or more [QCK] enemies, reduces 28% of Special CT to self upon appearance.', 'When Monkey D. Luffy is on your crew, revive to 20% HP after death to self 1 time.'],
+                ['Applies Lv. 6 HP and SPD up buff to [DEX], Fighter and [Giant] crew members.', 'When HP is below 50%, applies Lv. 7 ATK up buff to self.', 'When HP is below 20%, applies Lv. 7 DEF up buff to self.', 'When HP is below 20%, reduces 100% of Special CT to self upon appearance.', 'When there is 5 or more [QCK] enemies, reduces 30% of Special CT to self upon appearance.', 'When Monkey D. Luffy is on your crew, revive to 20% HP after death to self 2 times.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 26,
+                descriptions: [
+                    ['Provoke enemies to self for 21 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 2 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 21 seconds.', 'Applies Lv. 1 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 21 seconds.', 'When there is 5 or more [QCK] enemies, reduces 10% of Special CT to self.', 'When HP is below 50%, deals 2x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 22 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 2 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 22 seconds.', 'Applies Lv. 1 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 22 seconds.', 'When there is 5 or more [QCK] enemies, reduces 12% of Special CT to self.', 'When HP is below 50%, deals 2.2x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.05x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 23 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 3 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 23 seconds.', 'Applies Lv. 1 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 23 seconds.', 'When there is 5 or more [QCK] enemies, reduces 14% of Special CT to self.', 'When HP is below 50%, deals 2.4x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.1x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 24 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 3 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 24 seconds.', 'Applies Lv. 2 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 24 seconds.', 'When there is 5 or more [QCK] enemies, reduces 16% of Special CT to self.', 'When HP is below 50%, deals 2.6x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.15x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 25 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 4 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 25 seconds.', 'Applies Lv. 2 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 25 seconds.', 'When there is 5 or more [QCK] enemies, reduces 18% of Special CT to self.', 'When HP is below 50%, deals 2.8x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.2x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 26 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 4 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 26 seconds.', 'Applies Lv. 3 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 26 seconds.', 'When there is 5 or more [QCK] enemies, reduces 20% of Special CT to self.', 'When HP is below 50%, deals 3x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.25x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 27 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 5 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 27 seconds.', 'Applies Lv. 3 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 27 seconds.', 'When there is 5 or more [QCK] enemies, reduces 22% of Special CT to self.', 'When HP is below 50%, deals 3.2x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.3x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 28 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 5 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 28 seconds.', 'Applies Lv. 3 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 28 seconds.', 'When there is 5 or more [QCK] enemies, reduces 24% of Special CT to self.', 'When HP is below 50%, deals 3.4x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.35x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 29 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 6 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 29 seconds.', 'Applies Lv. 4 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 29 seconds.', 'When there is 5 or more [QCK] enemies, reduces 26% of Special CT to self.', 'When HP is below 50%, deals 3.6x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.4x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Provoke enemies to self for 30 seconds.', '100% chance to inflict RCV Bind to self for 20 seconds.', '30% Special CT Delay to [QCK] enemies.', 'Applies Lv. 7 ATK and SPD up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 30 seconds.', 'Applies Lv. 5 DEF up buff to [DEX], Fighter and [Giant] crew members, excluding self, for 30 seconds.', 'When there is 5 or more [QCK] enemies, reduces 30% of Special CT to self.', 'When HP is below 50%, deals 4x ATK in damage to all enemies in a large, forward range.', 'When HP is below 30%, deals 1.5x ATK in damage ignoring DEF to all enemies in a large, radial range.']
+                ]
+            }
+        }
+    },
+    4624: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DEF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4625: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
     },
     5013: {
         festCost: 55,
