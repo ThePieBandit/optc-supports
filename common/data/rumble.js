@@ -118733,6 +118733,139 @@ window.rumble = {
         festAttackPattern: ['Normal Attack'],
         festAttackTarget: "Nearby Enemies."
     },
+    4626: {
+        festCost: 55,
+        festStats: {
+            def: 215,
+            spd: 147,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and HP up buff to [DEX] and Slasher crew members.', 'Applies Lv. 1 DEF up buff to [DEX] and Slasher crew members.', 'Reduces 10% of Special CT to [Roger Pirates] crew members, excluding self, upon appearance.', 'When there are 80 seconds or less remaining, on death launches rumble special 1 time.'],
+                ['Applies Lv. 3 ATK and HP up buff to [DEX] and Slasher crew members.', 'Applies Lv. 1 DEF up buff to [DEX] and Slasher crew members.', 'Reduces 15% of Special CT to [Roger Pirates] crew members, excluding self, upon appearance.', 'When there are 80 seconds or less remaining, on death launches rumble special 1 time.'],
+                ['Applies Lv. 4 ATK and HP up buff to [DEX] and Slasher crew members.', 'Applies Lv. 1 DEF up buff to [DEX] and Slasher crew members.', 'Reduces 20% of Special CT to [Roger Pirates] crew members, excluding self, upon appearance.', 'When there are 80 seconds or less remaining, on death launches rumble special 1 time.'],
+                ['Applies Lv. 5 ATK and HP up buff to [DEX] and Slasher crew members.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members.', 'Reduces 25% of Special CT to [Roger Pirates] crew members, excluding self, upon appearance.', 'When there are 80 seconds or less remaining, on death launches rumble special 1 time.'],
+                ['Applies Lv. 6 ATK and HP up buff to [DEX] and Slasher crew members.', 'Applies Lv. 3 DEF up buff to [DEX] and Slasher crew members.', 'Reduces 30% of Special CT to [Roger Pirates] crew members, excluding self, upon appearance.', 'When there are 80 seconds or less remaining, on death launches rumble special 1 time.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 20,
+                descriptions: [
+                    ['Applies Lv. 1 ATK and SPD up buff to [DEX] and Slasher crew members for 55 seconds.', '80% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 6 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 55 seconds.', 'When HP is below 1%, applies Lv. 6 ATK up buff to [DEX] and Slasher crew members for 55 seconds.', 'When HP is below 1%, applies Lv. 3 SPD up buff to [DEX] and Slasher crew members for 55 seconds.', 'When HP is below 1%, applies Lv. 2 Special CT up buff to [DEX] and Slasher crew members for 55 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 1.5x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 1 ATK and SPD up buff to [DEX] and Slasher crew members for 60 seconds.', '82% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 7 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 60 seconds.', 'When HP is below 1%, applies Lv. 6 ATK up buff to [DEX] and Slasher crew members for 60 seconds.', 'When HP is below 1%, applies Lv. 3 SPD up buff to [DEX] and Slasher crew members for 60 seconds.', 'When HP is below 1%, applies Lv. 2 Special CT up buff to [DEX] and Slasher crew members for 60 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 1.7x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 1 ATK and SPD up buff to [DEX] and Slasher crew members for 65 seconds.', '84% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 8 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 65 seconds.', 'When HP is below 1%, applies Lv. 7 ATK up buff to [DEX] and Slasher crew members for 65 seconds.', 'When HP is below 1%, applies Lv. 4 SPD up buff to [DEX] and Slasher crew members for 65 seconds.', 'When HP is below 1%, applies Lv. 3 Special CT up buff to [DEX] and Slasher crew members for 65 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 1.9x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 1 ATK and SPD up buff to [DEX] and Slasher crew members for 70 seconds.', '86% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 9 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 70 seconds.', 'When HP is below 1%, applies Lv. 7 ATK up buff to [DEX] and Slasher crew members for 70 seconds.', 'When HP is below 1%, applies Lv. 4 SPD up buff to [DEX] and Slasher crew members for 70 seconds.', 'When HP is below 1%, applies Lv. 3 Special CT up buff to [DEX] and Slasher crew members for 70 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 2.1x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 1 ATK and SPD up buff to [DEX] and Slasher crew members for 75 seconds.', '88% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 10 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 75 seconds.', 'When HP is below 1%, applies Lv. 8 ATK up buff to [DEX] and Slasher crew members for 75 seconds.', 'When HP is below 1%, applies Lv. 5 SPD up buff to [DEX] and Slasher crew members for 75 seconds.', 'When HP is below 1%, applies Lv. 4 Special CT up buff to [DEX] and Slasher crew members for 75 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 2.3x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [DEX] and Slasher crew members for 80 seconds.', '90% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 11 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 80 seconds.', 'When HP is below 1%, applies Lv. 8 ATK up buff to [DEX] and Slasher crew members for 80 seconds.', 'When HP is below 1%, applies Lv. 5 SPD up buff to [DEX] and Slasher crew members for 80 seconds.', 'When HP is below 1%, applies Lv. 4 Special CT up buff to [DEX] and Slasher crew members for 80 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 2.5x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [DEX] and Slasher crew members for 85 seconds.', '92% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 12 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 85 seconds.', 'When HP is below 1%, applies Lv. 9 ATK up buff to [DEX] and Slasher crew members for 85 seconds.', 'When HP is below 1%, applies Lv. 6 SPD up buff to [DEX] and Slasher crew members for 85 seconds.', 'When HP is below 1%, applies Lv. 5 Special CT up buff to [DEX] and Slasher crew members for 85 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 2.7x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [DEX] and Slasher crew members for 90 seconds.', '94% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 13 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 90 seconds.', 'When HP is below 1%, applies Lv. 9 ATK up buff to [DEX] and Slasher crew members for 90 seconds.', 'When HP is below 1%, applies Lv. 6 SPD up buff to [DEX] and Slasher crew members for 90 seconds.', 'When HP is below 1%, applies Lv. 5 Special CT up buff to [DEX] and Slasher crew members for 90 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 2.9x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 2 ATK and SPD up buff to [DEX] and Slasher crew members for 95 seconds.', '96% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 14 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 95 seconds.', 'When HP is below 1%, applies Lv. 10 ATK up buff to [DEX] and Slasher crew members for 95 seconds.', 'When HP is below 1%, applies Lv. 7 SPD up buff to [DEX] and Slasher crew members for 95 seconds.', 'When HP is below 1%, applies Lv. 6 Special CT up buff to [DEX] and Slasher crew members for 95 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 3.1x ATK in damage to all enemies in a large, radial range.'],
+                    ['Applies Lv. 3 ATK and SPD up buff to [DEX] and Slasher crew members for 100 seconds.', '100% chance to evade Action Bind and Special CT Delay to [DEX] and Slasher crew members for 15 seconds.', 'Applies Lv. 2 DEF up buff to [DEX] and Slasher crew members, excluding self, for 100 seconds.', 'When HP is below 1%, applies Lv. 12 ATK up buff to [DEX] and Slasher crew members for 100 seconds.', 'When HP is below 1%, applies Lv. 8 SPD up buff to [DEX] and Slasher crew members for 100 seconds.', 'When HP is below 1%, applies Lv. 7 Special CT up buff to [DEX] and Slasher crew members for 100 seconds.', 'When HP is above 1%, 99% HP cut to self.', 'When HP is above 1%, deals 3.5x ATK in damage to all enemies in a large, radial range.']
+                ]
+            }
+        }
+    },
+    4627: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
+    4628: {
+        festCost: 55,
+        festStats: {
+            def: 245,
+            spd: 149,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', 'Normal Attack'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Damage Over Time.', '30% damage reduction from [STR] enemies.'],
+            llbbase: ['100% chance to resist Damage Over Time.', '40% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 1 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 1 HP up buff to all crew members.', 'The first 3 times this character takes damage, inflicts Lv. 1 SPD down debuff to [STR] enemies.', 'The first 3 times this character takes damage, reduces 11% of Special CT to self.'],
+                ['Applies Lv. 2 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 2 HP up buff to all crew members.', 'The first 3 times this character takes damage, inflicts Lv. 1 SPD down debuff to [STR] enemies.', 'The first 3 times this character takes damage, reduces 12% of Special CT to self.'],
+                ['Applies Lv. 3 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 3 HP up buff to all crew members.', 'The first 3 times this character takes damage, inflicts Lv. 1 SPD down debuff to [STR] enemies.', 'The first 3 times this character takes damage, reduces 13% of Special CT to self.'],
+                ['Applies Lv. 4 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 4 HP up buff to all crew members.', 'The first 3 times this character takes damage, inflicts Lv. 1 SPD down debuff to [STR] enemies.', 'The first 3 times this character takes damage, reduces 14% of Special CT to self.'],
+                ['Applies Lv. 6 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 6 HP up buff to all crew members.', 'The first 3 times this character takes damage, inflicts Lv. 2 SPD down debuff to [STR] enemies.', 'The first 3 times this character takes damage, reduces 15% of Special CT to self.']
+            ],
+            llbbase: [
+                ['Applies Lv. 1 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 1 HP up buff to all crew members.', 'The first 4 times this character takes damage, inflicts Lv. 1 SPD down debuff to [STR] enemies.', 'The first 4 times this character takes damage, inflicts Lv. 1 Special CT down debuff to all enemies.', 'The first 4 times this character takes damage, reduces 16% of Special CT to self.'],
+                ['Applies Lv. 2 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 2 HP up buff to all crew members.', 'The first 4 times this character takes damage, inflicts Lv. 1 SPD down debuff to [STR] enemies.', 'The first 4 times this character takes damage, inflicts Lv. 1 Special CT down debuff to all enemies.', 'The first 4 times this character takes damage, reduces 17% of Special CT to self.'],
+                ['Applies Lv. 4 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 4 HP up buff to all crew members.', 'The first 4 times this character takes damage, inflicts Lv. 1 SPD down debuff to [STR] enemies.', 'The first 4 times this character takes damage, inflicts Lv. 1 Special CT down debuff to all enemies.', 'The first 4 times this character takes damage, reduces 18% of Special CT to self.'],
+                ['Applies Lv. 5 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 5 HP up buff to all crew members.', 'The first 4 times this character takes damage, inflicts Lv. 1 SPD down debuff to [STR] enemies.', 'The first 4 times this character takes damage, inflicts Lv. 1 Special CT down debuff to all enemies.', 'The first 4 times this character takes damage, reduces 19% of Special CT to self.'],
+                ['Applies Lv. 7 ATK, SPD and DEF up buff to [QCK], Cerebral and [Royalty] crew members.', 'When there is 3 or more [Royalty] crew members, applies Lv. 7 HP up buff to all crew members.', 'The first 4 times this character takes damage, inflicts Lv. 2 SPD down debuff to [STR] enemies.', 'The first 4 times this character takes damage, inflicts Lv. 1 Special CT down debuff to all enemies.', 'The first 4 times this character takes damage, reduces 20% of Special CT to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 26,
+                descriptions: [
+                    ['Applies Lv. 1 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 11 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 16 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies with Damage Over Time for 11 seconds.', 'Deals 1x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 480 fixed HP every 3 seconds to self for 11 seconds.'],
+                    ['Applies Lv. 1 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 12 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 17 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies with Damage Over Time for 12 seconds.', 'Deals 1.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 500 fixed HP every 3 seconds to self for 12 seconds.'],
+                    ['Applies Lv. 2 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 13 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 18 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies with Damage Over Time for 13 seconds.', 'Deals 2x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 520 fixed HP every 3 seconds to self for 13 seconds.'],
+                    ['Applies Lv. 2 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 14 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 19 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies with Damage Over Time for 14 seconds.', 'Deals 2.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 540 fixed HP every 3 seconds to self for 14 seconds.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 15 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 20 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies with Damage Over Time for 15 seconds.', 'Deals 3x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 560 fixed HP every 3 seconds to self for 15 seconds.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 16 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 21 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies with Damage Over Time for 16 seconds.', 'Deals 3.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 580 fixed HP every 3 seconds to self for 16 seconds.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 17 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 22 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies with Damage Over Time for 17 seconds.', 'Deals 4x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 600 fixed HP every 3 seconds to self for 17 seconds.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 18 seconds.', 'Inflicts Lv. 3 Damage Over Time to all enemies for 23 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies with Damage Over Time for 18 seconds.', 'Deals 4.5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 620 fixed HP every 3 seconds to self for 18 seconds.'],
+                    ['Applies Lv. 5 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 19 seconds.', 'Inflicts Lv. 3 Damage Over Time to all enemies for 24 seconds.', 'Inflicts Lv. 5 DEF down debuff to all enemies with Damage Over Time for 19 seconds.', 'Deals 5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 640 fixed HP every 3 seconds to self for 19 seconds.'],
+                    ['Applies Lv. 6 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 20 seconds.', 'Inflicts Lv. 4 Damage Over Time to all enemies for 25 seconds.', 'Inflicts Lv. 6 DEF down debuff to all enemies with Damage Over Time for 20 seconds.', 'Deals 5x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 660 fixed HP every 3 seconds to self for 20 seconds.']
+                ]
+            },
+            llbbase: {
+                cooldown: 26,
+                descriptions: [
+                    ['Applies Lv. 1 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 16 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 16 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies with Damage Over Time for 16 seconds.', 'Deals 2.6x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 480 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 16 seconds.', 'During Assault Rumble, reduces 21% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 1 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 17 seconds.', 'Inflicts Lv. 1 Damage Over Time to all enemies for 17 seconds.', 'Inflicts Lv. 1 DEF down debuff to all enemies with Damage Over Time for 17 seconds.', 'Deals 3.1x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 500 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 17 seconds.', 'During Assault Rumble, reduces 22% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 2 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 18 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 18 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies with Damage Over Time for 18 seconds.', 'Deals 3.6x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 520 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 18 seconds.', 'During Assault Rumble, reduces 23% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 2 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 19 seconds.', 'Inflicts Lv. 2 Damage Over Time to all enemies for 19 seconds.', 'Inflicts Lv. 2 DEF down debuff to all enemies with Damage Over Time for 19 seconds.', 'Deals 4.1x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 540 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 19 seconds.', 'During Assault Rumble, reduces 24% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 20 seconds.', 'Inflicts Lv. 3 Damage Over Time to all enemies for 20 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies with Damage Over Time for 20 seconds.', 'Deals 4.6x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 560 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 20 seconds.', 'During Assault Rumble, reduces 25% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 3 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 21 seconds.', 'Inflicts Lv. 3 Damage Over Time to all enemies for 21 seconds.', 'Inflicts Lv. 3 DEF down debuff to all enemies with Damage Over Time for 21 seconds.', 'Deals 5.1x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 580 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 21 seconds.', 'During Assault Rumble, reduces 26% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 22 seconds.', 'Inflicts Lv. 4 Damage Over Time to all enemies for 22 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies with Damage Over Time for 22 seconds.', 'Deals 5.6x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 600 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 22 seconds.', 'During Assault Rumble, reduces 27% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 4 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 23 seconds.', 'Inflicts Lv. 4 Damage Over Time to all enemies for 23 seconds.', 'Inflicts Lv. 4 DEF down debuff to all enemies with Damage Over Time for 23 seconds.', 'Deals 6.1x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 620 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 23 seconds.', 'During Assault Rumble, reduces 28% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 5 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 24 seconds.', 'Inflicts Lv. 5 Damage Over Time to all enemies for 24 seconds.', 'Inflicts Lv. 5 DEF down debuff to all enemies with Damage Over Time for 24 seconds.', 'Deals 6.6x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 640 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 24 seconds.', 'During Assault Rumble, reduces 29% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.'],
+                    ['Applies Lv. 6 ATK and DEF up buff to [QCK], Cerebral and [Royalty] crew members for 25 seconds.', 'Inflicts Lv. 6 Damage Over Time to all enemies for 25 seconds.', 'Inflicts Lv. 6 DEF down debuff to all enemies with Damage Over Time for 25 seconds.', 'Deals 6.6x ATK in spread damage to all enemies in a medium, radial range.', 'Heals 660 fixed HP every 3 seconds to [QCK], [Royalty] and [Straw Hat Pirates] crew members for 25 seconds.', 'During Assault Rumble, reduces 30% of Special CT to [QCK], [Royalty] and [Straw Hat Pirates] crew members, excluding self.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 1 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 1 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 2 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 2 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.'],
+                ['Applies Lv. 3 ATK up buff to all crew members.', 'Applies Lv. 3 HP and SPD up buff to all crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After 2 crew members are defeated",
+                descriptions: [
+                    ['Deals 500 fixed damage to all enemies.'],
+                    ['Deals 625 fixed damage to all enemies.'],
+                    ['Deals 750 fixed damage to all enemies.'],
+                    ['Deals 875 fixed damage to all enemies.'],
+                    ['Deals 1,000 fixed damage to all enemies.']
+                ]
+            }
+        }
+    },
     5013: {
         festCost: 55,
         festStats: {
