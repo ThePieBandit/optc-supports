@@ -440,7 +440,7 @@
 				name: "Activates: Special",
 				targets: ["support"],
 				regex:
-					/When you reach the ([\w]+) stage[^.]*?, activates supported character's Special/i,
+					/When you reach the ([\w]+) stage[^.]*?, activates supported character's[^.]+?Special/i,
 				submatchers: [
 					{
 						type: "option",
@@ -496,7 +496,7 @@
 				name: "Activates: Super Effect",
 				targets: ["support"],
 				regex:
-					/When you reach the ([\w]+) stage, activates supported character's Super Effect/i,
+					/When you reach the ([\w]+) stage, activates supported character's[^.]+?Super Effect/i,
 				submatchers: [
 					{
 						type: "option",
@@ -552,7 +552,7 @@
 				name: "Activates: Switch Effect",
 				targets: ["support"],
 				regex:
-					/When you reach the ([\w]+) stage, activates supported character's Switch Effect/i,
+					/When you reach the ([\w]+) stage, activates supported character's[^.]+?Switch Effect/i,
 				submatchers: [
 					{
 						type: "option",
@@ -6593,6 +6593,19 @@
 					{
 						type: "number",
 						description: "Turns:",
+						groups: [1, 2],
+					},
+				],
+			},
+
+			{
+				name: "Nullifies Enemy Territory",
+				targets: ["captain"],
+				regex: /nullifies the application of enemy's territory ([?\d]+)(?:-([?\d]+))? times?/i,
+				submatchers: [
+					{
+						type: "number",
+						description: "Times:",
 						groups: [1, 2],
 					},
 				],
