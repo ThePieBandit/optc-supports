@@ -11033,7 +11033,7 @@
 
 			{
 				name: "Healer: RCV",
-				targets: ["gpSpecial"],
+				targets: ["gpAbility", "gpSpecial"],
 				regex:
 					/Heals ([.\d]+)x RCV of HP to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?/i,
 				submatchers: [
@@ -11395,7 +11395,7 @@
 
 			{
 				name: "Special CT",
-				targets: ["gpSpecial"],
+				targets: ["gpAbility", "gpSpecial"],
 				regex:
 					/Reduces ([.\d]+)% of Special CT to (\d)?(?=((?:[^c]+|c(?!rew))*))\3crew members?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?/i,
 				submatchers: [
@@ -11532,7 +11532,7 @@
 
 			{
 				name: "Haste",
-				targets: ["rumbleSpecial"],
+				targets: ["rumbleAbility", "rumbleSpecial"],
 				regex:
 					/([.\d]+)% chance to grant Haste to (\d)?(self|(?=((?:[^c]+|c(?!rew))*))\4crew members?)(?:, excluding self,)?(?: with [^.]+ (ATK|DEF|HP|RCV|SPD|Special CT))?/i,
 				submatchers: [

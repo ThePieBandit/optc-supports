@@ -118866,6 +118866,248 @@ window.rumble = {
             }
         }
     },
+    4629: {
+        festCost: 55,
+        festStats: {
+            def: 120,
+            spd: 195,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', 'Heals 400 HP every 5 seconds.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 HP, ATK and DEF up buff to [QCK], Free Spirit, [Giant], [Royalty] and [Elbaph Arc] crew members.', 'For the first 40 seconds, applies Lv. 3 DEF up buff to self.', 'For the first 40 seconds, inflicts Lv. 10 SPD down debuff to self.', 'The first 5 times this character takes damage, applies Lv. 1 ATK up buff to [Giant] crew members.', 'The first 5 times this character takes damage, inflicts Lv. 1 DEF and SPD down debuff to [STR] and Driven enemies.', 'When there are 60 seconds or less remaining, 80% chance to grant Haste to Free Spirit and [Giant] crew members upon appearance.'],
+                ['Applies Lv. 4 HP, ATK and DEF up buff to [QCK], Free Spirit, [Giant], [Royalty] and [Elbaph Arc] crew members.', 'For the first 40 seconds, applies Lv. 4 DEF up buff to self.', 'For the first 40 seconds, inflicts Lv. 10 SPD down debuff to self.', 'The first 5 times this character takes damage, applies Lv. 1 ATK up buff to [Giant] crew members.', 'The first 5 times this character takes damage, inflicts Lv. 1 DEF and SPD down debuff to [STR] and Driven enemies.', 'When there are 60 seconds or less remaining, 85% chance to grant Haste to Free Spirit and [Giant] crew members upon appearance.'],
+                ['Applies Lv. 5 HP, ATK and DEF up buff to [QCK], Free Spirit, [Giant], [Royalty] and [Elbaph Arc] crew members.', 'For the first 40 seconds, applies Lv. 5 DEF up buff to self.', 'For the first 40 seconds, inflicts Lv. 10 SPD down debuff to self.', 'The first 5 times this character takes damage, applies Lv. 1 ATK up buff to [Giant] crew members.', 'The first 5 times this character takes damage, inflicts Lv. 1 DEF and SPD down debuff to [STR] and Driven enemies.', 'When there are 60 seconds or less remaining, 90% chance to grant Haste to Free Spirit and [Giant] crew members upon appearance.'],
+                ['Applies Lv. 6 HP, ATK and DEF up buff to [QCK], Free Spirit, [Giant], [Royalty] and [Elbaph Arc] crew members.', 'For the first 40 seconds, applies Lv. 6 DEF up buff to self.', 'For the first 40 seconds, inflicts Lv. 10 SPD down debuff to self.', 'The first 5 times this character takes damage, applies Lv. 1 ATK up buff to [Giant] crew members.', 'The first 5 times this character takes damage, inflicts Lv. 1 DEF and SPD down debuff to [STR] and Driven enemies.', 'When there are 60 seconds or less remaining, 95% chance to grant Haste to Free Spirit and [Giant] crew members upon appearance.'],
+                ['Applies Lv. 7 HP, ATK and DEF up buff to [QCK], Free Spirit, [Giant], [Royalty] and [Elbaph Arc] crew members.', 'For the first 40 seconds, applies Lv. 7 DEF up buff to self.', 'For the first 40 seconds, inflicts Lv. 10 SPD down debuff to self.', 'The first 5 times this character takes damage, applies Lv. 2 ATK up buff to [Giant] crew members.', 'The first 5 times this character takes damage, inflicts Lv. 1 DEF and SPD down debuff to [STR] and Driven enemies.', 'When there are 60 seconds or less remaining, 100% chance to grant Haste to Free Spirit and [Giant] crew members upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 34,
+                descriptions: [
+                    ['When there is 2 or more [Giant] crew members, 73% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 1.3x ATK in damage to [STR] and Driven enemies.', 'Deals 1.1x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 76% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 1.6x ATK in damage to [STR] and Driven enemies.', 'Deals 1.2x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 79% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 1.9x ATK in damage to [STR] and Driven enemies.', 'Deals 1.3x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 82% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 2.2x ATK in damage to [STR] and Driven enemies.', 'Deals 1.4x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 85% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 2.5x ATK in damage to [STR] and Driven enemies.', 'Deals 1.5x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 88% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 2.8x ATK in damage to [STR] and Driven enemies.', 'Deals 1.6x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 91% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 3.1x ATK in damage to [STR] and Driven enemies.', 'Deals 1.7x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 94% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 3.4x ATK in damage to [STR] and Driven enemies.', 'Deals 1.8x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 97% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 3.7x ATK in damage to [STR] and Driven enemies.', 'Deals 1.9x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.'],
+                    ['When there is 2 or more [Giant] crew members, 100% chance to cleanse ATK stats down debuffs to all crew members.', 'Deals 4x ATK in damage to [STR] and Driven enemies.', 'Deals 2x ATK in damage ignoring DEF to 2 enemies with the lowest HP 2 times.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and HP up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 1 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 2 RCV and SPD up buff to Driven and Free Spirit crew members.', 'Applies Lv. 1 Special CT up buff to Driven and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 1 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'For the first 40 seconds, inflicts Lv. 6 Accuracy down debuff to [STR] and Driven enemies.', 'After the first 40 seconds, applies Lv. 1 Special CT up buff to [QCK], [Giant] and [Royalty] crew members.', 'After the first 40 seconds, inflicts Lv. 1 DEF down debuff to [STR] and Driven enemies.'],
+                ['Applies Lv. 3 ATK and HP up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 2 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 3 RCV and SPD up buff to Driven and Free Spirit crew members.', 'Applies Lv. 2 Special CT up buff to Driven and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 2 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'For the first 40 seconds, inflicts Lv. 7 Accuracy down debuff to [STR] and Driven enemies.', 'After the first 40 seconds, applies Lv. 2 Special CT up buff to [QCK], [Giant] and [Royalty] crew members.', 'After the first 40 seconds, inflicts Lv. 2 DEF down debuff to [STR] and Driven enemies.'],
+                ['Applies Lv. 4 ATK and HP up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 3 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 4 RCV and SPD up buff to Driven and Free Spirit crew members.', 'Applies Lv. 2 Special CT up buff to Driven and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 3 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'For the first 40 seconds, inflicts Lv. 8 Accuracy down debuff to [STR] and Driven enemies.', 'After the first 40 seconds, applies Lv. 3 Special CT up buff to [QCK], [Giant] and [Royalty] crew members.', 'After the first 40 seconds, inflicts Lv. 3 DEF down debuff to [STR] and Driven enemies.'],
+                ['Applies Lv. 5 ATK and HP up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 3 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 5 RCV and SPD up buff to Driven and Free Spirit crew members.', 'Applies Lv. 3 Special CT up buff to Driven and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 4 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'For the first 40 seconds, inflicts Lv. 9 Accuracy down debuff to [STR] and Driven enemies.', 'After the first 40 seconds, applies Lv. 4 Special CT up buff to [QCK], [Giant] and [Royalty] crew members.', 'After the first 40 seconds, inflicts Lv. 3 DEF down debuff to [STR] and Driven enemies.'],
+                ['Applies Lv. 6 ATK and HP up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 4 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'Applies Lv. 6 RCV and SPD up buff to Driven and Free Spirit crew members.', 'Applies Lv. 3 Special CT up buff to Driven and Free Spirit crew members.', 'For the first 40 seconds, applies Lv. 5 DEF up buff to [QCK], [Giant] and [Royalty] crew members.', 'For the first 40 seconds, inflicts Lv. 10 Accuracy down debuff to [STR] and Driven enemies.', 'After the first 40 seconds, applies Lv. 5 Special CT up buff to [QCK], [Giant] and [Royalty] crew members.', 'After the first 40 seconds, inflicts Lv. 4 DEF down debuff to [STR] and Driven enemies.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After receiving 12 hits",
+                descriptions: [
+                    ['60% chance to evade RCV Bind and Damage Ignoring DEF to [QCK], Free Spirit, [Giant] and [Royalty] crew members for 16 seconds.', "Deals 1x Leader's base ATK in damage ignoring DEF to all enemies.", "Deals 1x Leader's base ATK in damage ignoring DEF to [STR] and Driven enemies."],
+                    ['70% chance to evade RCV Bind and Damage Ignoring DEF to [QCK], Free Spirit, [Giant] and [Royalty] crew members for 17 seconds.', "Deals 1.25x Leader's base ATK in damage ignoring DEF to all enemies.", "Deals 1.25x Leader's base ATK in damage ignoring DEF to [STR] and Driven enemies."],
+                    ['80% chance to evade RCV Bind and Damage Ignoring DEF to [QCK], Free Spirit, [Giant] and [Royalty] crew members for 18 seconds.', "Deals 1.5x Leader's base ATK in damage ignoring DEF to all enemies.", "Deals 1.5x Leader's base ATK in damage ignoring DEF to [STR] and Driven enemies."],
+                    ['90% chance to evade RCV Bind and Damage Ignoring DEF to [QCK], Free Spirit, [Giant] and [Royalty] crew members for 19 seconds.', "Deals 1.75x Leader's base ATK in damage ignoring DEF to all enemies.", "Deals 1.75x Leader's base ATK in damage ignoring DEF to [STR] and Driven enemies."],
+                    ['100% chance to evade RCV Bind and Damage Ignoring DEF to [QCK], Free Spirit, [Giant] and [Royalty] crew members for 20 seconds.', "Deals 2x Leader's base ATK in damage ignoring DEF to all enemies.", "Deals 2x Leader's base ATK in damage ignoring DEF to [STR] and Driven enemies."]
+                ]
+            }
+        }
+    },
+    4630: {
+        festCost: 55,
+        festStats: {
+            def: 167,
+            spd: 165,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '100% chance to resist Half Stats.', '30% damage reduction from [QCK] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 ATK and HP up buff to [DEX], Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 3 SPD up buff to self.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 1 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 2 DEF up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 4 Blow Away up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 1 Special CT up buff to Slasher crew members.', 'When there are 60 seconds or less remaining, reduces 30% of Special CT to self upon appearance.'],
+                ['Applies Lv. 4 ATK and HP up buff to [DEX], Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 4 SPD up buff to self.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 2 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 3 DEF up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 5 Blow Away up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 2 Special CT up buff to Slasher crew members.', 'When there are 60 seconds or less remaining, reduces 35% of Special CT to self upon appearance.'],
+                ['Applies Lv. 5 ATK and HP up buff to [DEX], Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 5 SPD up buff to self.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 3 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 4 DEF up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 6 Blow Away up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 3 Special CT up buff to Slasher crew members.', 'When there are 60 seconds or less remaining, reduces 40% of Special CT to self upon appearance.'],
+                ['Applies Lv. 6 ATK and HP up buff to [DEX], Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 6 SPD up buff to self.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 4 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 5 DEF up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 7 Blow Away up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 4 Special CT up buff to Slasher crew members.', 'When there are 60 seconds or less remaining, reduces 45% of Special CT to self upon appearance.'],
+                ['Applies Lv. 7 ATK and HP up buff to [DEX], Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 7 SPD up buff to self.', 'When there is 4 or more [Elbaph Arc] crew members, applies Lv. 5 DEF up buff to self.', 'For the first 40 seconds, applies Lv. 6 DEF up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 8 Blow Away up buff to Slasher crew members.', 'For the first 40 seconds, applies Lv. 5 Special CT up buff to Slasher crew members.', 'When there are 60 seconds or less remaining, reduces 50% of Special CT to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 29,
+                descriptions: [
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 11 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 1 DEF down debuff to all enemies for 11 seconds.', 'When there is 5 or more [QCK] enemies, deals 1.2x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 1.2x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 6x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 12 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 1 DEF down debuff to all enemies for 12 seconds.', 'When there is 5 or more [QCK] enemies, deals 1.4x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 1.4x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 7x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 1 DEF down debuff to all enemies in a large, radial range for 13 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 1 DEF down debuff to all enemies for 13 seconds.', 'When there is 5 or more [QCK] enemies, deals 1.6x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 1.6x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 8x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 14 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 2 DEF down debuff to all enemies for 14 seconds.', 'When there is 5 or more [QCK] enemies, deals 1.8x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 1.8x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 9x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 2 DEF down debuff to all enemies in a large, radial range for 15 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 2 DEF down debuff to all enemies for 15 seconds.', 'When there is 5 or more [QCK] enemies, deals 2x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 2x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 10x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 3 DEF down debuff to all enemies in a large, radial range for 16 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 3 DEF down debuff to all enemies for 16 seconds.', 'When there is 5 or more [QCK] enemies, deals 2.2x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 2.2x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 11x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 3 DEF down debuff to all enemies in a large, radial range for 17 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 3 DEF down debuff to all enemies for 17 seconds.', 'When there is 5 or more [QCK] enemies, deals 2.4x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 2.4x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 12x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 3 DEF down debuff to all enemies in a large, radial range for 18 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 3 DEF down debuff to all enemies for 18 seconds.', 'When there is 5 or more [QCK] enemies, deals 2.6x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 2.6x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 13x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 4 DEF down debuff to all enemies in a large, radial range for 19 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 4 DEF down debuff to all enemies for 19 seconds.', 'When there is 5 or more [QCK] enemies, deals 2.8x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 2.8x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 14x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.'],
+                    ['Inflicts Lv. 5 DEF down debuff to all enemies in a large, radial range for 20 seconds.', 'When there is 5 or more [QCK] enemies, inflicts Lv. 5 DEF down debuff to all enemies for 20 seconds.', 'When there is 5 or more [QCK] enemies, deals 3x ATK in damage to all enemies in a large, sideways range 2 times.', 'For the first 40 seconds, deals 3x ATK in damage to all enemies in a large, forward range 2 times.', 'When there is 5 or more [DEX] crew members or 5 or more Slasher crew members, deals 15x ATK in spread damage to all enemies in a large, radial range.', 'After the first 40 seconds, switches self with 3rd sub character.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 1 DEF up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 2 ATK, Blow Away and Guard up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 1 Special CT up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 1 ATK up buff to Slasher and Striker crew members.'],
+                ['Applies Lv. 3 HP and SPD up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 2 DEF up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 3 ATK, Blow Away and Guard up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 2 Special CT up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 2 ATK up buff to Slasher and Striker crew members.'],
+                ['Applies Lv. 4 HP and SPD up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 3 DEF up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 4 ATK, Blow Away and Guard up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 3 Special CT up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 3 ATK up buff to Slasher and Striker crew members.'],
+                ['Applies Lv. 5 HP and SPD up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 3 DEF up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 5 ATK, Blow Away and Guard up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 4 Special CT up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 3 ATK up buff to Slasher and Striker crew members.'],
+                ['Applies Lv. 6 HP and SPD up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 4 DEF up buff to [DEX], [PSY], [Giant] and [Elbaph Arc] crew members.', 'Applies Lv. 6 ATK, Blow Away and Guard up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 5 Special CT up buff to Slasher and Striker crew members.', 'For the first 40 seconds, applies Lv. 4 ATK up buff to Slasher and Striker crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 2,
+                condition: "After landing 7 Normal attacks",
+                descriptions: [
+                    ['60% chance to inflict Forced Out to 2 enemies with the highest ATK for 11 seconds.', "Deals 12x Leader's base ATK in spread damage to all enemies 2 times.", 'Applies Lv. 6 ATK up buff to [DEX], [PSY], Slasher, Striker and [Giant] crew members for 11 seconds.', 'Reduces 12% of Special CT to [DEX], [PSY], Slasher, Striker and [Giant] crew members.'],
+                    ['70% chance to inflict Forced Out to 2 enemies with the highest ATK for 12 seconds.', "Deals 14x Leader's base ATK in spread damage to all enemies 2 times.", 'Applies Lv. 7 ATK up buff to [DEX], [PSY], Slasher, Striker and [Giant] crew members for 12 seconds.', 'Reduces 14% of Special CT to [DEX], [PSY], Slasher, Striker and [Giant] crew members.'],
+                    ['80% chance to inflict Forced Out to 2 enemies with the highest ATK for 13 seconds.', "Deals 16x Leader's base ATK in spread damage to all enemies 2 times.", 'Applies Lv. 8 ATK up buff to [DEX], [PSY], Slasher, Striker and [Giant] crew members for 13 seconds.', 'Reduces 16% of Special CT to [DEX], [PSY], Slasher, Striker and [Giant] crew members.'],
+                    ['90% chance to inflict Forced Out to 2 enemies with the highest ATK for 14 seconds.', "Deals 18x Leader's base ATK in spread damage to all enemies 2 times.", 'Applies Lv. 9 ATK up buff to [DEX], [PSY], Slasher, Striker and [Giant] crew members for 14 seconds.', 'Reduces 18% of Special CT to [DEX], [PSY], Slasher, Striker and [Giant] crew members.'],
+                    ['100% chance to inflict Forced Out to 2 enemies with the highest ATK for 15 seconds.', "Deals 20x Leader's base ATK in spread damage to all enemies 2 times.", 'Applies Lv. 10 ATK up buff to [DEX], [PSY], Slasher, Striker and [Giant] crew members for 15 seconds.', 'Reduces 20% of Special CT to [DEX], [PSY], Slasher, Striker and [Giant] crew members.']
+                ]
+            }
+        }
+    },
+    4631: {
+        festCost: 55,
+        festStats: {
+            def: 139,
+            spd: 204,
+            style: "ATK"
+        },
+        festAttackPattern: ['Normal Attack', 'Normal Attack', '<b><i>Power Attack</b></i>', '<b>Full Attack</b>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['50% damage reduction from Damage Ignoring DEF.', '100% chance to resist Special Bind.', '30% damage reduction from Fighter enemies.', '30% damage reduction from Slasher enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 3 HP and ATK up buff to Slasher, Striker and [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 80% of Special CT to self upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 2 ATK up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 4 Guard up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 1 Special CT up buff to Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, 80% chance to grant Haste to self upon appearance.'],
+                ['Applies Lv. 4 HP and ATK up buff to Slasher, Striker and [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 85% of Special CT to self upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 3 ATK up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 5 Guard up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 2 Special CT up buff to Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, 85% chance to grant Haste to self upon appearance.'],
+                ['Applies Lv. 5 HP and ATK up buff to Slasher, Striker and [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 90% of Special CT to self upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 4 ATK up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 6 Guard up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 3 Special CT up buff to Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, 90% chance to grant Haste to self upon appearance.'],
+                ['Applies Lv. 6 HP and ATK up buff to Slasher, Striker and [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 95% of Special CT to self upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 5 ATK up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 7 Guard up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 4 Special CT up buff to Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, 95% chance to grant Haste to self upon appearance.'],
+                ['Applies Lv. 7 HP and ATK up buff to Slasher, Striker and [Giant] crew members.', 'When there are 60 seconds or less remaining, reduces 100% of Special CT to self upon appearance.', 'When there are 60 seconds or less remaining, applies Lv. 6 ATK up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 8 Guard up buff to Slasher and [Giant] crew members.', 'When there are 60 seconds or less remaining, applies Lv. 5 Special CT up buff to Slasher and [Giant] crew members.', 'When there is 4 or more [Elbaph Arc] crew members, 100% chance to grant Haste to self upon appearance.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 38,
+                descriptions: [
+                    ['Applies Lv. 5 ATK up buff to self for 6 seconds.', 'Applies Lv. 5 ATK up buff to [Giant] crew members for 6 seconds.', 'Deals 1.2x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 2.2x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 0.6x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 5 ATK up buff to self for 7 seconds.', 'Applies Lv. 5 ATK up buff to [Giant] crew members for 7 seconds.', 'Deals 1.4x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 2.4x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 0.7x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 6 ATK up buff to self for 8 seconds.', 'Applies Lv. 6 ATK up buff to [Giant] crew members for 8 seconds.', 'Deals 1.6x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 2.6x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 0.8x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 6 ATK up buff to self for 9 seconds.', 'Applies Lv. 6 ATK up buff to [Giant] crew members for 9 seconds.', 'Deals 1.8x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 2.8x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 0.9x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 7 ATK up buff to self for 10 seconds.', 'Applies Lv. 7 ATK up buff to [Giant] crew members for 10 seconds.', 'Deals 2x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 3x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 1x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 7 ATK up buff to self for 11 seconds.', 'Applies Lv. 7 ATK up buff to [Giant] crew members for 11 seconds.', 'Deals 2.2x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 3.2x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 1.1x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 8 ATK up buff to self for 12 seconds.', 'Applies Lv. 8 ATK up buff to [Giant] crew members for 12 seconds.', 'Deals 2.4x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 3.4x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 1.2x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 8 ATK up buff to self for 13 seconds.', 'Applies Lv. 8 ATK up buff to [Giant] crew members for 13 seconds.', 'Deals 2.6x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 3.6x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 1.3x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 9 ATK up buff to self for 14 seconds.', 'Applies Lv. 9 ATK up buff to [Giant] crew members for 14 seconds.', 'Deals 2.8x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 3.8x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 1.4x ATK in damage ignoring DEF to all enemies in a large, radial range.'],
+                    ['Applies Lv. 10 ATK up buff to self for 15 seconds.', 'Applies Lv. 10 ATK up buff to [Giant] crew members for 15 seconds.', 'Deals 3x ATK in damage to 3 enemies 2 times.', 'When there are 60 seconds or less remaining, deals 4x ATK in damage to 3 enemies 2 times.', 'When there is 5 or more crew members remaining, deals 1.5x ATK in damage ignoring DEF to all enemies in a large, radial range.']
+                ]
+            }
+        },
+        festGPAbility: {
+            base: [
+                ['Applies Lv. 2 ATK and RCV up buff to [DEX] and [INT] crew members.', 'Applies Lv. 1 Special CT up buff to [DEX] and [INT] crew members.', 'Applies Lv. 2 SPD up buff to Slasher and Striker crew members.', 'Applies Lv. 1 DEF up buff to Slasher and Striker crew members.', 'Applies Lv. 6 Guard up buff to Slasher and Striker crew members.', 'When there are 60 seconds or less remaining, reduces 10% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.'],
+                ['Applies Lv. 3 ATK and RCV up buff to [DEX] and [INT] crew members.', 'Applies Lv. 2 Special CT up buff to [DEX] and [INT] crew members.', 'Applies Lv. 3 SPD up buff to Slasher and Striker crew members.', 'Applies Lv. 2 DEF up buff to Slasher and Striker crew members.', 'Applies Lv. 7 Guard up buff to Slasher and Striker crew members.', 'When there are 60 seconds or less remaining, reduces 15% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.'],
+                ['Applies Lv. 4 ATK and RCV up buff to [DEX] and [INT] crew members.', 'Applies Lv. 2 Special CT up buff to [DEX] and [INT] crew members.', 'Applies Lv. 4 SPD up buff to Slasher and Striker crew members.', 'Applies Lv. 3 DEF up buff to Slasher and Striker crew members.', 'Applies Lv. 8 Guard up buff to Slasher and Striker crew members.', 'When there are 60 seconds or less remaining, reduces 20% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.'],
+                ['Applies Lv. 5 ATK and RCV up buff to [DEX] and [INT] crew members.', 'Applies Lv. 3 Special CT up buff to [DEX] and [INT] crew members.', 'Applies Lv. 5 SPD up buff to Slasher and Striker crew members.', 'Applies Lv. 3 DEF up buff to Slasher and Striker crew members.', 'Applies Lv. 9 Guard up buff to Slasher and Striker crew members.', 'When there are 60 seconds or less remaining, reduces 25% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.'],
+                ['Applies Lv. 6 ATK and RCV up buff to [DEX] and [INT] crew members.', 'Applies Lv. 3 Special CT up buff to [DEX] and [INT] crew members.', 'Applies Lv. 6 SPD up buff to Slasher and Striker crew members.', 'Applies Lv. 4 DEF up buff to Slasher and Striker crew members.', 'Applies Lv. 10 Guard up buff to Slasher and Striker crew members.', 'When there are 60 seconds or less remaining, reduces 30% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.']
+            ]
+        },
+        festGPSpecial: {
+            base: {
+                uses: 4,
+                condition: "After guarding 3 times",
+                descriptions: [
+                    ['Reduces 6% of Special CT to [DEX] crew members.', 'Reduces 6% of Special CT to Slasher and Striker crew members.', 'Reduces 10% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.', '60% chance to grant Haste to 2 crew members with exactly 100% Special CT.'],
+                    ['Reduces 7% of Special CT to [DEX] crew members.', 'Reduces 7% of Special CT to Slasher and Striker crew members.', 'Reduces 15% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.', '70% chance to grant Haste to 2 crew members with exactly 100% Special CT.'],
+                    ['Reduces 8% of Special CT to [DEX] crew members.', 'Reduces 8% of Special CT to Slasher and Striker crew members.', 'Reduces 20% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.', '80% chance to grant Haste to 2 crew members with exactly 100% Special CT.'],
+                    ['Reduces 9% of Special CT to [DEX] crew members.', 'Reduces 9% of Special CT to Slasher and Striker crew members.', 'Reduces 25% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.', '90% chance to grant Haste to 2 crew members with exactly 100% Special CT.'],
+                    ['Reduces 10% of Special CT to [DEX] crew members.', 'Reduces 10% of Special CT to Slasher and Striker crew members.', 'Reduces 30% of Special CT to [Straw Hat Pirates], [Giant] and [Roger Pirates] crew members.', '100% chance to grant Haste to 2 crew members with exactly 100% Special CT.']
+                ]
+            }
+        }
+    },
+    4632: {
+        festCost: 55,
+        festStats: {
+            def: 159,
+            spd: 169,
+            style: "SPT"
+        },
+        festAttackPattern: ['Normal Attack', '<b><i>Power Attack</b></i>', '<i>Level 1 Small Range Heal</i>', '<b><i>Power Attack</b></i>'],
+        festAttackTarget: "Nearby Enemies.",
+        festResistance: {
+            base: ['100% chance to resist Special Bind.', '30% damage reduction from [STR] enemies.']
+        },
+        festAbility: {
+            base: [
+                ['Applies Lv. 2 HP and SPD up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 1 Special CT up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Inflicts Lv. 2 ATK down debuff to [STR] and Driven enemies.', 'Inflicts Lv. 12 Accuracy down debuff to [STR] and Driven enemies.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, reduces 10% of Special CT to [Royalty] crew members upon appearance.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, applies Lv. 2 HP up buff to self.'],
+                ['Applies Lv. 3 HP and SPD up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 1 Special CT up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Inflicts Lv. 3 ATK down debuff to [STR] and Driven enemies.', 'Inflicts Lv. 14 Accuracy down debuff to [STR] and Driven enemies.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, reduces 15% of Special CT to [Royalty] crew members upon appearance.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, applies Lv. 3 HP up buff to self.'],
+                ['Applies Lv. 4 HP and SPD up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 2 Special CT up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Inflicts Lv. 4 ATK down debuff to [STR] and Driven enemies.', 'Inflicts Lv. 16 Accuracy down debuff to [STR] and Driven enemies.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, reduces 20% of Special CT to [Royalty] crew members upon appearance.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, applies Lv. 4 HP up buff to self.'],
+                ['Applies Lv. 5 HP and SPD up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 2 Special CT up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Inflicts Lv. 5 ATK down debuff to [STR] and Driven enemies.', 'Inflicts Lv. 18 Accuracy down debuff to [STR] and Driven enemies.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, reduces 25% of Special CT to [Royalty] crew members upon appearance.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, applies Lv. 5 HP up buff to self.'],
+                ['Applies Lv. 6 HP and SPD up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Applies Lv. 3 Special CT up buff to [QCK], Free Spirit and [Royalty] crew members.', 'Inflicts Lv. 6 ATK down debuff to [STR] and Driven enemies.', 'Inflicts Lv. 20 Accuracy down debuff to [STR] and Driven enemies.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, reduces 30% of Special CT to [Royalty] crew members upon appearance.', 'When there is 5 or more [QCK] crew members or 3 or more [Royalty] crew members, applies Lv. 6 HP up buff to self.']
+            ]
+        },
+        festSpecial: {
+            base: {
+                cooldown: 25,
+                descriptions: [
+                    ['Applies Lv. 1 ATK up buff to [QCK] and [Royalty] crew members for 11 seconds.', '73% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 6 seconds.', 'Deals 2,300 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 1 ATK up buff to [QCK] and [Royalty] crew members for 12 seconds.', '76% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 7 seconds.', 'Deals 2,600 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 2 ATK up buff to [QCK] and [Royalty] crew members for 13 seconds.', '79% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 8 seconds.', 'Deals 2,900 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 2 ATK up buff to [QCK] and [Royalty] crew members for 14 seconds.', '82% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 9 seconds.', 'Deals 3,200 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 3 ATK up buff to [QCK] and [Royalty] crew members for 15 seconds.', '85% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 10 seconds.', 'Deals 3,500 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 3 ATK up buff to [QCK] and [Royalty] crew members for 16 seconds.', '88% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 11 seconds.', 'Deals 3,800 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 4 ATK up buff to [QCK] and [Royalty] crew members for 17 seconds.', '91% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 12 seconds.', 'Deals 4,100 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 4 ATK up buff to [QCK] and [Royalty] crew members for 18 seconds.', '94% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 13 seconds.', 'Deals 4,400 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 5 ATK up buff to [QCK] and [Royalty] crew members for 19 seconds.', '97% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 14 seconds.', 'Deals 4,700 fixed damage to 2 enemies with the lowest HP.'],
+                    ['Applies Lv. 6 ATK up buff to [QCK] and [Royalty] crew members for 20 seconds.', '100% chance to evade Special CT Delay, Action Bind and Half Stats to [QCK], Free Spirit and [Royalty] crew members for 15 seconds.', 'Deals 5,000 fixed damage to 2 enemies with the lowest HP.']
+                ]
+            }
+        },
+        festSuperSpecial: {
+            base: {
+                condition: "When there are 60 seconds or less remaining",
+                description: ['Applies Lv. 7 ATK up buff to [QCK] and [Royalty] crew members for 25 seconds.', '100% chance to evade Special CT Delay, Action Bind, Half Stats and Fixed Damage to [QCK], Free Spirit and [Royalty] crew members for 25 seconds.', 'Deals 5,000 fixed damage to 3 enemies with the lowest HP.']
+            },
+            llbbase: {
+                condition: "When there are 70 seconds or less remaining",
+                description: ['Applies Lv. 8 ATK up buff to [QCK] and [Royalty] crew members for 30 seconds.', '100% chance to evade Special CT Delay, Action Bind, Half Stats and Fixed Damage to [QCK], Free Spirit and [Royalty] crew members for 30 seconds.', 'Deals 5,000 fixed damage to all enemies.']
+            }
+        }
+    },
+    4633: {
+        festCost: 30,
+        festStats: {
+            def: 50,
+            spd: 100,
+            style: "DBF"
+        },
+        festAttackPattern: ['Normal Attack'],
+        festAttackTarget: "Nearby Enemies."
+    },
     5013: {
         festCost: 55,
         festStats: {
