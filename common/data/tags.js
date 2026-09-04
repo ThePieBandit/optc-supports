@@ -4601,6 +4601,7 @@ window.tags = {
 	"4636": ["Giant","Child","Elbaph Arc"],
 	"4637": ["Vegapunk","Scientist","Elbaph Arc"],
 	"4638": ["Straw Hat Pirates","Four Emperors","Worst Generation","Mythical Zoan-type / Devil Fruit User","Elbaph Arc"],
+	"4640": ["Thriller Bark Pirates","Ancient Giant","Giant","Thriller Bark Arc"],
 	"5013": [],
 	"5014": [],
 	"5029": [],
